@@ -1,0 +1,5 @@
+*.log
+logs/
+crash-reports/
+cache/
+resourcepacks/
