@@ -140,3 +140,16 @@
 [06:09:58] [Server thread/INFO]: runs joined the game
 [06:14:24] [Server thread/INFO]: runs lost connection: Disconnected
 [06:14:24] [Server thread/INFO]: runs left the game
+[06:27:21] [Server thread/INFO]: Stopping the server
+[06:27:21] [Server thread/INFO]: Stopping server
+[06:27:21] [Server thread/INFO]: Saving players
+[06:27:21] [Server thread/INFO]: Saving worlds
+[06:27:22] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[06:27:23] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[06:27:23] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[06:27:23] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[06:27:23] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[06:27:23] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[06:27:23] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[06:27:23] [Server thread/INFO]: [EasyAuth]: Shutting down EasyAuth.
+[06:27:23] [Server thread/INFO]: [EasyAuth]: Database connection closed successfully
