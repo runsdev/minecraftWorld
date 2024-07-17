@@ -1,155 +1,101 @@
-[06:09:33] [main/INFO]: Loading Minecraft 1.20.1 with Fabric Loader 0.16.0
-[06:09:33] [main/INFO]: Loading 72 mods:
-	- automobility 0.4.2+1.20.1-fabric
-	   \-- jsonem 0.2.1+1.20
-	- easyauth 3.0.19
-	   |-- at_favre_lib_bcrypt 0.9.0
-	   |-- at_favre_lib_bytes 1.5.0
-	   |-- com_mysql_mysql-connector-j 8.0.33
-	   |-- de_mkammerer_argon2-jvm 2.11
-	   |-- de_mkammerer_argon2-jvm-nolibs 2.11
-	   |-- fabric-permissions-api-v0 0.2-SNAPSHOT
-	   |-- net_java_dev_jna_jna 5.12.1
-	   |-- org_iq80_leveldb_leveldb 0.12
-	   |-- org_iq80_leveldb_leveldb-api 0.12
-	   |-- org_mongodb_bson 4.7.2
-	   |-- org_mongodb_mongodb-driver-core 4.7.2
-	   |-- org_mongodb_mongodb-driver-sync 4.7.2
-	   |-- placeholder-api 2.1.1+1.20
-	   \-- server_translations_api 2.0.0+1.20
-	        \-- packet_tweaker 0.4.0+1.19.4
-	- fabric-api 0.92.2+1.20.1
-	   |-- fabric-api-base 0.4.31+1802ada577
-	   |-- fabric-api-lookup-api-v1 1.6.36+1802ada577
-	   |-- fabric-biome-api-v1 13.0.13+1802ada577
-	   |-- fabric-block-api-v1 1.0.11+1802ada577
-	   |-- fabric-block-view-api-v2 1.0.1+1802ada577
-	   |-- fabric-blockrenderlayer-v1 1.1.41+1802ada577
-	   |-- fabric-client-tags-api-v1 1.1.2+1802ada577
-	   |-- fabric-command-api-v1 1.2.34+f71b366f77
-	   |-- fabric-command-api-v2 2.2.13+1802ada577
-	   |-- fabric-commands-v0 0.2.51+df3654b377
-	   |-- fabric-containers-v0 0.1.64+df3654b377
-	   |-- fabric-content-registries-v0 4.0.11+1802ada577
-	   |-- fabric-convention-tags-v1 1.5.5+1802ada577
-	   |-- fabric-crash-report-info-v1 0.2.19+1802ada577
-	   |-- fabric-data-attachment-api-v1 1.0.0+de0fd6d177
-	   |-- fabric-data-generation-api-v1 12.3.4+1802ada577
-	   |-- fabric-dimensions-v1 2.1.54+1802ada577
-	   |-- fabric-entity-events-v1 1.6.0+1c78457f77
-	   |-- fabric-events-interaction-v0 0.6.2+1802ada577
-	   |-- fabric-events-lifecycle-v0 0.2.63+df3654b377
-	   |-- fabric-game-rule-api-v1 1.0.40+1802ada577
-	   |-- fabric-item-api-v1 2.1.28+1802ada577
-	   |-- fabric-item-group-api-v1 4.0.12+1802ada577
-	   |-- fabric-key-binding-api-v1 1.0.37+1802ada577
-	   |-- fabric-keybindings-v0 0.2.35+df3654b377
-	   |-- fabric-lifecycle-events-v1 2.2.22+1802ada577
-	   |-- fabric-loot-api-v2 1.2.1+1802ada577
-	   |-- fabric-loot-tables-v1 1.1.45+9e7660c677
-	   |-- fabric-message-api-v1 5.1.9+1802ada577
-	   |-- fabric-mining-level-api-v1 2.1.50+1802ada577
-	   |-- fabric-model-loading-api-v1 1.0.3+1802ada577
-	   |-- fabric-models-v0 0.4.2+9386d8a777
-	   |-- fabric-networking-api-v1 1.3.11+1802ada577
-	   |-- fabric-networking-v0 0.3.51+df3654b377
-	   |-- fabric-object-builder-api-v1 11.1.3+1802ada577
-	   |-- fabric-particles-v1 1.1.2+1802ada577
-	   |-- fabric-recipe-api-v1 1.0.21+1802ada577
-	   |-- fabric-registry-sync-v0 2.3.3+1802ada577
-	   |-- fabric-renderer-api-v1 3.2.1+1802ada577
-	   |-- fabric-renderer-indigo 1.5.2+85287f9f77
-	   |-- fabric-renderer-registries-v1 3.2.46+df3654b377
-	   |-- fabric-rendering-data-attachment-v1 0.3.37+92a0d36777
-	   |-- fabric-rendering-fluids-v1 3.0.28+1802ada577
-	   |-- fabric-rendering-v0 1.1.49+df3654b377
-	   |-- fabric-rendering-v1 3.0.8+1802ada577
-	   |-- fabric-resource-conditions-api-v1 2.3.8+1802ada577
-	   |-- fabric-resource-loader-v0 0.11.10+1802ada577
-	   |-- fabric-screen-api-v1 2.0.8+1802ada577
-	   |-- fabric-screen-handler-api-v1 1.3.30+1802ada577
-	   |-- fabric-sound-api-v1 1.0.13+1802ada577
-	   |-- fabric-transfer-api-v1 3.3.5+8dd72ea377
-	   \-- fabric-transitive-access-wideners-v1 4.3.1+1802ada577
-	- fabricloader 0.16.0
-	   \-- mixinextras 0.4.0
-	- immersive_aircraft 1.0.1+1.20.1
-	   \-- org_mariuszgromada_math_mathparser_org-mxparser 5.2.1
-	- java 21
-	- krypton 0.2.3
-	   \-- com_velocitypowered_velocity-native 3.2.0-SNAPSHOT
-	- lazydfu 0.1.3
-	- lithium 0.11.2
-	- man_of_many_planes 0.1.0+1.20.1
-	- memoryleakfix 1.1.5
-	- minecraft 1.20.1
-	- modernfix 5.18.6+mc1.20.1
-	- starlight 1.1.2+fabric.dbc156f
-[06:09:33] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/MinecraftServer/minecraftWorldFabric/libraries/net/fabricmc/sponge-mixin/0.15.0+mixin.0.8.7/sponge-mixin-0.15.0+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
-[06:09:33] [main/INFO]: Compatibility level set to JAVA_17
-[06:09:34] [main/INFO]: Loaded configuration file for Lithium: 115 options available, 1 override(s) found
-[06:09:34] [main/WARN]: Reference map 'memoryleakfix-fabric-1.17+-fabric-refmap.json' for memoryleakfix-fabric.mixins.json could not be read. If this is a development environment you can ignore this message
-[06:09:34] [main/INFO]: Loaded configuration file for ModernFix 5.18.6+mc1.20.1: 60 options available, 0 override(s) found
-[06:09:34] [main/INFO]: Applying Nashorn fix
-[06:09:34] [main/WARN]: Force-disabling mixin 'world.player_chunk_tick.ThreadedAnvilChunkStorageMixin' as rule 'mixin.world.player_chunk_tick' (added by mods [krypton]) disables it and children
-[06:09:35] [main/INFO]: [MemoryLeakFix] Will be applying 1 memory leak fixes!
-[06:09:35] [main/INFO]: [MemoryLeakFix] Currently enabled memory leak fixes: [biomeTemperatureLeak]
-[06:09:35] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.0).
-[06:09:38] [main/INFO]: Injecting BlockStateBase cache population hook into getNeighborPathNodeType from me.jellysquid.mods.lithium.mixin.ai.pathing.AbstractBlockStateMixin
-[06:09:38] [main/INFO]: Injecting BlockStateBase cache population hook into getPathNodeType from me.jellysquid.mods.lithium.mixin.ai.pathing.AbstractBlockStateMixin
-[06:09:38] [main/INFO]: Injecting BlockStateBase cache population hook into getOpacityIfCached from ca.spottedleaf.starlight.mixin.common.blockstate.BlockStateBaseMixin
-[06:09:38] [main/INFO]: Injecting BlockStateBase cache population hook into isConditionallyFullOpaque from ca.spottedleaf.starlight.mixin.common.blockstate.BlockStateBaseMixin
-[06:09:38] [main/INFO]: Injecting BlockStateBase cache population hook into getAllFlags from me.jellysquid.mods.lithium.mixin.util.block_tracking.AbstractBlockStateMixin
-[06:09:41] [main/WARN]: Method overwrite conflict for method_21740 in modernfix-common.mixins.json:perf.remove_biome_temperature_cache.BiomeMixin from mod modernfix, previously written by me.jellysquid.mods.lithium.mixin.world.temperature_cache.BiomeMixin. Skipping method.
-[06:09:41] [main/INFO]: Vanilla bootstrap took 5528 milliseconds
-[06:09:42] [main/INFO]: [EasyAuth]: EasyAuth mod by samo_lego, NikitaCartes.
-[06:09:42] [main/WARN]: [EasyAuth]: Disable enforce-secure-profile to allow offline players to join the server
-[06:09:42] [main/WARN]: [EasyAuth]: For more info, see https://github.com/NikitaCartes/EasyAuth/issues/68
-[06:09:42] [main/INFO]: [EasyAuth]: You have premiumAutologin enabled. Enable online-mode so that online player can not register.
-[06:09:42] [main/INFO]: Compression will use libdeflate (Linux x86_64), encryption will use OpenSSL 1.1.x (Linux x86_64)
-[06:09:42] [main/INFO]: Krypton is now accelerating your Minecraft server's networking stack 🚀
-[06:09:42] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[06:09:42] [main/INFO]: Bypassed Mojang DFU
-[06:09:45] [main/INFO]: Loaded 8 recipes
-[06:09:45] [main/INFO]: Loaded 1273 advancements
-[06:09:45] [Thread-6/INFO]: Loaded 34 translation keys
-[06:09:45] [main/INFO]: Applied 0 biome modifications to 0 of 64 new biomes in 2.493 ms
-[06:09:45] [Server thread/INFO]: Starting minecraft server version 1.20.1
-[06:09:45] [Server thread/INFO]: Loading properties
-[06:09:45] [Server thread/INFO]: Default game type: SURVIVAL
-[06:09:45] [Server thread/INFO]: Generating keypair
-[06:09:45] [Server thread/INFO]: Starting Minecraft server on *:25565
-[06:09:45] [Server thread/INFO]: Using epoll channel type
-[06:09:45] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[06:09:45] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[06:09:45] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[06:09:45] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[06:09:45] [Server thread/INFO]: Preparing level "world"
-[06:09:46] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[06:09:46] [Server thread/WARN]: Method overwrite conflict for removeIf in modernfix-common.mixins.json:bugfix.paper_chunk_patches.SortedArraySetMixin from mod modernfix, previously written by me.jellysquid.mods.lithium.mixin.world.chunk_tickets.SortedArraySetMixin. Skipping method.
-[06:09:48] [Server thread/INFO]: Preparing spawn area: 0%
-[06:09:48] [Server thread/INFO]: Preparing spawn area: 0%
-[06:09:48] [Server thread/INFO]: Preparing spawn area: 0%
-[06:09:48] [Server thread/INFO]: Preparing spawn area: 0%
-[06:09:48] [Server thread/INFO]: Preparing spawn area: 5%
-[06:09:48] [Server thread/INFO]: Preparing spawn area: 70%
-[06:09:49] [Server thread/INFO]: Time elapsed: 2886 ms
-[06:09:49] [Server thread/INFO]: Done (3.528s)! For help, type "help"
-[06:09:49] [Server thread/WARN]: Dedicated server took 17.291 seconds to load
-[06:09:58] [Server thread/INFO]: runs[/114.10.153.109:65531] logged in with entity id 270 at (25.5, 74.0, -54.5)
-[06:09:58] [Server thread/INFO]: runs joined the game
-[06:14:24] [Server thread/INFO]: runs lost connection: Disconnected
-[06:14:24] [Server thread/INFO]: runs left the game
-[06:27:21] [Server thread/INFO]: Stopping the server
-[06:27:21] [Server thread/INFO]: Stopping server
-[06:27:21] [Server thread/INFO]: Saving players
-[06:27:21] [Server thread/INFO]: Saving worlds
-[06:27:22] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[06:27:23] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[06:27:23] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[06:27:23] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[06:27:23] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[06:27:23] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[06:27:23] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[06:27:23] [Server thread/INFO]: [EasyAuth]: Shutting down EasyAuth.
-[06:27:23] [Server thread/INFO]: [EasyAuth]: Database connection closed successfully
+[00:51:07] [Server thread/INFO]: runs[/114.10.153.227:36492] logged in with entity id 42780 at (-378.38401440118065, 64.0, 168.51616457358836)
+[00:51:07] [Server thread/INFO]: runs joined the game
+[01:02:46] [Server thread/INFO]: Gave 64 [Redstone Dust] to runs
+[01:03:59] [Server thread/INFO]: Gave 1 [Orange Concrete Powder] to runs
+[01:11:52] [Server thread/INFO]: Gave 2 [Gold Ingot] to runs
+[01:20:38] [Server thread/INFO]: runs lost connection: Disconnected
+[01:20:38] [Server thread/INFO]: runs left the game
+[03:53:57] [Server thread/INFO]: Unknown or incomplete command, see below for error
+[03:53:57] [Server thread/INFO]: sed<--[HERE]
+[03:54:00] [Server thread/INFO]: Seed: [4780184632728640391]
+[04:04:39] [Server thread/INFO]: Seed: [4780184632728640391]
+[04:09:47] [Server thread/INFO]: runs[/114.10.153.227:38692] logged in with entity id 49165 at (-406.74540491459595, 63.0, 202.23421341476558)
+[04:09:47] [Server thread/INFO]: runs joined the game
+[04:10:06] [Server thread/INFO]: runs lost connection: Disconnected
+[04:10:06] [Server thread/INFO]: runs left the game
+[09:57:00] [Server thread/INFO]: anakhilang06[/36.80.154.13:57932] logged in with entity id 49703 at (42.5, 70.0, -36.5)
+[09:57:00] [Server thread/INFO]: anakhilang06 joined the game
+[09:57:13] [Server thread/INFO]: anakhilang06 lost connection: Disconnected
+[09:57:13] [Server thread/INFO]: anakhilang06 left the game
+[09:58:25] [Server thread/INFO]: anakhilang06[/36.80.154.13:57984] logged in with entity id 49835 at (37.34934862263625, 70.0, -39.02983219474324)
+[09:58:25] [Server thread/INFO]: anakhilang06 joined the game
+[10:00:23] [Server thread/INFO]: anakhilang06 lost connection: Disconnected
+[10:00:23] [Server thread/INFO]: anakhilang06 left the game
+[10:01:04] [Server thread/INFO]: Anakhilang06[/36.80.154.13:58016] logged in with entity id 50822 at (-366.34176608636454, 73.0, 211.30000001192093)
+[10:01:04] [Server thread/INFO]: Anakhilang06 joined the game
+[10:02:05] [Server thread/WARN]: Automobile (vehicle of Anakhilang06) moved wrongly! 0.2573841952090561
+[10:04:48] [Server thread/INFO]: Anakhilang06 lost connection: Disconnected
+[10:04:48] [Server thread/INFO]: Anakhilang06 left the game
+[10:29:07] [Server thread/INFO]: Anakhilang06[/36.80.154.13:58181] logged in with entity id 52835 at (-384.1686203747137, 63.0, 191.84770821099448)
+[10:29:07] [Server thread/INFO]: Anakhilang06 joined the game
+[10:32:42] [Server thread/WARN]: Automobile (vehicle of Anakhilang06) moved wrongly! 0.37982926005207673
+[10:35:23] [Server thread/INFO]: runs[/114.10.153.136:42802] logged in with entity id 58556 at (-406.5, 63.0, 202.5)
+[10:35:23] [Server thread/INFO]: runs joined the game
+[10:37:11] [Server thread/WARN]: Automobile (vehicle of Anakhilang06) moved wrongly! 0.31378031873572354
+[10:37:41] [Server thread/INFO]: [Not Secure] <Anakhilang06> mobil selam wkwkwkwkwkw
+[10:37:50] [Server thread/WARN]: runs moved wrongly!
+[10:37:50] [Server thread/WARN]: runs moved wrongly!
+[10:38:10] [Server thread/INFO]: [Not Secure] <runs> njaluk iron loro bri
+[10:39:17] [Server thread/INFO]: [Not Secure] <runs> seednya ketampung di chest harusnya
+[10:39:24] [Server thread/INFO]: [Not Secure] <Anakhilang06> hoo
+[10:39:45] [Server thread/INFO]: [Not Secure] <Anakhilang06> gabisa nabrak player yo
+[10:39:46] [Server thread/INFO]: [Not Secure] <runs> coba metu
+[10:40:05] [Server thread/INFO]: [Not Secure] <runs> kowe nggowo attachment sek mau ra
+[10:40:34] [Server thread/INFO]: [Not Secure] <runs> coba nabrak zombie
+[10:40:48] [Server thread/INFO]: [Not Secure] <Anakhilang06> iso
+[10:40:50] [Server thread/INFO]: [Not Secure] <runs> ojo sek kue
+[10:40:54] [Server thread/INFO]: [Not Secure] <runs> kui
+[10:41:04] [Server thread/INFO]: [Not Secure] <runs> hunting kono
+[10:41:20] [Server thread/WARN]: Automobile (vehicle of Anakhilang06) moved wrongly! 0.6117530683508221
+[10:41:26] [Server thread/WARN]: Automobile (vehicle of Anakhilang06) moved wrongly! 0.2684358308762853
+[10:41:33] [Server thread/WARN]: Automobile (vehicle of Anakhilang06) moved wrongly! 0.4568398648272348
+[10:41:34] [Server thread/WARN]: Automobile (vehicle of Anakhilang06) moved wrongly! 0.44220039209095235
+[10:41:34] [Server thread/WARN]: Automobile (vehicle of Anakhilang06) moved wrongly! 0.442488770800506
+[10:41:34] [Server thread/WARN]: Automobile (vehicle of Anakhilang06) moved wrongly! 0.4429530761632918
+[10:41:34] [Server thread/WARN]: Automobile (vehicle of Anakhilang06) moved wrongly! 0.44302523541080063
+[10:41:34] [Server thread/WARN]: Automobile (vehicle of Anakhilang06) moved wrongly! 0.44237550579844803
+[10:41:34] [Server thread/WARN]: Automobile (vehicle of Anakhilang06) moved wrongly! 0.44251888287229235
+[10:41:34] [Server thread/WARN]: Automobile (vehicle of Anakhilang06) moved wrongly! 0.4344111813771576
+[10:41:34] [Server thread/WARN]: Automobile (vehicle of Anakhilang06) moved wrongly! 0.42645637439693473
+[10:41:34] [Server thread/WARN]: Automobile (vehicle of Anakhilang06) moved wrongly! 0.4296601143619512
+[10:41:34] [Server thread/WARN]: Automobile (vehicle of Anakhilang06) moved wrongly! 0.4353913327496741
+[10:41:34] [Server thread/WARN]: Automobile (vehicle of Anakhilang06) moved wrongly! 0.4382958437155082
+[10:41:34] [Server thread/WARN]: Automobile (vehicle of Anakhilang06) moved wrongly! 0.4391008263964409
+[10:41:34] [Server thread/WARN]: Automobile (vehicle of Anakhilang06) moved wrongly! 0.43990486384601013
+[10:41:34] [Server thread/WARN]: Automobile (vehicle of Anakhilang06) moved wrongly! 0.4301521615143429
+[10:41:34] [Server thread/WARN]: Automobile (vehicle of Anakhilang06) moved wrongly! 0.41024066969029604
+[10:41:34] [Server thread/WARN]: Automobile (vehicle of Anakhilang06) moved wrongly! 0.38976206489763854
+[10:41:34] [Server thread/WARN]: Automobile (vehicle of Anakhilang06) moved wrongly! 0.37186622458349916
+[10:41:34] [Server thread/WARN]: Automobile (vehicle of Anakhilang06) moved wrongly! 0.3516552312300689
+[10:41:34] [Server thread/WARN]: Automobile (vehicle of Anakhilang06) moved wrongly! 0.32921327916466225
+[10:41:34] [Server thread/WARN]: Automobile (vehicle of Anakhilang06) moved wrongly! 0.30463385637284546
+[10:41:35] [Server thread/WARN]: Automobile (vehicle of Anakhilang06) moved wrongly! 0.27801935504936637
+[10:42:00] [Server thread/INFO]: [Not Secure] <Anakhilang06> lah
+[10:42:04] [Server thread/INFO]: [Not Secure] <Anakhilang06> wkwkwkwkkw
+[10:42:11] [Server thread/INFO]: [Not Secure] <Anakhilang06> nt zombie vilager e
+[10:42:22] [Server thread/INFO]: [Not Secure] <Anakhilang06> afek sek run
+[10:42:23] [Server thread/INFO]: Anakhilang06 lost connection: Disconnected
+[10:42:23] [Server thread/INFO]: Anakhilang06 left the game
+[10:42:32] [Server thread/INFO]: runs lost connection: Disconnected
+[10:42:32] [Server thread/INFO]: runs left the game
+[11:05:49] [Server thread/INFO]: Anakhilang06[/36.80.154.13:58314] logged in with entity id 61591 at (-387.55093318310423, 63.9375, 207.08867173302272)
+[11:05:49] [Server thread/INFO]: Anakhilang06 joined the game
+[11:09:00] [Server thread/INFO]: Anakhilang06 lost connection: Disconnected
+[11:09:00] [Server thread/INFO]: Anakhilang06 left the game
+[14:50:54] [Server console handler/ERROR]: Exception handling console input
+java.io.IOException: Input/output error
+	at java.io.FileInputStream.readBytes(Native Method) ~[?:?]
+	at java.io.FileInputStream.read(FileInputStream.java:287) ~[?:?]
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:345) ~[?:?]
+	at java.io.BufferedInputStream.implRead(BufferedInputStream.java:420) ~[?:?]
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:399) ~[?:?]
+	at sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:350) ~[?:?]
+	at sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:393) ~[?:?]
+	at sun.nio.cs.StreamDecoder.lockedRead(StreamDecoder.java:217) ~[?:?]
+	at sun.nio.cs.StreamDecoder.read(StreamDecoder.java:171) ~[?:?]
+	at java.io.InputStreamReader.read(InputStreamReader.java:188) ~[?:?]
+	at java.io.BufferedReader.fill(BufferedReader.java:160) ~[?:?]
+	at java.io.BufferedReader.implReadLine(BufferedReader.java:370) ~[?:?]
+	at java.io.BufferedReader.readLine(BufferedReader.java:347) ~[?:?]
+	at java.io.BufferedReader.readLine(BufferedReader.java:436) ~[?:?]
+	at net.minecraft.class_3176$1.run(class_3176.java:89) ~[server-intermediary.jar:?]

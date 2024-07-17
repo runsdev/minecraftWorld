@@ -29,7 +29,7 @@ fi
 git add .
 
 # Get current date and time in Indonesian format (GMT+7)
-commit_date=$(date +"%A, %d %B %Y : %H.%M.%S WIB" | sed 's/Minggu/Senin/' | sed 's/Tuesday/Selasa/' | sed 's/Wednesday/Rabu/' | sed 's/Thursday/Kamis/' | sed 's/Friday/Jumat/' | sed 's/Saturday/Sabtu/')
+commit_date=$(TZ='Asia/Jakarta' date +"%A, %d %B %Y : %H.%M.%S WIB" | sed 's/Minggu/Senin/' | sed 's/Tuesday/Selasa/' | sed 's/Wednesday/Rabu/' | sed 's/Thursday/Kamis/' | sed 's/Friday/Jumat/' | sed 's/Saturday/Sabtu/')
 
 # Commit changes with a message
 git commit -m "save: $commit_date"
