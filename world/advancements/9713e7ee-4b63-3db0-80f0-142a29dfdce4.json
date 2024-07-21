@@ -41,8 +41,11 @@
       "minecraft:beach": "2024-07-19 16:15:14 +0000",
       "minecraft:lukewarm_ocean": "2024-07-19 16:15:26 +0000",
       "minecraft:river": "2024-07-19 15:20:00 +0000",
+      "minecraft:dripstone_caves": "2024-07-20 16:22:44 +0000",
+      "minecraft:lush_caves": "2024-07-20 16:17:01 +0000",
       "minecraft:ocean": "2024-07-19 16:15:16 +0000",
       "minecraft:deep_lukewarm_ocean": "2024-07-19 16:15:27 +0000",
+      "minecraft:deep_dark": "2024-07-20 16:27:03 +0000",
       "minecraft:plains": "2024-07-19 15:19:41 +0000"
     },
     "done": false
@@ -1241,81 +1244,669 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/mushroom_stew": {
+    "criteria": {
+      "has_bowl": "2024-07-19 17:36:06 +0000"
+    },
+    "done": true
+  },
+  "createbigcannons:recipes/misc/mortar_stone": {
+    "criteria": {
+      "has_stone": "2024-07-20 16:14:00 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_beef_from_smoking": {
+    "criteria": {
+      "has_beef": "2024-07-20 16:15:07 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_something": "2024-07-20 16:15:07 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_beef": {
+    "criteria": {
+      "has_beef": "2024-07-20 16:15:07 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_beef_from_campfire_cooking": {
+    "criteria": {
+      "has_beef": "2024-07-20 16:15:07 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_cobblestone_from_moss_block": {
+    "criteria": {
+      "has_moss_block": "2024-07-20 16:19:42 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/moss_carpet": {
+    "criteria": {
+      "has_moss_block": "2024-07-20 16:19:42 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_stone_bricks_from_moss_block": {
+    "criteria": {
+      "has_moss_block": "2024-07-20 16:19:42 +0000"
+    },
+    "done": true
+  },
+  "createbigcannons:recipes/misc/cannon_welder_mirrored": {
+    "criteria": {
+      "has_blaze_burner": "2024-07-20 16:32:44 +0000"
+    },
+    "done": true
+  },
+  "createbigcannons:recipes/misc/cannon_welder": {
+    "criteria": {
+      "has_blaze_burner": "2024-07-20 16:32:44 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/cherry_fence": {
+    "criteria": {
+      "has_planks": "2024-07-20 16:37:56 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/stick": {
+    "criteria": {
+      "has_planks": "2024-07-20 16:37:56 +0000"
+    },
+    "done": true
+  },
+  "design_decor:recipes/building_blocks/wood_support_from_planks_stonecutting": {
+    "criteria": {
+      "has_planks": "2024-07-20 16:37:56 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/cherry_sign": {
+    "criteria": {
+      "has_planks": "2024-07-20 16:37:56 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/cherry_pressure_plate": {
+    "criteria": {
+      "has_planks": "2024-07-20 16:37:56 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/barrel": {
+    "criteria": {
+      "has_planks": "2024-07-20 16:37:56 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/cherry_door": {
+    "criteria": {
+      "has_planks": "2024-07-20 16:37:56 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cherry_slab": {
+    "criteria": {
+      "has_planks": "2024-07-20 16:37:56 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cherry_stairs": {
+    "criteria": {
+      "has_planks": "2024-07-20 16:37:56 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/cherry_trapdoor": {
+    "criteria": {
+      "has_planks": "2024-07-20 16:37:56 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/cherry_button": {
+    "criteria": {
+      "has_planks": "2024-07-20 16:37:56 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/cherry_fence_gate": {
+    "criteria": {
+      "has_planks": "2024-07-20 16:37:56 +0000"
+    },
+    "done": true
+  },
+  "railways:recipes/misc/stonecutting/palettes/cycling/pink_flat_riveted_locometal": {
+    "criteria": {
+      "has_item": "2024-07-20 16:41:11 +0000"
+    },
+    "done": true
+  },
+  "railways:recipes/misc/stonecutting/palettes/cycling/pink_locometal_smokebox": {
+    "criteria": {
+      "has_item": "2024-07-20 16:41:11 +0000"
+    },
+    "done": true
+  },
+  "railways:recipes/misc/stonecutting/palettes/cycling/pink_locometal_pillar": {
+    "criteria": {
+      "has_item": "2024-07-20 16:41:11 +0000"
+    },
+    "done": true
+  },
+  "railways:recipes/misc/stonecutting/palettes/cycling/pink_flat_slashed_locometal": {
+    "criteria": {
+      "has_item": "2024-07-20 16:41:11 +0000"
+    },
+    "done": true
+  },
+  "railways:recipes/misc/stonecutting/palettes/cycling/pink_slashed_locometal": {
+    "criteria": {
+      "has_item": "2024-07-20 16:41:11 +0000"
+    },
+    "done": true
+  },
+  "railways:recipes/misc/stonecutting/palettes/cycling/pink_riveted_locometal": {
+    "criteria": {
+      "has_item": "2024-07-20 16:41:11 +0000"
+    },
+    "done": true
+  },
+  "railways:recipes/misc/stonecutting/palettes/cycling/pink_plated_locometal": {
+    "criteria": {
+      "has_item": "2024-07-20 16:41:11 +0000"
+    },
+    "done": true
+  },
+  "railways:recipes/misc/crafting/palettes/dyeing_8x/red_slashed_locometal": {
+    "criteria": {
+      "has_item": "2024-07-20 16:41:20 +0000"
+    },
+    "done": true
+  },
+  "railways:recipes/misc/crafting/palettes/dyeing_1x/blue_slashed_locometal": {
+    "criteria": {
+      "has_item": "2024-07-20 16:41:20 +0000"
+    },
+    "done": true
+  },
+  "railways:recipes/misc/crafting/palettes/wrapping/pink_brass_wrapped_locometal": {
+    "criteria": {
+      "has_item": "2024-07-20 16:41:20 +0000"
+    },
+    "done": true
+  },
+  "railways:recipes/misc/crafting/palettes/dyeing_8x/blue_slashed_locometal": {
+    "criteria": {
+      "has_item": "2024-07-20 16:41:20 +0000"
+    },
+    "done": true
+  },
+  "railways:recipes/misc/crafting/palettes/dyeing_8x/gray_slashed_locometal": {
+    "criteria": {
+      "has_item": "2024-07-20 16:41:20 +0000"
+    },
+    "done": true
+  },
+  "railways:recipes/misc/crafting/palettes/dyeing_8x/brown_slashed_locometal": {
+    "criteria": {
+      "has_item": "2024-07-20 16:41:20 +0000"
+    },
+    "done": true
+  },
+  "railways:recipes/misc/crafting/palettes/dyeing_8x/orange_slashed_locometal": {
+    "criteria": {
+      "has_item": "2024-07-20 16:41:20 +0000"
+    },
+    "done": true
+  },
+  "railways:recipes/misc/crafting/palettes/dyeing_1x/lime_slashed_locometal": {
+    "criteria": {
+      "has_item": "2024-07-20 16:41:20 +0000"
+    },
+    "done": true
+  },
+  "railways:recipes/misc/crafting/palettes/dyeing_1x/brown_slashed_locometal": {
+    "criteria": {
+      "has_item": "2024-07-20 16:41:20 +0000"
+    },
+    "done": true
+  },
+  "railways:recipes/misc/crafting/palettes/dyeing_1x/gray_slashed_locometal": {
+    "criteria": {
+      "has_item": "2024-07-20 16:41:20 +0000"
+    },
+    "done": true
+  },
+  "railways:recipes/misc/crafting/palettes/dyeing_8x/magenta_slashed_locometal": {
+    "criteria": {
+      "has_item": "2024-07-20 16:41:20 +0000"
+    },
+    "done": true
+  },
+  "railways:recipes/misc/crafting/palettes/dyeing_8x/lime_slashed_locometal": {
+    "criteria": {
+      "has_item": "2024-07-20 16:41:20 +0000"
+    },
+    "done": true
+  },
+  "railways:recipes/misc/crafting/palettes/dyeing_8x/white_slashed_locometal": {
+    "criteria": {
+      "has_item": "2024-07-20 16:41:20 +0000"
+    },
+    "done": true
+  },
+  "railways:recipes/misc/crafting/palettes/dyeing_1x/orange_slashed_locometal": {
+    "criteria": {
+      "has_item": "2024-07-20 16:41:20 +0000"
+    },
+    "done": true
+  },
+  "railways:recipes/misc/crafting/palettes/dyeing_1x/light_blue_slashed_locometal": {
+    "criteria": {
+      "has_item": "2024-07-20 16:41:20 +0000"
+    },
+    "done": true
+  },
+  "railways:recipes/misc/crafting/palettes/dyeing_8x/pink_slashed_locometal": {
+    "criteria": {
+      "has_item": "2024-07-20 16:41:20 +0000"
+    },
+    "done": true
+  },
+  "railways:recipes/misc/crafting/palettes/dyeing_1x/purple_slashed_locometal": {
+    "criteria": {
+      "has_item": "2024-07-20 16:41:20 +0000"
+    },
+    "done": true
+  },
+  "railways:recipes/misc/crafting/palettes/dyeing_1x/cyan_slashed_locometal": {
+    "criteria": {
+      "has_item": "2024-07-20 16:41:20 +0000"
+    },
+    "done": true
+  },
+  "railways:recipes/misc/crafting/palettes/dyeing_8x/light_gray_slashed_locometal": {
+    "criteria": {
+      "has_item": "2024-07-20 16:41:20 +0000"
+    },
+    "done": true
+  },
+  "railways:recipes/misc/crafting/palettes/dyeing_1x/pink_slashed_locometal": {
+    "criteria": {
+      "has_item": "2024-07-20 16:41:20 +0000"
+    },
+    "done": true
+  },
+  "railways:recipes/misc/crafting/palettes/dyeing_1x/green_slashed_locometal": {
+    "criteria": {
+      "has_item": "2024-07-20 16:41:20 +0000"
+    },
+    "done": true
+  },
+  "railways:recipes/misc/crafting/palettes/dyeing_1x/black_slashed_locometal": {
+    "criteria": {
+      "has_item": "2024-07-20 16:41:20 +0000"
+    },
+    "done": true
+  },
+  "railways:recipes/misc/crafting/palettes/wrapping/pink_copper_wrapped_locometal": {
+    "criteria": {
+      "has_item": "2024-07-20 16:41:20 +0000"
+    },
+    "done": true
+  },
+  "railways:recipes/misc/crafting/palettes/dyeing_8x/purple_slashed_locometal": {
+    "criteria": {
+      "has_item": "2024-07-20 16:41:20 +0000"
+    },
+    "done": true
+  },
+  "railways:recipes/misc/crafting/palettes/dyeing_8x/cyan_slashed_locometal": {
+    "criteria": {
+      "has_item": "2024-07-20 16:41:20 +0000"
+    },
+    "done": true
+  },
+  "railways:recipes/misc/crafting/palettes/dyeing_8x/green_slashed_locometal": {
+    "criteria": {
+      "has_item": "2024-07-20 16:41:20 +0000"
+    },
+    "done": true
+  },
+  "railways:recipes/misc/crafting/palettes/wrapping/pink_iron_wrapped_locometal": {
+    "criteria": {
+      "has_item": "2024-07-20 16:41:20 +0000"
+    },
+    "done": true
+  },
+  "railways:recipes/misc/crafting/palettes/dyeing_8x/black_slashed_locometal": {
+    "criteria": {
+      "has_item": "2024-07-20 16:41:20 +0000"
+    },
+    "done": true
+  },
+  "railways:recipes/misc/crafting/palettes/dyeing_1x/red_slashed_locometal": {
+    "criteria": {
+      "has_item": "2024-07-20 16:41:20 +0000"
+    },
+    "done": true
+  },
+  "railways:recipes/misc/crafting/palettes/dyeing_1x/magenta_slashed_locometal": {
+    "criteria": {
+      "has_item": "2024-07-20 16:41:20 +0000"
+    },
+    "done": true
+  },
+  "railways:recipes/misc/crafting/palettes/dyeing_1x/yellow_slashed_locometal": {
+    "criteria": {
+      "has_item": "2024-07-20 16:41:20 +0000"
+    },
+    "done": true
+  },
+  "railways:recipes/misc/crafting/palettes/dyeing_8x/yellow_slashed_locometal": {
+    "criteria": {
+      "has_item": "2024-07-20 16:41:20 +0000"
+    },
+    "done": true
+  },
+  "railways:recipes/misc/crafting/palettes/dyeing_8x/light_blue_slashed_locometal": {
+    "criteria": {
+      "has_item": "2024-07-20 16:41:20 +0000"
+    },
+    "done": true
+  },
+  "railways:recipes/misc/crafting/palettes/dyeing_1x/light_gray_slashed_locometal": {
+    "criteria": {
+      "has_item": "2024-07-20 16:41:20 +0000"
+    },
+    "done": true
+  },
+  "railways:recipes/misc/crafting/palettes/dyeing_1x/white_slashed_locometal": {
+    "criteria": {
+      "has_item": "2024-07-20 16:41:20 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cherry_planks": {
+    "criteria": {
+      "has_log": "2024-07-20 16:45:44 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/charcoal": {
+    "criteria": {
+      "has_log": "2024-07-20 16:45:44 +0000"
+    },
+    "done": true
+  },
+  "createbigcannons:recipes/misc/quickfiring_mechanism": {
+    "criteria": {
+      "has_lever": "2024-07-20 16:48:46 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/lava_bucket": {
+    "criteria": {
+      "lava_bucket": "2024-07-20 17:01:49 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/mine_stone": {
+    "criteria": {
+      "get_stone": "2024-07-20 17:03:30 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/furnace": {
+    "criteria": {
+      "has_cobblestone": "2024-07-20 17:03:30 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cobblestone_slab_from_cobblestone_stonecutting": {
+    "criteria": {
+      "has_cobblestone": "2024-07-20 17:03:30 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone": {
+    "criteria": {
+      "has_cobblestone": "2024-07-20 17:03:30 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/stone_pickaxe": {
+    "criteria": {
+      "has_cobblestone": "2024-07-20 17:03:30 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cobblestone_slab": {
+    "criteria": {
+      "has_cobblestone": "2024-07-20 17:03:30 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/cobblestone_wall_from_cobblestone_stonecutting": {
+    "criteria": {
+      "has_cobblestone": "2024-07-20 17:03:30 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cobblestone_stairs": {
+    "criteria": {
+      "has_cobblestone": "2024-07-20 17:03:30 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/stone_shovel": {
+    "criteria": {
+      "has_cobblestone": "2024-07-20 17:03:30 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/lever": {
+    "criteria": {
+      "has_cobblestone": "2024-07-20 17:03:30 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/stone_sword": {
+    "criteria": {
+      "has_cobblestone": "2024-07-20 17:03:30 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/cobblestone_wall": {
+    "criteria": {
+      "has_cobblestone": "2024-07-20 17:03:30 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/stone_axe": {
+    "criteria": {
+      "has_cobblestone": "2024-07-20 17:03:30 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cobblestone_stairs_from_cobblestone_stonecutting": {
+    "criteria": {
+      "has_cobblestone": "2024-07-20 17:03:30 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/stone_hoe": {
+    "criteria": {
+      "has_cobblestone": "2024-07-20 17:03:30 +0000"
+    },
+    "done": true
+  },
   "incendium:technical/sentrys_wrath": {
     "criteria": {
-      "log_spam_fixer": "2024-07-19 17:40:01 +0000"
+      "log_spam_fixer": "2024-07-20 17:12:15 +0000"
     },
     "done": false
   },
   "incendium:technical/on_player_hurt": {
     "criteria": {
-      "log_spam_fixer": "2024-07-19 17:40:01 +0000"
+      "log_spam_fixer": "2024-07-20 17:12:15 +0000"
     },
     "done": false
   },
   "incendium:technical/on_kill": {
     "criteria": {
-      "log_spam_fixer": "2024-07-19 17:40:01 +0000"
+      "log_spam_fixer": "2024-07-20 17:12:15 +0000"
     },
     "done": false
   },
   "incendium:technical/on_inventory_change": {
     "criteria": {
-      "log_spam_fixer": "2024-07-19 17:40:01 +0000"
+      "log_spam_fixer": "2024-07-20 17:12:15 +0000"
     },
     "done": false
   },
   "incendium:technical/holy_wrath": {
     "criteria": {
-      "log_spam_fixer": "2024-07-19 17:40:01 +0000"
+      "log_spam_fixer": "2024-07-20 17:12:15 +0000"
     },
     "done": false
   },
   "incendium:technical/on_block": {
     "criteria": {
-      "log_spam_fixer": "2024-07-19 17:40:01 +0000"
+      "log_spam_fixer": "2024-07-20 17:12:15 +0000"
     },
     "done": false
   },
   "incendium:technical/inventory/sentrys_wrath": {
     "criteria": {
-      "log_spam_fixer": "2024-07-19 17:40:01 +0000"
+      "log_spam_fixer": "2024-07-20 17:12:15 +0000"
     },
     "done": false
   },
   "incendium:technical/feed_ghastling": {
     "criteria": {
-      "log_spam_fixer": "2024-07-19 17:40:01 +0000"
+      "log_spam_fixer": "2024-07-20 17:12:15 +0000"
     },
     "done": false
   },
   "incendium:technical/firestorm": {
     "criteria": {
-      "log_spam_fixer": "2024-07-19 17:40:01 +0000"
+      "log_spam_fixer": "2024-07-20 17:12:15 +0000"
     },
     "done": false
   },
   "incendium:technical/inventory/firestorm": {
     "criteria": {
-      "log_spam_fixer": "2024-07-19 17:40:01 +0000"
+      "log_spam_fixer": "2024-07-20 17:12:15 +0000"
     },
     "done": false
   },
   "incendium:technical/give_ghastling": {
     "criteria": {
-      "log_spam_fixer": "2024-07-19 17:40:01 +0000"
+      "log_spam_fixer": "2024-07-20 17:12:15 +0000"
     },
     "done": false
   },
   "incendium:technical/multiplex_crossbow": {
     "criteria": {
-      "log_spam_fixer": "2024-07-19 17:40:01 +0000"
+      "log_spam_fixer": "2024-07-20 17:12:15 +0000"
     },
     "done": false
   },
-  "minecraft:recipes/food/mushroom_stew": {
+  "createbigcannons:recipes/misc/wrought_iron_cannon_end": {
     "criteria": {
-      "has_bowl": "2024-07-19 17:36:06 +0000"
+      "has_gunpowder": "2024-07-20 17:11:02 +0000"
+    },
+    "done": true
+  },
+  "createbigcannons:recipes/misc/cannon_carriage": {
+    "criteria": {
+      "has_gunpowder": "2024-07-20 17:11:02 +0000"
+    },
+    "done": true
+  },
+  "createbigcannons:recipes/misc/wrought_iron_cannon_chamber": {
+    "criteria": {
+      "has_gunpowder": "2024-07-20 17:11:02 +0000"
+    },
+    "done": true
+  },
+  "createbigcannons:recipes/misc/powder_charge": {
+    "criteria": {
+      "has_gunpowder": "2024-07-20 17:11:02 +0000"
+    },
+    "done": true
+  },
+  "createbigcannons:recipes/misc/wrought_iron_drop_mortar_end": {
+    "criteria": {
+      "has_gunpowder": "2024-07-20 17:11:02 +0000"
+    },
+    "done": true
+  },
+  "createbigcannons:recipes/misc/log_cannon_end": {
+    "criteria": {
+      "has_gunpowder": "2024-07-20 17:11:02 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/appliances/clipboard_clear": {
+    "criteria": {
+      "has_item": "2024-07-20 17:09:06 +0000"
+    },
+    "done": true
+  },
+  "createbigcannons:recipes/misc/machine_gun_round": {
+    "criteria": {
+      "has_gunpowder": "2024-07-20 17:11:02 +0000"
+    },
+    "done": true
+  },
+  "createbigcannons:recipes/misc/empty_powder_charge": {
+    "criteria": {
+      "has_gunpowder": "2024-07-20 17:11:02 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/firework_rocket_simple": {
+    "criteria": {
+      "has_gunpowder": "2024-07-20 17:11:02 +0000"
+    },
+    "done": true
+  },
+  "createbigcannons:recipes/misc/log_cannon_chamber": {
+    "criteria": {
+      "has_gunpowder": "2024-07-20 17:11:02 +0000"
+    },
+    "done": true
+  },
+  "createbigcannons:recipes/misc/cannon_mount": {
+    "criteria": {
+      "has_gunpowder": "2024-07-20 17:11:02 +0000"
+    },
+    "done": true
+  },
+  "createbigcannons:recipes/misc/wrought_iron_drop_mortar_end_mirrored": {
+    "criteria": {
+      "has_gunpowder": "2024-07-20 17:11:02 +0000"
+    },
+    "done": true
+  },
+  "createbigcannons:recipes/misc/pair_of_cannon_wheels": {
+    "criteria": {
+      "has_gunpowder": "2024-07-20 17:11:02 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/tnt": {
+    "criteria": {
+      "has_gunpowder": "2024-07-20 17:11:02 +0000"
     },
     "done": true
   },
