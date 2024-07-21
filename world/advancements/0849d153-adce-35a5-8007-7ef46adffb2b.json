@@ -1879,6 +1879,84 @@
     },
     "done": true
   },
+  "createdeco:recipes/decorations/iron_catwalk_stairs_from_stonecutting": {
+    "criteria": {
+      "has_item": "2024-07-20 17:34:14 +0000"
+    },
+    "done": true
+  },
+  "createdeco:recipes/decorations/iron_catwalk_from_stonecutting": {
+    "criteria": {
+      "has_item": "2024-07-20 17:34:14 +0000"
+    },
+    "done": true
+  },
+  "createdeco:recipes/decorations/iron_mesh_fence_from_stonecutting": {
+    "criteria": {
+      "has_item": "2024-07-20 17:34:14 +0000"
+    },
+    "done": true
+  },
+  "createdeco:recipes/decorations/iron_ladder_from_stonecutting": {
+    "criteria": {
+      "has_item": "2024-07-20 17:34:14 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/materials/andesite_alloy": {
+    "criteria": {
+      "has_item": "2024-07-20 17:34:14 +0000"
+    },
+    "done": true
+  },
+  "createdeco:recipes/building_blocks/iron_window": {
+    "criteria": {
+      "has_item": "2024-07-20 17:34:14 +0000"
+    },
+    "done": true
+  },
+  "createdeco:recipes/decorations/iron_catwalk_railing_from_stonecutting": {
+    "criteria": {
+      "has_item": "2024-07-20 17:34:14 +0000"
+    },
+    "done": true
+  },
+  "createbigcannons:recipes/misc/solid_shot": {
+    "criteria": {
+      "has_iron_ingot": "2024-07-20 17:34:14 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/industrial_iron_block_from_iron_ingots_stonecutting": {
+    "criteria": {
+      "has_iron_ingots": "2024-07-20 17:34:14 +0000"
+    },
+    "done": true
+  },
+  "createdeco:recipes/decorations/iron_bars_overlay_from_stonecutting": {
+    "criteria": {
+      "has_item": "2024-07-20 17:34:14 +0000"
+    },
+    "done": true
+  },
+  "createdeco:recipes/decorations/iron_support_wedge_from_stonecutting": {
+    "criteria": {
+      "has_item": "2024-07-20 17:34:14 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/empty_blaze_burner": {
+    "criteria": {
+      "has_item": "2024-07-20 17:34:14 +0000"
+    },
+    "done": true
+  },
+  "createdeco:recipes/decorations/iron_support": {
+    "criteria": {
+      "has_item": "2024-07-20 17:34:14 +0000"
+    },
+    "done": true
+  },
   "incendium:technical/sentrys_wrath": {
     "criteria": {
       "log_spam_fixer": "2024-07-20 17:34:15 +0000"
@@ -1951,36 +2029,6 @@
     },
     "done": false
   },
-  "createdeco:recipes/decorations/iron_catwalk_stairs_from_stonecutting": {
-    "criteria": {
-      "has_item": "2024-07-20 17:34:14 +0000"
-    },
-    "done": true
-  },
-  "createdeco:recipes/decorations/iron_catwalk_from_stonecutting": {
-    "criteria": {
-      "has_item": "2024-07-20 17:34:14 +0000"
-    },
-    "done": true
-  },
-  "createdeco:recipes/decorations/iron_mesh_fence_from_stonecutting": {
-    "criteria": {
-      "has_item": "2024-07-20 17:34:14 +0000"
-    },
-    "done": true
-  },
-  "createdeco:recipes/decorations/iron_ladder_from_stonecutting": {
-    "criteria": {
-      "has_item": "2024-07-20 17:34:14 +0000"
-    },
-    "done": true
-  },
-  "create:recipes/misc/crafting/materials/andesite_alloy": {
-    "criteria": {
-      "has_item": "2024-07-20 17:34:14 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/spruce_fence": {
     "criteria": {
       "has_planks": "2024-07-20 17:34:41 +0000"
@@ -1999,33 +2047,9 @@
     },
     "done": true
   },
-  "createdeco:recipes/building_blocks/iron_window": {
-    "criteria": {
-      "has_item": "2024-07-20 17:34:14 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/redstone/spruce_pressure_plate": {
     "criteria": {
       "has_planks": "2024-07-20 17:34:41 +0000"
-    },
-    "done": true
-  },
-  "createdeco:recipes/decorations/iron_catwalk_railing_from_stonecutting": {
-    "criteria": {
-      "has_item": "2024-07-20 17:34:14 +0000"
-    },
-    "done": true
-  },
-  "createbigcannons:recipes/misc/solid_shot": {
-    "criteria": {
-      "has_iron_ingot": "2024-07-20 17:34:14 +0000"
-    },
-    "done": true
-  },
-  "create:recipes/building_blocks/industrial_iron_block_from_iron_ingots_stonecutting": {
-    "criteria": {
-      "has_iron_ingots": "2024-07-20 17:34:14 +0000"
     },
     "done": true
   },
@@ -2035,33 +2059,9 @@
     },
     "done": true
   },
-  "createdeco:recipes/decorations/iron_bars_overlay_from_stonecutting": {
-    "criteria": {
-      "has_item": "2024-07-20 17:34:14 +0000"
-    },
-    "done": true
-  },
-  "createdeco:recipes/decorations/iron_support_wedge_from_stonecutting": {
-    "criteria": {
-      "has_item": "2024-07-20 17:34:14 +0000"
-    },
-    "done": true
-  },
-  "create:recipes/misc/crafting/kinetics/empty_blaze_burner": {
-    "criteria": {
-      "has_item": "2024-07-20 17:34:14 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/spruce_slab": {
     "criteria": {
       "has_planks": "2024-07-20 17:34:41 +0000"
-    },
-    "done": true
-  },
-  "createdeco:recipes/decorations/iron_support": {
-    "criteria": {
-      "has_item": "2024-07-20 17:34:14 +0000"
     },
     "done": true
   },
