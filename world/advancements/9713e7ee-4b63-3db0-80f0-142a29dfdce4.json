@@ -72,7 +72,8 @@
   },
   "minecraft:nether/explore_nether": {
     "criteria": {
-      "minecraft:nether_wastes": "2024-07-19 15:20:38 +0000"
+      "minecraft:nether_wastes": "2024-07-19 15:20:38 +0000",
+      "minecraft:basalt_deltas": "2024-07-22 16:26:32 +0000"
     },
     "done": false
   },
@@ -1896,9 +1897,10 @@
   },
   "create:wrench_goggles": {
     "criteria": {
-      "0": "2024-07-22 01:11:28 +0000"
+      "0": "2024-07-22 01:11:28 +0000",
+      "1": "2024-07-22 15:43:26 +0000"
     },
-    "done": false
+    "done": true
   },
   "create:recipes/misc/crafting/kinetics/smart_chute": {
     "criteria": {
@@ -2208,75 +2210,159 @@
   },
   "incendium:technical/sentrys_wrath": {
     "criteria": {
-      "log_spam_fixer": "2024-07-22 02:11:09 +0000"
+      "log_spam_fixer": "2024-07-22 16:35:55 +0000"
     },
     "done": false
   },
   "incendium:technical/on_player_hurt": {
     "criteria": {
-      "log_spam_fixer": "2024-07-22 02:11:09 +0000"
+      "log_spam_fixer": "2024-07-22 16:35:55 +0000"
     },
     "done": false
   },
   "incendium:technical/on_kill": {
     "criteria": {
-      "log_spam_fixer": "2024-07-22 02:11:09 +0000"
+      "log_spam_fixer": "2024-07-22 16:35:55 +0000"
     },
     "done": false
   },
   "incendium:technical/on_inventory_change": {
     "criteria": {
-      "log_spam_fixer": "2024-07-22 02:11:09 +0000"
+      "log_spam_fixer": "2024-07-22 16:35:55 +0000"
     },
     "done": false
   },
   "incendium:technical/holy_wrath": {
     "criteria": {
-      "log_spam_fixer": "2024-07-22 02:11:09 +0000"
+      "log_spam_fixer": "2024-07-22 16:35:55 +0000"
     },
     "done": false
   },
   "incendium:technical/on_block": {
     "criteria": {
-      "log_spam_fixer": "2024-07-22 02:11:09 +0000"
+      "log_spam_fixer": "2024-07-22 16:35:55 +0000"
     },
     "done": false
   },
   "incendium:technical/inventory/sentrys_wrath": {
     "criteria": {
-      "log_spam_fixer": "2024-07-22 02:11:09 +0000"
+      "log_spam_fixer": "2024-07-22 16:35:55 +0000"
     },
     "done": false
   },
   "incendium:technical/feed_ghastling": {
     "criteria": {
-      "log_spam_fixer": "2024-07-22 02:11:09 +0000"
+      "log_spam_fixer": "2024-07-22 16:35:55 +0000"
     },
     "done": false
   },
   "incendium:technical/firestorm": {
     "criteria": {
-      "log_spam_fixer": "2024-07-22 02:11:09 +0000"
+      "log_spam_fixer": "2024-07-22 16:35:55 +0000"
     },
     "done": false
   },
   "incendium:technical/inventory/firestorm": {
     "criteria": {
-      "log_spam_fixer": "2024-07-22 02:11:09 +0000"
+      "log_spam_fixer": "2024-07-22 16:35:55 +0000"
     },
     "done": false
   },
   "incendium:technical/give_ghastling": {
     "criteria": {
-      "log_spam_fixer": "2024-07-22 02:11:09 +0000"
+      "log_spam_fixer": "2024-07-22 16:35:55 +0000"
     },
     "done": false
   },
   "incendium:technical/multiplex_crossbow": {
     "criteria": {
-      "log_spam_fixer": "2024-07-22 02:11:09 +0000"
+      "log_spam_fixer": "2024-07-22 16:35:55 +0000"
     },
     "done": false
+  },
+  "incendium:ash_barrens/enter_castle": {
+    "criteria": {
+      "requirement": "2024-07-22 16:01:36 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/bread": {
+    "criteria": {
+      "has_wheat": "2024-07-22 15:58:41 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/hay_block": {
+    "criteria": {
+      "has_wheat": "2024-07-22 15:58:41 +0000"
+    },
+    "done": true
+  },
+  "incendium:misc/root": {
+    "criteria": {
+      "incendium:ash_barrens": "2024-07-22 16:02:07 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/form_obsidian": {
+    "criteria": {
+      "obsidian": "2024-07-22 15:59:06 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/oak_planks": {
+    "criteria": {
+      "has_logs": "2024-07-22 15:48:00 +0000"
+    },
+    "done": true
+  },
+  "incendium:misc/soul_searcher": {
+    "criteria": {
+      "incendium:ash_barrens": "2024-07-22 16:02:07 +0000"
+    },
+    "done": false
+  },
+  "incendium:ash_barrens/root": {
+    "criteria": {
+      "requirement": "2024-07-22 16:02:07 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/oak_wood": {
+    "criteria": {
+      "has_log": "2024-07-22 15:48:00 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cake": {
+    "criteria": {
+      "has_egg": "2024-07-22 15:52:49 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/flint_and_steel": {
+    "criteria": {
+      "has_obsidian": "2024-07-22 15:59:06 +0000"
+    },
+    "done": true
+  },
+  "incendium:infernal_dunes/pipeline/unlimited_power": {
+    "criteria": {
+      "requirement": "2024-07-22 16:08:03 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/find_bastion": {
+    "criteria": {
+      "bastion": "2024-07-22 16:26:16 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/enchanting_table": {
+    "criteria": {
+      "has_obsidian": "2024-07-22 15:59:06 +0000"
+    },
+    "done": true
   },
   "DataVersion": 3465
 }
