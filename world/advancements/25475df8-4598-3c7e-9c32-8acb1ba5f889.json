@@ -4615,77 +4615,18 @@
     },
     "done": true
   },
-  "incendium:technical/sentrys_wrath": {
+  "incendium:toxic_heap/mystic_wisdom": {
     "criteria": {
-      "log_spam_fixer": "2024-07-22 18:30:38 +0000"
+      "waste": "2024-07-22 17:11:10 +0000",
+      "junk": "2024-07-22 17:13:38 +0000"
     },
     "done": false
   },
-  "incendium:technical/on_player_hurt": {
+  "incendium:toxic_heap/nuclear_fusion": {
     "criteria": {
-      "log_spam_fixer": "2024-07-22 18:30:38 +0000"
+      "incendium:waste": "2024-07-22 17:11:10 +0000"
     },
-    "done": false
-  },
-  "incendium:technical/on_kill": {
-    "criteria": {
-      "log_spam_fixer": "2024-07-22 18:30:38 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/on_inventory_change": {
-    "criteria": {
-      "log_spam_fixer": "2024-07-22 18:30:38 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/holy_wrath": {
-    "criteria": {
-      "log_spam_fixer": "2024-07-22 18:30:38 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/on_block": {
-    "criteria": {
-      "log_spam_fixer": "2024-07-22 18:30:38 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/inventory/sentrys_wrath": {
-    "criteria": {
-      "log_spam_fixer": "2024-07-22 18:30:38 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/feed_ghastling": {
-    "criteria": {
-      "log_spam_fixer": "2024-07-22 18:30:38 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/firestorm": {
-    "criteria": {
-      "log_spam_fixer": "2024-07-22 18:30:38 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/inventory/firestorm": {
-    "criteria": {
-      "log_spam_fixer": "2024-07-22 18:30:38 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/give_ghastling": {
-    "criteria": {
-      "log_spam_fixer": "2024-07-22 18:30:38 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/multiplex_crossbow": {
-    "criteria": {
-      "log_spam_fixer": "2024-07-22 18:30:38 +0000"
-    },
-    "done": false
+    "done": true
   },
   "create:recipes/building_blocks/scoria_from_stone_types_scoria_stonecutting": {
     "criteria": {
@@ -4723,12 +4664,6 @@
     },
     "done": true
   },
-  "incendium:withered_forest/root": {
-    "criteria": {
-      "requirement": "2024-07-22 17:41:58 +0000"
-    },
-    "done": true
-  },
   "create:recipes/building_blocks/cut_scoria_slab_from_stone_types_scoria_stonecutting": {
     "criteria": {
       "has_stone_types_scoria": "2024-07-22 17:16:30 +0000"
@@ -4741,27 +4676,9 @@
     },
     "done": true
   },
-  "minecraft:adventure/voluntary_exile": {
-    "criteria": {
-      "voluntary_exile": "2024-07-22 17:45:11 +0000"
-    },
-    "done": true
-  },
-  "incendium:quartz_flats/sanctum/root": {
-    "criteria": {
-      "requirement": "2024-07-22 17:43:27 +0000"
-    },
-    "done": true
-  },
   "design_decor:recipes/building_blocks/scoria_castel_tile_slab_from_stone_types_scoria_stonecutting": {
     "criteria": {
       "has_stone_types_scoria": "2024-07-22 17:16:30 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/warped_trapdoor": {
-    "criteria": {
-      "has_planks": "2024-07-22 17:44:16 +0000"
     },
     "done": true
   },
@@ -4789,39 +4706,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/redstone/warped_pressure_plate": {
-    "criteria": {
-      "has_planks": "2024-07-22 17:44:16 +0000"
-    },
-    "done": true
-  },
   "create:recipes/building_blocks/polished_cut_scoria_slab_from_stone_types_scoria_stonecutting": {
     "criteria": {
       "has_stone_types_scoria": "2024-07-22 17:16:30 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/warped_planks": {
-    "criteria": {
-      "has_logs": "2024-07-22 17:20:49 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/warped_fence": {
-    "criteria": {
-      "has_planks": "2024-07-22 17:44:16 +0000"
-    },
-    "done": true
-  },
   "create:recipes/building_blocks/polished_cut_scoria_stairs_from_stone_types_scoria_stonecutting": {
     "criteria": {
       "has_stone_types_scoria": "2024-07-22 17:16:30 +0000"
-    },
-    "done": true
-  },
-  "incendium:infernal_dunes/dune_blaze": {
-    "criteria": {
-      "requirement": "2024-07-22 17:33:46 +0000"
     },
     "done": true
   },
@@ -4849,34 +4742,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/netherite_upgrade_smithing_template": {
-    "criteria": {
-      "has_netherite_upgrade_smithing_template": "2024-07-22 17:47:22 +0000"
-    },
-    "done": true
-  },
   "create:recipes/building_blocks/small_scoria_brick_stairs_from_stone_types_scoria_stonecutting": {
     "criteria": {
       "has_stone_types_scoria": "2024-07-22 17:16:30 +0000"
-    },
-    "done": true
-  },
-  "incendium:toxic_heap/mystic_wisdom": {
-    "criteria": {
-      "waste": "2024-07-22 17:11:10 +0000",
-      "junk": "2024-07-22 17:13:38 +0000"
-    },
-    "done": false
-  },
-  "incendium:quartz_flats/torte/kitchen_treasure": {
-    "criteria": {
-      "requirement": "2024-07-22 17:32:38 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/warped_fence_gate": {
-    "criteria": {
-      "has_planks": "2024-07-22 17:44:16 +0000"
     },
     "done": true
   },
@@ -4886,27 +4754,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/warped_hyphae": {
-    "criteria": {
-      "has_log": "2024-07-22 17:20:49 +0000"
-    },
-    "done": true
-  },
   "design_decor:recipes/building_blocks/scoria_castel_tile_stairs_from_stone_types_scoria_stonecutting": {
     "criteria": {
       "has_stone_types_scoria": "2024-07-22 17:16:30 +0000"
-    },
-    "done": true
-  },
-  "incendium:quartz_flats/torte/root": {
-    "criteria": {
-      "requirement": "2024-07-22 17:30:03 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/warped_button": {
-    "criteria": {
-      "has_planks": "2024-07-22 17:44:16 +0000"
     },
     "done": true
   },
@@ -4916,33 +4766,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/warped_stairs": {
-    "criteria": {
-      "has_planks": "2024-07-22 17:44:16 +0000"
-    },
-    "done": true
-  },
   "design_decor:recipes/building_blocks/scoria_castel_brick_wall_from_stone_types_scoria_stonecutting": {
     "criteria": {
       "has_stone_types_scoria": "2024-07-22 17:16:30 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/warped_sign": {
-    "criteria": {
-      "has_planks": "2024-07-22 17:44:16 +0000"
-    },
-    "done": true
-  },
-  "incendium:volcanic_deltas/root": {
-    "criteria": {
-      "incendium:volcanic_deltas": "2024-07-22 17:25:44 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/warped_door": {
-    "criteria": {
-      "has_planks": "2024-07-22 17:44:16 +0000"
     },
     "done": true
   },
@@ -4952,33 +4778,9 @@
     },
     "done": true
   },
-  "incendium:toxic_heap/nuclear_fusion": {
-    "criteria": {
-      "incendium:waste": "2024-07-22 17:11:10 +0000"
-    },
-    "done": true
-  },
   "create:recipes/building_blocks/cut_scoria_brick_stairs_from_stone_types_scoria_stonecutting": {
     "criteria": {
       "has_stone_types_scoria": "2024-07-22 17:16:30 +0000"
-    },
-    "done": true
-  },
-  "incendium:quartz_flats/root": {
-    "criteria": {
-      "requirement": "2024-07-22 17:26:04 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/warped_slab": {
-    "criteria": {
-      "has_planks": "2024-07-22 17:44:16 +0000"
-    },
-    "done": true
-  },
-  "incendium:infernal_dunes/root": {
-    "criteria": {
-      "incendium:infernal_dunes": "2024-07-22 17:26:18 +0000"
     },
     "done": true
   },
@@ -4994,17 +4796,432 @@
     },
     "done": true
   },
+  "create:recipes/building_blocks/small_scoria_bricks_from_stone_types_scoria_stonecutting": {
+    "criteria": {
+      "has_stone_types_scoria": "2024-07-22 17:16:30 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/warped_planks": {
+    "criteria": {
+      "has_logs": "2024-07-22 17:20:49 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/warped_hyphae": {
+    "criteria": {
+      "has_log": "2024-07-22 17:20:49 +0000"
+    },
+    "done": true
+  },
+  "incendium:volcanic_deltas/root": {
+    "criteria": {
+      "incendium:volcanic_deltas": "2024-07-22 17:25:44 +0000"
+    },
+    "done": true
+  },
+  "incendium:quartz_flats/root": {
+    "criteria": {
+      "requirement": "2024-07-22 17:26:04 +0000"
+    },
+    "done": true
+  },
+  "incendium:infernal_dunes/root": {
+    "criteria": {
+      "incendium:infernal_dunes": "2024-07-22 17:26:18 +0000"
+    },
+    "done": true
+  },
+  "incendium:quartz_flats/torte/root": {
+    "criteria": {
+      "requirement": "2024-07-22 17:30:03 +0000"
+    },
+    "done": true
+  },
+  "incendium:quartz_flats/torte/kitchen_treasure": {
+    "criteria": {
+      "requirement": "2024-07-22 17:32:38 +0000"
+    },
+    "done": true
+  },
+  "incendium:infernal_dunes/dune_blaze": {
+    "criteria": {
+      "requirement": "2024-07-22 17:33:46 +0000"
+    },
+    "done": true
+  },
+  "incendium:withered_forest/root": {
+    "criteria": {
+      "requirement": "2024-07-22 17:41:58 +0000"
+    },
+    "done": true
+  },
+  "incendium:quartz_flats/sanctum/root": {
+    "criteria": {
+      "requirement": "2024-07-22 17:43:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/warped_trapdoor": {
+    "criteria": {
+      "has_planks": "2024-07-22 17:44:16 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/warped_pressure_plate": {
+    "criteria": {
+      "has_planks": "2024-07-22 17:44:16 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/warped_fence": {
+    "criteria": {
+      "has_planks": "2024-07-22 17:44:16 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/warped_fence_gate": {
+    "criteria": {
+      "has_planks": "2024-07-22 17:44:16 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/warped_button": {
+    "criteria": {
+      "has_planks": "2024-07-22 17:44:16 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/warped_stairs": {
+    "criteria": {
+      "has_planks": "2024-07-22 17:44:16 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/warped_sign": {
+    "criteria": {
+      "has_planks": "2024-07-22 17:44:16 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/warped_door": {
+    "criteria": {
+      "has_planks": "2024-07-22 17:44:16 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/warped_slab": {
+    "criteria": {
+      "has_planks": "2024-07-22 17:44:16 +0000"
+    },
+    "done": true
+  },
   "create:recipes/building_blocks/warped_window": {
     "criteria": {
       "has_ingredient": "2024-07-22 17:44:16 +0000"
     },
     "done": true
   },
-  "create:recipes/building_blocks/small_scoria_bricks_from_stone_types_scoria_stonecutting": {
+  "minecraft:adventure/voluntary_exile": {
     "criteria": {
-      "has_stone_types_scoria": "2024-07-22 17:16:30 +0000"
+      "voluntary_exile": "2024-07-22 17:45:11 +0000"
     },
     "done": true
+  },
+  "minecraft:recipes/misc/netherite_upgrade_smithing_template": {
+    "criteria": {
+      "has_netherite_upgrade_smithing_template": "2024-07-22 17:47:22 +0000"
+    },
+    "done": true
+  },
+  "smallships:recipes/transportation/bamboo_galley": {
+    "criteria": {
+      "in_water": "2024-07-23 06:49:00 +0000"
+    },
+    "done": true
+  },
+  "smallships:recipes/transportation/spruce_cog": {
+    "criteria": {
+      "in_water": "2024-07-23 06:49:00 +0000"
+    },
+    "done": true
+  },
+  "smallships:recipes/transportation/acacia_cog": {
+    "criteria": {
+      "in_water": "2024-07-23 06:49:00 +0000"
+    },
+    "done": true
+  },
+  "smallships:recipes/transportation/jungle_cog": {
+    "criteria": {
+      "in_water": "2024-07-23 06:49:00 +0000"
+    },
+    "done": true
+  },
+  "smallships:recipes/transportation/dark_oak_brigg": {
+    "criteria": {
+      "in_water": "2024-07-23 06:49:00 +0000"
+    },
+    "done": true
+  },
+  "smallships:recipes/transportation/birch_galley": {
+    "criteria": {
+      "in_water": "2024-07-23 06:49:00 +0000"
+    },
+    "done": true
+  },
+  "smallships:recipes/transportation/oak_drakkar": {
+    "criteria": {
+      "in_water": "2024-07-23 06:49:00 +0000"
+    },
+    "done": true
+  },
+  "smallships:recipes/transportation/mangrove_brigg": {
+    "criteria": {
+      "in_water": "2024-07-23 06:49:00 +0000"
+    },
+    "done": true
+  },
+  "smallships:recipes/transportation/jungle_brigg": {
+    "criteria": {
+      "in_water": "2024-07-23 06:49:00 +0000"
+    },
+    "done": true
+  },
+  "smallships:recipes/transportation/spruce_galley": {
+    "criteria": {
+      "in_water": "2024-07-23 06:49:00 +0000"
+    },
+    "done": true
+  },
+  "smallships:recipes/transportation/birch_cog": {
+    "criteria": {
+      "in_water": "2024-07-23 06:49:00 +0000"
+    },
+    "done": true
+  },
+  "smallships:recipes/transportation/mangrove_drakkar": {
+    "criteria": {
+      "in_water": "2024-07-23 06:49:00 +0000"
+    },
+    "done": true
+  },
+  "smallships:recipes/misc/sail": {
+    "criteria": {
+      "in_water": "2024-07-23 06:49:00 +0000"
+    },
+    "done": true
+  },
+  "smallships:recipes/transportation/acacia_galley": {
+    "criteria": {
+      "in_water": "2024-07-23 06:49:00 +0000"
+    },
+    "done": true
+  },
+  "smallships:recipes/transportation/jungle_galley": {
+    "criteria": {
+      "in_water": "2024-07-23 06:49:00 +0000"
+    },
+    "done": true
+  },
+  "smallships:recipes/transportation/dark_oak_galley": {
+    "criteria": {
+      "in_water": "2024-07-23 06:49:00 +0000"
+    },
+    "done": true
+  },
+  "smallships:recipes/transportation/bamboo_brigg": {
+    "criteria": {
+      "in_water": "2024-07-23 06:49:00 +0000"
+    },
+    "done": true
+  },
+  "smallships:recipes/transportation/spruce_drakkar": {
+    "criteria": {
+      "in_water": "2024-07-23 06:49:00 +0000"
+    },
+    "done": true
+  },
+  "smallships:recipes/transportation/oak_brigg": {
+    "criteria": {
+      "in_water": "2024-07-23 06:49:00 +0000"
+    },
+    "done": true
+  },
+  "smallships:recipes/transportation/bamboo_cog": {
+    "criteria": {
+      "in_water": "2024-07-23 06:49:00 +0000"
+    },
+    "done": true
+  },
+  "smallships:recipes/transportation/oak_cog": {
+    "criteria": {
+      "in_water": "2024-07-23 06:49:00 +0000"
+    },
+    "done": true
+  },
+  "smallships:recipes/transportation/oak_galley": {
+    "criteria": {
+      "in_water": "2024-07-23 06:49:00 +0000"
+    },
+    "done": true
+  },
+  "smallships:recipes/transportation/acacia_brigg": {
+    "criteria": {
+      "in_water": "2024-07-23 06:49:00 +0000"
+    },
+    "done": true
+  },
+  "smallships:recipes/transportation/mangrove_galley": {
+    "criteria": {
+      "in_water": "2024-07-23 06:49:00 +0000"
+    },
+    "done": true
+  },
+  "smallships:recipes/transportation/dark_oak_cog": {
+    "criteria": {
+      "in_water": "2024-07-23 06:49:00 +0000"
+    },
+    "done": true
+  },
+  "smallships:recipes/transportation/birch_drakkar": {
+    "criteria": {
+      "in_water": "2024-07-23 06:49:00 +0000"
+    },
+    "done": true
+  },
+  "smallships:recipes/transportation/dark_oak_drakkar": {
+    "criteria": {
+      "in_water": "2024-07-23 06:49:00 +0000"
+    },
+    "done": true
+  },
+  "smallships:recipes/transportation/jungle_drakkar": {
+    "criteria": {
+      "in_water": "2024-07-23 06:49:00 +0000"
+    },
+    "done": true
+  },
+  "smallships:recipes/transportation/birch_brigg": {
+    "criteria": {
+      "in_water": "2024-07-23 06:49:00 +0000"
+    },
+    "done": true
+  },
+  "smallships:recipes/transportation/acacia_drakkar": {
+    "criteria": {
+      "in_water": "2024-07-23 06:49:00 +0000"
+    },
+    "done": true
+  },
+  "smallships:recipes/transportation/cherry_galley": {
+    "criteria": {
+      "in_water": "2024-07-23 06:49:00 +0000"
+    },
+    "done": true
+  },
+  "smallships:recipes/transportation/cherry_brigg": {
+    "criteria": {
+      "in_water": "2024-07-23 06:49:00 +0000"
+    },
+    "done": true
+  },
+  "smallships:recipes/transportation/spruce_brigg": {
+    "criteria": {
+      "in_water": "2024-07-23 06:49:00 +0000"
+    },
+    "done": true
+  },
+  "smallships:recipes/transportation/mangrove_cog": {
+    "criteria": {
+      "in_water": "2024-07-23 06:49:00 +0000"
+    },
+    "done": true
+  },
+  "smallships:recipes/transportation/cherry_cog": {
+    "criteria": {
+      "in_water": "2024-07-23 06:49:00 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/trapped_chest": {
+    "criteria": {
+      "has_tripwire_hook": "2024-07-23 06:49:33 +0000"
+    },
+    "done": true
+  },
+  "incendium:technical/sentrys_wrath": {
+    "criteria": {
+      "log_spam_fixer": "2024-07-23 09:08:07 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/on_player_hurt": {
+    "criteria": {
+      "requirement": "2024-07-23 09:08:42 +0000",
+      "log_spam_fixer": "2024-07-23 09:08:07 +0000"
+    },
+    "done": true
+  },
+  "incendium:technical/on_kill": {
+    "criteria": {
+      "log_spam_fixer": "2024-07-23 09:08:07 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/on_inventory_change": {
+    "criteria": {
+      "log_spam_fixer": "2024-07-23 09:08:07 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/holy_wrath": {
+    "criteria": {
+      "log_spam_fixer": "2024-07-23 09:08:07 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/on_block": {
+    "criteria": {
+      "log_spam_fixer": "2024-07-23 09:08:07 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/inventory/sentrys_wrath": {
+    "criteria": {
+      "log_spam_fixer": "2024-07-23 09:08:07 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/feed_ghastling": {
+    "criteria": {
+      "log_spam_fixer": "2024-07-23 09:08:07 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/firestorm": {
+    "criteria": {
+      "log_spam_fixer": "2024-07-23 09:08:07 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/inventory/firestorm": {
+    "criteria": {
+      "log_spam_fixer": "2024-07-23 09:08:07 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/give_ghastling": {
+    "criteria": {
+      "log_spam_fixer": "2024-07-23 09:08:07 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/multiplex_crossbow": {
+    "criteria": {
+      "log_spam_fixer": "2024-07-23 09:08:07 +0000"
+    },
+    "done": false
   },
   "DataVersion": 3465
 }
