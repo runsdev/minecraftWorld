@@ -6073,77 +6073,203 @@
     },
     "done": true
   },
-  "incendium:technical/sentrys_wrath": {
+  "minecraft:recipes/decorations/light_gray_glazed_terracotta": {
     "criteria": {
-      "log_spam_fixer": "2024-07-23 09:14:06 +0000"
+      "has_light_gray_terracotta": "2024-07-23 14:15:47 +0000"
     },
-    "done": false
+    "done": true
   },
-  "incendium:technical/on_player_hurt": {
+  "minecraft:recipes/misc/black_dye": {
     "criteria": {
-      "log_spam_fixer": "2024-07-23 09:14:06 +0000"
+      "has_ink_sac": "2024-07-23 14:31:54 +0000"
     },
-    "done": false
+    "done": true
   },
-  "incendium:technical/on_kill": {
+  "createbigcannons:recipes/misc/quickfiring_mechanism": {
     "criteria": {
-      "log_spam_fixer": "2024-07-23 09:14:06 +0000"
+      "has_lever": "2024-07-23 14:33:37 +0000"
     },
-    "done": false
+    "done": true
   },
-  "incendium:technical/on_inventory_change": {
+  "minecraft:recipes/decorations/black_glazed_terracotta": {
     "criteria": {
-      "log_spam_fixer": "2024-07-23 09:14:06 +0000"
+      "has_black_terracotta": "2024-07-23 14:35:05 +0000"
     },
-    "done": false
+    "done": true
   },
-  "incendium:technical/holy_wrath": {
+  "minecraft:recipes/brewing/golden_carrot": {
     "criteria": {
-      "log_spam_fixer": "2024-07-23 09:14:06 +0000"
+      "has_gold_nugget": "2024-07-23 14:36:38 +0000"
     },
-    "done": false
+    "done": true
   },
-  "incendium:technical/on_block": {
+  "minecraft:recipes/misc/gold_ingot_from_nuggets": {
     "criteria": {
-      "log_spam_fixer": "2024-07-23 09:14:06 +0000"
+      "has_gold_nugget": "2024-07-23 14:36:38 +0000"
     },
-    "done": false
+    "done": true
   },
-  "incendium:technical/inventory/sentrys_wrath": {
+  "minecraft:recipes/building_blocks/light_blue_stained_glass": {
     "criteria": {
-      "log_spam_fixer": "2024-07-23 09:14:06 +0000"
+      "has_glass": "2024-07-23 17:21:46 +0000"
     },
-    "done": false
+    "done": true
   },
-  "incendium:technical/feed_ghastling": {
+  "minecraft:nether/brew_potion": {
     "criteria": {
-      "log_spam_fixer": "2024-07-23 09:14:06 +0000"
+      "potion": "2024-07-23 17:23:37 +0000"
     },
-    "done": false
+    "done": true
   },
-  "incendium:technical/firestorm": {
+  "minecraft:recipes/building_blocks/orange_stained_glass": {
     "criteria": {
-      "log_spam_fixer": "2024-07-23 09:14:06 +0000"
+      "has_glass": "2024-07-23 17:21:46 +0000"
     },
-    "done": false
+    "done": true
   },
-  "incendium:technical/inventory/firestorm": {
+  "minecraft:recipes/building_blocks/pink_stained_glass": {
     "criteria": {
-      "log_spam_fixer": "2024-07-23 09:14:06 +0000"
+      "has_glass": "2024-07-23 17:21:46 +0000"
     },
-    "done": false
+    "done": true
   },
-  "incendium:technical/give_ghastling": {
+  "minecraft:recipes/building_blocks/black_stained_glass": {
     "criteria": {
-      "log_spam_fixer": "2024-07-23 09:14:06 +0000"
+      "has_glass": "2024-07-23 17:21:46 +0000"
     },
-    "done": false
+    "done": true
   },
-  "incendium:technical/multiplex_crossbow": {
+  "minecraft:recipes/building_blocks/gray_stained_glass": {
     "criteria": {
-      "log_spam_fixer": "2024-07-23 09:14:06 +0000"
+      "has_glass": "2024-07-23 17:21:46 +0000"
     },
-    "done": false
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/red_stained_glass": {
+    "criteria": {
+      "has_glass": "2024-07-23 17:21:46 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/horizontal_framed_glass_from_colorless_glass_stonecutting": {
+    "criteria": {
+      "has_colorless_glass": "2024-07-23 17:21:46 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/light_gray_stained_glass": {
+    "criteria": {
+      "has_glass": "2024-07-23 17:21:46 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cyan_stained_glass": {
+    "criteria": {
+      "has_glass": "2024-07-23 17:21:46 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/green_stained_glass": {
+    "criteria": {
+      "has_glass": "2024-07-23 17:21:46 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/brown_stained_glass": {
+    "criteria": {
+      "has_glass": "2024-07-23 17:21:46 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/blue_stained_glass": {
+    "criteria": {
+      "has_glass": "2024-07-23 17:21:46 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/framed_glass_from_colorless_glass_stonecutting": {
+    "criteria": {
+      "has_colorless_glass": "2024-07-23 17:21:46 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/lime_stained_glass": {
+    "criteria": {
+      "has_glass": "2024-07-23 17:21:46 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/totem_of_undying": {
+    "criteria": {
+      "used_totem": "2024-07-23 17:17:02 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/trade": {
+    "criteria": {
+      "traded": "2024-07-23 17:12:19 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/glass_pane": {
+    "criteria": {
+      "has_glass": "2024-07-23 17:21:46 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/magenta_stained_glass": {
+    "criteria": {
+      "has_glass": "2024-07-23 17:21:46 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/white_stained_glass": {
+    "criteria": {
+      "has_glass": "2024-07-23 17:21:46 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/glass_bottle": {
+    "criteria": {
+      "has_glass": "2024-07-23 17:21:46 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/fermented_spider_eye": {
+    "criteria": {
+      "has_spider_eye": "2024-07-23 17:21:19 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/cure_zombie_villager": {
+    "criteria": {
+      "cured_zombie": "2024-07-23 17:27:12 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/purple_stained_glass": {
+    "criteria": {
+      "has_glass": "2024-07-23 17:21:46 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/vertical_framed_glass_from_colorless_glass_stonecutting": {
+    "criteria": {
+      "has_colorless_glass": "2024-07-23 17:21:46 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/yellow_stained_glass": {
+    "criteria": {
+      "has_glass": "2024-07-23 17:21:46 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/tiled_glass_from_colorless_glass_stonecutting": {
+    "criteria": {
+      "has_colorless_glass": "2024-07-23 17:21:46 +0000"
+    },
+    "done": true
   },
   "DataVersion": 3465
 }

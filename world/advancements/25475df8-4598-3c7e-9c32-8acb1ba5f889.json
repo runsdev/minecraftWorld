@@ -44,6 +44,7 @@
       "minecraft:stony_shore": "2024-07-21 16:06:54 +0000",
       "minecraft:dripstone_caves": "2024-07-19 13:38:53 +0000",
       "minecraft:swamp": "2024-07-20 16:03:28 +0000",
+      "minecraft:cold_ocean": "2024-07-23 16:13:25 +0000",
       "minecraft:forest": "2024-07-16 07:15:01 +0000",
       "minecraft:lush_caves": "2024-07-20 16:18:57 +0000",
       "minecraft:ocean": "2024-07-16 16:39:17 +0000",
@@ -5150,78 +5151,83 @@
     },
     "done": true
   },
-  "incendium:technical/sentrys_wrath": {
+  "minecraft:recipes/decorations/black_glazed_terracotta": {
     "criteria": {
-      "log_spam_fixer": "2024-07-23 09:08:07 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/on_player_hurt": {
-    "criteria": {
-      "requirement": "2024-07-23 09:08:42 +0000",
-      "log_spam_fixer": "2024-07-23 09:08:07 +0000"
+      "has_black_terracotta": "2024-07-23 16:17:41 +0000"
     },
     "done": true
   },
-  "incendium:technical/on_kill": {
+  "minecraft:recipes/brewing/golden_carrot": {
     "criteria": {
-      "log_spam_fixer": "2024-07-23 09:08:07 +0000"
+      "has_gold_nugget": "2024-07-23 16:18:57 +0000"
     },
-    "done": false
+    "done": true
   },
-  "incendium:technical/on_inventory_change": {
+  "minecraft:recipes/misc/gold_ingot_from_nuggets": {
     "criteria": {
-      "log_spam_fixer": "2024-07-23 09:08:07 +0000"
+      "has_gold_nugget": "2024-07-23 16:18:57 +0000"
     },
-    "done": false
+    "done": true
   },
-  "incendium:technical/holy_wrath": {
+  "create:recipes/building_blocks/ornate_iron_window": {
     "criteria": {
-      "log_spam_fixer": "2024-07-23 09:08:07 +0000"
+      "has_ingredient": "2024-07-23 16:18:58 +0000"
     },
-    "done": false
+    "done": true
   },
-  "incendium:technical/on_block": {
+  "minecraft:recipes/misc/iron_ingot_from_nuggets": {
     "criteria": {
-      "log_spam_fixer": "2024-07-23 09:08:07 +0000"
+      "has_iron_nugget": "2024-07-23 16:18:58 +0000"
     },
-    "done": false
+    "done": true
   },
-  "incendium:technical/inventory/sentrys_wrath": {
+  "minecraft:recipes/building_blocks/diorite": {
     "criteria": {
-      "log_spam_fixer": "2024-07-23 09:08:07 +0000"
+      "has_quartz": "2024-07-23 17:20:05 +0000"
     },
-    "done": false
+    "done": true
   },
-  "incendium:technical/feed_ghastling": {
+  "minecraft:recipes/building_blocks/granite": {
     "criteria": {
-      "log_spam_fixer": "2024-07-23 09:08:07 +0000"
+      "has_quartz": "2024-07-23 17:20:05 +0000"
     },
-    "done": false
+    "done": true
   },
-  "incendium:technical/firestorm": {
+  "minecraft:recipes/building_blocks/quartz_block": {
     "criteria": {
-      "log_spam_fixer": "2024-07-23 09:08:07 +0000"
+      "has_quartz": "2024-07-23 17:20:05 +0000"
     },
-    "done": false
+    "done": true
   },
-  "incendium:technical/inventory/firestorm": {
+  "minecraft:recipes/redstone/comparator": {
     "criteria": {
-      "log_spam_fixer": "2024-07-23 09:08:07 +0000"
+      "has_quartz": "2024-07-23 17:20:05 +0000"
     },
-    "done": false
+    "done": true
   },
-  "incendium:technical/give_ghastling": {
+  "minecraft:adventure/hero_of_the_village": {
     "criteria": {
-      "log_spam_fixer": "2024-07-23 09:08:07 +0000"
+      "hero_of_the_village": "2024-07-23 16:49:37 +0000"
     },
-    "done": false
+    "done": true
   },
-  "incendium:technical/multiplex_crossbow": {
+  "minecraft:recipes/redstone/daylight_detector": {
     "criteria": {
-      "log_spam_fixer": "2024-07-23 09:08:07 +0000"
+      "has_quartz": "2024-07-23 17:20:05 +0000"
     },
-    "done": false
+    "done": true
+  },
+  "minecraft:recipes/redstone/observer": {
+    "criteria": {
+      "has_quartz": "2024-07-23 17:20:05 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/find_bastion": {
+    "criteria": {
+      "bastion": "2024-07-23 17:16:32 +0000"
+    },
+    "done": true
   },
   "DataVersion": 3465
 }
