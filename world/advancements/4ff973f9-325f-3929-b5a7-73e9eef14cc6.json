@@ -282,6 +282,7 @@
       "chicken": "2024-07-15 17:39:29 +0000",
       "cooked_beef": "2024-07-17 15:50:39 +0000",
       "baked_potato": "2024-07-22 17:12:38 +0000",
+      "pumpkin_pie": "2024-07-24 17:25:36 +0000",
       "mutton": "2024-07-15 17:42:45 +0000",
       "bread": "2024-07-19 13:59:04 +0000",
       "rotten_flesh": "2024-07-17 15:22:13 +0000",
@@ -6271,76 +6272,117 @@
     },
     "done": true
   },
+  "creategoggles:recipes/diamond_backtank": {
+    "criteria": {
+      "has_backtank": "2024-07-24 08:46:43 +0000"
+    },
+    "done": true
+  },
+  "creategoggles:recipes/goggle_diamond_helmet": {
+    "criteria": {
+      "has_helmet": "2024-07-24 08:46:43 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_cod_from_smoking": {
+    "criteria": {
+      "has_cod": "2024-07-24 08:55:33 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_cod_from_campfire_cooking": {
+    "criteria": {
+      "has_cod": "2024-07-24 08:55:33 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_cod": {
+    "criteria": {
+      "has_cod": "2024-07-24 08:55:33 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/appliances/schedule_clear": {
+    "criteria": {
+      "has_item": "2024-07-24 16:08:02 +0000"
+    },
+    "done": true
+  },
+  "create:conductor": {
+    "criteria": {
+      "0": "2024-07-24 16:08:11 +0000"
+    },
+    "done": true
+  },
   "incendium:technical/sentrys_wrath": {
     "criteria": {
-      "log_spam_fixer": "2024-07-23 18:02:56 +0000"
+      "log_spam_fixer": "2024-07-24 17:40:25 +0000"
     },
     "done": false
   },
   "incendium:technical/on_player_hurt": {
     "criteria": {
-      "requirement": "2024-07-23 18:03:06 +0000",
-      "log_spam_fixer": "2024-07-23 18:02:56 +0000"
+      "log_spam_fixer": "2024-07-24 17:40:25 +0000"
     },
-    "done": true
+    "done": false
   },
   "incendium:technical/on_kill": {
     "criteria": {
-      "log_spam_fixer": "2024-07-23 18:02:56 +0000"
+      "log_spam_fixer": "2024-07-24 17:40:25 +0000"
     },
     "done": false
   },
   "incendium:technical/on_inventory_change": {
     "criteria": {
-      "log_spam_fixer": "2024-07-23 18:02:56 +0000"
+      "log_spam_fixer": "2024-07-24 17:40:25 +0000"
     },
     "done": false
   },
   "incendium:technical/holy_wrath": {
     "criteria": {
-      "log_spam_fixer": "2024-07-23 18:02:56 +0000"
+      "log_spam_fixer": "2024-07-24 17:40:25 +0000"
     },
     "done": false
   },
   "incendium:technical/on_block": {
     "criteria": {
-      "log_spam_fixer": "2024-07-23 18:02:56 +0000"
+      "log_spam_fixer": "2024-07-24 17:40:25 +0000"
     },
     "done": false
   },
   "incendium:technical/inventory/sentrys_wrath": {
     "criteria": {
-      "log_spam_fixer": "2024-07-23 18:02:56 +0000"
+      "log_spam_fixer": "2024-07-24 17:40:25 +0000"
     },
     "done": false
   },
   "incendium:technical/feed_ghastling": {
     "criteria": {
-      "log_spam_fixer": "2024-07-23 18:02:56 +0000"
+      "log_spam_fixer": "2024-07-24 17:40:25 +0000"
     },
     "done": false
   },
   "incendium:technical/firestorm": {
     "criteria": {
-      "log_spam_fixer": "2024-07-23 18:02:56 +0000"
+      "log_spam_fixer": "2024-07-24 17:40:25 +0000"
     },
     "done": false
   },
   "incendium:technical/inventory/firestorm": {
     "criteria": {
-      "log_spam_fixer": "2024-07-23 18:02:56 +0000"
+      "log_spam_fixer": "2024-07-24 17:40:25 +0000"
     },
     "done": false
   },
   "incendium:technical/give_ghastling": {
     "criteria": {
-      "log_spam_fixer": "2024-07-23 18:02:56 +0000"
+      "log_spam_fixer": "2024-07-24 17:40:25 +0000"
     },
     "done": false
   },
   "incendium:technical/multiplex_crossbow": {
     "criteria": {
-      "log_spam_fixer": "2024-07-23 18:02:56 +0000"
+      "log_spam_fixer": "2024-07-24 17:40:25 +0000"
     },
     "done": false
   },

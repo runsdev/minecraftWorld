@@ -1,7 +1,7 @@
 {
   "main": {
     "allowEntityInteract": false,
-    "maxLoginTries": 1,
+    "maxLoginTries": 5,
     "kickTime": 60,
     "enableGlobalPassword": false,
     "globalPassword": null,

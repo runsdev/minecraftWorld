@@ -1,9 +1,11 @@
-[01:20:02] [main/INFO]: Loading Minecraft 1.20.1 with Fabric Loader 0.16.0
-[01:20:03] [ForkJoinPool-1-worker-1/WARN]: Mod design_decor uses the version 0.4_fabric+1.20.1 which isn't compatible with Loader's extended semantic version format (Could not parse version number component '4_fabric'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
-[01:20:04] [main/WARN]: Warnings were found!
+[09:30:47] [main/INFO]: Loading Minecraft 1.20.1 with Fabric Loader 0.16.0
+[09:30:47] [ForkJoinPool-1-worker-2/WARN]: Mod creategoggles uses the version 0.5.5.g which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'g'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[09:30:47] [ForkJoinPool-1-worker-1/WARN]: Mod design_decor uses the version 0.4_fabric+1.20.1 which isn't compatible with Loader's extended semantic version format (Could not parse version number component '4_fabric'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[09:30:48] [main/WARN]: Warnings were found!
  - Mod 'Create Enchantment Industry' (create_enchantment_industry) 1.2.16 recommends version 0.5.1-f-build.1335+mc1.20.1 of mod 'Create' (create), but only the wrong version is present: 0.5.1-f-build.1417+mc1.20.1!
 	 - You should install version 0.5.1-f-build.1335+mc1.20.1 of mod 'Create' (create) for the optimal experience.
-[01:20:04] [main/INFO]: Loading 147 mods:
+[09:30:48] [main/INFO]: Loading 164 mods:
+	- architectury 9.2.14
 	- automobility 0.4.2+1.20.1-fabric
 	   \-- jsonem 0.2.1+1.20
 	- azurelib 2.0.31
@@ -66,6 +68,8 @@
 	             \-- porting_lib_model_materials 2.1.1090+1.20
 	- create_enchantment_industry 1.2.16
 	   \-- create_dragon_lib 1.4.2
+	- create_jetpack 4.2.0
+	   \-- flightlib 2.1.0
 	- createaddition 1.2.4
 	   \-- team_reborn_energy 2.3.0
 	- createbigcannons 0.5.4-nightly-8b9cea6
@@ -73,6 +77,7 @@
 	        \-- porting_lib_utility 2.1.1127+1.20
 	             \-- porting_lib_gametest 2.1.1127+1.20
 	- createdeco 2.0.2-1.20.1-fabric
+	- creategoggles 0.5.5.g
 	- createlagless 0.2
 	- design_decor 0.4_fabric+1.20.1
 	- dismountentity 3.4
@@ -145,6 +150,18 @@
 	   |-- fabric-sound-api-v1 1.0.13+1802ada577
 	   |-- fabric-transfer-api-v1 3.3.5+8dd72ea377
 	   \-- fabric-transitive-access-wideners-v1 4.3.1+1802ada577
+	- fabric-language-kotlin 1.11.0+kotlin.2.0.0
+	   |-- org_jetbrains_kotlin_kotlin-reflect 2.0.0
+	   |-- org_jetbrains_kotlin_kotlin-stdlib 2.0.0
+	   |-- org_jetbrains_kotlin_kotlin-stdlib-jdk7 2.0.0
+	   |-- org_jetbrains_kotlin_kotlin-stdlib-jdk8 2.0.0
+	   |-- org_jetbrains_kotlinx_atomicfu-jvm 0.24.0
+	   |-- org_jetbrains_kotlinx_kotlinx-coroutines-core-jvm 1.8.1
+	   |-- org_jetbrains_kotlinx_kotlinx-coroutines-jdk8 1.8.1
+	   |-- org_jetbrains_kotlinx_kotlinx-datetime-jvm 0.6.0
+	   |-- org_jetbrains_kotlinx_kotlinx-serialization-cbor-jvm 1.6.3
+	   |-- org_jetbrains_kotlinx_kotlinx-serialization-core-jvm 1.6.3
+	   \-- org_jetbrains_kotlinx_kotlinx-serialization-json-jvm 1.6.3
 	- fabricloader 0.16.0
 	   \-- mixinextras 0.4.0
 	- hwg 2.0.2
@@ -152,6 +169,7 @@
 	   \-- org_mariuszgromada_math_mathparser_org-mxparser 5.2.1
 	- incendium 5.3.5
 	- interiors 0.5.3+fabric-mc1.20.1
+	- jade 11.10.0+fabric
 	- java 21
 	- krypton 0.2.3
 	   \-- com_velocitypowered_velocity-native 3.2.0-SNAPSHOT
@@ -188,114 +206,127 @@
 	- smartbrainlib 1.14.2
 	- starlight 1.1.2+fabric.dbc156f
 	- terralith 2.5.4
-[01:20:05] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/MinecraftServer/fabricServerGithub/minecraftWorld/libraries/net/fabricmc/sponge-mixin/0.15.0+mixin.0.8.7/sponge-mixin-0.15.0+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
-[01:20:06] [main/INFO]: Compatibility level set to JAVA_17
-[01:20:06] [main/WARN]: Reference map 'createdeco-fabric-refmap.json' for createdeco.mixins.json could not be read. If this is a development environment you can ignore this message
-[01:20:06] [main/WARN]: Reference map 'dismountentity_fabric.refmap.json' for dismountentity_fabric.mixins.json could not be read. If this is a development environment you can ignore this message
-[01:20:06] [main/WARN]: Reference map 'interiors-fabric-refmap.json' for interiors.mixins.json could not be read. If this is a development environment you can ignore this message
-[01:20:06] [main/INFO]: Loaded configuration file for Lithium: 115 options available, 2 override(s) found
-[01:20:06] [main/WARN]: Reference map 'memoryleakfix-fabric-1.17+-fabric-refmap.json' for memoryleakfix-fabric.mixins.json could not be read. If this is a development environment you can ignore this message
-[01:20:07] [main/INFO]: Loaded configuration file for ModernFix 5.18.6+mc1.20.1: 60 options available, 0 override(s) found
-[01:20:07] [main/INFO]: Applying Nashorn fix
-[01:20:07] [main/WARN]: Reference map 'ritchiesprojectilelib-fabric-refmap.json' for ritchiesprojectilelib-fabric.mixins.json could not be read. If this is a development environment you can ignore this message
-[01:20:08] [main/WARN]: Error loading class: net/minecraft/class_906 (java.lang.ClassNotFoundException: net/minecraft/class_906)
-[01:20:08] [main/WARN]: @Mixin target net.minecraft.class_906 was not found porting_lib_tool_actions.mixins.json:FishingHookRendererMixin from mod porting_lib_tool_actions
-[01:20:08] [main/WARN]: Error loading class: link/infra/indium/renderer/helper/GeometryHelper (java.lang.ClassNotFoundException: link/infra/indium/renderer/helper/GeometryHelper)
-[01:20:08] [main/WARN]: Error loading class: net/fabricmc/fabric/impl/client/indigo/renderer/helper/GeometryHelper (java.lang.ClassNotFoundException: net/fabricmc/fabric/impl/client/indigo/renderer/helper/GeometryHelper)
-[01:20:08] [main/WARN]: Error loading class: com/firemerald/additionalplacements/common/ConfigCommon (java.lang.ClassNotFoundException: com/firemerald/additionalplacements/common/ConfigCommon)
-[01:20:08] [main/WARN]: Error loading class: com/firemerald/additionalplacements/block/AdditionalPlacementBlock (java.lang.ClassNotFoundException: com/firemerald/additionalplacements/block/AdditionalPlacementBlock)
-[01:20:08] [main/WARN]: @Mixin target com.firemerald.additionalplacements.block.AdditionalPlacementBlock was not found copycats-common.mixins.json:compat.additionalplacements.PlacementBlockMixin from mod copycats
-[01:20:08] [main/WARN]: Error loading class: me/jellysquid/mods/lithium/common/ai/pathing/PathNodeDefaults (java.lang.ClassNotFoundException: me/jellysquid/mods/lithium/common/ai/pathing/PathNodeDefaults)
-[01:20:08] [main/WARN]: Error loading class: me/jellysquid/mods/sodium/client/render/chunk/compile/pipeline/BlockOcclusionCache (java.lang.ClassNotFoundException: me/jellysquid/mods/sodium/client/render/chunk/compile/pipeline/BlockOcclusionCache)
-[01:20:08] [main/WARN]: Error loading class: me/jellysquid/mods/sodium/client/render/chunk/compile/pipeline/BlockRenderer (java.lang.ClassNotFoundException: me/jellysquid/mods/sodium/client/render/chunk/compile/pipeline/BlockRenderer)
-[01:20:09] [main/WARN]: Error loading class: net/minecraft/class_759 (java.lang.ClassNotFoundException: net/minecraft/class_759)
-[01:20:09] [main/WARN]: @Mixin target net.minecraft.class_759 was not found hwg.mixins.json:HeldItemRendererMixin from mod hwg
-[01:20:09] [main/WARN]: Force-disabling mixin 'ai.task.memory_change_counting.BrainMixin' as rule 'mixin.ai.task.memory_change_counting' (added by mods [smartbrainlib]) disables it and children
-[01:20:09] [main/WARN]: Force-disabling mixin 'ai.task.memory_change_counting.MultiTickTaskMixin' as rule 'mixin.ai.task.memory_change_counting' (added by mods [smartbrainlib]) disables it and children
-[01:20:09] [main/WARN]: Force-disabling mixin 'world.player_chunk_tick.ThreadedAnvilChunkStorageMixin' as rule 'mixin.world.player_chunk_tick' (added by mods [krypton]) disables it and children
-[01:20:10] [main/WARN]: Error loading class: net/coderbot/iris/Iris (java.lang.ClassNotFoundException: net/coderbot/iris/Iris)
-[01:20:10] [main/WARN]: @Mixin target net.coderbot.iris.Iris was not found notenoughcrashes.fabric.mixins.json:iris.SilentNEC from mod notenoughcrashes
-[01:20:10] [main/WARN]: Error loading class: net/minecraft/class_5616 (java.lang.ClassNotFoundException: net/minecraft/class_5616)
-[01:20:10] [main/WARN]: @Mixin target net.minecraft.class_5616 was not found registrate-fabric.mixins.json:accessor.BlockEntityRenderersAccessor from mod registrate-fabric
-[01:20:10] [main/WARN]: Error loading class: com/provismet/provihealth/util/Visibility (java.lang.ClassNotFoundException: com/provismet/provihealth/util/Visibility)
-[01:20:10] [main/WARN]: Error loading class: net/tslat/tes/api/util/TESUtil (java.lang.ClassNotFoundException: net/tslat/tes/api/util/TESUtil)
-[01:20:10] [main/INFO]: [MemoryLeakFix] Will be applying 1 memory leak fixes!
-[01:20:10] [main/INFO]: [MemoryLeakFix] Currently enabled memory leak fixes: [biomeTemperatureLeak]
-[01:20:10] [main/WARN]: Error loading class: com/firemerald/additionalplacements/block/AdditionalPlacementBlock (java.lang.ClassNotFoundException: com/firemerald/additionalplacements/block/AdditionalPlacementBlock)
-[01:20:10] [main/WARN]: Error loading class: com/firemerald/additionalplacements/block/AdditionalPlacementBlock (java.lang.ClassNotFoundException: com/firemerald/additionalplacements/block/AdditionalPlacementBlock)
-[01:20:11] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.0).
-[01:20:16] [main/WARN]: @Inject(@At("INVOKE")) Shift.BY=2 on porting_lib_entity.mixins.json:common.LivingEntityMixin from mod porting_lib_entity::handler$bpg000$porting_lib_entity$port_lib$onFinishUsing exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
-[01:20:16] [main/WARN]: Error loading class: com/firemerald/additionalplacements/block/AdditionalPlacementBlock (java.lang.ClassNotFoundException: com/firemerald/additionalplacements/block/AdditionalPlacementBlock)
-[01:20:16] [main/WARN]: Error loading class: com/firemerald/additionalplacements/block/AdditionalPlacementBlock (java.lang.ClassNotFoundException: com/firemerald/additionalplacements/block/AdditionalPlacementBlock)
-[01:20:17] [main/WARN]: Error loading class: com/firemerald/additionalplacements/block/AdditionalPlacementBlock (java.lang.ClassNotFoundException: com/firemerald/additionalplacements/block/AdditionalPlacementBlock)
-[01:20:17] [main/WARN]: Error loading class: com/firemerald/additionalplacements/block/AdditionalPlacementBlock (java.lang.ClassNotFoundException: com/firemerald/additionalplacements/block/AdditionalPlacementBlock)
-[01:20:17] [main/WARN]: Error loading class: com/firemerald/additionalplacements/block/AdditionalPlacementBlock (java.lang.ClassNotFoundException: com/firemerald/additionalplacements/block/AdditionalPlacementBlock)
-[01:20:17] [main/INFO]: Injecting BlockStateBase cache population hook into getNeighborPathNodeType from me.jellysquid.mods.lithium.mixin.ai.pathing.AbstractBlockStateMixin
-[01:20:17] [main/INFO]: Injecting BlockStateBase cache population hook into getPathNodeType from me.jellysquid.mods.lithium.mixin.ai.pathing.AbstractBlockStateMixin
-[01:20:17] [main/INFO]: Injecting BlockStateBase cache population hook into getOpacityIfCached from ca.spottedleaf.starlight.mixin.common.blockstate.BlockStateBaseMixin
-[01:20:17] [main/INFO]: Injecting BlockStateBase cache population hook into isConditionallyFullOpaque from ca.spottedleaf.starlight.mixin.common.blockstate.BlockStateBaseMixin
-[01:20:17] [main/INFO]: Injecting BlockStateBase cache population hook into getAllFlags from me.jellysquid.mods.lithium.mixin.util.block_tracking.AbstractBlockStateMixin
-[01:20:22] [main/WARN]: Method overwrite conflict for method_21740 in modernfix-common.mixins.json:perf.remove_biome_temperature_cache.BiomeMixin from mod modernfix, previously written by me.jellysquid.mods.lithium.mixin.world.temperature_cache.BiomeMixin. Skipping method.
-[01:20:23] [main/INFO]: Vanilla bootstrap took 8486 milliseconds
-[01:20:23] [main/INFO]: Registered azurelib config for auto-sync function
-[01:20:23] [main/INFO]: Registering Item Groups for bellsandwhistles
-[01:20:23] [main/INFO]: Create addon mod [Create: Bells & Whistles] is loading alongside Create [0.5.1d]!
-[01:20:23] [main/INFO]: Create: Bells & Whistles is accessinsg Porting Lib from the server!
-[01:20:23] [main/INFO]: Loading Collective version 7.71.
-[01:20:24] [Cicada thread 0/INFO]: 'ban yourself'
-[01:20:24] [Cicada thread 0/INFO]: 'uwu'
-[01:20:29] [main/INFO]: Create: Dragon Lib Create Dragon Lib has initialized, ready to support your Create add-ons!
-[01:20:29] [main/INFO]: CEI: hyper_experience_orb got converted to hyper_experience_orb
-[01:20:29] [main/INFO]: CEI: hyper_experience_bottle got converted to hyper_experience_bottle
-[01:20:29] [main/WARN]: Tried to register an overly high cookTime: 57600 > 32767! (air)
-[01:20:29] [main/INFO]: [STDOUT]: Create Crafts & Additions Initialized!
-[01:20:30] [main/INFO]: Registering items for Create Deco
-[01:20:30] [main/INFO]: Registering blocks for Create Deco
-[01:20:30] [main/INFO]: Create Deco is accessing Porting Lib on a Fabric server!
-[01:20:31] [main/INFO]: placard tooltip was null
-[01:20:31] [main/INFO]: placard tooltip was null
-[01:20:31] [main/INFO]: placard tooltip was null
-[01:20:31] [main/INFO]: placard tooltip was null
-[01:20:31] [main/INFO]: placard tooltip was null
-[01:20:31] [main/INFO]: placard tooltip was null
-[01:20:31] [main/INFO]: placard tooltip was null
-[01:20:31] [main/INFO]: placard tooltip was null
-[01:20:31] [main/INFO]: placard tooltip was null
-[01:20:31] [main/INFO]: placard tooltip was null
-[01:20:31] [main/INFO]: placard tooltip was null
-[01:20:31] [main/INFO]: placard tooltip was null
-[01:20:31] [main/INFO]: placard tooltip was null
-[01:20:31] [main/INFO]: placard tooltip was null
-[01:20:31] [main/INFO]: placard tooltip was null
-[01:20:31] [main/INFO]: Create addon mod [Create: Design n' Decor] is loading alongside Create [0.5.1f]!
-[01:20:31] [main/INFO]: Create: Design n' Decor is accessing Porting Lib from the server!
-[01:20:32] [main/INFO]: [EasyAuth]: EasyAuth mod by samo_lego, NikitaCartes.
-[01:20:32] [main/WARN]: [EasyAuth]: Disable enforce-secure-profile to allow offline players to join the server
-[01:20:32] [main/WARN]: [EasyAuth]: For more info, see https://github.com/NikitaCartes/EasyAuth/issues/68
-[01:20:32] [main/INFO]: [EasyAuth]: You have premiumAutologin enabled. Enable online-mode so that online player can not register.
-[01:20:32] [main/INFO]: Registered hwg config for auto-sync function
-[01:20:33] [main/INFO]: Create: Interiors v0.5.3+fabric-mc1.20.1 initializing! Create version: 0.5.1f on platform: Fabric
-[01:20:33] [main/INFO]: Compression will use libdeflate (Linux x86_64), encryption will use OpenSSL 1.1.x (Linux x86_64)
-[01:20:33] [main/INFO]: Definitely not up to no good
-[01:20:33] [main/INFO]: Registered bogey styles from railways
-[01:20:33] [main/INFO]: Registering data fixers
-[01:20:33] [main/INFO]: Bypassed Mojang DFU
-[01:20:33] [main/INFO]: Instantiating Mojang DFU
-[01:20:34] [main/INFO]: 0 Datafixer optimizations took 0 milliseconds
-[01:20:34] [main/INFO]: Registering tracks for Hex Casting
-[01:20:34] [main/INFO]: Registering tracks for Oh The Biomes You'll Go
-[01:20:34] [main/INFO]: Registering tracks for Blue Skies
-[01:20:34] [main/INFO]: Registering tracks for Twilight Forest
-[01:20:34] [main/INFO]: Registering tracks for Biomes O' Plenty
-[01:20:34] [main/INFO]: Registering tracks for Nature's Spirit
-[01:20:34] [main/INFO]: Registering tracks for Dreams and Desires
-[01:20:34] [main/INFO]: Registering tracks for Quark
-[01:20:34] [main/INFO]: Registering tracks for TerraFirmaCraft
-[01:20:35] [main/INFO]: Krypton is now accelerating your Minecraft server's networking stack 🚀
-[01:20:35] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[01:20:38] [main/INFO]: [fabric-registry-sync] Loaded registry data [file 1/4]
-[01:20:39] [Worker-Main-1/ERROR]: Couldn't load tag design_decor:containers as it is missing following references: design_decor:red_container (from fabric), design_decor:blue_container (from fabric), design_decor:green_container (from fabric)
-[01:20:43] [main/ERROR]: Parsing error loading recipe design_decor:item_application/crushing_wheels/special_aluminum_cylinder
+[09:30:48] [main/WARN]: Found 1 non-fabric mod:
+	- createutilities-0.3.0+1.20.1.jar
+[09:30:48] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/MinecraftServer/fabricServerGithub/minecraftWorld/libraries/net/fabricmc/sponge-mixin/0.15.0+mixin.0.8.7/sponge-mixin-0.15.0+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[09:30:48] [main/INFO]: Compatibility level set to JAVA_16
+[09:30:48] [main/INFO]: Compatibility level set to JAVA_17
+[09:30:48] [main/WARN]: Reference map 'createdeco-fabric-refmap.json' for createdeco.mixins.json could not be read. If this is a development environment you can ignore this message
+[09:30:48] [main/WARN]: Reference map 'dismountentity_fabric.refmap.json' for dismountentity_fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[09:30:48] [main/WARN]: Reference map 'interiors-fabric-refmap.json' for interiors.mixins.json could not be read. If this is a development environment you can ignore this message
+[09:30:48] [main/INFO]: Loaded configuration file for Lithium: 115 options available, 2 override(s) found
+[09:30:48] [main/WARN]: Reference map 'memoryleakfix-fabric-1.17+-fabric-refmap.json' for memoryleakfix-fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[09:30:49] [main/INFO]: Loaded configuration file for ModernFix 5.18.6+mc1.20.1: 60 options available, 0 override(s) found
+[09:30:49] [main/INFO]: Applying Nashorn fix
+[09:30:49] [main/WARN]: Reference map 'ritchiesprojectilelib-fabric-refmap.json' for ritchiesprojectilelib-fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[09:30:49] [main/WARN]: Error loading class: net/minecraft/class_906 (java.lang.ClassNotFoundException: net/minecraft/class_906)
+[09:30:49] [main/WARN]: @Mixin target net.minecraft.class_906 was not found porting_lib_tool_actions.mixins.json:FishingHookRendererMixin from mod porting_lib_tool_actions
+[09:30:49] [main/WARN]: Error loading class: link/infra/indium/renderer/helper/GeometryHelper (java.lang.ClassNotFoundException: link/infra/indium/renderer/helper/GeometryHelper)
+[09:30:49] [main/WARN]: Error loading class: net/fabricmc/fabric/impl/client/indigo/renderer/helper/GeometryHelper (java.lang.ClassNotFoundException: net/fabricmc/fabric/impl/client/indigo/renderer/helper/GeometryHelper)
+[09:30:49] [main/WARN]: Error loading class: com/firemerald/additionalplacements/common/ConfigCommon (java.lang.ClassNotFoundException: com/firemerald/additionalplacements/common/ConfigCommon)
+[09:30:49] [main/WARN]: Error loading class: com/firemerald/additionalplacements/block/AdditionalPlacementBlock (java.lang.ClassNotFoundException: com/firemerald/additionalplacements/block/AdditionalPlacementBlock)
+[09:30:49] [main/WARN]: @Mixin target com.firemerald.additionalplacements.block.AdditionalPlacementBlock was not found copycats-common.mixins.json:compat.additionalplacements.PlacementBlockMixin from mod copycats
+[09:30:49] [main/WARN]: Error loading class: me/jellysquid/mods/lithium/common/ai/pathing/PathNodeDefaults (java.lang.ClassNotFoundException: me/jellysquid/mods/lithium/common/ai/pathing/PathNodeDefaults)
+[09:30:49] [main/WARN]: Error loading class: me/jellysquid/mods/sodium/client/render/chunk/compile/pipeline/BlockOcclusionCache (java.lang.ClassNotFoundException: me/jellysquid/mods/sodium/client/render/chunk/compile/pipeline/BlockOcclusionCache)
+[09:30:49] [main/WARN]: Error loading class: me/jellysquid/mods/sodium/client/render/chunk/compile/pipeline/BlockRenderer (java.lang.ClassNotFoundException: me/jellysquid/mods/sodium/client/render/chunk/compile/pipeline/BlockRenderer)
+[09:30:49] [main/WARN]: Error loading class: net/minecraft/class_759 (java.lang.ClassNotFoundException: net/minecraft/class_759)
+[09:30:49] [main/WARN]: @Mixin target net.minecraft.class_759 was not found hwg.mixins.json:HeldItemRendererMixin from mod hwg
+[09:30:50] [main/WARN]: Force-disabling mixin 'ai.task.memory_change_counting.BrainMixin' as rule 'mixin.ai.task.memory_change_counting' (added by mods [smartbrainlib]) disables it and children
+[09:30:50] [main/WARN]: Force-disabling mixin 'ai.task.memory_change_counting.MultiTickTaskMixin' as rule 'mixin.ai.task.memory_change_counting' (added by mods [smartbrainlib]) disables it and children
+[09:30:50] [main/WARN]: Force-disabling mixin 'world.player_chunk_tick.ThreadedAnvilChunkStorageMixin' as rule 'mixin.world.player_chunk_tick' (added by mods [krypton]) disables it and children
+[09:30:50] [main/WARN]: Error loading class: net/coderbot/iris/Iris (java.lang.ClassNotFoundException: net/coderbot/iris/Iris)
+[09:30:50] [main/WARN]: @Mixin target net.coderbot.iris.Iris was not found notenoughcrashes.fabric.mixins.json:iris.SilentNEC from mod notenoughcrashes
+[09:30:50] [main/WARN]: Error loading class: net/minecraft/class_5616 (java.lang.ClassNotFoundException: net/minecraft/class_5616)
+[09:30:50] [main/WARN]: @Mixin target net.minecraft.class_5616 was not found registrate-fabric.mixins.json:accessor.BlockEntityRenderersAccessor from mod registrate-fabric
+[09:30:50] [main/WARN]: Error loading class: com/provismet/provihealth/util/Visibility (java.lang.ClassNotFoundException: com/provismet/provihealth/util/Visibility)
+[09:30:50] [main/WARN]: Error loading class: net/tslat/tes/api/util/TESUtil (java.lang.ClassNotFoundException: net/tslat/tes/api/util/TESUtil)
+[09:30:50] [main/INFO]: [MemoryLeakFix] Will be applying 1 memory leak fixes!
+[09:30:50] [main/INFO]: [MemoryLeakFix] Currently enabled memory leak fixes: [biomeTemperatureLeak]
+[09:30:50] [main/WARN]: Error loading class: com/firemerald/additionalplacements/block/AdditionalPlacementBlock (java.lang.ClassNotFoundException: com/firemerald/additionalplacements/block/AdditionalPlacementBlock)
+[09:30:50] [main/WARN]: Error loading class: com/firemerald/additionalplacements/block/AdditionalPlacementBlock (java.lang.ClassNotFoundException: com/firemerald/additionalplacements/block/AdditionalPlacementBlock)
+[09:30:50] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.0).
+[09:30:54] [main/WARN]: @Inject(@At("INVOKE")) Shift.BY=2 on porting_lib_entity.mixins.json:common.LivingEntityMixin from mod porting_lib_entity::handler$cbj000$porting_lib_entity$port_lib$onFinishUsing exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
+[09:30:55] [main/WARN]: Error loading class: com/firemerald/additionalplacements/block/AdditionalPlacementBlock (java.lang.ClassNotFoundException: com/firemerald/additionalplacements/block/AdditionalPlacementBlock)
+[09:30:55] [main/WARN]: Error loading class: com/firemerald/additionalplacements/block/AdditionalPlacementBlock (java.lang.ClassNotFoundException: com/firemerald/additionalplacements/block/AdditionalPlacementBlock)
+[09:30:55] [main/WARN]: Error loading class: com/firemerald/additionalplacements/block/AdditionalPlacementBlock (java.lang.ClassNotFoundException: com/firemerald/additionalplacements/block/AdditionalPlacementBlock)
+[09:30:55] [main/WARN]: Error loading class: com/firemerald/additionalplacements/block/AdditionalPlacementBlock (java.lang.ClassNotFoundException: com/firemerald/additionalplacements/block/AdditionalPlacementBlock)
+[09:30:55] [main/WARN]: Error loading class: com/firemerald/additionalplacements/block/AdditionalPlacementBlock (java.lang.ClassNotFoundException: com/firemerald/additionalplacements/block/AdditionalPlacementBlock)
+[09:30:55] [main/INFO]: Injecting BlockStateBase cache population hook into getNeighborPathNodeType from me.jellysquid.mods.lithium.mixin.ai.pathing.AbstractBlockStateMixin
+[09:30:55] [main/INFO]: Injecting BlockStateBase cache population hook into getPathNodeType from me.jellysquid.mods.lithium.mixin.ai.pathing.AbstractBlockStateMixin
+[09:30:55] [main/INFO]: Injecting BlockStateBase cache population hook into getOpacityIfCached from ca.spottedleaf.starlight.mixin.common.blockstate.BlockStateBaseMixin
+[09:30:55] [main/INFO]: Injecting BlockStateBase cache population hook into isConditionallyFullOpaque from ca.spottedleaf.starlight.mixin.common.blockstate.BlockStateBaseMixin
+[09:30:55] [main/INFO]: Injecting BlockStateBase cache population hook into getAllFlags from me.jellysquid.mods.lithium.mixin.util.block_tracking.AbstractBlockStateMixin
+[09:31:00] [main/WARN]: Method overwrite conflict for method_21740 in modernfix-common.mixins.json:perf.remove_biome_temperature_cache.BiomeMixin from mod modernfix, previously written by me.jellysquid.mods.lithium.mixin.world.temperature_cache.BiomeMixin. Skipping method.
+[09:31:00] [main/INFO]: Vanilla bootstrap took 7626 milliseconds
+[09:31:01] [main/INFO]: Registered azurelib config for auto-sync function
+[09:31:01] [main/INFO]: Registering Item Groups for bellsandwhistles
+[09:31:01] [main/INFO]: Create addon mod [Create: Bells & Whistles] is loading alongside Create [0.5.1d]!
+[09:31:01] [main/INFO]: Create: Bells & Whistles is accessinsg Porting Lib from the server!
+[09:31:01] [main/INFO]: Loading Collective version 7.71.
+[09:31:02] [Cicada thread 0/INFO]: 'i showed you my huge tater pls respond'
+[09:31:06] [main/INFO]: Create: Dragon Lib Create Dragon Lib has initialized, ready to support your Create add-ons!
+[09:31:06] [main/INFO]: CEI: hyper_experience_orb got converted to hyper_experience_orb
+[09:31:06] [main/INFO]: CEI: hyper_experience_bottle got converted to hyper_experience_bottle
+[09:31:07] [main/WARN]: Tried to register an overly high cookTime: 57600 > 32767! (air)
+[09:31:07] [main/INFO]: [STDOUT]: Create Crafts & Additions Initialized!
+[09:31:07] [main/INFO]: Registering items for Create Deco
+[09:31:07] [main/INFO]: Registering blocks for Create Deco
+[09:31:07] [main/INFO]: Create Deco is accessing Porting Lib on a Fabric server!
+[09:31:08] [main/INFO]: placard tooltip was null
+[09:31:08] [main/INFO]: placard tooltip was null
+[09:31:08] [main/INFO]: placard tooltip was null
+[09:31:08] [main/INFO]: placard tooltip was null
+[09:31:08] [main/INFO]: placard tooltip was null
+[09:31:08] [main/INFO]: placard tooltip was null
+[09:31:08] [main/INFO]: placard tooltip was null
+[09:31:08] [main/INFO]: placard tooltip was null
+[09:31:08] [main/INFO]: placard tooltip was null
+[09:31:08] [main/INFO]: placard tooltip was null
+[09:31:08] [main/INFO]: placard tooltip was null
+[09:31:08] [main/INFO]: placard tooltip was null
+[09:31:08] [main/INFO]: placard tooltip was null
+[09:31:08] [main/INFO]: placard tooltip was null
+[09:31:08] [main/INFO]: placard tooltip was null
+[09:31:08] [main/INFO]: CreateGoggles init
+[09:31:08] [main/INFO]: cgblocks
+[09:31:08] [main/INFO]: cgitems
+[09:31:08] [main/INFO]: cgblockentities
+[09:31:08] [main/INFO]: ResourceKey[minecraft:trim_pattern / creategoggles:goggle]
+[09:31:08] [main/INFO]: ResourceKey[minecraft:trim_material / creategoggles:goggle_material]
+[09:31:08] [main/INFO]: ResourceKey[minecraft:root / minecraft:trim_pattern]
+[09:31:08] [main/INFO]: CGItemModifiers register false
+[09:31:08] [main/INFO]: CreateGogglesFabric init
+[09:31:09] [main/INFO]: Create addon mod [Create: Design n' Decor] is loading alongside Create [0.5.1f]!
+[09:31:09] [main/INFO]: Create: Design n' Decor is accessing Porting Lib from the server!
+[09:31:09] [main/INFO]: [EasyAuth]: EasyAuth mod by samo_lego, NikitaCartes.
+[09:31:09] [main/WARN]: [EasyAuth]: Disable enforce-secure-profile to allow offline players to join the server
+[09:31:09] [main/WARN]: [EasyAuth]: For more info, see https://github.com/NikitaCartes/EasyAuth/issues/68
+[09:31:09] [main/INFO]: [EasyAuth]: You have premiumAutologin enabled. Enable online-mode so that online player can not register.
+[09:31:10] [main/INFO]: Registered hwg config for auto-sync function
+[09:31:10] [main/INFO]: Create: Interiors v0.5.3+fabric-mc1.20.1 initializing! Create version: 0.5.1f on platform: Fabric
+[09:31:10] [main/INFO]: Compression will use libdeflate (Linux x86_64), encryption will use OpenSSL 1.1.x (Linux x86_64)
+[09:31:10] [main/INFO]: Definitely not up to no good
+[09:31:10] [main/INFO]: Registered bogey styles from railways
+[09:31:11] [main/INFO]: Registering data fixers
+[09:31:11] [main/INFO]: Bypassed Mojang DFU
+[09:31:11] [main/INFO]: Instantiating Mojang DFU
+[09:31:12] [main/INFO]: 0 Datafixer optimizations took 0 milliseconds
+[09:31:12] [main/INFO]: Registering tracks for Hex Casting
+[09:31:12] [main/INFO]: Registering tracks for Oh The Biomes You'll Go
+[09:31:12] [main/INFO]: Registering tracks for Blue Skies
+[09:31:12] [main/INFO]: Registering tracks for Twilight Forest
+[09:31:12] [main/INFO]: Registering tracks for Biomes O' Plenty
+[09:31:12] [main/INFO]: Registering tracks for Nature's Spirit
+[09:31:12] [main/INFO]: Registering tracks for Dreams and Desires
+[09:31:12] [main/INFO]: Registering tracks for Quark
+[09:31:12] [main/INFO]: Registering tracks for TerraFirmaCraft
+[09:31:12] [main/INFO]: Krypton is now accelerating your Minecraft server's networking stack 🚀
+[09:31:12] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[09:31:15] [main/INFO]: [fabric-registry-sync] Loaded registry data [file 1/4]
+[09:31:16] [Worker-Main-1/ERROR]: Couldn't load tag design_decor:containers as it is missing following references: design_decor:red_container (from fabric), design_decor:blue_container (from fabric), design_decor:green_container (from fabric)
+[09:31:16] [Worker-Main-1/ERROR]: Couldn't load tag creategoggles:modifier/goggle_incompatible as it is missing following references: mekanism:mekasuit_helmet (from fabric)
+[09:31:16] [Worker-Main-1/ERROR]: Couldn't load tag minecraft:trim_materialss as it is missing following references: creategoggles:goggle_material (from fabric)
+[09:31:18] [main/ERROR]: Parsing error loading recipe design_decor:item_application/crushing_wheels/special_aluminum_cylinder
 com.google.gson.JsonSyntaxException: Unknown item 'design_decor:aluminum_boiler'
 	at net.minecraft.class_1869.method_17878(class_1869.java:272) ~[server-intermediary.jar:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -321,12 +352,12 @@ com.google.gson.JsonSyntaxException: Unknown item 'design_decor:aluminum_boiler'
 	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.16.0.jar:?]
 	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) ~[fabric-loader-0.16.0.jar:?]
 	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) ~[server1201.jar:1.0.1]
-[01:20:43] [main/WARN]: Your custom createaddition:charging/exposed_cut_copper recipe (createaddition:charging/exposed_cut_copper) specified a duration. Durations have no impact on this type of recipe.
-[01:20:43] [main/WARN]: Your custom createaddition:rolling/electrum_ingot recipe (createaddition:rolling/electrum_ingot) specified a duration. Durations have no impact on this type of recipe.
-[01:20:43] [main/WARN]: Your custom createaddition:charging/exposed_cut_copper_slab recipe (createaddition:charging/exposed_cut_copper_slab) specified a duration. Durations have no impact on this type of recipe.
-[01:20:43] [main/WARN]: Your custom createaddition:charging/weathered_copper_shingles recipe (createaddition:charging/weathered_copper_shingles) specified a duration. Durations have no impact on this type of recipe.
-[01:20:43] [main/WARN]: Your custom createaddition:charging/weathered_copper_shingle_stairs recipe (createaddition:charging/weathered_copper_shingle_stairs) specified a duration. Durations have no impact on this type of recipe.
-[01:20:43] [main/ERROR]: Parsing error loading recipe smallships:bamboo_drakkar
+[09:31:18] [main/WARN]: Your custom createaddition:charging/exposed_cut_copper recipe (createaddition:charging/exposed_cut_copper) specified a duration. Durations have no impact on this type of recipe.
+[09:31:18] [main/WARN]: Your custom createaddition:rolling/electrum_ingot recipe (createaddition:rolling/electrum_ingot) specified a duration. Durations have no impact on this type of recipe.
+[09:31:18] [main/WARN]: Your custom createaddition:charging/exposed_cut_copper_slab recipe (createaddition:charging/exposed_cut_copper_slab) specified a duration. Durations have no impact on this type of recipe.
+[09:31:18] [main/WARN]: Your custom createaddition:charging/weathered_copper_shingles recipe (createaddition:charging/weathered_copper_shingles) specified a duration. Durations have no impact on this type of recipe.
+[09:31:18] [main/WARN]: Your custom createaddition:charging/weathered_copper_shingle_stairs recipe (createaddition:charging/weathered_copper_shingle_stairs) specified a duration. Durations have no impact on this type of recipe.
+[09:31:18] [main/ERROR]: Parsing error loading recipe smallships:bamboo_drakkar
 com.google.gson.JsonSyntaxException: Unknown item 'minecraft:bamboo_boat'
 	at net.minecraft.class_1869.method_17878(class_1869.java:272) ~[server-intermediary.jar:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -351,8 +382,8 @@ com.google.gson.JsonSyntaxException: Unknown item 'minecraft:bamboo_boat'
 	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.16.0.jar:?]
 	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) ~[fabric-loader-0.16.0.jar:?]
 	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) ~[server1201.jar:1.0.1]
-[01:20:43] [main/WARN]: Your custom createaddition:charging/exposed_copper recipe (createaddition:charging/exposed_copper) specified a duration. Durations have no impact on this type of recipe.
-[01:20:43] [main/ERROR]: Parsing error loading recipe createaddition:compat/immersiveengineering/item_application/reinforced_blast_brick
+[09:31:18] [main/WARN]: Your custom createaddition:charging/exposed_copper recipe (createaddition:charging/exposed_copper) specified a duration. Durations have no impact on this type of recipe.
+[09:31:18] [main/ERROR]: Parsing error loading recipe createaddition:compat/immersiveengineering/item_application/reinforced_blast_brick
 com.google.gson.JsonSyntaxException: Unknown item 'immersiveengineering:blastbrick'
 	at net.minecraft.class_1869.method_17878(class_1869.java:272) ~[server-intermediary.jar:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -378,13 +409,13 @@ com.google.gson.JsonSyntaxException: Unknown item 'immersiveengineering:blastbri
 	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.16.0.jar:?]
 	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) ~[fabric-loader-0.16.0.jar:?]
 	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) ~[server1201.jar:1.0.1]
-[01:20:43] [main/WARN]: Your custom createaddition:rolling/brass_ingot recipe (createaddition:rolling/brass_ingot) specified a duration. Durations have no impact on this type of recipe.
-[01:20:43] [main/WARN]: Your custom createaddition:charging/copper_shingle_stairs recipe (createaddition:charging/copper_shingle_stairs) specified a duration. Durations have no impact on this type of recipe.
-[01:20:43] [main/WARN]: Your custom createaddition:rolling/iron_ingot recipe (createaddition:rolling/iron_ingot) specified a duration. Durations have no impact on this type of recipe.
-[01:20:43] [main/WARN]: Your custom createaddition:charging/copper_shingles recipe (createaddition:charging/copper_shingles) specified a duration. Durations have no impact on this type of recipe.
-[01:20:43] [main/WARN]: Your custom createaddition:charging/copper_block recipe (createaddition:charging/copper_block) specified a duration. Durations have no impact on this type of recipe.
-[01:20:43] [main/WARN]: Your custom createaddition:rolling/copper_ingot recipe (createaddition:rolling/copper_ingot) specified a duration. Durations have no impact on this type of recipe.
-[01:20:43] [main/ERROR]: Parsing error loading recipe design_decor:item_application/millstones/special_aluminum_cylinder
+[09:31:18] [main/WARN]: Your custom createaddition:rolling/brass_ingot recipe (createaddition:rolling/brass_ingot) specified a duration. Durations have no impact on this type of recipe.
+[09:31:18] [main/WARN]: Your custom createaddition:charging/copper_shingle_stairs recipe (createaddition:charging/copper_shingle_stairs) specified a duration. Durations have no impact on this type of recipe.
+[09:31:18] [main/WARN]: Your custom createaddition:rolling/iron_ingot recipe (createaddition:rolling/iron_ingot) specified a duration. Durations have no impact on this type of recipe.
+[09:31:18] [main/WARN]: Your custom createaddition:charging/copper_shingles recipe (createaddition:charging/copper_shingles) specified a duration. Durations have no impact on this type of recipe.
+[09:31:18] [main/WARN]: Your custom createaddition:charging/copper_block recipe (createaddition:charging/copper_block) specified a duration. Durations have no impact on this type of recipe.
+[09:31:18] [main/WARN]: Your custom createaddition:rolling/copper_ingot recipe (createaddition:rolling/copper_ingot) specified a duration. Durations have no impact on this type of recipe.
+[09:31:18] [main/ERROR]: Parsing error loading recipe design_decor:item_application/millstones/special_aluminum_cylinder
 com.google.gson.JsonSyntaxException: Unknown item 'design_decor:aluminum_boiler'
 	at net.minecraft.class_1869.method_17878(class_1869.java:272) ~[server-intermediary.jar:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -410,15 +441,15 @@ com.google.gson.JsonSyntaxException: Unknown item 'design_decor:aluminum_boiler'
 	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.16.0.jar:?]
 	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) ~[fabric-loader-0.16.0.jar:?]
 	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) ~[server1201.jar:1.0.1]
-[01:20:43] [main/WARN]: Your custom createaddition:rolling/gold_ingot recipe (createaddition:rolling/gold_ingot) specified a duration. Durations have no impact on this type of recipe.
-[01:20:43] [main/WARN]: Your custom createaddition:rolling/straw recipe (createaddition:rolling/straw) specified a duration. Durations have no impact on this type of recipe.
-[01:20:43] [main/WARN]: Your custom createaddition:charging/weathered_copper recipe (createaddition:charging/weathered_copper) specified a duration. Durations have no impact on this type of recipe.
-[01:20:43] [main/WARN]: Your custom createaddition:charging/exposed_copper_shingle_stairs recipe (createaddition:charging/exposed_copper_shingle_stairs) specified a duration. Durations have no impact on this type of recipe.
-[01:20:43] [main/WARN]: Your custom createaddition:charging/cut_copper_block recipe (createaddition:charging/cut_copper_block) specified a duration. Durations have no impact on this type of recipe.
-[01:20:43] [main/WARN]: Your custom createaddition:charging/channeling recipe (createaddition:charging/channeling) specified a duration. Durations have no impact on this type of recipe.
-[01:20:43] [main/WARN]: Your custom createaddition:charging/cut_copper_slab recipe (createaddition:charging/cut_copper_slab) specified a duration. Durations have no impact on this type of recipe.
-[01:20:43] [main/WARN]: Your custom createaddition:charging/weathered_cut_copper_stairs recipe (createaddition:charging/weathered_cut_copper_stairs) specified a duration. Durations have no impact on this type of recipe.
-[01:20:43] [main/ERROR]: Parsing error loading recipe createaddition:compat/immersiveengineering/item_application/leaded_concrete
+[09:31:18] [main/WARN]: Your custom createaddition:rolling/gold_ingot recipe (createaddition:rolling/gold_ingot) specified a duration. Durations have no impact on this type of recipe.
+[09:31:18] [main/WARN]: Your custom createaddition:rolling/straw recipe (createaddition:rolling/straw) specified a duration. Durations have no impact on this type of recipe.
+[09:31:18] [main/WARN]: Your custom createaddition:charging/weathered_copper recipe (createaddition:charging/weathered_copper) specified a duration. Durations have no impact on this type of recipe.
+[09:31:18] [main/WARN]: Your custom createaddition:charging/exposed_copper_shingle_stairs recipe (createaddition:charging/exposed_copper_shingle_stairs) specified a duration. Durations have no impact on this type of recipe.
+[09:31:18] [main/WARN]: Your custom createaddition:charging/cut_copper_block recipe (createaddition:charging/cut_copper_block) specified a duration. Durations have no impact on this type of recipe.
+[09:31:18] [main/WARN]: Your custom createaddition:charging/channeling recipe (createaddition:charging/channeling) specified a duration. Durations have no impact on this type of recipe.
+[09:31:18] [main/WARN]: Your custom createaddition:charging/cut_copper_slab recipe (createaddition:charging/cut_copper_slab) specified a duration. Durations have no impact on this type of recipe.
+[09:31:18] [main/WARN]: Your custom createaddition:charging/weathered_cut_copper_stairs recipe (createaddition:charging/weathered_cut_copper_stairs) specified a duration. Durations have no impact on this type of recipe.
+[09:31:18] [main/ERROR]: Parsing error loading recipe createaddition:compat/immersiveengineering/item_application/leaded_concrete
 com.google.gson.JsonSyntaxException: Unknown item 'immersiveengineering:concrete'
 	at net.minecraft.class_1869.method_17878(class_1869.java:272) ~[server-intermediary.jar:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -444,143 +475,1263 @@ com.google.gson.JsonSyntaxException: Unknown item 'immersiveengineering:concrete
 	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.16.0.jar:?]
 	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) ~[fabric-loader-0.16.0.jar:?]
 	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) ~[server1201.jar:1.0.1]
-[01:20:43] [main/WARN]: Your custom createaddition:charging/exposed_cut_copper_stairs recipe (createaddition:charging/exposed_cut_copper_stairs) specified a duration. Durations have no impact on this type of recipe.
-[01:20:43] [main/WARN]: Your custom createaddition:rolling/electrum_plate recipe (createaddition:rolling/electrum_plate) specified a duration. Durations have no impact on this type of recipe.
-[01:20:43] [main/WARN]: Your custom createaddition:charging/exposed_copper_shingles recipe (createaddition:charging/exposed_copper_shingles) specified a duration. Durations have no impact on this type of recipe.
-[01:20:43] [main/WARN]: Your custom createaddition:charging/weathered_cut_copper recipe (createaddition:charging/weathered_cut_copper) specified a duration. Durations have no impact on this type of recipe.
-[01:20:43] [main/WARN]: Your custom createaddition:charging/cut_copper_stairs recipe (createaddition:charging/cut_copper_stairs) specified a duration. Durations have no impact on this type of recipe.
-[01:20:43] [main/WARN]: Your custom createaddition:charging/copper_shingle_slab recipe (createaddition:charging/copper_shingle_slab) specified a duration. Durations have no impact on this type of recipe.
-[01:20:43] [main/WARN]: Your custom createaddition:charging/weathered_cut_copper_slab recipe (createaddition:charging/weathered_cut_copper_slab) specified a duration. Durations have no impact on this type of recipe.
-[01:20:43] [main/WARN]: Your custom createaddition:rolling/copper_plate recipe (createaddition:rolling/copper_plate) specified a duration. Durations have no impact on this type of recipe.
-[01:20:43] [main/WARN]: Your custom createaddition:rolling/iron_plate recipe (createaddition:rolling/iron_plate) specified a duration. Durations have no impact on this type of recipe.
-[01:20:43] [main/WARN]: Your custom createaddition:charging/weathered_copper_shingle_slab recipe (createaddition:charging/weathered_copper_shingle_slab) specified a duration. Durations have no impact on this type of recipe.
-[01:20:43] [main/WARN]: Your custom createaddition:charging/exposed_copper_shingle_slab recipe (createaddition:charging/exposed_copper_shingle_slab) specified a duration. Durations have no impact on this type of recipe.
-[01:20:43] [main/WARN]: Your custom createaddition:rolling/gold_plate recipe (createaddition:rolling/gold_plate) specified a duration. Durations have no impact on this type of recipe.
-[01:20:43] [main/INFO]: Loaded 34 recipes
-[01:20:43] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_stairs_from_conversion: Missing criteria, expected to find a JsonObject
-[01:20:43] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_step_from_conversion: Missing criteria, expected to find a JsonObject
-[01:20:43] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_slice_from_conversion: Missing criteria, expected to find a JsonObject
-[01:20:43] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_slope_from_conversion: Missing criteria, expected to find a JsonObject
-[01:20:43] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_slab_from_steps: Missing criteria, expected to find a JsonObject
-[01:20:43] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_panel_from_conversion: Missing criteria, expected to find a JsonObject
-[01:20:43] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_layer_from_half_layers: Missing criteria, expected to find a JsonObject
-[01:20:43] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_vertical_stairs_from_conversion: Missing criteria, expected to find a JsonObject
-[01:20:43] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_block_from_slabs: Missing criteria, expected to find a JsonObject
-[01:20:43] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_vertical_slope_from_conversion: Missing criteria, expected to find a JsonObject
-[01:20:43] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_vertical_step_from_conversion: Missing criteria, expected to find a JsonObject
-[01:20:43] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_catwalk: Missing criteria, expected to find a JsonObject
-[01:20:43] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_box: Missing criteria, expected to find a JsonObject
-[01:20:43] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_panel_from_half_panels: Missing criteria, expected to find a JsonObject
-[01:20:43] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_slab_from_beams: Missing criteria, expected to find a JsonObject
-[01:20:43] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_trapdoor_from_conversion: Missing criteria, expected to find a JsonObject
-[01:20:43] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_vertical_slice_from_conversion: Missing criteria, expected to find a JsonObject
-[01:20:43] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_slab_from_panels: Missing criteria, expected to find a JsonObject
-[01:20:43] [main/INFO]: Loaded 5206 advancements
-[01:20:43] [Thread-9/INFO]: Loaded 34 translation keys
-[01:20:44] [main/INFO]: Applied 355 biome modifications to 160 of 171 new biomes in 55.18 ms
-[01:20:44] [Server thread/INFO]: Starting minecraft server version 1.20.1
-[01:20:44] [Server thread/INFO]: Loading properties
-[01:20:44] [Server thread/INFO]: Default game type: SURVIVAL
-[01:20:44] [Server thread/INFO]: Generating keypair
-[01:20:44] [Server thread/INFO]: Starting Minecraft server on *:25565
-[01:20:44] [Server thread/INFO]: Using epoll channel type
-[01:20:44] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[01:20:44] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[01:20:44] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[01:20:44] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[01:20:44] [Server thread/INFO]: Preparing level "world"
-[01:20:46] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[01:20:46] [Server thread/WARN]: Method overwrite conflict for removeIf in modernfix-common.mixins.json:bugfix.paper_chunk_patches.SortedArraySetMixin from mod modernfix, previously written by me.jellysquid.mods.lithium.mixin.world.chunk_tickets.SortedArraySetMixin. Skipping method.
-[01:20:48] [Server thread/INFO]: Preparing spawn area: 0%
-[01:20:48] [Server thread/INFO]: Preparing spawn area: 0%
-[01:20:48] [Server thread/INFO]: Preparing spawn area: 0%
-[01:20:48] [Server thread/INFO]: Preparing spawn area: 0%
-[01:20:48] [Server thread/INFO]: Preparing spawn area: 0%
-[01:20:49] [Server thread/INFO]: Preparing spawn area: 0%
-[01:20:49] [Server thread/INFO]: Preparing spawn area: 30%
-[01:20:50] [Server thread/INFO]: Preparing spawn area: 88%
-[01:20:50] [Server thread/INFO]: Time elapsed: 3771 ms
-[01:20:50] [Server thread/INFO]: Done (5.493s)! For help, type "help"
-[01:20:50] [Server thread/WARN]: Dedicated server took 52.147 seconds to load
-[01:20:51] [Server thread/INFO]: Tazarima[/114.10.152.244:26605] logged in with entity id 94 at (-354.6930050427613, 65.0, 426.7728759274419)
-[01:20:51] [Server thread/INFO]: Tazarima joined the game
-[01:20:53] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2029ms or 40 ticks behind
-[01:29:59] [Server thread/INFO]: [Not Secure] [Server] zak jadinya butuh apa kmrn buat bangun
-[01:30:09] [Server thread/INFO]: [Not Secure] <Tazarima> pake stone jadinya
-[01:30:15] [Server thread/INFO]: [Not Secure] <Tazarima> butuh lampu aja kayanya
-[01:30:19] [Server thread/INFO]: [Not Secure] <Tazarima> buat runway light
-[01:30:23] [Server thread/INFO]: [Not Secure] <Tazarima> oiya
-[01:30:26] [Server thread/INFO]: [Not Secure] <Tazarima> sama itu
-[01:30:28] [Server thread/INFO]: [Not Secure] <Tazarima> sekw\
-[01:31:16] [Server thread/INFO]: [Not Secure] <Tazarima> white concrete
-[01:31:32] [Server thread/INFO]: [Not Secure] <Tazarima> buat garis2nya
-[01:34:16] [Server thread/INFO]: [Not Secure] [Server] stone mau brp stack
-[01:34:22] [Server thread/INFO]: [Not Secure] <Tazarima> stone aman harusne
-[01:34:48] [Server thread/INFO]: [Not Secure] <Tazarima> white concrete aja
-[01:34:49] [Server thread/INFO]: [Not Secure] [Server] white concrete?
-[01:34:55] [Server thread/INFO]: [Not Secure] [Server] brp 
-[01:35:00] [Server thread/INFO]: [Not Secure] <Tazarima> sek
-[01:35:01] [Server thread/INFO]: [Not Secure] <Tazarima> wkwkw
-[01:35:11] [Server thread/INFO]: [Not Secure] <Tazarima> 5 stack aman harusmyua
-[01:35:16] [Server thread/INFO]: [Not Secure] <Tazarima> sama lampu ada ga run
-[01:36:37] [Server thread/INFO]: Gave 320 [White Concrete] to Tazarima
-[01:36:43] [Server thread/INFO]: [Not Secure] <Tazarima> lampu run
-[01:36:44] [Server thread/INFO]: [Not Secure] <Tazarima> wkwkw
-[01:36:47] [Server thread/INFO]: [Not Secure] <Tazarima> pake apaya
-[01:36:48] [Server thread/INFO]: [Not Secure] [Server] lampu aktu tahu apa yg bagus
-[01:36:49] [Server thread/INFO]: [Not Secure] <Tazarima> enaknya
-[01:36:52] [Server thread/INFO]: [Not Secure] [Server] wait
-[01:37:56] [Server thread/INFO]: [Not Secure] <Tazarima> kayanya perlu ygb bnyk lampunya
-[01:37:57] [Server thread/INFO]: [Not Secure] [Server] tak login sekalian
-[01:38:01] [Server thread/INFO]: [Not Secure] <Tazarima> woke
-[01:38:16] [Server thread/INFO]: [Not Secure] [Server] coba cek kamu 'e' trus search industrial lamp
-[01:38:23] [Server thread/INFO]: Unknown or incomplete command, see below for error
-[01:38:23] [Server thread/INFO]: namanya apa<--[HERE]
-[01:38:29] [Server thread/INFO]: [Not Secure] [Server] namanya apa
-[01:38:57] [Server thread/INFO]: [Not Secure] <Tazarima> sek
-[01:38:58] [Server thread/INFO]: [Not Secure] <Tazarima> zom,bie
-[01:39:44] [Server thread/INFO]: [Not Secure] <Tazarima> yellow industrial light cage
-[01:39:46] [Server thread/INFO]: [Not Secure] <Tazarima> kayamnya
-[01:39:53] [Server thread/INFO]: [Not Secure] <Tazarima> perlu semua warna biar keren
-[01:39:54] [Server thread/INFO]: [Not Secure] <Tazarima> ewkwkwk
-[01:39:56] [Server thread/INFO]: runs[/114.10.152.33:9991] logged in with entity id 5354 at (-359.7033262715616, 70.0, 248.64292323314953)
-[01:39:56] [Server thread/INFO]: runs joined the game
-[01:40:00] [Server thread/INFO]: [Not Secure] [Server] woo
-[01:40:12] [Server thread/INFO]: [Not Secure] <Tazarima> green buat taxi light
-[01:40:49] [Server thread/INFO]: [Not Secure] <Tazarima> mobil panen mana
-[01:40:57] [Server thread/INFO]: [Not Secure] <runs> sek
-[01:42:47] [Server thread/INFO]: Gave 128 [Yellow Industrial Iron Cage Lamp] to Tazarima
-[01:42:57] [Server thread/INFO]: [Not Secure] [Server] inventori mu cukup ga 
-[01:43:02] [Server thread/INFO]: [Not Secure] <Tazarima> aman
-[01:43:56] [Server thread/INFO]: runs lost connection: Timed out
-[01:43:56] [Server thread/INFO]: runs left the game
-[01:44:06] [Server thread/INFO]: runs[/114.10.152.99:54999] logged in with entity id 6455 at (-409.7735300577215, 66.0, 251.87212039451433)
-[01:44:06] [Server thread/INFO]: runs joined the game
-[01:44:52] [Server thread/WARN]: runs moved wrongly!
-[01:46:27] [Server thread/INFO]: [Not Secure] <Tazarima> lampu yang rata ada ga run
-[01:46:35] [Server thread/INFO]: [Not Secure] <Tazarima> buat ditengah2
-[01:46:37] [Server thread/INFO]: [Not Secure] <runs> maksud rata
-[01:46:53] [Server thread/INFO]: [Not Secure] <Tazarima> yang kya lampu ocean monument
-[01:47:06] [Server thread/INFO]: [Not Secure] <runs> coba kucari
-[01:47:51] [Server thread/INFO]: [Not Secure] <Tazarima> sek
-[01:47:58] [Server thread/INFO]: [Not Secure] <Tazarima> mau gladi hari h pioniur
-[01:48:01] [Server thread/INFO]: [Not Secure] <Tazarima> balik jam 10
-[01:48:03] [Server thread/INFO]: Tazarima lost connection: Disconnected
-[01:48:03] [Server thread/INFO]: Tazarima left the game
-[01:57:47] [Server thread/INFO]: runs lost connection: Disconnected
-[01:57:47] [Server thread/INFO]: runs left the game
-[01:58:08] [Server thread/INFO]: Unknown item 'createdeco:green_indust/stop'
-[01:58:08] [Server thread/INFO]: ... Tazarima createdeco:green_indust/stop<--[HERE]
-[01:58:13] [Server thread/INFO]: Stopping the server
-[01:58:13] [Server thread/INFO]: Stopping server
-[01:58:13] [Server thread/INFO]: Saving players
-[01:58:13] [Server thread/INFO]: Saving worlds
-[01:58:13] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[01:58:14] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[01:58:14] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[01:58:14] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[01:58:14] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[01:58:14] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[01:58:14] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[01:58:14] [Server thread/INFO]: [EasyAuth]: Shutting down EasyAuth.
-[01:58:14] [Server thread/INFO]: [EasyAuth]: Database connection closed successfully
+[09:31:18] [main/WARN]: Your custom createaddition:charging/exposed_cut_copper_stairs recipe (createaddition:charging/exposed_cut_copper_stairs) specified a duration. Durations have no impact on this type of recipe.
+[09:31:18] [main/WARN]: Your custom createaddition:rolling/electrum_plate recipe (createaddition:rolling/electrum_plate) specified a duration. Durations have no impact on this type of recipe.
+[09:31:18] [main/WARN]: Your custom createaddition:charging/exposed_copper_shingles recipe (createaddition:charging/exposed_copper_shingles) specified a duration. Durations have no impact on this type of recipe.
+[09:31:18] [main/WARN]: Your custom createaddition:charging/weathered_cut_copper recipe (createaddition:charging/weathered_cut_copper) specified a duration. Durations have no impact on this type of recipe.
+[09:31:18] [main/WARN]: Your custom createaddition:charging/cut_copper_stairs recipe (createaddition:charging/cut_copper_stairs) specified a duration. Durations have no impact on this type of recipe.
+[09:31:18] [main/WARN]: Your custom createaddition:charging/copper_shingle_slab recipe (createaddition:charging/copper_shingle_slab) specified a duration. Durations have no impact on this type of recipe.
+[09:31:18] [main/WARN]: Your custom createaddition:charging/weathered_cut_copper_slab recipe (createaddition:charging/weathered_cut_copper_slab) specified a duration. Durations have no impact on this type of recipe.
+[09:31:18] [main/WARN]: Your custom createaddition:rolling/copper_plate recipe (createaddition:rolling/copper_plate) specified a duration. Durations have no impact on this type of recipe.
+[09:31:18] [main/WARN]: Your custom createaddition:rolling/iron_plate recipe (createaddition:rolling/iron_plate) specified a duration. Durations have no impact on this type of recipe.
+[09:31:18] [main/WARN]: Your custom createaddition:charging/weathered_copper_shingle_slab recipe (createaddition:charging/weathered_copper_shingle_slab) specified a duration. Durations have no impact on this type of recipe.
+[09:31:18] [main/WARN]: Your custom createaddition:charging/exposed_copper_shingle_slab recipe (createaddition:charging/exposed_copper_shingle_slab) specified a duration. Durations have no impact on this type of recipe.
+[09:31:18] [main/WARN]: Your custom createaddition:rolling/gold_plate recipe (createaddition:rolling/gold_plate) specified a duration. Durations have no impact on this type of recipe.
+[09:31:18] [main/INFO]: Loaded 34 recipes
+[09:31:18] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_stairs_from_conversion: Missing criteria, expected to find a JsonObject
+[09:31:18] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_step_from_conversion: Missing criteria, expected to find a JsonObject
+[09:31:18] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_slice_from_conversion: Missing criteria, expected to find a JsonObject
+[09:31:18] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_slope_from_conversion: Missing criteria, expected to find a JsonObject
+[09:31:18] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_slab_from_steps: Missing criteria, expected to find a JsonObject
+[09:31:18] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_panel_from_conversion: Missing criteria, expected to find a JsonObject
+[09:31:18] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_layer_from_half_layers: Missing criteria, expected to find a JsonObject
+[09:31:18] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_vertical_stairs_from_conversion: Missing criteria, expected to find a JsonObject
+[09:31:18] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_block_from_slabs: Missing criteria, expected to find a JsonObject
+[09:31:18] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_vertical_slope_from_conversion: Missing criteria, expected to find a JsonObject
+[09:31:18] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_vertical_step_from_conversion: Missing criteria, expected to find a JsonObject
+[09:31:19] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_catwalk: Missing criteria, expected to find a JsonObject
+[09:31:19] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_box: Missing criteria, expected to find a JsonObject
+[09:31:19] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_panel_from_half_panels: Missing criteria, expected to find a JsonObject
+[09:31:19] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_slab_from_beams: Missing criteria, expected to find a JsonObject
+[09:31:19] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_trapdoor_from_conversion: Missing criteria, expected to find a JsonObject
+[09:31:19] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_vertical_slice_from_conversion: Missing criteria, expected to find a JsonObject
+[09:31:19] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_slab_from_panels: Missing criteria, expected to find a JsonObject
+[09:31:19] [main/INFO]: Loaded 5223 advancements
+[09:31:19] [Thread-9/INFO]: Loaded 34 translation keys
+[09:31:19] [main/INFO]: Applied 355 biome modifications to 160 of 171 new biomes in 35.34 ms
+[09:31:19] [Server thread/INFO]: Starting minecraft server version 1.20.1
+[09:31:19] [Server thread/INFO]: Loading properties
+[09:31:19] [Server thread/INFO]: Default game type: SURVIVAL
+[09:31:19] [Server thread/INFO]: Generating keypair
+[09:31:19] [Server thread/INFO]: Starting Minecraft server on *:25565
+[09:31:19] [Server thread/INFO]: Using epoll channel type
+[09:31:20] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[09:31:20] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[09:31:20] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[09:31:20] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[09:31:20] [Server thread/INFO]: Preparing level "world"
+[09:31:21] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[09:31:21] [Server thread/WARN]: Method overwrite conflict for removeIf in modernfix-common.mixins.json:bugfix.paper_chunk_patches.SortedArraySetMixin from mod modernfix, previously written by me.jellysquid.mods.lithium.mixin.world.chunk_tickets.SortedArraySetMixin. Skipping method.
+[09:31:23] [Server thread/INFO]: Preparing spawn area: 0%
+[09:31:23] [Server thread/INFO]: Preparing spawn area: 0%
+[09:31:23] [Server thread/INFO]: Preparing spawn area: 0%
+[09:31:23] [Server thread/INFO]: Preparing spawn area: 0%
+[09:31:23] [Server thread/INFO]: Preparing spawn area: 0%
+[09:31:23] [Worker-Main-1/INFO]: Preparing spawn area: 7%
+[09:31:24] [Server thread/INFO]: Preparing spawn area: 49%
+[09:31:24] [Server thread/INFO]: Time elapsed: 3692 ms
+[09:31:24] [Server thread/INFO]: Done (4.777s)! For help, type "help"
+[09:31:24] [Server thread/WARN]: Dedicated server took 38.957 seconds to load
+[09:31:24] [Server thread/INFO]: Start loading plugin from Jade
+[09:31:24] [Server thread/INFO]: Start loading plugin from Jade
+[09:31:24] [Server thread/INFO]: Start loading plugin from Jade
+[10:34:13] [Server thread/INFO]: Tazarima[/114.10.153.235:52657] logged in with entity id 110 at (-464.2799759319214, 65.0, 415.05334023154194)
+[10:34:14] [Server thread/INFO]: Syncing config to Tazarima (6f7d557d-ee7e-30ed-8347-5acf2199a24d)
+[10:34:14] [Server thread/INFO]: Tazarima joined the game
+[10:34:20] [Server thread/INFO]: Tazarima lost connection: Disconnected
+[10:34:20] [Server thread/INFO]: Tazarima left the game
+[10:35:08] [Server thread/INFO]: Tazarima[/114.10.153.235:61607] logged in with entity id 387 at (-464.5, 65.0, 415.5)
+[10:35:08] [Server thread/INFO]: Syncing config to Tazarima (6f7d557d-ee7e-30ed-8347-5acf2199a24d)
+[10:35:08] [Server thread/INFO]: Tazarima joined the game
+[10:42:06] [Server thread/WARN]: Tazarima moved wrongly!
+[10:42:20] [Server thread/WARN]: Tazarima moved wrongly!
+[10:46:31] [Server thread/WARN]: Tazarima moved wrongly!
+[10:46:36] [Server thread/WARN]: Tazarima moved too quickly! -10.117207886820552,0.0,1.4782780629655008
+[10:51:41] [Server thread/WARN]: Tazarima moved wrongly!
+[10:52:45] [Server thread/WARN]: Tazarima moved wrongly!
+[10:56:11] [Server thread/WARN]: Tazarima moved wrongly!
+[10:56:25] [Server thread/WARN]: Tazarima moved wrongly!
+[10:56:47] [Server thread/WARN]: Tazarima moved wrongly!
+[10:57:47] [Server thread/WARN]: Tazarima moved wrongly!
+[10:57:52] [Server thread/WARN]: Tazarima moved wrongly!
+[10:58:14] [Server thread/WARN]: Tazarima moved wrongly!
+[10:58:19] [Server thread/WARN]: Tazarima moved wrongly!
+[11:02:54] [Server thread/WARN]: Tazarima moved wrongly!
+[11:03:30] [Server thread/WARN]: Tazarima moved wrongly!
+[11:05:17] [Server thread/INFO]: Anakhilang06[/180.243.74.90:57760] logged in with entity id 8742 at (-553.6354769529521, 180.0, 288.73271268993733)
+[11:05:17] [Server thread/INFO]: Syncing config to Anakhilang06 (25475df8-4598-3c7e-9c32-8acb1ba5f889)
+[11:05:17] [Server thread/INFO]: Anakhilang06 joined the game
+[11:08:29] [Server thread/WARN]: Scarlet Biplane (vehicle of Tazarima) moved too quickly! -1.0609517310361412,-3.011019625964991,-10.39740696661255
+[11:08:29] [Server thread/WARN]: Scarlet Biplane (vehicle of Tazarima) moved too quickly! -1.1756548396403161,-3.429062305695936,-11.735597858133985
+[11:10:28] [Server thread/WARN]: Tazarima moved wrongly!
+[11:11:25] [Server thread/INFO]: Tazarima was shot by Merc
+[11:13:52] [Server thread/INFO]: [Not Secure] [Server] WQKKWKWK MATI DITEMBAK
+[11:13:58] [Server thread/WARN]: Tazarima moved wrongly!
+[11:16:13] [Server thread/WARN]: Anakhilang06 moved wrongly!
+[11:17:02] [Server thread/WARN]: Tazarima moved wrongly!
+[11:17:47] [Server thread/WARN]: Tazarima moved wrongly!
+[11:20:32] [Server thread/WARN]: Tazarima moved wrongly!
+[11:21:04] [Server thread/INFO]: [Not Secure] <Anakhilang06> piye
+[11:21:22] [Server thread/INFO]: [Not Secure] <Anakhilang06> ngopo?
+[11:21:26] [Server thread/INFO]: [Not Secure] <Tazarima> ra ngopo2
+[11:21:29] [Server thread/INFO]: [Not Secure] <Anakhilang06> wooooo
+[11:24:09] [Server thread/INFO]: runs[/114.10.151.91:56480] logged in with entity id 19305 at (-551.0333600947716, 180.0, 272.9539370813213)
+[11:24:09] [Server thread/INFO]: Syncing config to runs (0849d153-adce-35a5-8007-7ef46adffb2b)
+[11:24:09] [Server thread/INFO]: runs joined the game
+[11:24:31] [Server thread/INFO]: runs lost connection: §4Wrong password!
+[11:24:31] [Server thread/INFO]: runs left the game
+[11:24:31] [Server thread/WARN]: handleDisconnection() called twice
+[11:25:26] [Server thread/INFO]: Anakhilang06 has reached the goal [Road Kill]
+[11:26:16] [Server thread/INFO]: Disconnecting com.mojang.authlib.GameProfile@48059b06[id=0849d153-adce-35a5-8007-7ef46adffb2b,name=runs,properties={},legacy=false] (/114.10.151.91:47498): §4Too many login tries. Please wait a few minutes and try again.
+[11:26:16] [Server thread/INFO]: com.mojang.authlib.GameProfile@48059b06[id=0849d153-adce-35a5-8007-7ef46adffb2b,name=runs,properties={},legacy=false] (/114.10.151.91:47498) lost connection: §4Too many login tries. Please wait a few minutes and try again.
+[11:26:17] [Server thread/WARN]: handleDisconnection() called twice
+[11:27:08] [Server thread/INFO]: [Not Secure] <Tazarima> bisa bantu ngga bang
+[11:27:13] [Server thread/INFO]: [Not Secure] <Tazarima> bikin terminal bandara
+[11:27:56] [Server thread/WARN]: Tazarima moved wrongly!
+[11:28:01] [Server thread/WARN]: Tazarima moved wrongly!
+[11:28:04] [Server thread/WARN]: Tazarima moved wrongly!
+[11:28:08] [Server thread/INFO]: [Not Secure] <Anakhilang06> mau tapi mbayar
+[11:29:23] [Server thread/WARN]: Scarlet Biplane (vehicle of Tazarima) moved wrongly! 0.32406618370094975
+[11:29:23] [Server thread/WARN]: Scarlet Biplane (vehicle of Tazarima) moved wrongly! 0.8785066723730779
+[11:29:23] [Server thread/WARN]: Scarlet Biplane (vehicle of Tazarima) moved wrongly! 0.3879646087742685
+[11:31:29] [Server thread/WARN]: Scarlet Biplane (vehicle of Tazarima) moved wrongly! 0.32563440756172213
+[11:31:37] [Server thread/WARN]: Tazarima moved wrongly!
+[11:31:54] [Server thread/INFO]: Tazarima lost connection: Disconnected
+[11:31:54] [Server thread/INFO]: Tazarima left the game
+[11:34:13] [Server thread/INFO]: runs[/114.10.151.91:47513] logged in with entity id 24480 at (-551.5, 180.0, 272.5)
+[11:34:13] [Server thread/INFO]: Syncing config to runs (0849d153-adce-35a5-8007-7ef46adffb2b)
+[11:34:14] [Server thread/INFO]: runs joined the game
+[11:36:49] [Server thread/WARN]: Anakhilang06 moved wrongly!
+[11:45:03] [Server thread/WARN]: runs moved wrongly!
+[11:46:51] [Server thread/INFO]: Tazarima[/114.10.153.235:53395] logged in with entity id 30963 at (-341.08374686177234, 64.0, 371.5702380403856)
+[11:46:51] [Server thread/INFO]: Syncing config to Tazarima (6f7d557d-ee7e-30ed-8347-5acf2199a24d)
+[11:46:51] [Server thread/INFO]: Tazarima joined the game
+[11:49:42] [Server thread/INFO]: [Not Secure] <Tazarima> dimana stasiunnya
+[11:51:15] [Server thread/INFO]: [Not Secure] <runs> bebas nanti kusesuaiin
+[11:52:27] [Server thread/INFO]: Anakhilang06 lost connection: Disconnected
+[11:52:27] [Server thread/INFO]: Anakhilang06 left the game
+[11:52:44] [Server thread/WARN]: Tazarima moved wrongly!
+[11:53:00] [Server thread/INFO]: [Not Secure] <Tazarima> run
+[11:53:03] [Server thread/INFO]: [Not Secure] <Tazarima> minta glass
+[11:53:10] [Server thread/INFO]: [Not Secure] <Tazarima> mungkin 8 stack
+[11:53:20] [Server thread/INFO]: [Not Secure] <runs> asem
+[11:53:23] [Server thread/INFO]: [Not Secure] <Tazarima> wkwkw
+[11:53:48] [Server thread/INFO]: [Not Secure] <Tazarima> glass bang bukan patata
+[11:53:55] [Server thread/INFO]: [Not Secure] <runs> yo sabar o
+[11:54:00] [Server thread/INFO]: [Not Secure] <Tazarima> :D
+[11:54:11] [Server thread/INFO]: [Not Secure] <runs> console gek error
+[11:54:13] [Server thread/INFO]: [Not Secure] <runs> wokeowkokdw
+[11:54:24] [Server thread/INFO]: runs lost connection: Disconnected
+[11:54:24] [Server thread/INFO]: runs left the game
+[11:57:17] [Server thread/WARN]: Tazarima moved wrongly!
+[11:57:23] [Server thread/WARN]: Tazarima moved wrongly!
+[11:58:56] [Server thread/INFO]: dddddd[/104.28.219.244:35158] logged in with entity id 37135 at (-317.2619553731239, 72.0, 248.91984438538663)
+[11:58:56] [Server thread/INFO]: Syncing config to dddddd (7137e7ce-81b2-38c5-85ac-49c940c2e382)
+[11:58:56] [Server thread/INFO]: dddddd joined the game
+[11:58:56] [Server thread/INFO]: dddddd lost connection: Disconnected
+[11:58:56] [Server thread/INFO]: dddddd left the game
+[12:02:22] [Server thread/INFO]: Tazarima lost connection: Timed out
+[12:02:22] [Server thread/INFO]: Tazarima left the game
+[12:02:49] [Server thread/INFO]: zakiatha[/202.169.232.157:65357] logged in with entity id 37801 at (-361.580062871544, 70.0, 222.08705270917557)
+[12:02:49] [Server thread/INFO]: Syncing config to zakiatha (8ec77d25-f7bd-3727-b6d5-e59fa9220760)
+[12:02:49] [Server thread/INFO]: zakiatha joined the game
+[12:05:56] [Server thread/INFO]: dddddd[/104.28.219.244:63245] logged in with entity id 38937 at (-317.5, 72.0, 248.5)
+[12:05:56] [Server thread/INFO]: Syncing config to dddddd (7137e7ce-81b2-38c5-85ac-49c940c2e382)
+[12:05:56] [Server thread/INFO]: dddddd joined the game
+[12:06:57] [Server thread/INFO]: Tazarima[/104.28.219.245:9908] logged in with entity id 39164 at (-323.05792181829963, 64.0, 374.1806284654544)
+[12:06:57] [Server thread/INFO]: Syncing config to Tazarima (6f7d557d-ee7e-30ed-8347-5acf2199a24d)
+[12:06:57] [Server thread/INFO]: Tazarima joined the game
+[12:10:38] [Server thread/INFO]: dddddd has made the advancement [Acquire Hardware]
+[12:10:44] [Server thread/INFO]: dddddd has made the advancement [Suit Up]
+[12:11:22] [Server thread/INFO]: dddddd has made the advancement [Isn't It Iron Pick]
+[12:11:38] [Server thread/INFO]: zakiatha has made the advancement [Oh Shiny]
+[12:12:52] [Server thread/INFO]: dddddd has made the advancement [Monster Hunter]
+[12:16:29] [Server thread/INFO]: dddddd has made the advancement [Stone Age]
+[12:18:32] [Server thread/INFO]: dddddd has made the advancement [Hot Stuff]
+[12:21:03] [Server thread/INFO]: Named entity class_1639['Headless Warrior'/48706, l='ServerLevel[world]', x=-236.67, y=104.25, z=-172.66] died: Headless Warrior was slain by Piglin
+[12:25:04] [Server thread/INFO]: Named entity class_1639['Headless Warrior'/51525, l='ServerLevel[world]', x=-235.50, y=102.00, z=-166.17] died: Headless Warrior was shot by Piglin
+[12:26:22] [Server thread/INFO]: runs[/114.10.152.62:62392] logged in with entity id 53086 at (-415.2693787915858, 66.0, 248.83454137416112)
+[12:26:22] [Server thread/INFO]: Syncing config to runs (0849d153-adce-35a5-8007-7ef46adffb2b)
+[12:26:22] [Server thread/INFO]: runs joined the game
+[12:27:22] [Server thread/INFO]: runs lost connection: §cTime for authentication has expired.
+[12:27:22] [Server thread/INFO]: runs left the game
+[12:27:30] [Server thread/INFO]: runs[/114.10.152.62:13315] logged in with entity id 53800 at (-415.5, 66.0, 248.5)
+[12:27:30] [Server thread/INFO]: Syncing config to runs (0849d153-adce-35a5-8007-7ef46adffb2b)
+[12:27:30] [Server thread/INFO]: runs joined the game
+[12:28:07] [Server thread/INFO]: [Not Secure] <runs> dddddd ni anak ddd kah
+[12:28:40] [Server thread/INFO]: zakiatha lost connection: Disconnected
+[12:28:40] [Server thread/INFO]: zakiatha left the game
+[12:28:43] [Server thread/INFO]: Anakhilang06[/180.243.74.90:60285] logged in with entity id 54304 at (-374.2355817916699, 70.9375, 220.53541905477485)
+[12:28:43] [Server thread/INFO]: Syncing config to Anakhilang06 (25475df8-4598-3c7e-9c32-8acb1ba5f889)
+[12:28:43] [Server thread/INFO]: Anakhilang06 joined the game
+[12:29:18] [Server thread/INFO]: [Not Secure] <Anakhilang06> ngecek dewe yo ngko
+[12:29:23] [Server thread/INFO]: [Not Secure] <Anakhilang06> tiati
+[12:29:28] [Server thread/INFO]: [Not Secure] <Anakhilang06> di samperi uwong
+[12:29:31] [Server thread/INFO]: [Not Secure] <runs> woo
+[12:30:47] [Server thread/INFO]: [Not Secure] <dddddd> ttt
+[12:31:51] [Server thread/INFO]: [Not Secure] <runs> eh weapon ki butuh terracota o
+[12:31:58] [Server thread/INFO]: [Not Secure] <Anakhilang06> hoo
+[12:32:04] [Server thread/INFO]: [Not Secure] <runs> warna?
+[12:32:48] [Server thread/WARN]: Tazarima moved wrongly!
+[12:33:15] [Server thread/WARN]: Tazarima moved wrongly!
+[12:33:31] [Server thread/WARN]: Tazarima moved wrongly!
+[12:33:56] [Server thread/INFO]: [Not Secure] <Tazarima> run
+[12:33:58] [Server thread/INFO]: [Not Secure] <Tazarima> sini
+[12:34:05] [Server thread/INFO]: [Not Secure] <Tazarima> kaca
+[12:34:07] [Server thread/INFO]: dddddd lost connection: Disconnected
+[12:34:07] [Server thread/INFO]: dddddd left the game
+[12:34:14] [Server thread/INFO]: [Not Secure] <runs> sek
+[12:34:21] [Server thread/INFO]: [Not Secure] <Tazarima> sama buat lantai
+[12:34:33] [Server thread/INFO]: [Not Secure] <Tazarima> quart boleh kali
+[12:34:47] [Server thread/INFO]: [Not Secure] <runs> quartz di nether ada biomenya
+[12:34:56] [Server thread/INFO]: [Not Secure] <runs> full isinya quartz block
+[12:35:00] [Server thread/INFO]: [Not Secure] <Tazarima> woke
+[12:35:02] [Server thread/INFO]: [Not Secure] <runs> sek
+[12:35:03] [Server thread/INFO]: runs lost connection: Disconnected
+[12:35:03] [Server thread/INFO]: runs left the game
+[12:35:08] [Server thread/INFO]: dddddd[/104.28.219.244:30693] logged in with entity id 58160 at (-465.12003664510536, 77.0, 413.5652657185578)
+[12:35:08] [Server thread/INFO]: Syncing config to dddddd (7137e7ce-81b2-38c5-85ac-49c940c2e382)
+[12:35:08] [Server thread/INFO]: dddddd joined the game
+[12:36:41] [Server thread/WARN]: Tazarima moved wrongly!
+[12:37:02] [Server thread/INFO]: server[/114.10.152.62:13317] logged in with entity id 59542 at (-400.5, 66.0, 248.5)
+[12:37:02] [Server thread/INFO]: Syncing config to server (9713e7ee-4b63-3db0-80f0-142a29dfdce4)
+[12:37:02] [Server thread/INFO]: server joined the game
+[12:37:30] [Server thread/INFO]: [server: Teleported server to Tazarima]
+[12:38:09] [Server thread/INFO]: [Not Secure] <server> zak sini
+[12:38:29] [Server thread/WARN]: Anakhilang06 moved wrongly!
+[12:38:57] [Server thread/INFO]: [Not Secure] <Tazarima> anjay
+[12:39:00] [Server thread/INFO]: [Not Secure] <Tazarima> makasi run
+[12:42:15] [Server thread/WARN]: Tazarima moved wrongly!
+[12:42:23] [Server thread/WARN]: Anakhilang06 moved wrongly!
+[12:43:37] [Server thread/WARN]: Anakhilang06 moved wrongly!
+[12:46:05] [Server thread/WARN]: Tazarima moved wrongly!
+[12:46:30] [Netty Epoll Server IO #2/ERROR]: Exception occurred in netty pipeline
+io.netty.handler.timeout.ReadTimeoutException: null
+[12:47:46] [Server thread/INFO]: zakiatha[/202.169.232.157:53968] logged in with entity id 66238 at (-103.26136252850667, 51.0, -117.09038871763661)
+[12:47:46] [Server thread/INFO]: Syncing config to zakiatha (8ec77d25-f7bd-3727-b6d5-e59fa9220760)
+[12:47:46] [Server thread/INFO]: zakiatha joined the game
+[12:48:21] [Server thread/WARN]: Tazarima moved wrongly!
+[12:51:54] [Server thread/WARN]: Tazarima moved wrongly!
+[12:52:00] [Server thread/WARN]: Tazarima moved wrongly!
+[12:52:13] [Server thread/WARN]: Tazarima moved wrongly!
+[12:53:03] [Server thread/WARN]: Tazarima moved wrongly!
+[12:54:12] [Server thread/WARN]: Biplane (vehicle of Tazarima) moved too quickly! -4.442361375211476,3.7867812375741323,-8.401595506257422
+[12:54:12] [Server thread/WARN]: Biplane (vehicle of Tazarima) moved too quickly! -4.47932521371996,4.043492331497205,-9.044244642049591
+[12:54:12] [Server thread/WARN]: Biplane (vehicle of Tazarima) moved too quickly! -4.47575740459132,4.2896383523977875,-9.678731937496195
+[12:54:14] [Server thread/WARN]: Biplane (vehicle of Tazarima) moved too quickly! -16.079164632724428,7.731808271867578,7.88190235021591
+[12:54:14] [Server thread/WARN]: Biplane (vehicle of Tazarima) moved too quickly! -16.079164632724428,7.731808271867578,7.88190235021591
+[12:54:14] [Server thread/WARN]: Biplane (vehicle of Tazarima) moved too quickly! -16.079164632724428,7.731808271867578,7.88190235021591
+[12:54:14] [Server thread/WARN]: Biplane (vehicle of Tazarima) moved too quickly! -16.13691155368133,7.891412219542104,7.770528489209653
+[12:54:14] [Server thread/WARN]: Biplane (vehicle of Tazarima) moved too quickly! -15.85436183001724,7.37308817520136,7.919381694592346
+[12:54:14] [Server thread/WARN]: Biplane (vehicle of Tazarima) moved too quickly! -15.589261957368421,6.987975588756214,7.937373699972454
+[12:54:14] [Server thread/WARN]: Biplane (vehicle of Tazarima) moved too quickly! -15.339697905053072,6.700249272342447,7.87068797555537
+[12:54:14] [Server thread/WARN]: Biplane (vehicle of Tazarima) moved too quickly! -15.103420773332516,6.485862568296781,7.74907203461396
+[12:54:14] [Server thread/WARN]: Biplane (vehicle of Tazarima) moved too quickly! -14.877720595409187,6.328233705151888,7.592041769731736
+[12:54:14] [Server thread/WARN]: Biplane (vehicle of Tazarima) moved too quickly! -14.659970044670501,6.2158139189206025,7.412880105810075
+[12:54:14] [Server thread/WARN]: Biplane (vehicle of Tazarima) moved too quickly! -14.447974209041945,6.140334347701284,7.221104291023266
+[12:54:14] [Server thread/WARN]: Biplane (vehicle of Tazarima) moved too quickly! -14.240103276300658,6.095627987758689,7.023848753575237
+[12:54:14] [Server thread/WARN]: Biplane (vehicle of Tazarima) moved too quickly! -14.035336684156789,6.0768965089749685,6.82664109199942
+[12:54:14] [Server thread/WARN]: Biplane (vehicle of Tazarima) moved too quickly! -13.833245531922444,6.080249215355991,6.633839665852179
+[12:54:14] [Server thread/WARN]: Biplane (vehicle of Tazarima) moved too quickly! -13.633935591858062,6.102408282684465,6.4488847541218774
+[12:54:14] [Server thread/WARN]: Biplane (vehicle of Tazarima) moved too quickly! -13.437967121902147,6.140516917973045,6.274447887834469
+[12:54:14] [Server thread/WARN]: Biplane (vehicle of Tazarima) moved too quickly! -13.246262532341916,6.192012894348039,6.112526552570273
+[12:54:15] [Server thread/WARN]: Biplane (vehicle of Tazarima) moved too quickly! -13.060009375681886,6.254544910294257,5.964510854696755
+[12:54:15] [Server thread/WARN]: Biplane (vehicle of Tazarima) moved too quickly! -12.880564127251318,6.325917369730263,5.831237452491962
+[12:54:15] [Server thread/WARN]: Biplane (vehicle of Tazarima) moved too quickly! -12.709182386265013,6.4039780725353666,5.712981287651473
+[12:55:28] [Server thread/INFO]: Named entity class_1639['Headless Warrior'/71780, l='ServerLevel[world]', x=-247.17, y=107.00, z=-180.28] died: Headless Warrior was slain by Piglin
+[12:55:38] [Server thread/WARN]: Tazarima moved wrongly!
+[12:56:46] [Server thread/INFO]: Tazarima lost connection: Timed out
+[12:56:46] [Server thread/INFO]: Tazarima left the game
+[12:56:54] [Server thread/INFO]: Named entity class_1639['Headless Warrior'/72666, l='ServerLevel[world]', x=-300.24, y=139.00, z=-136.04] died: Headless Warrior was slain by Piglin
+[12:57:25] [Server thread/INFO]: Tazarima[/104.28.219.245:30950] logged in with entity id 72990 at (-396.6333149538697, 66.16610926093821, 383.92380494462947)
+[12:57:25] [Server thread/INFO]: Syncing config to Tazarima (6f7d557d-ee7e-30ed-8347-5acf2199a24d)
+[12:57:25] [Server thread/INFO]: Tazarima joined the game
+[12:58:11] [Server thread/WARN]: Tazarima moved wrongly!
+[12:58:20] [Server thread/WARN]: Tazarima moved wrongly!
+[12:58:45] [Server thread/INFO]: zakiatha has reached the goal [Alchemical Experiments]
+[12:59:19] [Server thread/INFO]: zakiatha has reached the goal [Apparitions]
+[12:59:19] [Server thread/INFO]: Named entity class_1634['Restless Spirit'/73892, l='ServerLevel[world]', x=-311.31, y=54.25, z=-246.10] died: Restless Spirit was slain by zakiatha using [zam Sword]
+[12:59:33] [Server thread/INFO]: Named entity class_1639['Headless Warrior'/74104, l='ServerLevel[world]', x=-276.35, y=120.00, z=-297.47] died: Headless Warrior was shot by Piglin
+[12:59:57] [Server thread/INFO]: zakiatha has made the advancement [Spooky Scary Skeleton]
+[12:59:59] [Server thread/WARN]: Scarlet Biplane (vehicle of Tazarima) moved too quickly! -1.9265508730055103,-11.267331806493416,0.2045669995242747
+[12:59:59] [Server thread/WARN]: Scarlet Biplane (vehicle of Tazarima) moved too quickly! -2.3676842081666223,-13.17634709251206,0.23828383638721107
+[12:59:59] [Server thread/WARN]: Scarlet Biplane (vehicle of Tazarima) moved too quickly! -3.762120579699854,-9.291693447280295,0.17162855588748016
+[12:59:59] [Server thread/WARN]: Scarlet Biplane (vehicle of Tazarima) moved too quickly! -4.691952302935476,-11.078131824315648,0.1934857326916699
+[13:00:01] [Server thread/WARN]: Scarlet Biplane (vehicle of Tazarima) moved too quickly! -6.977805174905541,2.2749738214992874,-8.63844758237775
+[13:00:06] [Server thread/WARN]: Scarlet Biplane (vehicle of Tazarima) moved too quickly! 2.621797489073458,-5.107114035465173,-9.65729641446461
+[13:00:06] [Server thread/WARN]: Scarlet Biplane (vehicle of Tazarima) moved too quickly! 3.1529653631956194,-5.654702089925081,-11.110603313010188
+[13:00:10] [Server thread/INFO]: Tazarima lost connection: Timed out
+[13:00:10] [Server thread/INFO]: Tazarima left the game
+[13:01:10] [Server thread/INFO]: Named entity class_1639['Headless Warrior'/74527, l='ServerLevel[world]', x=-229.79, y=123.00, z=-236.42] died: Headless Warrior was shot by Piglin
+[13:01:51] [Server thread/INFO]: Named entity class_1639['Headless Warrior'/75016, l='ServerLevel[world]', x=-243.35, y=122.00, z=-239.65] died: Headless Warrior was shot by Piglin
+[13:02:00] [Server thread/INFO]: Named entity class_1639['Withered Scientist'/71125, l='ServerLevel[world]', x=-303.37, y=33.00, z=-229.55] died: Withered Scientist was slain by zakiatha using [zam Sword]
+[13:02:07] [Server thread/INFO]: Named entity class_1639['Headless Warrior'/75474, l='ServerLevel[world]', x=-245.49, y=120.00, z=-230.65] died: Headless Warrior was shot by Piglin
+[13:02:25] [Server thread/INFO]: Named entity class_1639['Headless Warrior'/75569, l='ServerLevel[world]', x=-249.81, y=106.25, z=-217.55] died: Headless Warrior was shot by Piglin
+[13:02:30] [Server thread/INFO]: Tazarima[/104.28.219.245:56829] logged in with entity id 75859 at (-335.2226289908933, 89.41757202148438, 262.5791683852379)
+[13:02:30] [Server thread/INFO]: Syncing config to Tazarima (6f7d557d-ee7e-30ed-8347-5acf2199a24d)
+[13:02:30] [Server thread/INFO]: Tazarima joined the game
+[13:02:32] [Server thread/INFO]: Named entity class_1639['Headless Warrior'/75709, l='ServerLevel[world]', x=-253.04, y=102.00, z=-214.48] died: Headless Warrior was shot by Piglin
+[13:02:34] [Server thread/INFO]: Named entity class_1639['Withered Scientist'/71249, l='ServerLevel[world]', x=-297.37, y=33.00, z=-261.72] died: Withered Scientist was slain by zakiatha using [zam Sword]
+[13:02:43] [Server thread/WARN]: Tazarima moved wrongly!
+[13:02:48] [Server thread/WARN]: Tazarima moved wrongly!
+[13:02:52] [Server thread/WARN]: Tazarima moved wrongly!
+[13:02:59] [Server thread/WARN]: Tazarima moved wrongly!
+[13:03:05] [Server thread/WARN]: Tazarima moved wrongly!
+[13:03:09] [Server thread/INFO]: Named entity class_1639['Headless Warrior'/75970, l='ServerLevel[world]', x=-249.61, y=116.00, z=-231.56] died: Headless Warrior was shot by Piglin
+[13:03:20] [Server thread/INFO]: Named entity class_1639['Withered Scientist'/71248, l='ServerLevel[world]', x=-335.11, y=33.00, z=-252.95] died: Withered Scientist was slain by zakiatha using [zam Sword]
+[13:03:20] [Server thread/INFO]: Named entity class_1639['Headless Warrior'/75620, l='ServerLevel[world]', x=-256.83, y=126.00, z=-289.14] died: Headless Warrior was shot by Piglin
+[13:03:25] [Server thread/INFO]: Named entity class_1639['Withered Scientist'/71339, l='ServerLevel[world]', x=-335.13, y=33.00, z=-240.79] died: Withered Scientist was slain by zakiatha using [zam Sword]
+[13:03:38] [Server thread/INFO]: Named entity class_1639['Headless Warrior'/76513, l='ServerLevel[world]', x=-248.58, y=118.00, z=-234.31] died: Headless Warrior was shot by Piglin
+[13:03:45] [Server thread/INFO]: Tazarima lost connection: Timed out
+[13:03:45] [Server thread/INFO]: Tazarima left the game
+[13:03:51] [Netty Epoll Server IO #2/ERROR]: Exception occurred in netty pipeline
+io.netty.channel.unix.Errors$NativeIoException: recvAddress(..) failed: Connection reset by peer
+[13:03:53] [Server thread/INFO]: Named entity class_1634['Restless Spirit'/76778, l='ServerLevel[world]', x=-310.45, y=35.96, z=-238.45] died: Restless Spirit was slain by zakiatha using [zam Sword]
+[13:04:31] [Server thread/INFO]: Named entity class_1639['Withered Scientist'/71337, l='ServerLevel[world]', x=-341.31, y=33.00, z=-230.70] died: Withered Scientist was slain by zakiatha using [zam Sword]
+[13:04:35] [Server thread/INFO]: Named entity class_1639['Withered Scientist'/71336, l='ServerLevel[world]', x=-340.63, y=32.88, z=-224.89] died: Withered Scientist was slain by zakiatha using [zam Sword]
+[13:04:37] [Server thread/INFO]: Named entity class_1639['Withered Scientist'/71340, l='ServerLevel[world]', x=-340.25, y=33.00, z=-223.70] died: Withered Scientist was slain by zakiatha using [zam Sword]
+[13:04:39] [Server thread/INFO]: Named entity class_1639['Withered Scientist'/71338, l='ServerLevel[world]', x=-340.02, y=33.00, z=-222.29] died: Withered Scientist was slain by zakiatha using [zam Sword]
+[13:04:58] [Server thread/INFO]: Named entity class_1634['Restless Spirit'/77573, l='ServerLevel[world]', x=-291.11, y=34.08, z=-270.48] died: Restless Spirit was slain by zakiatha using [zam Sword]
+[13:05:07] [Server thread/INFO]: Named entity class_1639['Headless Warrior'/77488, l='ServerLevel[world]', x=-294.50, y=33.00, z=-259.17] died: Headless Warrior was slain by zakiatha using [zam Sword]
+[13:05:28] [Server thread/INFO]: Named entity class_1639['Headless Warrior'/77807, l='ServerLevel[world]', x=-267.35, y=125.00, z=-271.93] died: Headless Warrior was shot by Piglin
+[13:05:35] [Server thread/INFO]: Named entity class_1639['Headless Warrior'/77504, l='ServerLevel[world]', x=-252.33, y=118.00, z=-248.20] died: Headless Warrior was shot by Piglin
+[13:05:51] [Server thread/INFO]: Named entity class_1634['Restless Spirit'/76730, l='ServerLevel[world]', x=-312.30, y=47.43, z=-242.41] died: Restless Spirit was killed by [zam Sword] trying to hurt zakiatha
+[13:06:32] [Server thread/INFO]: Named entity class_1639['Headless Warrior'/77622, l='ServerLevel[world]', x=-237.00, y=120.00, z=-223.90] died: Headless Warrior was slain by Piglin
+[13:06:41] [Server thread/INFO]: Named entity class_1634['Restless Spirit'/78703, l='ServerLevel[world]', x=-290.69, y=69.71, z=-251.90] died: Restless Spirit was slain by zakiatha using [zam Sword]
+[13:06:51] [Server thread/INFO]: Named entity class_1639['Headless Warrior'/78388, l='ServerLevel[world]', x=-247.33, y=111.25, z=-222.38] died: Headless Warrior was shot by Piglin
+[13:06:55] [Server thread/INFO]: Named entity class_1634['Restless Spirit'/77236, l='ServerLevel[world]', x=-335.59, y=-20.00, z=-188.90] died: Restless Spirit was killed
+[13:07:14] [Server thread/INFO]: Named entity class_1634['Restless Spirit'/77528, l='ServerLevel[world]', x=-339.26, y=-20.00, z=-211.18] died: Restless Spirit was killed
+[13:07:55] [Server thread/INFO]: dddddd was slain by Phantom
+[13:08:17] [Server thread/INFO]: Named entity class_1639['Headless Warrior'/79656, l='ServerLevel[world]', x=-286.13, y=50.00, z=-144.90] died: Headless Warrior was doomed to fall by Piglin
+[13:08:32] [Server thread/INFO]: Named entity class_1639['Headless Warrior'/79436, l='ServerLevel[world]', x=-272.37, y=100.00, z=-162.98] died: Headless Warrior was slain by Piglin
+[13:09:17] [Server thread/INFO]: Named entity class_1639['Headless Warrior'/80112, l='ServerLevel[world]', x=-276.17, y=99.00, z=-169.82] died: Headless Warrior was shot by Piglin
+[13:09:31] [Server thread/INFO]: Named entity class_1639['Headless Warrior'/79898, l='ServerLevel[world]', x=-246.35, y=119.80, z=-233.54] died: Headless Warrior was shot by Piglin
+[13:09:40] [Server thread/INFO]: Named entity class_1639['Headless Warrior'/79788, l='ServerLevel[world]', x=-286.64, y=69.00, z=-246.38] died: Headless Warrior was slain by zakiatha using [zam Sword]
+[13:09:50] [Server thread/INFO]: Named entity class_1639['Headless Warrior'/80199, l='ServerLevel[world]', x=-300.20, y=66.00, z=-258.51] died: Headless Warrior was slain by zakiatha using [zam Sword]
+[13:09:52] [Server thread/INFO]: Named entity class_1639['Headless Warrior'/80304, l='ServerLevel[world]', x=-247.53, y=120.00, z=-240.70] died: Headless Warrior was shot by Piglin
+[13:10:42] [Server thread/INFO]: Named entity class_1634['Restless Spirit'/79673, l='ServerLevel[world]', x=-331.87, y=-20.00, z=-207.40] died: Restless Spirit was killed
+[13:10:54] [Server thread/INFO]: Anakhilang06 lost connection: Disconnected
+[13:10:54] [Server thread/INFO]: Anakhilang06 left the game
+[13:24:37] [Server thread/WARN]: server moved too quickly! 9.619963951051204,2.98500007429692,1.7070356596557872
+[13:24:43] [Server thread/WARN]: server moved too quickly! 5.442868369979408,-3.183859556438449,-8.279481371707675
+[13:25:01] [Server thread/WARN]: zakiatha moved wrongly!
+[13:35:50] [Server thread/INFO]: zakiatha fell from a high place
+[13:37:50] [Server thread/INFO]: New Schematic Uploaded: server/golden_passenger_monorail.nbt
+[13:38:04] [Server thread/INFO]: [Not Secure] <server> loh dah dapet trident ae
+[13:38:09] [Server thread/INFO]: [Not Secure] <zakiatha> hoo
+[13:38:26] [Server thread/INFO]: [Not Secure] <zakiatha> :)
+[13:41:18] [Server thread/INFO]: Tazarima[/114.10.153.235:53413] logged in with entity id 95326 at (-297.0223587677499, 69.0, 270.45387476053247)
+[13:41:18] [Server thread/INFO]: Syncing config to Tazarima (6f7d557d-ee7e-30ed-8347-5acf2199a24d)
+[13:41:18] [Server thread/INFO]: Tazarima joined the game
+[13:42:18] [Server thread/INFO]: Tazarima lost connection: §cTime for authentication has expired.
+[13:42:18] [Server thread/INFO]: Tazarima left the game
+[13:44:20] [Server thread/INFO]: Tazarima[/114.10.153.235:54128] logged in with entity id 96479 at (-297.5, 69.0, 270.5)
+[13:44:20] [Server thread/INFO]: Syncing config to Tazarima (6f7d557d-ee7e-30ed-8347-5acf2199a24d)
+[13:44:20] [Server thread/INFO]: Tazarima joined the game
+[13:45:42] [Server thread/INFO]: [Not Secure] <Tazarima> monorel dibangun icibos
+[13:45:49] [Server thread/INFO]: [Not Secure] <zakiatha> :)
+[13:46:03] [Server thread/WARN]: Scarlet Biplane (vehicle of Tazarima) moved too quickly! -4.435357737004381,-2.5487309381164494,8.955245409494864
+[13:46:03] [Server thread/WARN]: Scarlet Biplane (vehicle of Tazarima) moved too quickly! -5.256378430620316,-2.974673828411099,10.115796419586218
+[13:46:03] [Server thread/WARN]: Scarlet Biplane (vehicle of Tazarima) moved too quickly! -6.1236874785839746,-3.4048205962906763,11.245103924507475
+[13:46:07] [Server thread/INFO]: [Not Secure] <zakiatha> kasih krl taz
+[13:46:14] [Server thread/INFO]: [Not Secure] <zakiatha> biar bisa ke arah lempuyangan
+[13:46:24] [Server thread/WARN]: Scarlet Biplane (vehicle of Tazarima) moved wrongly! 0.46144589979650164
+[13:46:24] [Server thread/WARN]: Scarlet Biplane (vehicle of Tazarima) moved wrongly! 1.1740757131709074
+[13:46:24] [Server thread/WARN]: Scarlet Biplane (vehicle of Tazarima) moved wrongly! 1.8943951227191747
+[13:46:24] [Server thread/WARN]: Scarlet Biplane (vehicle of Tazarima) moved wrongly! 2.6249995799957446
+[13:46:24] [Server thread/WARN]: Scarlet Biplane (vehicle of Tazarima) moved wrongly! 3.366193676145656
+[13:46:24] [Server thread/WARN]: Scarlet Biplane (vehicle of Tazarima) moved wrongly! 4.118895877363741
+[13:46:24] [Server thread/WARN]: Scarlet Biplane (vehicle of Tazarima) moved wrongly! 0.5129555064559668
+[13:46:24] [Server thread/WARN]: Scarlet Biplane (vehicle of Tazarima) moved wrongly! 0.5241395582978612
+[13:46:24] [Server thread/WARN]: Scarlet Biplane (vehicle of Tazarima) moved wrongly! 0.534476210485991
+[13:46:24] [Server thread/WARN]: Scarlet Biplane (vehicle of Tazarima) moved wrongly! 0.5476710137077703
+[13:46:24] [Server thread/WARN]: Scarlet Biplane (vehicle of Tazarima) moved wrongly! 0.559996215324361
+[13:46:24] [Server thread/WARN]: Scarlet Biplane (vehicle of Tazarima) moved wrongly! 0.5746794573439615
+[13:46:24] [Server thread/WARN]: Scarlet Biplane (vehicle of Tazarima) moved wrongly! 0.5883763185564135
+[13:46:24] [Server thread/WARN]: Scarlet Biplane (vehicle of Tazarima) moved wrongly! 0.6036756074499294
+[13:46:24] [Server thread/WARN]: Scarlet Biplane (vehicle of Tazarima) moved wrongly! 0.6176715812438829
+[13:46:24] [Server thread/WARN]: Scarlet Biplane (vehicle of Tazarima) moved wrongly! 0.6328154861089388
+[13:46:24] [Server thread/WARN]: Scarlet Biplane (vehicle of Tazarima) moved wrongly! 0.6465220809488983
+[13:46:24] [Server thread/WARN]: Scarlet Biplane (vehicle of Tazarima) moved wrongly! 0.6611053238856925
+[13:46:24] [Server thread/WARN]: Scarlet Biplane (vehicle of Tazarima) moved wrongly! 0.6742151799696785
+[13:46:24] [Server thread/WARN]: Scarlet Biplane (vehicle of Tazarima) moved wrongly! 0.6880414697102424
+[13:46:24] [Server thread/WARN]: Scarlet Biplane (vehicle of Tazarima) moved wrongly! 0.7003098782614643
+[13:46:24] [Server thread/WARN]: Scarlet Biplane (vehicle of Tazarima) moved wrongly! 0.713138329793594
+[13:46:25] [Server thread/WARN]: Scarlet Biplane (vehicle of Tazarima) moved wrongly! 1.6789385451254475
+[13:46:25] [Server thread/WARN]: Scarlet Biplane (vehicle of Tazarima) moved wrongly! 0.7364473115339933
+[13:46:25] [Server thread/WARN]: Scarlet Biplane (vehicle of Tazarima) moved wrongly! 0.7462361899923167
+[13:46:25] [Server thread/WARN]: Scarlet Biplane (vehicle of Tazarima) moved wrongly! 0.7551453397620094
+[13:46:25] [Server thread/WARN]: Scarlet Biplane (vehicle of Tazarima) moved wrongly! 0.7627406819875091
+[13:46:25] [Server thread/WARN]: Scarlet Biplane (vehicle of Tazarima) moved wrongly! 0.7694581419881956
+[13:46:25] [Server thread/WARN]: Scarlet Biplane (vehicle of Tazarima) moved wrongly! 0.7748077910198958
+[13:46:25] [Server thread/WARN]: Scarlet Biplane (vehicle of Tazarima) moved wrongly! 0.77931259373986
+[13:46:25] [Server thread/WARN]: Scarlet Biplane (vehicle of Tazarima) moved wrongly! 0.7824238401824459
+[13:46:25] [Server thread/WARN]: Scarlet Biplane (vehicle of Tazarima) moved wrongly! 0.7847392777462687
+[13:46:25] [Server thread/WARN]: Scarlet Biplane (vehicle of Tazarima) moved wrongly! 0.7856530570529685
+[13:46:32] [Server thread/WARN]: zakiatha moved wrongly!
+[13:46:47] [Server thread/INFO]: [Not Secure] <zakiatha> haha
+[13:47:13] [Server thread/INFO]: [Not Secure] <zakiatha> hahahahaha
+[13:47:15] [Server thread/INFO]: [Not Secure] <zakiatha> aowkoawkoawk
+[13:47:29] [Server thread/INFO]: Tazarima tried to swim in lava
+[13:47:33] [Server thread/INFO]: [Not Secure] <zakiatha> goblok
+[13:47:38] [Server thread/INFO]: [Not Secure] <Tazarima> asu
+[13:47:41] [Server thread/INFO]: [Not Secure] <Tazarima> mau makan roti
+[13:48:13] [Server thread/INFO]: [Not Secure] <Tazarima> cuk
+[13:48:16] [Server thread/INFO]: [Not Secure] <Tazarima> balikin barang
+[13:48:25] [Server thread/WARN]: Tazarima moved wrongly!
+[13:49:17] [Server thread/INFO]: [Not Secure] <Tazarima> makasi beb
+[13:49:21] [Server thread/INFO]: [Not Secure] <zakiatha> -_
+[13:50:10] [Server thread/WARN]: Scarlet Biplane (vehicle of Tazarima) moved too quickly! -10.342375247535074,0.974729362792516,0.5461703074707316
+[13:50:10] [Server thread/WARN]: Scarlet Biplane (vehicle of Tazarima) moved too quickly! -11.264724701907085,1.064959949550527,0.5907809327800919
+[13:51:13] [Server thread/INFO]: [Not Secure] <zakiatha> atraksi taz
+[13:51:20] [Server thread/WARN]: Scarlet Biplane (vehicle of Tazarima) moved too quickly! -7.143330970846591,-0.05853251099556189,-7.35975276205545
+[13:51:20] [Server thread/WARN]: Scarlet Biplane (vehicle of Tazarima) moved too quickly! -8.246542051026438,0.13680990050546882,-8.215160529261539
+[13:52:43] [Server thread/WARN]: Scarlet Biplane (vehicle of Tazarima) moved wrongly! 0.2623778229639129
+[13:52:51] [Server thread/WARN]: Scarlet Biplane (vehicle of Tazarima) moved wrongly! 0.38592695640721786
+[13:52:51] [Server thread/WARN]: Scarlet Biplane (vehicle of Tazarima) moved wrongly! 0.2656130226807818
+[13:52:51] [Server thread/WARN]: Scarlet Biplane (vehicle of Tazarima) moved wrongly! 0.27790327398884074
+[13:52:51] [Server thread/WARN]: Scarlet Biplane (vehicle of Tazarima) moved wrongly! 0.26521217902103444
+[13:52:51] [Server thread/WARN]: Scarlet Biplane (vehicle of Tazarima) moved wrongly! 0.2554721644373217
+[13:52:52] [Server thread/WARN]: Scarlet Biplane (vehicle of Tazarima) moved wrongly! 0.2981890153369591
+[13:54:19] [Server thread/WARN]: zakiatha moved wrongly!
+[13:54:33] [Server thread/INFO]: [Not Secure] <Tazarima> awikwok
+[13:54:34] [Server thread/WARN]: Tazarima moved wrongly!
+[13:54:41] [Server thread/INFO]: [Not Secure] <zakiatha> phantom ajg
+[13:55:57] [Server thread/WARN]: Tazarima moved wrongly!
+[13:55:58] [Server thread/WARN]: Tazarima moved wrongly!
+[13:56:04] [Server thread/WARN]: Tazarima moved wrongly!
+[13:56:32] [Server thread/WARN]: Tazarima moved wrongly!
+[13:57:19] [Server thread/INFO]: [Not Secure] <server> mau naik ga
+[13:57:22] [Server thread/WARN]: Tazarima moved wrongly!
+[13:57:23] [Server thread/INFO]: [Not Secure] <zakiatha> mau
+[13:57:25] [Server thread/WARN]: Tazarima moved wrongly!
+[13:57:44] [Server thread/INFO]: [Not Secure] <server> duduk sek woi
+[13:57:49] [Server thread/INFO]: [Not Secure] <zakiatha> taza asww
+[13:59:42] [Server thread/INFO]: [Not Secure] <server> kok mbalik
+[13:59:48] [Server thread/INFO]: [Not Secure] <zakiatha> rak reti
+[13:59:58] [Server thread/INFO]: [Not Secure] <server> WOOO
+[14:00:05] [Server thread/INFO]: [Not Secure] <zakiatha> koe ae
+[14:00:06] [Server thread/INFO]: [Not Secure] <server> ZAKKKA
+[14:00:08] [Server thread/INFO]: [Not Secure] <zakiatha> mumet aku
+[14:00:10] [Server thread/INFO]: [Not Secure] <server> JGN MEGANG CONTROL
+[14:00:32] [Server thread/INFO]: [server: Teleported Tazarima to dddddd]
+[14:01:23] [Server thread/INFO]: zakiatha lost connection: Timed out
+[14:01:23] [Server thread/INFO]: zakiatha left the game
+[14:01:33] [Server thread/INFO]: zakiatha[/202.169.232.157:56467] logged in with entity id 102594 at (-427.49999952316284, 64.87499999403954, 296.5)
+[14:01:33] [Server thread/INFO]: Syncing config to zakiatha (8ec77d25-f7bd-3727-b6d5-e59fa9220760)
+[14:01:33] [Server thread/INFO]: zakiatha joined the game
+[14:01:52] [Server thread/INFO]: [Not Secure] <server> raiso metu po
+[14:02:09] [Server thread/INFO]: [server: Teleported zakiatha to server]
+[14:02:10] [Server thread/INFO]: zakiatha lost connection: Disconnected
+[14:02:10] [Server thread/INFO]: zakiatha left the game
+[14:02:19] [Server thread/INFO]: zakiatha[/202.169.232.157:56488] logged in with entity id 102768 at (-424.3076271181057, 66.0, 300.8767512253593)
+[14:02:19] [Server thread/INFO]: Syncing config to zakiatha (8ec77d25-f7bd-3727-b6d5-e59fa9220760)
+[14:02:19] [Server thread/INFO]: zakiatha joined the game
+[14:02:48] [Netty Epoll Server IO #2/ERROR]: Exception occurred in netty pipeline
+io.netty.handler.timeout.ReadTimeoutException: null
+[14:02:51] [Server thread/WARN]: zakiatha was kicked for floating too long!
+[14:02:51] [Server thread/WARN]: zakiatha was kicked for floating too long!
+[14:02:51] [Server thread/WARN]: zakiatha was kicked for floating too long!
+[14:02:51] [Server thread/WARN]: zakiatha was kicked for floating too long!
+[14:02:51] [Server thread/WARN]: zakiatha was kicked for floating too long!
+[14:02:51] [Server thread/WARN]: zakiatha was kicked for floating too long!
+[14:02:51] [Server thread/WARN]: zakiatha was kicked for floating too long!
+[14:02:51] [Server thread/WARN]: zakiatha was kicked for floating too long!
+[14:02:51] [Server thread/WARN]: zakiatha was kicked for floating too long!
+[14:02:51] [Server thread/WARN]: zakiatha was kicked for floating too long!
+[14:02:51] [Server thread/WARN]: zakiatha was kicked for floating too long!
+[14:02:51] [Server thread/WARN]: zakiatha was kicked for floating too long!
+[14:02:52] [Server thread/WARN]: zakiatha was kicked for floating too long!
+[14:02:52] [Server thread/WARN]: zakiatha was kicked for floating too long!
+[14:02:52] [Server thread/WARN]: zakiatha was kicked for floating too long!
+[14:02:52] [Server thread/WARN]: zakiatha was kicked for floating too long!
+[14:02:52] [Server thread/WARN]: zakiatha was kicked for floating too long!
+[14:02:52] [Server thread/WARN]: zakiatha was kicked for floating too long!
+[14:02:52] [Server thread/WARN]: zakiatha was kicked for floating too long!
+[14:02:52] [Server thread/WARN]: zakiatha was kicked for floating too long!
+[14:02:52] [Server thread/WARN]: zakiatha was kicked for floating too long!
+[14:02:52] [Server thread/WARN]: zakiatha was kicked for floating too long!
+[14:02:52] [Server thread/WARN]: zakiatha was kicked for floating too long!
+[14:02:52] [Server thread/WARN]: zakiatha was kicked for floating too long!
+[14:02:52] [Server thread/WARN]: zakiatha was kicked for floating too long!
+[14:02:52] [Server thread/WARN]: zakiatha was kicked for floating too long!
+[14:02:52] [Server thread/WARN]: zakiatha was kicked for floating too long!
+[14:02:52] [Server thread/WARN]: zakiatha was kicked for floating too long!
+[14:02:52] [Server thread/WARN]: zakiatha was kicked for floating too long!
+[14:02:52] [Server thread/WARN]: zakiatha was kicked for floating too long!
+[14:02:52] [Server thread/WARN]: zakiatha was kicked for floating too long!
+[14:02:52] [Server thread/WARN]: zakiatha was kicked for floating too long!
+[14:02:53] [Server thread/WARN]: zakiatha was kicked for floating too long!
+[14:02:53] [Server thread/WARN]: zakiatha was kicked for floating too long!
+[14:02:53] [Server thread/WARN]: zakiatha was kicked for floating too long!
+[14:02:53] [Server thread/WARN]: zakiatha was kicked for floating too long!
+[14:02:53] [Server thread/WARN]: zakiatha was kicked for floating too long!
+[14:02:53] [Server thread/WARN]: zakiatha was kicked for floating too long!
+[14:02:53] [Server thread/WARN]: zakiatha was kicked for floating too long!
+[14:02:53] [Server thread/WARN]: zakiatha was kicked for floating too long!
+[14:02:53] [Server thread/WARN]: zakiatha was kicked for floating too long!
+[14:02:53] [Server thread/WARN]: zakiatha was kicked for floating too long!
+[14:02:53] [Server thread/WARN]: zakiatha was kicked for floating too long!
+[14:02:53] [Server thread/WARN]: zakiatha was kicked for floating too long!
+[14:02:53] [Server thread/WARN]: zakiatha was kicked for floating too long!
+[14:02:53] [Server thread/WARN]: zakiatha was kicked for floating too long!
+[14:02:53] [Server thread/WARN]: zakiatha was kicked for floating too long!
+[14:02:53] [Server thread/WARN]: zakiatha was kicked for floating too long!
+[14:02:53] [Server thread/WARN]: zakiatha was kicked for floating too long!
+[14:02:53] [Server thread/WARN]: zakiatha was kicked for floating too long!
+[14:02:53] [Server thread/WARN]: zakiatha was kicked for floating too long!
+[14:02:53] [Server thread/WARN]: zakiatha was kicked for floating too long!
+[14:02:54] [Server thread/WARN]: zakiatha was kicked for floating too long!
+[14:02:54] [Server thread/WARN]: zakiatha was kicked for floating too long!
+[14:02:54] [Server thread/WARN]: zakiatha was kicked for floating too long!
+[14:02:54] [Server thread/WARN]: zakiatha was kicked for floating too long!
+[14:02:54] [Server thread/WARN]: zakiatha was kicked for floating too long!
+[14:02:54] [Server thread/WARN]: zakiatha was kicked for floating too long!
+[14:02:54] [Server thread/WARN]: zakiatha was kicked for floating too long!
+[14:02:54] [Server thread/WARN]: zakiatha was kicked for floating too long!
+[14:02:54] [Server thread/WARN]: zakiatha was kicked for floating too long!
+[14:02:54] [Server thread/WARN]: zakiatha was kicked for floating too long!
+[14:02:54] [Server thread/WARN]: zakiatha was kicked for floating too long!
+[14:02:54] [Server thread/WARN]: zakiatha was kicked for floating too long!
+[14:02:54] [Server thread/WARN]: zakiatha was kicked for floating too long!
+[14:02:54] [Server thread/WARN]: zakiatha was kicked for floating too long!
+[14:02:54] [Server thread/WARN]: zakiatha was kicked for floating too long!
+[14:02:54] [Server thread/WARN]: zakiatha was kicked for floating too long!
+[14:02:54] [Server thread/WARN]: zakiatha was kicked for floating too long!
+[14:02:54] [Server thread/WARN]: zakiatha was kicked for floating too long!
+[14:02:54] [Server thread/WARN]: zakiatha was kicked for floating too long!
+[14:02:54] [Server thread/WARN]: zakiatha was kicked for floating too long!
+[14:02:55] [Server thread/WARN]: zakiatha was kicked for floating too long!
+[14:02:55] [Server thread/WARN]: zakiatha was kicked for floating too long!
+[14:02:55] [Server thread/WARN]: zakiatha was kicked for floating too long!
+[14:02:55] [Server thread/WARN]: zakiatha was kicked for floating too long!
+[14:02:55] [Server thread/WARN]: zakiatha was kicked for floating too long!
+[14:02:55] [Server thread/WARN]: zakiatha was kicked for floating too long!
+[14:02:55] [Server thread/WARN]: zakiatha was kicked for floating too long!
+[14:02:55] [Server thread/WARN]: zakiatha was kicked for floating too long!
+[14:02:55] [Server thread/WARN]: zakiatha was kicked for floating too long!
+[14:02:55] [Server thread/WARN]: zakiatha was kicked for floating too long!
+[14:02:55] [Server thread/WARN]: zakiatha was kicked for floating too long!
+[14:02:55] [Server thread/WARN]: zakiatha was kicked for floating too long!
+[14:02:55] [Server thread/WARN]: zakiatha was kicked for floating too long!
+[14:02:55] [Server thread/WARN]: zakiatha was kicked for floating too long!
+[14:02:55] [Server thread/WARN]: zakiatha was kicked for floating too long!
+[14:02:55] [Server thread/WARN]: zakiatha was kicked for floating too long!
+[14:02:55] [Server thread/WARN]: zakiatha was kicked for floating too long!
+[14:02:55] [Server thread/WARN]: zakiatha was kicked for floating too long!
+[14:02:55] [Server thread/WARN]: zakiatha was kicked for floating too long!
+[14:02:55] [Server thread/WARN]: zakiatha was kicked for floating too long!
+[14:02:56] [Server thread/WARN]: zakiatha was kicked for floating too long!
+[14:02:56] [Server thread/WARN]: zakiatha was kicked for floating too long!
+[14:02:56] [Server thread/WARN]: zakiatha was kicked for floating too long!
+[14:02:56] [Server thread/WARN]: zakiatha was kicked for floating too long!
+[14:02:56] [Server thread/WARN]: zakiatha was kicked for floating too long!
+[14:02:56] [Server thread/WARN]: zakiatha was kicked for floating too long!
+[14:02:56] [Server thread/WARN]: zakiatha was kicked for floating too long!
+[14:02:56] [Server thread/WARN]: zakiatha was kicked for floating too long!
+[14:02:56] [Server thread/WARN]: zakiatha was kicked for floating too long!
+[14:02:56] [Server thread/WARN]: zakiatha was kicked for floating too long!
+[14:02:56] [Server thread/WARN]: zakiatha was kicked for floating too long!
+[14:02:56] [Server thread/WARN]: zakiatha was kicked for floating too long!
+[14:02:56] [Server thread/WARN]: zakiatha was kicked for floating too long!
+[14:02:56] [Server thread/WARN]: zakiatha was kicked for floating too long!
+[14:02:56] [Server thread/WARN]: zakiatha was kicked for floating too long!
+[14:02:56] [Server thread/WARN]: zakiatha was kicked for floating too long!
+[14:02:56] [Server thread/WARN]: zakiatha was kicked for floating too long!
+[14:02:56] [Server thread/WARN]: zakiatha was kicked for floating too long!
+[14:02:56] [Server thread/WARN]: zakiatha was kicked for floating too long!
+[14:02:56] [Server thread/WARN]: zakiatha was kicked for floating too long!
+[14:02:57] [Server thread/WARN]: zakiatha was kicked for floating too long!
+[14:03:11] [Server thread/INFO]: zakiatha lost connection: Disconnected
+[14:03:11] [Server thread/INFO]: zakiatha left the game
+[14:04:55] [Server thread/INFO]: server lost connection: Timed out
+[14:04:55] [Server thread/INFO]: server left the game
+[14:05:02] [Netty Epoll Server IO #0/ERROR]: Exception occurred in netty pipeline
+io.netty.channel.unix.Errors$NativeIoException: recvAddress(..) failed: Connection reset by peer
+[14:05:02] [Server thread/INFO]: Tazarima lost connection: Disconnected
+[14:05:02] [Server thread/INFO]: Tazarima left the game
+[14:05:03] [Server thread/INFO]: server[/114.10.152.71:49036] logged in with entity id 103313 at (-550.0440334255296, 65.42010008688698, 294.743700466986)
+[14:05:04] [Server thread/INFO]: Syncing config to server (9713e7ee-4b63-3db0-80f0-142a29dfdce4)
+[14:05:04] [Server thread/INFO]: server joined the game
+[14:05:28] [Server thread/INFO]: zakiatha[/202.169.232.157:56626] logged in with entity id 103622 at (-419.60656414588937, 66.7531999805212, 301.61190002948223)
+[14:05:28] [Server thread/INFO]: Syncing config to zakiatha (8ec77d25-f7bd-3727-b6d5-e59fa9220760)
+[14:05:28] [Server thread/INFO]: zakiatha joined the game
+[14:09:56] [Server thread/INFO]: zakiatha lost connection: Disconnected
+[14:09:56] [Server thread/INFO]: zakiatha left the game
+[14:12:12] [Server thread/INFO]: Tazarima[/104.28.219.242:61106] logged in with entity id 105039 at (-407.40686236187355, 65.7835693359375, 286.6515903191756)
+[14:12:12] [Server thread/INFO]: Syncing config to Tazarima (6f7d557d-ee7e-30ed-8347-5acf2199a24d)
+[14:12:12] [Server thread/INFO]: Tazarima joined the game
+[14:12:44] [Server thread/WARN]: Tazarima moved wrongly!
+[14:13:28] [Server thread/INFO]: server lost connection: Disconnected
+[14:13:28] [Server thread/INFO]: server left the game
+[14:17:51] [Server thread/INFO]: runs[/114.10.152.71:59411] logged in with entity id 106357 at (-335.0456071621819, 65.0, 384.8446444255805)
+[14:17:51] [Server thread/INFO]: Syncing config to runs (0849d153-adce-35a5-8007-7ef46adffb2b)
+[14:17:51] [Server thread/INFO]: runs joined the game
+[14:19:49] [Server thread/INFO]: runs lost connection: Disconnected
+[14:19:49] [Server thread/INFO]: runs left the game
+[14:32:04] [Server thread/WARN]: Boat (vehicle of Tazarima) moved wrongly! 0.2629153497927632
+[14:32:05] [Server thread/WARN]: Boat (vehicle of Tazarima) moved wrongly! 0.33869182319216407
+[14:32:05] [Server thread/WARN]: Boat (vehicle of Tazarima) moved wrongly! 0.406890647444925
+[14:32:05] [Server thread/WARN]: Boat (vehicle of Tazarima) moved wrongly! 0.46826958764643223
+[14:32:05] [Server thread/WARN]: Boat (vehicle of Tazarima) moved wrongly! 0.5235106323644345
+[14:32:05] [Server thread/WARN]: Boat (vehicle of Tazarima) moved wrongly! 0.5732275712935575
+[14:32:05] [Server thread/WARN]: Boat (vehicle of Tazarima) moved wrongly! 0.6179728151444124
+[14:32:05] [Server thread/WARN]: Boat (vehicle of Tazarima) moved wrongly! 0.6582435335433843
+[14:34:11] [Server thread/INFO]: dddddd tried to swim in lava
+[14:37:29] [Server thread/WARN]: Tazarima moved wrongly!
+[14:38:59] [Server thread/INFO]: dddddd has made the advancement [Sweet Dreams]
+[14:39:01] [Server thread/INFO]: [Not Secure] <dddddd> ww
+[14:39:26] [Server thread/INFO]: kntl[/104.28.251.242:47551] logged in with entity id 115232 at (-320.60723134585885, 77.0, 195.1682075927685)
+[14:39:26] [Server thread/INFO]: Syncing config to kntl (bde84938-80eb-35f2-98bb-03e3bcd050a5)
+[14:39:26] [Server thread/INFO]: kntl joined the game
+[14:41:47] [Server thread/INFO]: dddddd burned to death
+[14:46:51] [Server thread/WARN]: Boat (vehicle of Tazarima) moved wrongly! 0.7459906377526124
+[14:46:51] [Server thread/WARN]: Boat (vehicle of Tazarima) moved wrongly! 0.4516240775330118
+[14:46:51] [Server thread/WARN]: Boat (vehicle of Tazarima) moved wrongly! 0.38049281363004184
+[14:48:56] [Server thread/WARN]: Tazarima moved too quickly! -1.5577192812193061,-10.277411153802234,0.5419015672350156
+[14:49:14] [Server thread/INFO]: kntl fell from a high place
+[14:50:50] [Server thread/INFO]: dddddd lost connection: Timed out
+[14:50:50] [Server thread/INFO]: dddddd left the game
+[14:50:57] [Server thread/INFO]: kntl lost connection: Timed out
+[14:50:57] [Server thread/INFO]: kntl left the game
+[14:51:01] [Server thread/INFO]: Tazarima lost connection: Timed out
+[14:51:01] [Server thread/INFO]: Tazarima left the game
+[14:51:15] [Server thread/INFO]: dddddd[/104.28.219.244:33668] logged in with entity id 118885 at (-309.3333635696176, 80.0, 186.37056783820427)
+[14:51:15] [Server thread/INFO]: Syncing config to dddddd (7137e7ce-81b2-38c5-85ac-49c940c2e382)
+[14:51:15] [Server thread/INFO]: dddddd joined the game
+[14:51:33] [Server thread/INFO]: dddddd was shot by Spy
+[14:51:35] [Server thread/INFO]: Tazarima[/104.28.251.242:44758] logged in with entity id 119282 at (-540.5214424742978, 63.08576431274413, 269.3125)
+[14:51:35] [Server thread/INFO]: Syncing config to Tazarima (6f7d557d-ee7e-30ed-8347-5acf2199a24d)
+[14:51:35] [Server thread/INFO]: Tazarima joined the game
+[14:51:51] [Server thread/INFO]: kntl[/104.28.251.242:49992] logged in with entity id 119702 at (-540.9154438675051, 62.07326432466506, 267.9301192351833)
+[14:51:51] [Server thread/INFO]: Syncing config to kntl (bde84938-80eb-35f2-98bb-03e3bcd050a5)
+[14:51:51] [Server thread/INFO]: kntl joined the game
+[14:52:05] [Server thread/INFO]: Tazarima lost connection: §4Wrong password!
+[14:52:05] [Server thread/INFO]: Tazarima left the game
+[14:52:05] [Server thread/WARN]: handleDisconnection() called twice
+[14:52:05] [Server thread/INFO]: dddddd was shot by Spy
+[14:52:15] [Server thread/INFO]: Tazarima[/104.28.219.242:49715] logged in with entity id 119948 at (-540.5, 63.08576431274413, 269.5)
+[14:52:15] [Server thread/INFO]: Syncing config to Tazarima (6f7d557d-ee7e-30ed-8347-5acf2199a24d)
+[14:52:15] [Server thread/INFO]: Tazarima joined the game
+[14:52:31] [Server thread/INFO]: Tazarima lost connection: §4Wrong password!
+[14:52:31] [Server thread/INFO]: Tazarima left the game
+[14:52:31] [Server thread/WARN]: handleDisconnection() called twice
+[14:52:33] [Server thread/INFO]: dddddd was shot by Spy
+[14:52:37] [Server thread/INFO]: dddddd lost connection: Disconnected
+[14:52:37] [Server thread/INFO]: dddddd left the game
+[14:52:41] [Server thread/INFO]: Tazarima[/104.28.219.242:49894] logged in with entity id 120136 at (-540.5, 63.08576431274413, 269.5)
+[14:52:41] [Server thread/INFO]: Syncing config to Tazarima (6f7d557d-ee7e-30ed-8347-5acf2199a24d)
+[14:52:41] [Server thread/INFO]: Tazarima joined the game
+[14:52:53] [Server thread/INFO]: Tazarima lost connection: §4Wrong password!
+[14:52:53] [Server thread/INFO]: Tazarima left the game
+[14:53:05] [Server thread/INFO]: Tazarima[/104.28.219.242:50032] logged in with entity id 120186 at (-540.5, 63.08576431274413, 269.5)
+[14:53:05] [Server thread/INFO]: Syncing config to Tazarima (6f7d557d-ee7e-30ed-8347-5acf2199a24d)
+[14:53:05] [Server thread/INFO]: Tazarima joined the game
+[14:53:20] [Server thread/INFO]: Tazarima lost connection: §4Wrong password!
+[14:53:20] [Server thread/INFO]: Tazarima left the game
+[14:53:31] [Server thread/INFO]: Tazarima[/104.28.219.242:50143] logged in with entity id 120305 at (-540.5, 63.08576431274413, 269.5)
+[14:53:31] [Server thread/INFO]: Syncing config to Tazarima (6f7d557d-ee7e-30ed-8347-5acf2199a24d)
+[14:53:31] [Server thread/INFO]: Tazarima joined the game
+[14:53:47] [Server thread/INFO]: Tazarima lost connection: §4Wrong password!
+[14:53:47] [Server thread/INFO]: Tazarima left the game
+[14:54:00] [Server thread/WARN]: Boat (vehicle of kntl) moved wrongly! 1.34172075838228
+[14:54:00] [Server thread/WARN]: Boat (vehicle of kntl) moved wrongly! 1.3275332927926229
+[14:54:00] [Server thread/WARN]: Boat (vehicle of kntl) moved wrongly! 1.3147645741001952
+[14:54:00] [Server thread/WARN]: Boat (vehicle of kntl) moved wrongly! 1.3032727275814295
+[14:54:00] [Server thread/WARN]: Boat (vehicle of kntl) moved wrongly! 1.2929300659884575
+[14:54:00] [Server thread/WARN]: Boat (vehicle of kntl) moved wrongly! 1.2836216708013808
+[14:54:00] [Server thread/WARN]: Boat (vehicle of kntl) moved wrongly! 1.275244115355008
+[14:54:01] [Server thread/WARN]: Boat (vehicle of kntl) moved wrongly! 1.2677043156529635
+[14:54:46] [Server thread/INFO]: Tazarima[/104.28.251.242:56802] logged in with entity id 120741 at (-540.5, 63.08576431274413, 269.5)
+[14:54:46] [Server thread/INFO]: Syncing config to Tazarima (6f7d557d-ee7e-30ed-8347-5acf2199a24d)
+[14:54:46] [Server thread/INFO]: Tazarima joined the game
+[14:57:36] [Server thread/WARN]: Player kntl just tried to change non-editable sign
+[14:57:36] [Server thread/WARN]: Player kntl just tried to change non-editable sign
+[14:57:36] [Server thread/WARN]: Player kntl just tried to change non-editable sign
+[14:57:36] [Server thread/WARN]: Player kntl just tried to change non-editable sign
+[14:57:36] [Server thread/WARN]: Player kntl just tried to change non-editable sign
+[14:57:36] [Server thread/WARN]: Player kntl just tried to change non-editable sign
+[14:57:36] [Server thread/WARN]: Player kntl just tried to change non-editable sign
+[14:57:36] [Server thread/WARN]: Player kntl just tried to change non-editable sign
+[14:57:36] [Server thread/WARN]: Player kntl just tried to change non-editable sign
+[14:57:36] [Server thread/WARN]: Player kntl just tried to change non-editable sign
+[14:57:37] [Server thread/WARN]: Player kntl just tried to change non-editable sign
+[14:57:37] [Server thread/WARN]: Player kntl just tried to change non-editable sign
+[14:57:37] [Server thread/WARN]: Player kntl just tried to change non-editable sign
+[14:57:37] [Server thread/WARN]: Player kntl just tried to change non-editable sign
+[14:57:39] [Server thread/WARN]: Player kntl just tried to change non-editable sign
+[14:57:39] [Server thread/WARN]: Player kntl just tried to change non-editable sign
+[14:57:39] [Server thread/WARN]: Player kntl just tried to change non-editable sign
+[14:57:39] [Server thread/WARN]: Player kntl just tried to change non-editable sign
+[14:57:39] [Server thread/WARN]: Player kntl just tried to change non-editable sign
+[14:57:39] [Server thread/WARN]: Player kntl just tried to change non-editable sign
+[14:57:41] [Server thread/WARN]: Player kntl just tried to change non-editable sign
+[14:57:51] [Server thread/INFO]: runs[/114.10.152.71:49041] logged in with entity id 121867 at (-338.54052797311783, 63.0, 342.2926750168812)
+[14:57:51] [Server thread/INFO]: Syncing config to runs (0849d153-adce-35a5-8007-7ef46adffb2b)
+[14:57:51] [Server thread/INFO]: runs joined the game
+[14:58:03] [Server thread/INFO]: kntl has made the advancement [Stone Age]
+[15:21:00] [Server thread/INFO]: [Not Secure] <Tazarima> hai
+[15:21:03] [Server thread/INFO]: [Not Secure] <runs> zak pvp toggle mu kepencet
+[15:21:23] [Server thread/INFO]: [Not Secure] <runs> shortcutnya K kalau belum tahu
+[15:21:26] [Server thread/INFO]: [Not Secure] <Tazarima> maksud
+[15:21:37] [Server thread/INFO]: [Not Secure] <runs> di server ini kalau mau pvp harus ngeflag
+[15:21:53] [Server thread/INFO]: [Not Secure] <runs> kalau sama2 ngeflag bisa ngasih damager
+[15:21:53] [Server thread/INFO]: [Not Secure] <Tazarima> OK THANKYOU
+[15:23:32] [Server thread/WARN]: runs moved wrongly!
+[15:26:02] [Server thread/INFO]: Anakhilang06[/180.243.74.90:64178] logged in with entity id 132659 at (-375.9949761103391, 63.0, 138.28363883787938)
+[15:26:02] [Server thread/INFO]: Syncing config to Anakhilang06 (25475df8-4598-3c7e-9c32-8acb1ba5f889)
+[15:26:02] [Server thread/INFO]: Anakhilang06 joined the game
+[15:28:57] [Server thread/INFO]: [Not Secure] <Tazarima> haloo
+[15:29:00] [Server thread/INFO]: [Not Secure] <runs> haii
+[15:29:06] [Server thread/INFO]: [Not Secure] <Tazarima> aku syifa ddd
+[15:29:16] [Server thread/INFO]: [Not Secure] <kntl> halo
+[15:29:25] [Server thread/INFO]: [Not Secure] <runs> oalaa
+[15:29:31] [Server thread/INFO]: [Not Secure] <kntl> aku ddd juga
+[15:29:34] [Server thread/INFO]: [Not Secure] <runs> selamat datang
+[15:29:41] [Server thread/INFO]: [Not Secure] <Tazarima> numpang bangun rumah yaa
+[15:29:45] [Server thread/INFO]: [Not Secure] <runs> aman
+[15:29:53] [Server thread/INFO]: [Not Secure] <Tazarima> terimakasiii
+[15:30:00] [Server thread/INFO]: [Not Secure] <runs> main di wifi sekre enak kah
+[15:30:10] [Server thread/INFO]: [Not Secure] <kntl> enak
+[15:30:11] [Server thread/INFO]: [Not Secure] <Tazarima> enakkk
+[15:30:13] [Server thread/INFO]: [Not Secure] <runs> ambil barang bebas kalau mau di farm2 gitu
+[15:30:30] [Server thread/INFO]: [Not Secure] <runs> zaka nya ga lagi nyekre kah
+[15:30:35] [Server thread/INFO]: [Not Secure] <Tazarima> okayy
+[15:30:42] [Server thread/INFO]: [Not Secure] <Tazarima> dia dibelakang kita WKKWK
+[15:30:47] [Server thread/INFO]: [Not Secure] <runs> WKWKWKKWKW
+[15:30:52] [Server thread/INFO]: [Not Secure] <Tazarima> spectator
+[15:39:53] [Server thread/INFO]: runs has made the advancement [Hidden in the Depths]
+[15:41:22] [Server thread/INFO]: [Not Secure] <runs> bilang zakka, keknya internetnya harus ditethering deh wkwkw
+[15:41:39] [Server thread/INFO]: [Not Secure] <kntl> hi sekarang aku raisha
+[15:41:39] [Server thread/INFO]: [Not Secure] <Tazarima> oke tersampaikan
+[15:41:49] [Server thread/INFO]: [Not Secure] <runs> halo raisha
+[15:42:10] [Server thread/INFO]: [Not Secure] <kntl> halo runs
+[15:42:10] [Server thread/INFO]: [Not Secure] <runs> nice work gamatopia
+[15:42:35] [Server thread/INFO]: [Not Secure] <kntl> thank you
+[15:49:10] [Server thread/INFO]: Anakhilang06 has reached the goal [Hired Help]
+[15:49:10] [Server thread/INFO]: runs has reached the goal [Hired Help]
+[15:49:13] [Server thread/INFO]: RakanJugaJuga[/125.160.106.217:54228] logged in with entity id 137504 at (-281.5687087751944, 86.0, 186.44715995604454)
+[15:49:13] [Server thread/INFO]: Syncing config to RakanJugaJuga (4ff973f9-325f-3929-b5a7-73e9eef14cc6)
+[15:49:13] [Server thread/INFO]: RakanJugaJuga joined the game
+[15:50:41] [Server thread/INFO]: kntl lost connection: Timed out
+[15:50:41] [Server thread/INFO]: kntl left the game
+[15:50:50] [Server thread/INFO]: Tazarima lost connection: Timed out
+[15:50:50] [Server thread/INFO]: Tazarima left the game
+[15:51:36] [Server thread/INFO]: Tazarima[/104.28.251.242:60319] logged in with entity id 138124 at (-312.01655833211083, 79.9375, 188.17647694794402)
+[15:51:36] [Server thread/INFO]: Syncing config to Tazarima (6f7d557d-ee7e-30ed-8347-5acf2199a24d)
+[15:51:36] [Server thread/INFO]: Tazarima joined the game
+[15:51:45] [Server thread/WARN]: Anakhilang06 moved wrongly!
+[15:51:45] [Server thread/WARN]: Anakhilang06 moved wrongly!
+[15:52:36] [Server thread/WARN]: Anakhilang06 moved wrongly!
+[15:52:36] [Server thread/WARN]: Anakhilang06 moved wrongly!
+[15:53:10] [Server thread/INFO]: [Not Secure] <runs> ini udah zaka yg asli?
+[15:53:25] [Server thread/INFO]: [Not Secure] <Tazarima> belom
+[15:53:32] [Server thread/INFO]: [Not Secure] <runs> ok amang
+[15:53:44] [Server thread/INFO]: [Not Secure] <Tazarima> kenapa emangnya
+[15:53:51] [Server thread/INFO]: [Not Secure] <Tazarima> kenapa emangnyaa
+[15:54:11] [Server thread/INFO]: [Not Secure] <runs> ga aku mau nanya progress bandaranya
+[15:54:15] [Server thread/INFO]: [Not Secure] <runs> ga aku mau nanya progress bandaranyaa
+[15:55:37] [Server thread/INFO]: Tazarima lost connection: Timed out
+[15:55:37] [Server thread/INFO]: Tazarima left the game
+[15:56:11] [Server thread/INFO]: Tazarima[/104.28.219.242:35207] logged in with entity id 142342 at (-253.3181758788222, 68.7835693359375, 266.54645926088784)
+[15:56:11] [Server thread/INFO]: Syncing config to Tazarima (6f7d557d-ee7e-30ed-8347-5acf2199a24d)
+[15:56:11] [Server thread/INFO]: Tazarima joined the game
+[15:56:16] [Server thread/WARN]: Anakhilang06 moved wrongly!
+[15:56:27] [Server thread/WARN]: runs moved wrongly!
+[15:56:34] [Server thread/WARN]: runs moved wrongly!
+[15:56:41] [Server thread/INFO]: Tazarima lost connection: Timed out
+[15:56:41] [Server thread/INFO]: Tazarima left the game
+[15:58:04] [Server thread/WARN]: Anakhilang06 moved wrongly!
+[15:58:35] [Server thread/INFO]: Tazarima[/104.28.219.242:12084] logged in with entity id 143698 at (-252.16317280548947, 68.7835693359375, 266.6942956260796)
+[15:58:35] [Server thread/INFO]: Syncing config to Tazarima (6f7d557d-ee7e-30ed-8347-5acf2199a24d)
+[15:58:35] [Server thread/INFO]: Tazarima joined the game
+[15:59:03] [Server thread/WARN]: Anakhilang06 moved wrongly!
+[15:59:08] [Server thread/WARN]: Anakhilang06 moved wrongly!
+[15:59:23] [Server thread/INFO]: [Not Secure] <Tazarima> hi abis disconnect
+[16:02:43] [Server thread/INFO]: [Not Secure] <Tazarima> minta kayu ya
+[16:02:48] [Server thread/INFO]: [Not Secure] <runs> ambil ae bebas
+[16:02:54] [Server thread/INFO]: [Not Secure] <runs> se apelnya se apanya
+[16:02:56] [Server thread/INFO]: [Not Secure] <runs> semua
+[16:03:05] [Server thread/INFO]: [Not Secure] <runs> boleh ambil iron juga di farm sana
+[16:03:11] [Server thread/INFO]: [Not Secure] <Tazarima> WKWKWK OK
+[16:03:22] [Server thread/INFO]: [Not Secure] <runs> sisa byk soalnya
+[16:04:55] [Server thread/INFO]: Disconnecting com.mojang.authlib.GameProfile@4eaf6639[id=0849d153-adce-35a5-8007-7ef46adffb2b,name=runs,properties={},legacy=false] (/114.10.150.64:7727): §cPlayer literal{runs} is already online!
+[16:04:55] [Server thread/INFO]: com.mojang.authlib.GameProfile@4eaf6639[id=0849d153-adce-35a5-8007-7ef46adffb2b,name=runs,properties={},legacy=false] (/114.10.150.64:7727) lost connection: §cPlayer literal{runs} is already online!
+[16:04:55] [Server thread/WARN]: handleDisconnection() called twice
+[16:04:57] [Server thread/INFO]: runs lost connection: Timed out
+[16:04:57] [Server thread/INFO]: runs left the game
+[16:05:05] [Server thread/INFO]: runs[/114.10.150.64:7728] logged in with entity id 147032 at (-369.6109871229072, 70.0, 229.9952573563899)
+[16:05:05] [Server thread/INFO]: Syncing config to runs (0849d153-adce-35a5-8007-7ef46adffb2b)
+[16:05:05] [Server thread/INFO]: runs joined the game
+[16:12:37] [Server thread/INFO]: runs lost connection: Disconnected
+[16:12:37] [Server thread/INFO]: runs left the game
+[16:13:53] [Server thread/INFO]: Anakhilang06 lost connection: Disconnected
+[16:13:53] [Server thread/INFO]: Anakhilang06 left the game
+[16:14:04] [Server thread/INFO]: RakanJugaJuga lost connection: Disconnected
+[16:14:04] [Server thread/INFO]: RakanJugaJuga left the game
+[16:14:23] [Server thread/INFO]: RakanJugaJuga[/125.160.106.217:54281] logged in with entity id 150052 at (-546.7768422088786, 180.0, 274.42724989872295)
+[16:14:23] [Server thread/INFO]: Syncing config to RakanJugaJuga (4ff973f9-325f-3929-b5a7-73e9eef14cc6)
+[16:14:23] [Server thread/INFO]: RakanJugaJuga joined the game
+[16:24:24] [Server thread/INFO]: RakanJugaJuga lost connection: Disconnected
+[16:24:24] [Server thread/INFO]: RakanJugaJuga left the game
+[16:24:39] [Server thread/INFO]: RakanJugaJuga[/125.160.106.217:54318] logged in with entity id 152902 at (-546.6669733288686, 180.0, 274.60812668327725)
+[16:24:39] [Server thread/INFO]: Syncing config to RakanJugaJuga (4ff973f9-325f-3929-b5a7-73e9eef14cc6)
+[16:24:39] [Server thread/INFO]: RakanJugaJuga joined the game
+[16:33:51] [Server thread/INFO]: youbee[/118.96.161.153:63205] logged in with entity id 156101 at (33.5, 70.0, -21.5)
+[16:33:51] [Server thread/INFO]: Syncing config to youbee (5d55d3a8-578b-30f8-a691-4abf1e0ab5eb)
+[16:33:51] [Server thread/INFO]: youbee joined the game
+[16:33:55] [Server thread/INFO]: youbee lost connection: Disconnected
+[16:33:55] [Server thread/INFO]: youbee left the game
+[16:34:23] [Server thread/INFO]: youbee[/118.96.161.153:63214] logged in with entity id 156458 at (33.5, 70.0, -21.5)
+[16:34:23] [Server thread/INFO]: Syncing config to youbee (5d55d3a8-578b-30f8-a691-4abf1e0ab5eb)
+[16:34:23] [Server thread/INFO]: youbee joined the game
+[16:34:24] [Server thread/INFO]: youbee lost connection: Disconnected
+[16:34:24] [Server thread/INFO]: youbee left the game
+[16:35:08] [Server thread/INFO]: youbee[/118.96.161.153:63218] logged in with entity id 156744 at (33.5, 70.0, -21.5)
+[16:35:08] [Server thread/INFO]: Syncing config to youbee (5d55d3a8-578b-30f8-a691-4abf1e0ab5eb)
+[16:35:08] [Server thread/INFO]: youbee joined the game
+[16:35:08] [Server thread/INFO]: youbee lost connection: Disconnected
+[16:35:08] [Server thread/INFO]: youbee left the game
+[16:39:09] [Server thread/INFO]: youbee[/118.96.161.153:63382] logged in with entity id 158030 at (33.5, 70.0, -21.5)
+[16:39:09] [Server thread/INFO]: Syncing config to youbee (5d55d3a8-578b-30f8-a691-4abf1e0ab5eb)
+[16:39:09] [Server thread/INFO]: youbee joined the game
+[16:41:34] [Server thread/INFO]: RakanJugaJuga lost connection: Disconnected
+[16:41:34] [Server thread/INFO]: RakanJugaJuga left the game
+[16:41:58] [Server thread/INFO]: RakanJugaJuga[/125.160.106.217:54389] logged in with entity id 159642 at (-547.1467562413816, 180.0, 275.05881540407137)
+[16:41:58] [Server thread/INFO]: Syncing config to RakanJugaJuga (4ff973f9-325f-3929-b5a7-73e9eef14cc6)
+[16:41:58] [Server thread/INFO]: RakanJugaJuga joined the game
+[16:48:29] [Server thread/INFO]: youbee has made the advancement [Stone Age]
+[16:48:46] [Server thread/INFO]: youbee has made the advancement [Getting an Upgrade]
+[16:49:12] [Server thread/INFO]: youbee has made the advancement [Sweet Dreams]
+[16:49:28] [Server thread/INFO]: kntl[/104.28.251.243:59322] logged in with entity id 163219 at (-401.0505111045441, 64.0, 224.7385304719325)
+[16:49:28] [Server thread/INFO]: Syncing config to kntl (bde84938-80eb-35f2-98bb-03e3bcd050a5)
+[16:49:28] [Server thread/INFO]: kntl joined the game
+[16:50:28] [Server thread/INFO]: kntl lost connection: §cTime for authentication has expired.
+[16:50:28] [Server thread/INFO]: kntl left the game
+[16:50:43] [Server thread/INFO]: kntl[/104.28.251.243:59016] logged in with entity id 163977 at (-401.5, 64.0, 224.5)
+[16:50:43] [Server thread/INFO]: Syncing config to kntl (bde84938-80eb-35f2-98bb-03e3bcd050a5)
+[16:50:43] [Server thread/INFO]: kntl joined the game
+[16:51:58] [Server thread/INFO]: kntl lost connection: Timed out
+[16:51:58] [Server thread/INFO]: kntl left the game
+[16:52:45] [Server thread/INFO]: kntl[/114.10.151.194:27360] logged in with entity id 165070 at (-401.5, 64.0, 224.5)
+[16:52:45] [Server thread/INFO]: Syncing config to kntl (bde84938-80eb-35f2-98bb-03e3bcd050a5)
+[16:52:45] [Server thread/INFO]: kntl joined the game
+[16:53:20] [Server thread/WARN]: kntl moved too quickly! -0.8455110426144756,1.1661092609382138,10.011662973878316
+[16:54:04] [Server thread/WARN]: kntl moved wrongly!
+[16:55:38] [Server thread/WARN]: kntl moved wrongly!
+[16:55:41] [Server thread/INFO]: kntl has made the advancement [Hot Stuff]
+[16:55:57] [Server thread/INFO]: Disconnecting com.mojang.authlib.GameProfile@47a4964e[id=6f7d557d-ee7e-30ed-8347-5acf2199a24d,name=Tazarima,properties={},legacy=false] (/104.28.219.242:9272): §cPlayer literal{Tazarima} is already online!
+[16:55:57] [Server thread/INFO]: com.mojang.authlib.GameProfile@47a4964e[id=6f7d557d-ee7e-30ed-8347-5acf2199a24d,name=Tazarima,properties={},legacy=false] (/104.28.219.242:9272) lost connection: §cPlayer literal{Tazarima} is already online!
+[16:55:57] [Server thread/WARN]: handleDisconnection() called twice
+[16:56:11] [Server thread/INFO]: Tazarima lost connection: Timed out
+[16:56:11] [Server thread/INFO]: Tazarima left the game
+[16:56:29] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 0.06938676765230412,0.31277799105065185,-10.181862354379973
+[16:56:29] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 0.08163711802615126,0.3205710978594851,-10.58863142311094
+[16:56:29] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 0.09464318632922186,0.3281024194784976,-10.99530491341261
+[16:56:29] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 0.10840743560061128,0.3353807202040713,-11.401877419555603
+[16:56:29] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 0.12293578850642461,0.34241447367382705,-11.808343431055448
+[16:56:29] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 0.13823341285069546,0.34921187222860794,-12.214697569528653
+[16:56:29] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 0.15430618597895318,0.3557808360010597,-12.620934496935831
+[16:56:29] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 0.17116162839602111,0.36212902173593875,-13.027048834953632
+[16:56:29] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 0.18880390518347667,0.36826383134722107,-13.433035510141508
+[16:56:29] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 0.20724041255107295,0.37419242021771026,-13.838889298867684
+[16:56:29] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 0.22647623389013916,0.37992170524657354,-14.244605215818353
+[16:56:29] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 0.2465134207105848,0.3854583726508878,-14.650178584820083
+[16:56:29] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 0.26735889307099114,0.3908088855266243,-15.055604429509629
+[16:56:29] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 0.28902107191095183,0.3959794911752681,-15.460877713859475
+[16:56:29] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 0.3115035492814968,0.4009762282018272,-15.865993856772548
+[16:56:29] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 0.3348108335477491,0.40580493339011525,-16.270948274597572
+[16:56:29] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 0.358950610086481,0.41047124836129,-16.675736170564903
+[16:56:29] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 0.3839295804058338,0.4149806260214177,-17.080352885914238
+[16:56:29] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 0.4097535915421986,0.41933833680391785,-17.48479389441661
+[16:56:29] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 0.43642774798877326,0.4235494747124875,-17.889054792168167
+[16:56:29] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 0.4639565104604344,0.427618963170346,-18.29313130499912
+[16:56:29] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 0.4923437811454505,0.43155156068119993,-18.697019281096004
+[16:56:29] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 0.5215943381703028,0.4353518663075562,-19.100714537877707
+[16:56:29] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 0.5517147291070614,0.4390243249715837,-19.504212770604624
+[16:56:29] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 0.5827083033943836,0.4425732325839675,-19.907510066378393
+[16:56:29] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 0.6145817257338422,0.4460027410058274,-20.310602212232027
+[16:56:29] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 0.6473408153260607,0.4493168628487467,-20.71348513514988
+[16:56:29] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 0.6809906574474098,0.4525194761179563,-21.116154894498095
+[16:56:29] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 0.7155357003925928,0.4556143287033336,-21.518607679492618
+[16:56:29] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 0.7509798399571537,0.45860504272306457,-21.920839797496114
+[16:56:29] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 0.7873264938141347,0.4614951187244998,-22.322847681633334
+[16:56:29] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 0.8245786640972028,0.4642879397466686,-22.724627875814576
+[16:56:29] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 0.862740352588844,0.46698677524884147,-23.12617686452586
+[16:56:29] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 0.9018174207793663,0.46959478490933293,-23.52749095112722
+[16:56:29] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 0.9418126487777272,0.47211502229870916,-23.92856688425536
+[16:56:29] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 0.9827321914112872,0.47455043843143585,-24.32940102126588
+[16:56:29] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 1.0244620687701627,0.47690388519973226,-24.73000617067015
+[16:56:29] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 1.0664732212059107,0.47917811869353955,-25.1304507742351
+[16:56:29] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 1.1080503798316386,0.48137580241026967,-25.53082380325708
+[16:56:29] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 1.1486771813490577,0.4834995103578592,-25.931184166284368
+[16:56:29] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 1.1879943328154923,0.48555173005452446,-26.33156906942719
+[16:56:29] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 1.225771546714327,0.48753486542875635,-26.731999782301386
+[16:56:29] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 1.2618783687963742,0.4894512396226389,-27.132486620356417
+[16:56:29] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 1.2962634459574929,0.49130309770174563,-27.533032333198264
+[16:56:29] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 1.3289317594319527,0.49309260927458354,-27.933635026334343
+[16:56:29] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 1.3599322269196819,0.49482187102468345,-28.334289774613183
+[16:56:29] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 1.389348272428947,0.49649290915807853,-28.734989722016167
+[16:56:29] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 1.3594040331141741,0.1933936473123481,-19.360723407118485
+[16:56:29] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 1.3859982664401969,0.19495404666996308,-19.76148921223853
+[16:56:29] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 1.4113779249885283,0.19646190142836417,-20.162275444657837
+[16:56:29] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 1.4356810347503597,0.1979189787629565,-20.563074015219968
+[16:56:29] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 1.459050513983243,0.1993269864351106,-20.963876907068652
+[16:56:29] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 1.4816261016040926,0.20068757478777854,-21.36467656704707
+[16:56:29] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 1.5035447628347356,0.20200233867429063,-21.765465750226838
+[16:56:29] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 1.5250598428441435,0.20327281932247843,-22.166228874419744
+[16:56:29] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 1.5468332745136877,0.20450050613638382,-22.566917341130022
+[16:56:29] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 1.5698251285318747,0.20568683843755764,-22.96744291555143
+[16:56:29] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 1.5951991125195946,0.20683320714795173,-23.367665585413874
+[16:56:29] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 1.6241303257189657,0.2079409564164365,-23.767400224776452
+[16:56:29] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 1.657458871564586,0.20901138519069207,-24.16646692318386
+[16:56:29] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 1.6957554760919038,0.21004574873641957,-24.5647006132084
+[16:56:30] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 1.7393732964944775,0.21104526010556413,-24.961957732026292
+[16:56:30] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 1.7885035624015018,0.21201109155524023,-25.35811721142585
+[16:56:30] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 1.8433264791412967,0.212944375919065,-25.753050055598692
+[16:56:30] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 1.9043168048472126,0.21384620793240572,-26.146532987064518
+[16:56:30] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 1.9721566072064434,0.21471764551320405,-26.538246917137826
+[16:56:30] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 2.047664380289689,0.21555971099971316,-26.92777383467336
+[16:56:30] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 2.1317277015394893,0.21637339234675323,-27.31459711253825
+[16:56:30] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 2.2252567844226405,0.217159644281665,-27.6981002142511
+[16:56:30] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 2.329136455136563,0.2179193894215956,-28.077571853091854
+[16:56:30] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 2.444195063063603,0.2186535193531114,-28.45220999584808
+[16:56:30] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 2.5711777616766085,0.2193628956755873,-28.821129136063746
+[16:56:30] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 2.710720712089369,0.22004835100959497,-29.183372860137183
+[16:56:30] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 2.8633374872720196,0.22071068997129828,-29.537924295626397
+[16:56:30] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 3.029406255049139,0.22135069011419262,-29.883720353661204
+[16:56:30] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 3.209162887470825,0.22196910283916793,-30.219665661826753
+[16:56:30] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 3.4026218457878485,0.22256665427397593,-30.544740643631485
+[16:56:30] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 3.6094218731184355,0.22314404612313865,-30.85824801882353
+[16:56:30] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 3.8289522921663774,0.22370195648929325,-31.159782193077376
+[16:56:30] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 4.060451326639736,0.22424104066693928,-31.44918856058422
+[16:56:30] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 4.303081028120346,0.2247619319095122,-31.726517207458414
+[16:56:30] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 4.555977644214863,0.2252652421706074,-31.991983469607305
+[16:56:30] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 4.818287567151856,0.22575156282036346,-32.245929740468625
+[16:56:30] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 5.089242946487616,0.2262214653377157,-32.4886862166083
+[16:56:30] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 5.368279155623554,0.22667550197938624,-32.720299739491736
+[16:56:30] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 5.6549652010490945,0.22711420642636426,-32.94058530561978
+[16:56:30] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 5.948944430494294,0.22753809440870043,-33.1491770845339
+[16:56:30] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 6.249852460702186,0.22794766430921243,-33.345687749720526
+[16:56:30] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 6.557224718837915,0.22834339774699686,-33.52999911903015
+[16:56:30] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 6.8705489388052,0.22872576014120227,-33.70220736727447
+[16:56:30] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 7.189302885262123,0.2290952012559302,-33.86256985153574
+[16:56:30] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 7.5129770310013555,0.2294521557267757,-34.0114689834171
+[16:56:30] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 7.841089992245429,0.22979704356967545,-34.14937653264366
+[16:56:30] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 8.173197929598018,0.2301302706726318,-34.27682046999149
+[16:56:30] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 8.508897397627493,0.23045222927089526,-34.39436725948599
+[16:56:32] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 8.84782653919001,0.23076329840618826,-34.50260161877986
+[16:56:33] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 9.189664186368645,0.23106384437049599,-34.602109584691846
+[16:56:33] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 9.534126748203903,0.2313542211348789,-34.69347221046604
+[16:56:33] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 9.880965365035763,0.23163477076388972,-34.77725547725771
+[16:56:33] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 10.22996267455062,0.23190582381609204,-34.85400232819151
+[16:56:33] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 10.580928915492677,0.23216769973105045,-34.92423290901806
+[16:56:33] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 10.933698854209979,0.23242070720331753,-34.988439589325026
+[16:56:33] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 11.288128731081997,0.2326651445439012,-35.047084575589594
+[16:56:33] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 11.6440934521288,0.23290130002946796,-35.100598622114205
+[16:56:33] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 12.001483740022536,0.23312945223989345,-35.14938577749342
+[16:56:33] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 12.360204235922652,0.2333498703844299,-35.19381892211399
+[16:56:33] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 12.720171443972959,0.23356281461688866,-35.23424192290341
+[16:56:33] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 13.081311880998896,0.23376853634024997,-35.27097409769496
+[16:56:33] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 13.443560848699349,0.23396727850098387,-35.30430679054072
+[16:56:33] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 13.80686105562313,0.23415927587352314,-35.33450707604078
+[16:56:33] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 14.171161545394625,0.23434475533512966,-35.36181961888835
+[16:56:36] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! -4.781181033451958,-0.0021460745483921073,11.869738812419257
+[16:56:36] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! -4.591123985752915,-0.0021268865910712975,11.5478761984686
+[16:56:36] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! -4.423853248796718,-0.0021084036732474942,11.217616424195114
+[16:56:36] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! -4.276446869242363,-0.002090602079150017,10.880352943000275
+[16:56:36] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! -4.146361407465406,-0.002073458890762936,10.53716415714581
+[16:56:36] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! -4.0313781253063325,-0.0020569519609665576,10.188889132227075
+[16:56:36] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! -3.9295673316890998,-0.002041059887616825,9.836184393714689
+[16:56:36] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! -3.8392506495800944,-0.0020257619884773703,9.47956729140833
+[16:56:37] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! -5.265577412732341,-0.0021672680200595096,11.26972763249887
+[16:56:37] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! -5.194052419710374,-0.0021530991820384315,10.90643740040042
+[16:56:37] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! -5.1301793587962266,-0.0021394665529044232,10.540242062875336
+[16:56:37] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! -5.0729978242693505,-0.0021263520959280413,10.171359776836596
+[16:56:37] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! -5.0216706658437715,-0.0021137383810980737,9.799971219070073
+[16:56:37] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! -4.975473524902441,-0.002101608564714752,9.42622765746762
+[16:56:37] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! -4.93377674654937,-0.002089946369636664,9.050257468048926
+[16:56:37] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! -6.2877915225525385,-0.002302304291433188,14.020017596407456
+[16:56:37] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! -6.2877915225525385,-0.002302304291433188,14.020017596407456
+[16:56:37] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! -6.2877915225525385,-0.002302304291433188,14.020017596407456
+[16:56:37] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! -6.2877915225525385,-0.002302304291433188,14.020017596407456
+[16:56:37] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! -6.2877915225525385,-0.002302304291433188,14.020017596407456
+[16:56:37] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! -6.2877915225525385,-0.002302304291433188,14.020017596407456
+[16:56:37] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! -6.2877915225525385,-0.002302304291433188,14.020017596407456
+[16:56:37] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! -6.2877915225525385,-0.002302304291433188,14.020017596407456
+[16:56:37] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! -6.2877915225525385,-0.002302304291433188,14.020017596407456
+[16:56:37] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! -6.2877915225525385,-0.002302304291433188,14.020017596407456
+[16:56:37] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! -6.2877915225525385,-0.002302304291433188,14.020017596407456
+[16:56:37] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! -6.2877915225525385,-0.002302304291433188,14.020017596407456
+[16:56:37] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! -6.2877915225525385,-0.002302304291433188,14.020017596407456
+[16:56:37] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! -6.249211598060469,-0.0022910939880489423,13.64196580099457
+[16:56:37] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! -6.213382513018928,-0.0022803203758456903,13.26191841239796
+[16:56:37] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! -6.1799842945004,-0.002269968765645558,12.879952686583636
+[16:56:37] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! -6.148744070586872,-0.0022600249623394575,12.49613830394378
+[16:56:37] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! -6.1194272498096325,-0.0022504752483314405,12.110538776156375
+[16:56:37] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! -6.091828154723203,-0.002241306367437801,11.723212628162116
+[16:56:37] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! -6.065773392829328,-0.0022325055093972423,11.334213821993615
+[16:56:37] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! -6.0411149524414895,-0.0022240602948357946,10.94359254186071
+[16:56:37] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! -6.017603430727945,-0.002215958760800163,10.55140116031265
+[16:56:37] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! -5.994604487715037,-0.002208189346731615,10.157708946427363
+[16:56:37] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! -5.971193950759698,-0.0022007408809514573,9.7626077141731
+[16:56:37] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! -5.946366274161619,-0.002193602567558628,9.366210487711385
+[16:56:37] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! -5.919392392331474,-0.002186763973810457,8.968625977619013
+[16:56:37] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! -5.889762329513587,-0.0021802150178729107,8.569954337032868
+[16:56:37] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! -6.2877915225525385,-0.002302304291433188,14.020017596407456
+[16:56:37] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! -6.2877915225525385,-0.002302304291433188,14.020017596407456
+[16:56:37] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! -6.259237469445679,-0.0022960352306284904,13.619964656411469
+[16:56:37] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! -6.231045338215722,-0.0022900366499811753,13.21860420010296
+[16:56:37] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! -6.2025592409225965,-0.0022842994512188852,12.816012254883105
+[16:56:37] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! -6.1728495739305345,-0.0022788148421000187,12.412297614681506
+[16:56:37] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! -6.140796588435705,-0.0022735743261534935,12.007612513082393
+[16:56:37] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! -6.105156013230726,-0.0022685696926885157,11.60216547888399
+[16:56:37] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! -6.0647337252370335,-0.0022637930072164636,11.196209195367715
+[16:56:37] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! -6.018727012438603,-0.002259236602128567,10.789976635275139
+[16:56:37] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! -5.966636580132672,-0.002254893067743069,10.383671160982942
+[16:56:37] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! -5.90820204295926,-0.002250755243636604,9.977460368136803
+[16:56:37] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! -5.8433493724896834,-0.002246816210217162,9.571473646467552
+[16:56:37] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! -5.772146619221303,-0.002243069280666532,9.16580288718734
+[16:56:37] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! -5.694767990944229,-0.0022395079930959128,8.760505079606105
+[16:56:37] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! -5.611461873102257,-0.002236126102971525,8.355606967940275
+[16:56:45] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 7.028866074825828,-2.9668827224327288E-5,-7.345959367153625
+[16:56:45] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 7.392556166039867,-3.112918247438756E-5,-7.603704038590877
+[16:56:45] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 7.760619551181549,-3.2600019665096625E-5,-7.855184468758864
+[16:56:45] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 8.13302939285586,-3.408098622514899E-5,-8.100123630947849
+[16:56:45] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 8.509655864689307,-3.557174142088115E-5,-8.338441388270496
+[16:56:45] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 8.890301201192187,-3.707195598678936E-5,-8.57021218250435
+[16:56:46] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 9.113570773491915,-3.553285090163172E-5,-4.619023200953848
+[16:56:46] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 9.537653721757465,-3.715803001114182E-5,-4.757967158989743
+[16:56:46] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 9.963029188375458,-3.878814681002041E-5,-4.893022767965306
+[16:56:46] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 10.389556521013787,-4.0423035201797575E-5,-5.024578513456959
+[16:56:46] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 10.817103297893937,-4.2062534689080167E-5,-5.153022023762617
+[16:56:46] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 11.245547224607321,-4.370649016038897E-5,-5.278726737786883
+[16:56:46] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 11.674775172242903,-4.535475171962844E-5,-5.40205100976749
+[16:56:46] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 12.104707808644775,-4.7007174529767326E-5,-5.523223849888154
+[16:56:46] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 12.535370076454228,-4.866361862809754E-5,-5.642010864241172
+[16:56:46] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 12.966852548750353,-5.0323948727282186E-5,-5.757826839766494
+[16:56:46] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 13.399253708451965,-5.1988034130090455E-5,-5.869950786942184
+[16:56:46] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 13.832603474419898,-5.3655748502023926E-5,-5.97792459283238
+[16:56:46] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 14.266885441416207,-5.532696978605145E-5,-6.081499252733067
+[16:56:46] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 14.702053551958556,-5.7001580017868037E-5,-6.180588650668881
+[16:56:46] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 15.138043760524283,-5.867946519799716E-5,-6.275234246956359
+[16:56:46] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 15.574782546755387,-6.036051516389307E-5,-6.365574023710565
+[16:56:46] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 16.01219358871913,-6.204462346204309E-5,-6.451809701684169
+[16:56:46] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 16.450200553908417,-6.373168722006994E-5,-6.534194524146017
+[16:56:46] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 16.88872996142345,-6.542160701883404E-5,-6.613012947039294
+[16:56:46] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 17.327712333021054,-6.71142867929575E-5,-6.688569772391531
+[16:56:46] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 17.767082962813333,-6.880963370292648E-5,-6.761179283983836
+[16:56:46] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 18.20678190632998,-7.050755802140429E-5,-6.8311599118834465
+[16:56:46] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 18.646754592427442,-7.220797306217719E-5,-6.898821347666342
+[16:56:46] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 19.0869509957289,-7.391079503804576E-5,-6.964465654441653
+[16:56:46] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 19.52732529829416,-7.56159429897707E-5,-7.028384146196004
+[16:56:46] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 19.967836094786094,-7.73233386865968E-5,-7.0908491737679356
+[16:56:46] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 20.40844506092128,-7.903290651256611E-5,-7.15212205066166
+[16:56:47] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 12.158189007942383,-4.6831792033685815E-5,-2.7366356401808503
+[16:56:47] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 12.598891943010585,-4.854548737398545E-5,-2.796239141681383
+[16:56:47] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 13.039595809354296,-5.0261142931162794E-5,-2.855333638196953
+[16:56:47] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 13.480273427619181,-5.197869278106282E-5,-2.91410984779111
+[16:56:47] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 13.920899396590698,-5.369807320221298E-5,-2.972744315711793
+[16:56:47] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 14.36144990156356,-5.541922260476895E-5,-3.031399882863866
+[16:56:47] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 14.801903038696878,-5.714208150209288E-5,-3.090222004635848
+[16:56:47] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 15.242238661269198,-5.886659238285574E-5,-3.1493396350516605
+[16:56:47] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 15.682437446772383,-6.059269966840475E-5,-3.2088728244075355
+[16:56:47] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 16.1224815677175,-6.232034967013078E-5,-3.2689270547147657
+[16:56:47] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 16.56235394233238,-6.404949050420328E-5,-3.329599211362904
+[16:56:47] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 17.002038468280944,-6.578007200630509E-5,-3.3909759815033453
+[16:56:47] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 17.441520602552487,-6.75120457316325E-5,-3.453129734090055
+[16:56:47] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 17.880786236081804,-6.924536484120836E-5,-3.516127178196541
+[16:56:47] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 18.319822190678337,-7.09799840734604E-5,-3.580026021033916
+[16:56:47] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 18.758615898668154,-7.271585970158867E-5,-3.644877493284355
+[16:56:47] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 19.197155131608042,-7.445294946251124E-5,-3.710728546671646
+[16:56:47] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 19.63542896227898,-7.619121251423167E-5,-3.77761563249652
+[16:56:47] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 20.07342701045036,-7.79306093932064E-5,-3.845570136202582
+[16:56:47] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 20.5111395967009,-7.967110195750138E-5,-3.914617683209599
+[16:56:47] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 20.948557884420097,-8.141265335837033E-5,-3.9847775399837815
+[16:56:47] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 21.385672915606165,-8.31552279692005E-5,-4.056068846305152
+[16:56:47] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 21.822476738224168,-8.48987913855126E-5,-4.128503880198252
+[16:56:47] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 22.258961626770883,-8.664331033969574E-5,-4.2020930036434265
+[16:56:47] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 22.69512029855275,-8.838875268679658E-5,-4.276843562976296
+[16:56:48] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 23.130946346733708,-9.013508736188669E-5,-4.35275759266915
+[16:56:48] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 23.566433438953254,-9.188228435164092E-5,-4.429836550203845
+[16:56:48] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 24.001575563209144,-9.36303146517048E-5,-4.508080044377834
+[16:56:48] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 24.436367497056835,-9.537915023827281E-5,-4.587483395491631
+[16:56:48] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 24.87080398323576,-9.712876401124504E-5,-4.66804222661807
+[16:56:48] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 25.30487999692764,-9.887912980843794E-5,-4.749751079517239
+[16:56:48] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 25.738591255552365,-1.0063022232031926E-4,-4.832600884509304
+[16:56:48] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 26.17193362882665,-1.0238201711842976E-4,-4.916582111016851
+[16:56:48] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 26.60490367089085,-1.0413449055590718E-4,-5.001682161423616
+[16:56:48] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 27.03749774486107,-1.058876198243297E-4,-5.087889786709297
+[16:56:48] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 27.46971233359409,-1.0764138285423996E-4,-5.175193569847863
+[16:56:48] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 27.901544592524715,-1.0939575832935589E-4,-5.263579290758685
+[16:56:48] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 28.332991738469786,-1.1115072565814899E-4,-5.353032958927997
+[16:56:48] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 28.764051621496606,-1.1290626491700095E-4,-5.44353813199848
+[16:56:48] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 29.19472210319418,-1.1466235687862536E-4,-5.5350788972529585
+[16:56:48] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 29.625001652268793,-1.1641898294101338E-4,-5.627637157597633
+[16:56:48] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 30.054888401445623,-1.1817612514164466E-4,-5.721196905703721
+[16:56:48] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 30.48438050779191,-1.1993376612906559E-4,-5.815742619393575
+[16:56:48] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 30.91347706479735,-1.2169188912025675E-4,-5.911255227871266
+[16:56:48] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 31.342204483972978,-1.234504779006329E-4,-6.007596460097602
+[16:56:48] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 31.77068615747544,-1.252095167956213E-4,-6.104194656955315
+[16:56:48] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 32.19908381711343,-1.269689906706617E-4,-6.200276144802956
+[16:56:48] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 32.627507114405034,-1.287288848885737E-4,-6.295270294661975
+[16:56:48] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 33.05602562027002,-1.3048918532376774E-4,-6.3887730603158275
+[16:56:48] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 33.484678969075105,-1.3224987830540158E-4,-6.480513759739608
+[16:56:48] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 33.91348508415996,-1.3401095061738033E-4,-6.570326071886598
+[16:56:48] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 34.342445638004335,-1.3577238951256732E-4,-6.65812929794015
+[16:56:48] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 34.77155193450358,-1.3753418265594064E-4,-6.7439027083913174
+[16:56:48] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 35.20078722836786,-1.3929631813880405E-4,-6.8276777839988085
+[16:56:48] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 35.630130591864315,-1.4105878443615438E-4,-6.9095181018570315
+[16:56:48] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 36.05955854383308,-1.4282157042089239E-4,-6.989511176146777
+[16:56:48] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 36.48904594372755,-1.445846653496119E-4,-7.067763999285432
+[16:56:48] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 36.91856724311219,-1.4634805881996726E-4,-7.1443951428328205
+[16:56:48] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 37.348097265734225,-1.481117407848842E-4,-7.219529234807851
+[16:56:48] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 37.77761164680135,-1.498757015525598E-4,-7.293293448076611
+[16:56:48] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 38.20708770974335,-1.5163993174382995E-4,-7.36581050719559
+[16:56:48] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 38.63650388817018,-1.5340442229216933E-4,-7.437201899509091
+[16:56:48] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 39.06584014815559,-1.5516916444369144E-4,-7.507584024521236
+[16:56:48] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 39.49507778148973,-1.5693414972872688E-4,-7.577068844282053
+[16:56:48] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 39.924199403132434,-1.5869936996182332E-4,-7.645763090546836
+[16:56:48] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 40.35318952715238,-1.604648172559564E-4,-7.713763593627789
+[16:56:48] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 40.782034472483645,-1.622304839656863E-4,-7.781157289843236
+[16:56:48] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 41.21072136890132,-1.6399636271557938E-4,-7.848027763894322
+[16:56:48] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 41.639238980188054,-1.657624463717866E-4,-7.9144490702456665
+[16:56:48] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 42.06759374311292,-1.6752872802783259E-4,-7.980370277529914
+[16:56:48] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 42.495851676827044,-1.6929520104724816E-4,-8.045293686396917
+[16:56:48] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 42.92409742402475,-1.7106185897830528E-4,-8.108511793358446
+[16:56:48] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 43.35237933553549,-1.728286955966496E-4,-8.169519427150533
+[16:56:48] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 43.78071960694399,-1.745957049053004E-4,-8.227977114365729
+[16:56:48] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 44.20912324701305,-1.763628810778073E-4,-8.283668518812703
+[16:56:48] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 44.637583471387586,-1.7813021851509347E-4,-8.336479247017508
+[16:56:48] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 45.06608606216338,-1.7989771178861247E-4,-8.386375589488296
+[16:56:49] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 45.49461294181151,-1.8166535565455888E-4,-8.433380714488067
+[16:56:50] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 45.92315001124172,-1.8343314505386843E-4,-8.477441573640078
+[16:56:50] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 46.35169854897248,-1.8520107508379624E-4,-8.518098778482113
+[16:56:50] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 46.78025185063166,-1.8696914102633855E-4,-8.554594431772216
+[16:56:50] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 47.20877505807323,-1.8873733829138928E-4,-8.586075045271116
+[16:56:50] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 47.63720382900493,-1.9050566247358347E-4,-8.611980940880187
+[16:56:50] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 48.06546057965244,-1.922741093096647E-4,-8.63198290720186
+[16:56:50] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 48.493465667917235,-1.9404267466427427E-4,-8.645933350706173
+[16:56:50] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 48.92114479779639,-1.9581135454416199E-4,-8.653827392989683
+[16:56:50] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 49.34843276616783,-1.9758014511239708E-4,-8.655761163612965
+[16:56:50] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 49.7752758830394,-1.9934904263152475E-4,-8.651908804898426
+[16:56:50] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 50.201632883451396,-2.0111804352040963E-4,-8.64250237217908
+[16:56:50] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 50.62747400086403,-2.0288714428318144E-4,-8.627808085375307
+[16:56:50] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 51.05278059848848,-2.0465634156607848E-4,-8.608117430926313
+[16:56:50] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 51.47754321006249,-2.0642563212902587E-4,-8.583730455151624
+[16:56:50] [Server thread/INFO]: RakanJugaJuga lost connection: Disconnected
+[16:56:50] [Server thread/INFO]: RakanJugaJuga left the game
+[16:56:53] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 10.061453215253891,-0.021412961685257415,-1.2879791173358512
+[16:56:58] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 10.387659477711338,-8.70851269837658E-4,-0.5741936239797951
+[16:56:58] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 10.81998669813595,-8.945072116404162E-4,-0.5988167316009481
+[16:56:58] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 11.252244650949763,-9.174270315241984E-4,-0.6235475618173609
+[16:56:58] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 11.684429805340244,-9.396354907664772E-4,-0.648395222147883
+[16:56:58] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 12.116538954034354,-9.611565177607417E-4,-0.6733635091140968
+[16:56:58] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 12.548568943105067,-9.820132359976697E-4,-0.6984556044327519
+[16:56:58] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 12.980516595375889,-0.0010022279911510168,-0.7236755217155064
+[16:56:58] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 13.412378638531266,-0.0010218223772398005,-0.7490292655248254
+[16:56:58] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 13.844152030782993,-0.0010408172619236211,-0.7745193001906046
+[16:56:58] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 14.275833541537907,-0.001059232810931121,-0.8001516463373832
+[16:56:58] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 14.707420014430227,-0.001077088511650004,-0.8259314151852095
+[16:56:58] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 15.138908365605346,-0.0010944031959780887,-0.8518629265881827
+[16:56:58] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 15.570295582022993,-0.0011111950623501343,-0.8779498116280138
+[16:56:58] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 16.001578707807482,-0.0011274816970399115,-0.9041951011028004
+[16:56:58] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 16.432754844557792,-0.0011432800947801525,-0.9306013037260641
+[16:56:58] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 16.863821063403805,-0.0011586066786293259,-0.9571718397083941
+[16:56:58] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 17.294774331166877,-0.001173477319241556,-0.9839121824699646
+[16:56:58] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 10.352785788460437,-4.1959723563422813E-4,-0.6263819305204947
+[16:56:58] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 10.782736644297643,-4.313312343384723E-4,-0.6545702615050004
+[16:56:58] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 11.21255028121874,-4.4273013534734673E-4,-0.6829512723970765
+[16:56:58] [Server thread/WARN]: Cargo Airship (vehicle of kntl) moved too quickly! 11.642224209827702,-4.538052105118595E-4,-0.7115267935074598
+[16:57:11] [Server thread/INFO]: Tazarima[/104.28.219.245:59559] logged in with entity id 166888 at (-312.0887822606827, 88.0, 192.0103304026421)
+[16:57:11] [Server thread/INFO]: Syncing config to Tazarima (6f7d557d-ee7e-30ed-8347-5acf2199a24d)
+[16:57:11] [Server thread/INFO]: Tazarima joined the game
+[16:57:39] [Server thread/WARN]: kntl moved wrongly!
+[16:57:41] [Server thread/INFO]: Tazarima lost connection: Timed out
+[16:57:41] [Server thread/INFO]: Tazarima left the game
+[16:58:09] [Server thread/WARN]: kntl moved wrongly!
+[17:01:50] [Server thread/INFO]: Tazarima[/104.28.219.244:41919] logged in with entity id 169005 at (-312.5, 88.0, 192.5)
+[17:01:50] [Server thread/INFO]: Syncing config to Tazarima (6f7d557d-ee7e-30ed-8347-5acf2199a24d)
+[17:01:50] [Server thread/INFO]: Tazarima joined the game
+[17:02:50] [Server thread/INFO]: Tazarima lost connection: §cTime for authentication has expired.
+[17:02:50] [Server thread/INFO]: Tazarima left the game
+[17:03:10] [Server thread/INFO]: Tazarima[/104.28.219.244:59226] logged in with entity id 169462 at (-312.5, 88.0, 192.5)
+[17:03:10] [Server thread/INFO]: Syncing config to Tazarima (6f7d557d-ee7e-30ed-8347-5acf2199a24d)
+[17:03:10] [Server thread/INFO]: Tazarima joined the game
+[17:03:24] [Server thread/INFO]: Tazarima fell from a high place
+[17:08:55] [Server thread/WARN]: kntl moved wrongly!
+[17:09:19] [Server thread/WARN]: kntl moved wrongly!
+[17:10:00] [Server thread/INFO]: RakanJugaJuga[/125.160.106.217:54474] logged in with entity id 171747 at (-310.735452584192, 69.0, 264.3931992792434)
+[17:10:00] [Server thread/INFO]: Syncing config to RakanJugaJuga (4ff973f9-325f-3929-b5a7-73e9eef14cc6)
+[17:10:00] [Server thread/INFO]: RakanJugaJuga joined the game
+[17:10:04] [Server thread/WARN]: kntl moved wrongly!
+[17:12:11] [Server thread/WARN]: kntl moved wrongly!
+[17:12:28] [Server thread/WARN]: kntl moved wrongly!
+[17:15:18] [Server thread/WARN]: kntl moved wrongly!
+[17:18:39] [Server thread/INFO]: youbee fell from a high place
+[17:18:51] [Server thread/WARN]: kntl moved wrongly!
+[17:18:57] [Server thread/WARN]: kntl moved wrongly!
+[17:18:58] [Server thread/WARN]: kntl moved wrongly!
+[17:21:04] [Server thread/WARN]: Scarlet Biplane (vehicle of kntl) moved too quickly! -10.820202562332042,0.6338209888435955,-2.351770664758817
+[17:21:04] [Server thread/WARN]: Scarlet Biplane (vehicle of kntl) moved too quickly! -11.930601419938853,0.6940521406160087,-2.350213284261372
+[17:21:04] [Server thread/WARN]: Scarlet Biplane (vehicle of kntl) moved too quickly! -13.039586613600363,0.753720157552408,-2.3052452582716114
+[17:21:04] [Server thread/WARN]: Scarlet Biplane (vehicle of kntl) moved too quickly! -14.145514072481092,0.8128304781201479,-2.216984030557569
+[17:21:04] [Server thread/WARN]: Scarlet Biplane (vehicle of kntl) moved too quickly! -15.246746691784779,0.8713894610011153,-2.085610255579695
+[17:21:04] [Server thread/WARN]: Scarlet Biplane (vehicle of kntl) moved too quickly! -16.341656863586422,0.9294043885735022,-1.9113670622095356
+[17:21:04] [Server thread/WARN]: Scarlet Biplane (vehicle of kntl) moved too quickly! -17.428628611502177,0.9868834485872924,-1.6945594736174598
+[17:22:02] [Server thread/WARN]: Scarlet Biplane (vehicle of kntl) moved too quickly! -10.229925371250943,0.05779463470592816,-0.44849190035222364
+[17:22:02] [Server thread/WARN]: Scarlet Biplane (vehicle of kntl) moved too quickly! -11.39050340150925,0.06210612674780691,-0.49546941607673034
+[17:23:18] [Server thread/WARN]: kntl moved wrongly!
+[17:25:24] [Server thread/INFO]: youbee has made the advancement [Acquire Hardware]
+[17:26:02] [Server thread/INFO]: youbee has made the advancement [Isn't It Iron Pick]
+[17:26:24] [Server thread/WARN]: kntl moved wrongly!
+[17:26:38] [Server thread/INFO]: kntl has made the advancement [The Parrots and the Bats]
+[17:28:12] [Server thread/WARN]: kntl moved wrongly!
+[17:28:34] [Server thread/WARN]: kntl moved wrongly!
+[17:29:37] [Server thread/WARN]: kntl moved wrongly!
+[17:29:57] [Server thread/WARN]: kntl moved wrongly!
+[17:29:59] [Server thread/INFO]: kntl lost connection: Disconnected
+[17:29:59] [Server thread/INFO]: kntl left the game
+[17:30:28] [Server thread/INFO]: Tazarima lost connection: Timed out
+[17:30:28] [Server thread/INFO]: Tazarima left the game
+[17:31:14] [Server thread/WARN]: RakanJugaJuga moved wrongly!
+[17:31:55] [Server thread/INFO]: youbee lost connection: Disconnected
+[17:31:55] [Server thread/INFO]: youbee left the game
+[17:39:20] [Server thread/INFO]: Tazarima[/104.28.219.246:55124] logged in with entity id 185624 at (-297.6684875849977, 85.0, 182.30000001192093)
+[17:39:20] [Server thread/INFO]: Syncing config to Tazarima (6f7d557d-ee7e-30ed-8347-5acf2199a24d)
+[17:39:20] [Server thread/INFO]: Tazarima joined the game
+[17:39:50] [Server thread/INFO]: Tazarima lost connection: Timed out
+[17:39:50] [Server thread/INFO]: Tazarima left the game
+[17:40:33] [Server thread/INFO]: Tazarima[/104.28.251.243:19587] logged in with entity id 185955 at (-297.5, 85.0, 182.5)
+[17:40:33] [Server thread/INFO]: Syncing config to Tazarima (6f7d557d-ee7e-30ed-8347-5acf2199a24d)
+[17:40:33] [Server thread/INFO]: Tazarima joined the game
+[17:41:04] [Server thread/INFO]: Tazarima lost connection: Timed out
+[17:41:04] [Server thread/INFO]: Tazarima left the game
+[17:41:13] [Server thread/INFO]: RakanJugaJuga lost connection: Disconnected
+[17:41:13] [Server thread/INFO]: RakanJugaJuga left the game
+[17:44:22] [Server thread/INFO]: Tazarima[/104.28.219.246:30592] logged in with entity id 186416 at (-297.5, 85.0, 182.5)
+[17:44:22] [Server thread/INFO]: Syncing config to Tazarima (6f7d557d-ee7e-30ed-8347-5acf2199a24d)
+[17:44:22] [Server thread/INFO]: Tazarima joined the game
+[17:44:52] [Server thread/INFO]: Tazarima lost connection: Timed out
+[17:44:52] [Server thread/INFO]: Tazarima left the game
+[17:45:38] [Server thread/INFO]: Tazarima[/104.28.219.246:31867] logged in with entity id 186752 at (-297.5, 85.0, 182.5)
+[17:45:38] [Server thread/INFO]: Syncing config to Tazarima (6f7d557d-ee7e-30ed-8347-5acf2199a24d)
+[17:45:38] [Server thread/INFO]: Tazarima joined the game
+[17:46:08] [Server thread/INFO]: Tazarima lost connection: Timed out
+[17:46:08] [Server thread/INFO]: Tazarima left the game
+[17:47:48] [Server thread/INFO]: Tazarima[/114.10.151.194:2839] logged in with entity id 187068 at (-297.5, 85.0, 182.5)
+[17:47:48] [Server thread/INFO]: Syncing config to Tazarima (6f7d557d-ee7e-30ed-8347-5acf2199a24d)
+[17:47:48] [Server thread/INFO]: Tazarima joined the game
+[17:48:18] [Server thread/INFO]: Tazarima lost connection: §4Wrong password!
+[17:48:18] [Server thread/INFO]: Tazarima left the game
+[17:49:05] [Server thread/INFO]: kntl[/114.10.151.194:27366] logged in with entity id 187396 at (-320.2343970574723, 69.0, 262.0380010672761)
+[17:49:05] [Server thread/INFO]: Syncing config to kntl (bde84938-80eb-35f2-98bb-03e3bcd050a5)
+[17:49:05] [Server thread/INFO]: kntl joined the game
+[17:53:18] [Server thread/INFO]: kntl lost connection: Disconnected
+[17:53:18] [Server thread/INFO]: kntl left the game
+[18:21:15] [Server thread/INFO]: runs[/114.10.151.24:39284] logged in with entity id 188532 at (-422.93137982917756, 71.0, 224.94999998807907)
+[18:21:15] [Server thread/INFO]: Syncing config to runs (0849d153-adce-35a5-8007-7ef46adffb2b)
+[18:21:15] [Server thread/INFO]: runs joined the game
+[18:28:50] [Server thread/INFO]: runs has made the advancement [Into Fire]
+[18:41:00] [Server thread/INFO]: runs lost connection: Disconnected
+[18:41:00] [Server thread/INFO]: runs left the game
