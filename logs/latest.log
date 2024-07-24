@@ -1,9 +1,9 @@
-[12:29:32] [main/INFO]: Loading Minecraft 1.20.1 with Fabric Loader 0.16.0
-[12:29:33] [ForkJoinPool-1-worker-2/WARN]: Mod design_decor uses the version 0.4_fabric+1.20.1 which isn't compatible with Loader's extended semantic version format (Could not parse version number component '4_fabric'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
-[12:29:33] [main/WARN]: Warnings were found!
+[01:20:02] [main/INFO]: Loading Minecraft 1.20.1 with Fabric Loader 0.16.0
+[01:20:03] [ForkJoinPool-1-worker-1/WARN]: Mod design_decor uses the version 0.4_fabric+1.20.1 which isn't compatible with Loader's extended semantic version format (Could not parse version number component '4_fabric'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[01:20:04] [main/WARN]: Warnings were found!
  - Mod 'Create Enchantment Industry' (create_enchantment_industry) 1.2.16 recommends version 0.5.1-f-build.1335+mc1.20.1 of mod 'Create' (create), but only the wrong version is present: 0.5.1-f-build.1417+mc1.20.1!
 	 - You should install version 0.5.1-f-build.1335+mc1.20.1 of mod 'Create' (create) for the optimal experience.
-[12:29:33] [main/INFO]: Loading 144 mods:
+[01:20:04] [main/INFO]: Loading 147 mods:
 	- automobility 0.4.2+1.20.1-fabric
 	   \-- jsonem 0.2.1+1.20
 	- azurelib 2.0.31
@@ -162,6 +162,9 @@
 	- minecraft 1.20.1
 	- modernfix 5.18.6+mc1.20.1
 	- notenoughcrashes 4.4.7+1.20.1
+	- pvpflag 1.3.0+1.20.1
+	   |-- cardinal-components-base 5.2.2
+	   \-- cardinal-components-entity 5.2.2
 	- railways 1.6.4+fabric-mc1.20.1
 	   \-- mm 2.3
 	- skinshuffle 2.0.4+1.20.1
@@ -185,113 +188,114 @@
 	- smartbrainlib 1.14.2
 	- starlight 1.1.2+fabric.dbc156f
 	- terralith 2.5.4
-[12:29:34] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/MinecraftServer/fabricServerGithub/minecraftWorld/libraries/net/fabricmc/sponge-mixin/0.15.0+mixin.0.8.7/sponge-mixin-0.15.0+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
-[12:29:35] [main/INFO]: Compatibility level set to JAVA_17
-[12:29:35] [main/WARN]: Reference map 'createdeco-fabric-refmap.json' for createdeco.mixins.json could not be read. If this is a development environment you can ignore this message
-[12:29:35] [main/WARN]: Reference map 'dismountentity_fabric.refmap.json' for dismountentity_fabric.mixins.json could not be read. If this is a development environment you can ignore this message
-[12:29:35] [main/WARN]: Reference map 'interiors-fabric-refmap.json' for interiors.mixins.json could not be read. If this is a development environment you can ignore this message
-[12:29:36] [main/INFO]: Loaded configuration file for Lithium: 115 options available, 2 override(s) found
-[12:29:36] [main/WARN]: Reference map 'memoryleakfix-fabric-1.17+-fabric-refmap.json' for memoryleakfix-fabric.mixins.json could not be read. If this is a development environment you can ignore this message
-[12:29:36] [main/INFO]: Loaded configuration file for ModernFix 5.18.6+mc1.20.1: 60 options available, 0 override(s) found
-[12:29:36] [main/INFO]: Applying Nashorn fix
-[12:29:36] [main/WARN]: Reference map 'ritchiesprojectilelib-fabric-refmap.json' for ritchiesprojectilelib-fabric.mixins.json could not be read. If this is a development environment you can ignore this message
-[12:29:37] [main/WARN]: Error loading class: net/minecraft/class_906 (java.lang.ClassNotFoundException: net/minecraft/class_906)
-[12:29:37] [main/WARN]: @Mixin target net.minecraft.class_906 was not found porting_lib_tool_actions.mixins.json:FishingHookRendererMixin from mod porting_lib_tool_actions
-[12:29:37] [main/WARN]: Error loading class: link/infra/indium/renderer/helper/GeometryHelper (java.lang.ClassNotFoundException: link/infra/indium/renderer/helper/GeometryHelper)
-[12:29:37] [main/WARN]: Error loading class: net/fabricmc/fabric/impl/client/indigo/renderer/helper/GeometryHelper (java.lang.ClassNotFoundException: net/fabricmc/fabric/impl/client/indigo/renderer/helper/GeometryHelper)
-[12:29:37] [main/WARN]: Error loading class: com/firemerald/additionalplacements/common/ConfigCommon (java.lang.ClassNotFoundException: com/firemerald/additionalplacements/common/ConfigCommon)
-[12:29:37] [main/WARN]: Error loading class: com/firemerald/additionalplacements/block/AdditionalPlacementBlock (java.lang.ClassNotFoundException: com/firemerald/additionalplacements/block/AdditionalPlacementBlock)
-[12:29:37] [main/WARN]: @Mixin target com.firemerald.additionalplacements.block.AdditionalPlacementBlock was not found copycats-common.mixins.json:compat.additionalplacements.PlacementBlockMixin from mod copycats
-[12:29:37] [main/WARN]: Error loading class: me/jellysquid/mods/lithium/common/ai/pathing/PathNodeDefaults (java.lang.ClassNotFoundException: me/jellysquid/mods/lithium/common/ai/pathing/PathNodeDefaults)
-[12:29:37] [main/WARN]: Error loading class: me/jellysquid/mods/sodium/client/render/chunk/compile/pipeline/BlockOcclusionCache (java.lang.ClassNotFoundException: me/jellysquid/mods/sodium/client/render/chunk/compile/pipeline/BlockOcclusionCache)
-[12:29:37] [main/WARN]: Error loading class: me/jellysquid/mods/sodium/client/render/chunk/compile/pipeline/BlockRenderer (java.lang.ClassNotFoundException: me/jellysquid/mods/sodium/client/render/chunk/compile/pipeline/BlockRenderer)
-[12:29:38] [main/WARN]: Error loading class: net/minecraft/class_759 (java.lang.ClassNotFoundException: net/minecraft/class_759)
-[12:29:38] [main/WARN]: @Mixin target net.minecraft.class_759 was not found hwg.mixins.json:HeldItemRendererMixin from mod hwg
-[12:29:38] [main/WARN]: Force-disabling mixin 'ai.task.memory_change_counting.BrainMixin' as rule 'mixin.ai.task.memory_change_counting' (added by mods [smartbrainlib]) disables it and children
-[12:29:38] [main/WARN]: Force-disabling mixin 'ai.task.memory_change_counting.MultiTickTaskMixin' as rule 'mixin.ai.task.memory_change_counting' (added by mods [smartbrainlib]) disables it and children
-[12:29:38] [main/WARN]: Force-disabling mixin 'world.player_chunk_tick.ThreadedAnvilChunkStorageMixin' as rule 'mixin.world.player_chunk_tick' (added by mods [krypton]) disables it and children
-[12:29:39] [main/WARN]: Error loading class: net/coderbot/iris/Iris (java.lang.ClassNotFoundException: net/coderbot/iris/Iris)
-[12:29:39] [main/WARN]: @Mixin target net.coderbot.iris.Iris was not found notenoughcrashes.fabric.mixins.json:iris.SilentNEC from mod notenoughcrashes
-[12:29:39] [main/WARN]: Error loading class: net/minecraft/class_5616 (java.lang.ClassNotFoundException: net/minecraft/class_5616)
-[12:29:39] [main/WARN]: @Mixin target net.minecraft.class_5616 was not found registrate-fabric.mixins.json:accessor.BlockEntityRenderersAccessor from mod registrate-fabric
-[12:29:39] [main/WARN]: Error loading class: com/provismet/provihealth/util/Visibility (java.lang.ClassNotFoundException: com/provismet/provihealth/util/Visibility)
-[12:29:39] [main/WARN]: Error loading class: net/tslat/tes/api/util/TESUtil (java.lang.ClassNotFoundException: net/tslat/tes/api/util/TESUtil)
-[12:29:39] [main/INFO]: [MemoryLeakFix] Will be applying 1 memory leak fixes!
-[12:29:39] [main/INFO]: [MemoryLeakFix] Currently enabled memory leak fixes: [biomeTemperatureLeak]
-[12:29:39] [main/WARN]: Error loading class: com/firemerald/additionalplacements/block/AdditionalPlacementBlock (java.lang.ClassNotFoundException: com/firemerald/additionalplacements/block/AdditionalPlacementBlock)
-[12:29:39] [main/WARN]: Error loading class: com/firemerald/additionalplacements/block/AdditionalPlacementBlock (java.lang.ClassNotFoundException: com/firemerald/additionalplacements/block/AdditionalPlacementBlock)
-[12:29:40] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.0).
-[12:29:44] [main/WARN]: @Inject(@At("INVOKE")) Shift.BY=2 on porting_lib_entity.mixins.json:common.LivingEntityMixin from mod porting_lib_entity::handler$bpa000$porting_lib_entity$port_lib$onFinishUsing exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
-[12:29:44] [main/WARN]: Error loading class: com/firemerald/additionalplacements/block/AdditionalPlacementBlock (java.lang.ClassNotFoundException: com/firemerald/additionalplacements/block/AdditionalPlacementBlock)
-[12:29:44] [main/WARN]: Error loading class: com/firemerald/additionalplacements/block/AdditionalPlacementBlock (java.lang.ClassNotFoundException: com/firemerald/additionalplacements/block/AdditionalPlacementBlock)
-[12:29:45] [main/WARN]: Error loading class: com/firemerald/additionalplacements/block/AdditionalPlacementBlock (java.lang.ClassNotFoundException: com/firemerald/additionalplacements/block/AdditionalPlacementBlock)
-[12:29:45] [main/WARN]: Error loading class: com/firemerald/additionalplacements/block/AdditionalPlacementBlock (java.lang.ClassNotFoundException: com/firemerald/additionalplacements/block/AdditionalPlacementBlock)
-[12:29:45] [main/WARN]: Error loading class: com/firemerald/additionalplacements/block/AdditionalPlacementBlock (java.lang.ClassNotFoundException: com/firemerald/additionalplacements/block/AdditionalPlacementBlock)
-[12:29:45] [main/INFO]: Injecting BlockStateBase cache population hook into getNeighborPathNodeType from me.jellysquid.mods.lithium.mixin.ai.pathing.AbstractBlockStateMixin
-[12:29:45] [main/INFO]: Injecting BlockStateBase cache population hook into getPathNodeType from me.jellysquid.mods.lithium.mixin.ai.pathing.AbstractBlockStateMixin
-[12:29:45] [main/INFO]: Injecting BlockStateBase cache population hook into getOpacityIfCached from ca.spottedleaf.starlight.mixin.common.blockstate.BlockStateBaseMixin
-[12:29:45] [main/INFO]: Injecting BlockStateBase cache population hook into isConditionallyFullOpaque from ca.spottedleaf.starlight.mixin.common.blockstate.BlockStateBaseMixin
-[12:29:45] [main/INFO]: Injecting BlockStateBase cache population hook into getAllFlags from me.jellysquid.mods.lithium.mixin.util.block_tracking.AbstractBlockStateMixin
-[12:29:49] [main/WARN]: Method overwrite conflict for method_21740 in modernfix-common.mixins.json:perf.remove_biome_temperature_cache.BiomeMixin from mod modernfix, previously written by me.jellysquid.mods.lithium.mixin.world.temperature_cache.BiomeMixin. Skipping method.
-[12:29:50] [main/INFO]: Vanilla bootstrap took 7497 milliseconds
-[12:29:50] [main/INFO]: Registered azurelib config for auto-sync function
-[12:29:50] [main/INFO]: Registering Item Groups for bellsandwhistles
-[12:29:50] [main/INFO]: Create addon mod [Create: Bells & Whistles] is loading alongside Create [0.5.1d]!
-[12:29:50] [main/INFO]: Create: Bells & Whistles is accessinsg Porting Lib from the server!
-[12:29:51] [main/INFO]: Loading Collective version 7.71.
-[12:29:52] [Cicada thread 0/INFO]: [cicada] Hello, anyone there?
-[12:29:56] [main/INFO]: Create: Dragon Lib Create Dragon Lib has initialized, ready to support your Create add-ons!
-[12:29:56] [main/INFO]: CEI: hyper_experience_orb got converted to hyper_experience_orb
-[12:29:56] [main/INFO]: CEI: hyper_experience_bottle got converted to hyper_experience_bottle
-[12:29:56] [main/WARN]: Tried to register an overly high cookTime: 57600 > 32767! (air)
-[12:29:56] [main/INFO]: [STDOUT]: Create Crafts & Additions Initialized!
-[12:29:57] [main/INFO]: Registering items for Create Deco
-[12:29:57] [main/INFO]: Registering blocks for Create Deco
-[12:29:57] [main/INFO]: Create Deco is accessing Porting Lib on a Fabric server!
-[12:29:58] [main/INFO]: placard tooltip was null
-[12:29:58] [main/INFO]: placard tooltip was null
-[12:29:58] [main/INFO]: placard tooltip was null
-[12:29:58] [main/INFO]: placard tooltip was null
-[12:29:58] [main/INFO]: placard tooltip was null
-[12:29:58] [main/INFO]: placard tooltip was null
-[12:29:58] [main/INFO]: placard tooltip was null
-[12:29:58] [main/INFO]: placard tooltip was null
-[12:29:58] [main/INFO]: placard tooltip was null
-[12:29:58] [main/INFO]: placard tooltip was null
-[12:29:58] [main/INFO]: placard tooltip was null
-[12:29:58] [main/INFO]: placard tooltip was null
-[12:29:58] [main/INFO]: placard tooltip was null
-[12:29:58] [main/INFO]: placard tooltip was null
-[12:29:58] [main/INFO]: placard tooltip was null
-[12:29:58] [main/INFO]: Create addon mod [Create: Design n' Decor] is loading alongside Create [0.5.1f]!
-[12:29:58] [main/INFO]: Create: Design n' Decor is accessing Porting Lib from the server!
-[12:29:59] [main/INFO]: [EasyAuth]: EasyAuth mod by samo_lego, NikitaCartes.
-[12:29:59] [main/WARN]: [EasyAuth]: Disable enforce-secure-profile to allow offline players to join the server
-[12:29:59] [main/WARN]: [EasyAuth]: For more info, see https://github.com/NikitaCartes/EasyAuth/issues/68
-[12:29:59] [main/INFO]: [EasyAuth]: You have premiumAutologin enabled. Enable online-mode so that online player can not register.
-[12:29:59] [main/INFO]: Registered hwg config for auto-sync function
-[12:30:00] [main/INFO]: Create: Interiors v0.5.3+fabric-mc1.20.1 initializing! Create version: 0.5.1f on platform: Fabric
-[12:30:00] [main/INFO]: Compression will use libdeflate (Linux x86_64), encryption will use OpenSSL 1.1.x (Linux x86_64)
-[12:30:00] [main/INFO]: Definitely not up to no good
-[12:30:00] [main/INFO]: Registered bogey styles from railways
-[12:30:00] [main/INFO]: Registering data fixers
-[12:30:00] [main/INFO]: Bypassed Mojang DFU
-[12:30:00] [main/INFO]: Instantiating Mojang DFU
-[12:30:01] [main/INFO]: 0 Datafixer optimizations took 0 milliseconds
-[12:30:01] [main/INFO]: Registering tracks for Hex Casting
-[12:30:01] [main/INFO]: Registering tracks for Oh The Biomes You'll Go
-[12:30:01] [main/INFO]: Registering tracks for Blue Skies
-[12:30:01] [main/INFO]: Registering tracks for Twilight Forest
-[12:30:01] [main/INFO]: Registering tracks for Biomes O' Plenty
-[12:30:01] [main/INFO]: Registering tracks for Nature's Spirit
-[12:30:01] [main/INFO]: Registering tracks for Dreams and Desires
-[12:30:01] [main/INFO]: Registering tracks for Quark
-[12:30:01] [main/INFO]: Registering tracks for TerraFirmaCraft
-[12:30:02] [main/INFO]: Krypton is now accelerating your Minecraft server's networking stack 🚀
-[12:30:02] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[12:30:05] [main/INFO]: [fabric-registry-sync] Loaded registry data [file 1/4]
-[12:30:06] [Worker-Main-1/ERROR]: Couldn't load tag design_decor:containers as it is missing following references: design_decor:red_container (from fabric), design_decor:blue_container (from fabric), design_decor:green_container (from fabric)
-[12:30:09] [main/ERROR]: Parsing error loading recipe design_decor:item_application/crushing_wheels/special_aluminum_cylinder
+[01:20:05] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/MinecraftServer/fabricServerGithub/minecraftWorld/libraries/net/fabricmc/sponge-mixin/0.15.0+mixin.0.8.7/sponge-mixin-0.15.0+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[01:20:06] [main/INFO]: Compatibility level set to JAVA_17
+[01:20:06] [main/WARN]: Reference map 'createdeco-fabric-refmap.json' for createdeco.mixins.json could not be read. If this is a development environment you can ignore this message
+[01:20:06] [main/WARN]: Reference map 'dismountentity_fabric.refmap.json' for dismountentity_fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[01:20:06] [main/WARN]: Reference map 'interiors-fabric-refmap.json' for interiors.mixins.json could not be read. If this is a development environment you can ignore this message
+[01:20:06] [main/INFO]: Loaded configuration file for Lithium: 115 options available, 2 override(s) found
+[01:20:06] [main/WARN]: Reference map 'memoryleakfix-fabric-1.17+-fabric-refmap.json' for memoryleakfix-fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[01:20:07] [main/INFO]: Loaded configuration file for ModernFix 5.18.6+mc1.20.1: 60 options available, 0 override(s) found
+[01:20:07] [main/INFO]: Applying Nashorn fix
+[01:20:07] [main/WARN]: Reference map 'ritchiesprojectilelib-fabric-refmap.json' for ritchiesprojectilelib-fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[01:20:08] [main/WARN]: Error loading class: net/minecraft/class_906 (java.lang.ClassNotFoundException: net/minecraft/class_906)
+[01:20:08] [main/WARN]: @Mixin target net.minecraft.class_906 was not found porting_lib_tool_actions.mixins.json:FishingHookRendererMixin from mod porting_lib_tool_actions
+[01:20:08] [main/WARN]: Error loading class: link/infra/indium/renderer/helper/GeometryHelper (java.lang.ClassNotFoundException: link/infra/indium/renderer/helper/GeometryHelper)
+[01:20:08] [main/WARN]: Error loading class: net/fabricmc/fabric/impl/client/indigo/renderer/helper/GeometryHelper (java.lang.ClassNotFoundException: net/fabricmc/fabric/impl/client/indigo/renderer/helper/GeometryHelper)
+[01:20:08] [main/WARN]: Error loading class: com/firemerald/additionalplacements/common/ConfigCommon (java.lang.ClassNotFoundException: com/firemerald/additionalplacements/common/ConfigCommon)
+[01:20:08] [main/WARN]: Error loading class: com/firemerald/additionalplacements/block/AdditionalPlacementBlock (java.lang.ClassNotFoundException: com/firemerald/additionalplacements/block/AdditionalPlacementBlock)
+[01:20:08] [main/WARN]: @Mixin target com.firemerald.additionalplacements.block.AdditionalPlacementBlock was not found copycats-common.mixins.json:compat.additionalplacements.PlacementBlockMixin from mod copycats
+[01:20:08] [main/WARN]: Error loading class: me/jellysquid/mods/lithium/common/ai/pathing/PathNodeDefaults (java.lang.ClassNotFoundException: me/jellysquid/mods/lithium/common/ai/pathing/PathNodeDefaults)
+[01:20:08] [main/WARN]: Error loading class: me/jellysquid/mods/sodium/client/render/chunk/compile/pipeline/BlockOcclusionCache (java.lang.ClassNotFoundException: me/jellysquid/mods/sodium/client/render/chunk/compile/pipeline/BlockOcclusionCache)
+[01:20:08] [main/WARN]: Error loading class: me/jellysquid/mods/sodium/client/render/chunk/compile/pipeline/BlockRenderer (java.lang.ClassNotFoundException: me/jellysquid/mods/sodium/client/render/chunk/compile/pipeline/BlockRenderer)
+[01:20:09] [main/WARN]: Error loading class: net/minecraft/class_759 (java.lang.ClassNotFoundException: net/minecraft/class_759)
+[01:20:09] [main/WARN]: @Mixin target net.minecraft.class_759 was not found hwg.mixins.json:HeldItemRendererMixin from mod hwg
+[01:20:09] [main/WARN]: Force-disabling mixin 'ai.task.memory_change_counting.BrainMixin' as rule 'mixin.ai.task.memory_change_counting' (added by mods [smartbrainlib]) disables it and children
+[01:20:09] [main/WARN]: Force-disabling mixin 'ai.task.memory_change_counting.MultiTickTaskMixin' as rule 'mixin.ai.task.memory_change_counting' (added by mods [smartbrainlib]) disables it and children
+[01:20:09] [main/WARN]: Force-disabling mixin 'world.player_chunk_tick.ThreadedAnvilChunkStorageMixin' as rule 'mixin.world.player_chunk_tick' (added by mods [krypton]) disables it and children
+[01:20:10] [main/WARN]: Error loading class: net/coderbot/iris/Iris (java.lang.ClassNotFoundException: net/coderbot/iris/Iris)
+[01:20:10] [main/WARN]: @Mixin target net.coderbot.iris.Iris was not found notenoughcrashes.fabric.mixins.json:iris.SilentNEC from mod notenoughcrashes
+[01:20:10] [main/WARN]: Error loading class: net/minecraft/class_5616 (java.lang.ClassNotFoundException: net/minecraft/class_5616)
+[01:20:10] [main/WARN]: @Mixin target net.minecraft.class_5616 was not found registrate-fabric.mixins.json:accessor.BlockEntityRenderersAccessor from mod registrate-fabric
+[01:20:10] [main/WARN]: Error loading class: com/provismet/provihealth/util/Visibility (java.lang.ClassNotFoundException: com/provismet/provihealth/util/Visibility)
+[01:20:10] [main/WARN]: Error loading class: net/tslat/tes/api/util/TESUtil (java.lang.ClassNotFoundException: net/tslat/tes/api/util/TESUtil)
+[01:20:10] [main/INFO]: [MemoryLeakFix] Will be applying 1 memory leak fixes!
+[01:20:10] [main/INFO]: [MemoryLeakFix] Currently enabled memory leak fixes: [biomeTemperatureLeak]
+[01:20:10] [main/WARN]: Error loading class: com/firemerald/additionalplacements/block/AdditionalPlacementBlock (java.lang.ClassNotFoundException: com/firemerald/additionalplacements/block/AdditionalPlacementBlock)
+[01:20:10] [main/WARN]: Error loading class: com/firemerald/additionalplacements/block/AdditionalPlacementBlock (java.lang.ClassNotFoundException: com/firemerald/additionalplacements/block/AdditionalPlacementBlock)
+[01:20:11] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.0).
+[01:20:16] [main/WARN]: @Inject(@At("INVOKE")) Shift.BY=2 on porting_lib_entity.mixins.json:common.LivingEntityMixin from mod porting_lib_entity::handler$bpg000$porting_lib_entity$port_lib$onFinishUsing exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
+[01:20:16] [main/WARN]: Error loading class: com/firemerald/additionalplacements/block/AdditionalPlacementBlock (java.lang.ClassNotFoundException: com/firemerald/additionalplacements/block/AdditionalPlacementBlock)
+[01:20:16] [main/WARN]: Error loading class: com/firemerald/additionalplacements/block/AdditionalPlacementBlock (java.lang.ClassNotFoundException: com/firemerald/additionalplacements/block/AdditionalPlacementBlock)
+[01:20:17] [main/WARN]: Error loading class: com/firemerald/additionalplacements/block/AdditionalPlacementBlock (java.lang.ClassNotFoundException: com/firemerald/additionalplacements/block/AdditionalPlacementBlock)
+[01:20:17] [main/WARN]: Error loading class: com/firemerald/additionalplacements/block/AdditionalPlacementBlock (java.lang.ClassNotFoundException: com/firemerald/additionalplacements/block/AdditionalPlacementBlock)
+[01:20:17] [main/WARN]: Error loading class: com/firemerald/additionalplacements/block/AdditionalPlacementBlock (java.lang.ClassNotFoundException: com/firemerald/additionalplacements/block/AdditionalPlacementBlock)
+[01:20:17] [main/INFO]: Injecting BlockStateBase cache population hook into getNeighborPathNodeType from me.jellysquid.mods.lithium.mixin.ai.pathing.AbstractBlockStateMixin
+[01:20:17] [main/INFO]: Injecting BlockStateBase cache population hook into getPathNodeType from me.jellysquid.mods.lithium.mixin.ai.pathing.AbstractBlockStateMixin
+[01:20:17] [main/INFO]: Injecting BlockStateBase cache population hook into getOpacityIfCached from ca.spottedleaf.starlight.mixin.common.blockstate.BlockStateBaseMixin
+[01:20:17] [main/INFO]: Injecting BlockStateBase cache population hook into isConditionallyFullOpaque from ca.spottedleaf.starlight.mixin.common.blockstate.BlockStateBaseMixin
+[01:20:17] [main/INFO]: Injecting BlockStateBase cache population hook into getAllFlags from me.jellysquid.mods.lithium.mixin.util.block_tracking.AbstractBlockStateMixin
+[01:20:22] [main/WARN]: Method overwrite conflict for method_21740 in modernfix-common.mixins.json:perf.remove_biome_temperature_cache.BiomeMixin from mod modernfix, previously written by me.jellysquid.mods.lithium.mixin.world.temperature_cache.BiomeMixin. Skipping method.
+[01:20:23] [main/INFO]: Vanilla bootstrap took 8486 milliseconds
+[01:20:23] [main/INFO]: Registered azurelib config for auto-sync function
+[01:20:23] [main/INFO]: Registering Item Groups for bellsandwhistles
+[01:20:23] [main/INFO]: Create addon mod [Create: Bells & Whistles] is loading alongside Create [0.5.1d]!
+[01:20:23] [main/INFO]: Create: Bells & Whistles is accessinsg Porting Lib from the server!
+[01:20:23] [main/INFO]: Loading Collective version 7.71.
+[01:20:24] [Cicada thread 0/INFO]: 'ban yourself'
+[01:20:24] [Cicada thread 0/INFO]: 'uwu'
+[01:20:29] [main/INFO]: Create: Dragon Lib Create Dragon Lib has initialized, ready to support your Create add-ons!
+[01:20:29] [main/INFO]: CEI: hyper_experience_orb got converted to hyper_experience_orb
+[01:20:29] [main/INFO]: CEI: hyper_experience_bottle got converted to hyper_experience_bottle
+[01:20:29] [main/WARN]: Tried to register an overly high cookTime: 57600 > 32767! (air)
+[01:20:29] [main/INFO]: [STDOUT]: Create Crafts & Additions Initialized!
+[01:20:30] [main/INFO]: Registering items for Create Deco
+[01:20:30] [main/INFO]: Registering blocks for Create Deco
+[01:20:30] [main/INFO]: Create Deco is accessing Porting Lib on a Fabric server!
+[01:20:31] [main/INFO]: placard tooltip was null
+[01:20:31] [main/INFO]: placard tooltip was null
+[01:20:31] [main/INFO]: placard tooltip was null
+[01:20:31] [main/INFO]: placard tooltip was null
+[01:20:31] [main/INFO]: placard tooltip was null
+[01:20:31] [main/INFO]: placard tooltip was null
+[01:20:31] [main/INFO]: placard tooltip was null
+[01:20:31] [main/INFO]: placard tooltip was null
+[01:20:31] [main/INFO]: placard tooltip was null
+[01:20:31] [main/INFO]: placard tooltip was null
+[01:20:31] [main/INFO]: placard tooltip was null
+[01:20:31] [main/INFO]: placard tooltip was null
+[01:20:31] [main/INFO]: placard tooltip was null
+[01:20:31] [main/INFO]: placard tooltip was null
+[01:20:31] [main/INFO]: placard tooltip was null
+[01:20:31] [main/INFO]: Create addon mod [Create: Design n' Decor] is loading alongside Create [0.5.1f]!
+[01:20:31] [main/INFO]: Create: Design n' Decor is accessing Porting Lib from the server!
+[01:20:32] [main/INFO]: [EasyAuth]: EasyAuth mod by samo_lego, NikitaCartes.
+[01:20:32] [main/WARN]: [EasyAuth]: Disable enforce-secure-profile to allow offline players to join the server
+[01:20:32] [main/WARN]: [EasyAuth]: For more info, see https://github.com/NikitaCartes/EasyAuth/issues/68
+[01:20:32] [main/INFO]: [EasyAuth]: You have premiumAutologin enabled. Enable online-mode so that online player can not register.
+[01:20:32] [main/INFO]: Registered hwg config for auto-sync function
+[01:20:33] [main/INFO]: Create: Interiors v0.5.3+fabric-mc1.20.1 initializing! Create version: 0.5.1f on platform: Fabric
+[01:20:33] [main/INFO]: Compression will use libdeflate (Linux x86_64), encryption will use OpenSSL 1.1.x (Linux x86_64)
+[01:20:33] [main/INFO]: Definitely not up to no good
+[01:20:33] [main/INFO]: Registered bogey styles from railways
+[01:20:33] [main/INFO]: Registering data fixers
+[01:20:33] [main/INFO]: Bypassed Mojang DFU
+[01:20:33] [main/INFO]: Instantiating Mojang DFU
+[01:20:34] [main/INFO]: 0 Datafixer optimizations took 0 milliseconds
+[01:20:34] [main/INFO]: Registering tracks for Hex Casting
+[01:20:34] [main/INFO]: Registering tracks for Oh The Biomes You'll Go
+[01:20:34] [main/INFO]: Registering tracks for Blue Skies
+[01:20:34] [main/INFO]: Registering tracks for Twilight Forest
+[01:20:34] [main/INFO]: Registering tracks for Biomes O' Plenty
+[01:20:34] [main/INFO]: Registering tracks for Nature's Spirit
+[01:20:34] [main/INFO]: Registering tracks for Dreams and Desires
+[01:20:34] [main/INFO]: Registering tracks for Quark
+[01:20:34] [main/INFO]: Registering tracks for TerraFirmaCraft
+[01:20:35] [main/INFO]: Krypton is now accelerating your Minecraft server's networking stack 🚀
+[01:20:35] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[01:20:38] [main/INFO]: [fabric-registry-sync] Loaded registry data [file 1/4]
+[01:20:39] [Worker-Main-1/ERROR]: Couldn't load tag design_decor:containers as it is missing following references: design_decor:red_container (from fabric), design_decor:blue_container (from fabric), design_decor:green_container (from fabric)
+[01:20:43] [main/ERROR]: Parsing error loading recipe design_decor:item_application/crushing_wheels/special_aluminum_cylinder
 com.google.gson.JsonSyntaxException: Unknown item 'design_decor:aluminum_boiler'
 	at net.minecraft.class_1869.method_17878(class_1869.java:272) ~[server-intermediary.jar:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -317,12 +321,12 @@ com.google.gson.JsonSyntaxException: Unknown item 'design_decor:aluminum_boiler'
 	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.16.0.jar:?]
 	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) ~[fabric-loader-0.16.0.jar:?]
 	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) ~[server1201.jar:1.0.1]
-[12:30:09] [main/WARN]: Your custom createaddition:charging/exposed_cut_copper recipe (createaddition:charging/exposed_cut_copper) specified a duration. Durations have no impact on this type of recipe.
-[12:30:09] [main/WARN]: Your custom createaddition:rolling/electrum_ingot recipe (createaddition:rolling/electrum_ingot) specified a duration. Durations have no impact on this type of recipe.
-[12:30:09] [main/WARN]: Your custom createaddition:charging/exposed_cut_copper_slab recipe (createaddition:charging/exposed_cut_copper_slab) specified a duration. Durations have no impact on this type of recipe.
-[12:30:09] [main/WARN]: Your custom createaddition:charging/weathered_copper_shingles recipe (createaddition:charging/weathered_copper_shingles) specified a duration. Durations have no impact on this type of recipe.
-[12:30:09] [main/WARN]: Your custom createaddition:charging/weathered_copper_shingle_stairs recipe (createaddition:charging/weathered_copper_shingle_stairs) specified a duration. Durations have no impact on this type of recipe.
-[12:30:09] [main/ERROR]: Parsing error loading recipe smallships:bamboo_drakkar
+[01:20:43] [main/WARN]: Your custom createaddition:charging/exposed_cut_copper recipe (createaddition:charging/exposed_cut_copper) specified a duration. Durations have no impact on this type of recipe.
+[01:20:43] [main/WARN]: Your custom createaddition:rolling/electrum_ingot recipe (createaddition:rolling/electrum_ingot) specified a duration. Durations have no impact on this type of recipe.
+[01:20:43] [main/WARN]: Your custom createaddition:charging/exposed_cut_copper_slab recipe (createaddition:charging/exposed_cut_copper_slab) specified a duration. Durations have no impact on this type of recipe.
+[01:20:43] [main/WARN]: Your custom createaddition:charging/weathered_copper_shingles recipe (createaddition:charging/weathered_copper_shingles) specified a duration. Durations have no impact on this type of recipe.
+[01:20:43] [main/WARN]: Your custom createaddition:charging/weathered_copper_shingle_stairs recipe (createaddition:charging/weathered_copper_shingle_stairs) specified a duration. Durations have no impact on this type of recipe.
+[01:20:43] [main/ERROR]: Parsing error loading recipe smallships:bamboo_drakkar
 com.google.gson.JsonSyntaxException: Unknown item 'minecraft:bamboo_boat'
 	at net.minecraft.class_1869.method_17878(class_1869.java:272) ~[server-intermediary.jar:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -347,8 +351,8 @@ com.google.gson.JsonSyntaxException: Unknown item 'minecraft:bamboo_boat'
 	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.16.0.jar:?]
 	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) ~[fabric-loader-0.16.0.jar:?]
 	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) ~[server1201.jar:1.0.1]
-[12:30:09] [main/WARN]: Your custom createaddition:charging/exposed_copper recipe (createaddition:charging/exposed_copper) specified a duration. Durations have no impact on this type of recipe.
-[12:30:09] [main/ERROR]: Parsing error loading recipe createaddition:compat/immersiveengineering/item_application/reinforced_blast_brick
+[01:20:43] [main/WARN]: Your custom createaddition:charging/exposed_copper recipe (createaddition:charging/exposed_copper) specified a duration. Durations have no impact on this type of recipe.
+[01:20:43] [main/ERROR]: Parsing error loading recipe createaddition:compat/immersiveengineering/item_application/reinforced_blast_brick
 com.google.gson.JsonSyntaxException: Unknown item 'immersiveengineering:blastbrick'
 	at net.minecraft.class_1869.method_17878(class_1869.java:272) ~[server-intermediary.jar:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -374,13 +378,13 @@ com.google.gson.JsonSyntaxException: Unknown item 'immersiveengineering:blastbri
 	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.16.0.jar:?]
 	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) ~[fabric-loader-0.16.0.jar:?]
 	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) ~[server1201.jar:1.0.1]
-[12:30:09] [main/WARN]: Your custom createaddition:rolling/brass_ingot recipe (createaddition:rolling/brass_ingot) specified a duration. Durations have no impact on this type of recipe.
-[12:30:09] [main/WARN]: Your custom createaddition:charging/copper_shingle_stairs recipe (createaddition:charging/copper_shingle_stairs) specified a duration. Durations have no impact on this type of recipe.
-[12:30:09] [main/WARN]: Your custom createaddition:rolling/iron_ingot recipe (createaddition:rolling/iron_ingot) specified a duration. Durations have no impact on this type of recipe.
-[12:30:10] [main/WARN]: Your custom createaddition:charging/copper_shingles recipe (createaddition:charging/copper_shingles) specified a duration. Durations have no impact on this type of recipe.
-[12:30:10] [main/WARN]: Your custom createaddition:charging/copper_block recipe (createaddition:charging/copper_block) specified a duration. Durations have no impact on this type of recipe.
-[12:30:10] [main/WARN]: Your custom createaddition:rolling/copper_ingot recipe (createaddition:rolling/copper_ingot) specified a duration. Durations have no impact on this type of recipe.
-[12:30:10] [main/ERROR]: Parsing error loading recipe design_decor:item_application/millstones/special_aluminum_cylinder
+[01:20:43] [main/WARN]: Your custom createaddition:rolling/brass_ingot recipe (createaddition:rolling/brass_ingot) specified a duration. Durations have no impact on this type of recipe.
+[01:20:43] [main/WARN]: Your custom createaddition:charging/copper_shingle_stairs recipe (createaddition:charging/copper_shingle_stairs) specified a duration. Durations have no impact on this type of recipe.
+[01:20:43] [main/WARN]: Your custom createaddition:rolling/iron_ingot recipe (createaddition:rolling/iron_ingot) specified a duration. Durations have no impact on this type of recipe.
+[01:20:43] [main/WARN]: Your custom createaddition:charging/copper_shingles recipe (createaddition:charging/copper_shingles) specified a duration. Durations have no impact on this type of recipe.
+[01:20:43] [main/WARN]: Your custom createaddition:charging/copper_block recipe (createaddition:charging/copper_block) specified a duration. Durations have no impact on this type of recipe.
+[01:20:43] [main/WARN]: Your custom createaddition:rolling/copper_ingot recipe (createaddition:rolling/copper_ingot) specified a duration. Durations have no impact on this type of recipe.
+[01:20:43] [main/ERROR]: Parsing error loading recipe design_decor:item_application/millstones/special_aluminum_cylinder
 com.google.gson.JsonSyntaxException: Unknown item 'design_decor:aluminum_boiler'
 	at net.minecraft.class_1869.method_17878(class_1869.java:272) ~[server-intermediary.jar:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -406,15 +410,15 @@ com.google.gson.JsonSyntaxException: Unknown item 'design_decor:aluminum_boiler'
 	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.16.0.jar:?]
 	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) ~[fabric-loader-0.16.0.jar:?]
 	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) ~[server1201.jar:1.0.1]
-[12:30:10] [main/WARN]: Your custom createaddition:rolling/gold_ingot recipe (createaddition:rolling/gold_ingot) specified a duration. Durations have no impact on this type of recipe.
-[12:30:10] [main/WARN]: Your custom createaddition:rolling/straw recipe (createaddition:rolling/straw) specified a duration. Durations have no impact on this type of recipe.
-[12:30:10] [main/WARN]: Your custom createaddition:charging/weathered_copper recipe (createaddition:charging/weathered_copper) specified a duration. Durations have no impact on this type of recipe.
-[12:30:10] [main/WARN]: Your custom createaddition:charging/exposed_copper_shingle_stairs recipe (createaddition:charging/exposed_copper_shingle_stairs) specified a duration. Durations have no impact on this type of recipe.
-[12:30:10] [main/WARN]: Your custom createaddition:charging/cut_copper_block recipe (createaddition:charging/cut_copper_block) specified a duration. Durations have no impact on this type of recipe.
-[12:30:10] [main/WARN]: Your custom createaddition:charging/channeling recipe (createaddition:charging/channeling) specified a duration. Durations have no impact on this type of recipe.
-[12:30:10] [main/WARN]: Your custom createaddition:charging/cut_copper_slab recipe (createaddition:charging/cut_copper_slab) specified a duration. Durations have no impact on this type of recipe.
-[12:30:10] [main/WARN]: Your custom createaddition:charging/weathered_cut_copper_stairs recipe (createaddition:charging/weathered_cut_copper_stairs) specified a duration. Durations have no impact on this type of recipe.
-[12:30:10] [main/ERROR]: Parsing error loading recipe createaddition:compat/immersiveengineering/item_application/leaded_concrete
+[01:20:43] [main/WARN]: Your custom createaddition:rolling/gold_ingot recipe (createaddition:rolling/gold_ingot) specified a duration. Durations have no impact on this type of recipe.
+[01:20:43] [main/WARN]: Your custom createaddition:rolling/straw recipe (createaddition:rolling/straw) specified a duration. Durations have no impact on this type of recipe.
+[01:20:43] [main/WARN]: Your custom createaddition:charging/weathered_copper recipe (createaddition:charging/weathered_copper) specified a duration. Durations have no impact on this type of recipe.
+[01:20:43] [main/WARN]: Your custom createaddition:charging/exposed_copper_shingle_stairs recipe (createaddition:charging/exposed_copper_shingle_stairs) specified a duration. Durations have no impact on this type of recipe.
+[01:20:43] [main/WARN]: Your custom createaddition:charging/cut_copper_block recipe (createaddition:charging/cut_copper_block) specified a duration. Durations have no impact on this type of recipe.
+[01:20:43] [main/WARN]: Your custom createaddition:charging/channeling recipe (createaddition:charging/channeling) specified a duration. Durations have no impact on this type of recipe.
+[01:20:43] [main/WARN]: Your custom createaddition:charging/cut_copper_slab recipe (createaddition:charging/cut_copper_slab) specified a duration. Durations have no impact on this type of recipe.
+[01:20:43] [main/WARN]: Your custom createaddition:charging/weathered_cut_copper_stairs recipe (createaddition:charging/weathered_cut_copper_stairs) specified a duration. Durations have no impact on this type of recipe.
+[01:20:43] [main/ERROR]: Parsing error loading recipe createaddition:compat/immersiveengineering/item_application/leaded_concrete
 com.google.gson.JsonSyntaxException: Unknown item 'immersiveengineering:concrete'
 	at net.minecraft.class_1869.method_17878(class_1869.java:272) ~[server-intermediary.jar:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -440,498 +444,143 @@ com.google.gson.JsonSyntaxException: Unknown item 'immersiveengineering:concrete
 	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.16.0.jar:?]
 	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) ~[fabric-loader-0.16.0.jar:?]
 	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) ~[server1201.jar:1.0.1]
-[12:30:10] [main/WARN]: Your custom createaddition:charging/exposed_cut_copper_stairs recipe (createaddition:charging/exposed_cut_copper_stairs) specified a duration. Durations have no impact on this type of recipe.
-[12:30:10] [main/WARN]: Your custom createaddition:rolling/electrum_plate recipe (createaddition:rolling/electrum_plate) specified a duration. Durations have no impact on this type of recipe.
-[12:30:10] [main/WARN]: Your custom createaddition:charging/exposed_copper_shingles recipe (createaddition:charging/exposed_copper_shingles) specified a duration. Durations have no impact on this type of recipe.
-[12:30:10] [main/WARN]: Your custom createaddition:charging/weathered_cut_copper recipe (createaddition:charging/weathered_cut_copper) specified a duration. Durations have no impact on this type of recipe.
-[12:30:10] [main/WARN]: Your custom createaddition:charging/cut_copper_stairs recipe (createaddition:charging/cut_copper_stairs) specified a duration. Durations have no impact on this type of recipe.
-[12:30:10] [main/WARN]: Your custom createaddition:charging/copper_shingle_slab recipe (createaddition:charging/copper_shingle_slab) specified a duration. Durations have no impact on this type of recipe.
-[12:30:10] [main/WARN]: Your custom createaddition:charging/weathered_cut_copper_slab recipe (createaddition:charging/weathered_cut_copper_slab) specified a duration. Durations have no impact on this type of recipe.
-[12:30:10] [main/WARN]: Your custom createaddition:rolling/copper_plate recipe (createaddition:rolling/copper_plate) specified a duration. Durations have no impact on this type of recipe.
-[12:30:10] [main/WARN]: Your custom createaddition:rolling/iron_plate recipe (createaddition:rolling/iron_plate) specified a duration. Durations have no impact on this type of recipe.
-[12:30:10] [main/WARN]: Your custom createaddition:charging/weathered_copper_shingle_slab recipe (createaddition:charging/weathered_copper_shingle_slab) specified a duration. Durations have no impact on this type of recipe.
-[12:30:10] [main/WARN]: Your custom createaddition:charging/exposed_copper_shingle_slab recipe (createaddition:charging/exposed_copper_shingle_slab) specified a duration. Durations have no impact on this type of recipe.
-[12:30:10] [main/WARN]: Your custom createaddition:rolling/gold_plate recipe (createaddition:rolling/gold_plate) specified a duration. Durations have no impact on this type of recipe.
-[12:30:10] [main/INFO]: Loaded 34 recipes
-[12:30:10] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_stairs_from_conversion: Missing criteria, expected to find a JsonObject
-[12:30:10] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_step_from_conversion: Missing criteria, expected to find a JsonObject
-[12:30:10] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_slice_from_conversion: Missing criteria, expected to find a JsonObject
-[12:30:10] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_slope_from_conversion: Missing criteria, expected to find a JsonObject
-[12:30:10] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_slab_from_steps: Missing criteria, expected to find a JsonObject
-[12:30:10] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_panel_from_conversion: Missing criteria, expected to find a JsonObject
-[12:30:10] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_layer_from_half_layers: Missing criteria, expected to find a JsonObject
-[12:30:10] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_vertical_stairs_from_conversion: Missing criteria, expected to find a JsonObject
-[12:30:10] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_block_from_slabs: Missing criteria, expected to find a JsonObject
-[12:30:10] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_vertical_slope_from_conversion: Missing criteria, expected to find a JsonObject
-[12:30:10] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_vertical_step_from_conversion: Missing criteria, expected to find a JsonObject
-[12:30:10] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_catwalk: Missing criteria, expected to find a JsonObject
-[12:30:10] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_box: Missing criteria, expected to find a JsonObject
-[12:30:10] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_panel_from_half_panels: Missing criteria, expected to find a JsonObject
-[12:30:10] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_slab_from_beams: Missing criteria, expected to find a JsonObject
-[12:30:10] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_trapdoor_from_conversion: Missing criteria, expected to find a JsonObject
-[12:30:10] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_vertical_slice_from_conversion: Missing criteria, expected to find a JsonObject
-[12:30:10] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_slab_from_panels: Missing criteria, expected to find a JsonObject
-[12:30:10] [main/INFO]: Loaded 5206 advancements
-[12:30:10] [Thread-9/INFO]: Loaded 34 translation keys
-[12:30:10] [main/INFO]: Applied 355 biome modifications to 160 of 171 new biomes in 49.76 ms
-[12:30:11] [Server thread/INFO]: Starting minecraft server version 1.20.1
-[12:30:11] [Server thread/INFO]: Loading properties
-[12:30:11] [Server thread/INFO]: Default game type: SURVIVAL
-[12:30:11] [Server thread/INFO]: Generating keypair
-[12:30:11] [Server thread/INFO]: Starting Minecraft server on *:25565
-[12:30:11] [Server thread/INFO]: Using epoll channel type
-[12:30:11] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[12:30:11] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[12:30:11] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[12:30:11] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[12:30:11] [Server thread/INFO]: Preparing level "world"
-[12:30:12] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[12:30:12] [Server thread/WARN]: Method overwrite conflict for removeIf in modernfix-common.mixins.json:bugfix.paper_chunk_patches.SortedArraySetMixin from mod modernfix, previously written by me.jellysquid.mods.lithium.mixin.world.chunk_tickets.SortedArraySetMixin. Skipping method.
-[12:30:14] [Server thread/INFO]: Preparing spawn area: 0%
-[12:30:14] [Server thread/INFO]: Preparing spawn area: 0%
-[12:30:14] [Server thread/INFO]: Preparing spawn area: 0%
-[12:30:14] [Server thread/INFO]: Preparing spawn area: 0%
-[12:30:14] [Server thread/INFO]: Preparing spawn area: 0%
-[12:30:15] [Server thread/INFO]: Preparing spawn area: 2%
-[12:30:15] [Server thread/INFO]: Preparing spawn area: 36%
-[12:30:16] [Server thread/INFO]: Preparing spawn area: 93%
-[12:30:16] [Server thread/INFO]: Time elapsed: 3862 ms
-[12:30:16] [Server thread/INFO]: Done (4.928s)! For help, type "help"
-[12:30:16] [Server thread/WARN]: Dedicated server took 48.257 seconds to load
-[13:07:28] [Server thread/INFO]: zakiatha[/202.169.232.157:54810] logged in with entity id 87 at (-367.61711340247234, 71.0, 224.53439262060186)
-[13:07:28] [Server thread/INFO]: zakiatha joined the game
-[13:07:34] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2040ms or 40 ticks behind
-[13:14:19] [Server thread/INFO]: Ventoooooooooo[/36.80.97.202:52466] logged in with entity id 1382 at (-46.587141685074414, 56.0, 21.997323882445006)
-[13:14:19] [Server thread/INFO]: Ventoooooooooo joined the game
-[13:16:58] [Server thread/INFO]: [Not Secure] <zakiatha> kemana armor mu nang?
-[13:18:00] [Server thread/INFO]: [Not Secure] <zakiatha> nihh
-[13:18:21] [Server thread/INFO]: [Not Secure] <Ventoooooooooo> wdf
-[13:18:26] [Server thread/INFO]: [Not Secure] <zakiatha> mob aneh
-[13:18:42] [Server thread/INFO]: [Not Secure] <zakiatha> buat kau
-[13:18:48] [Server thread/INFO]: [Not Secure] <Ventoooooooooo> avv :D
-[13:18:53] [Server thread/INFO]: [Not Secure] <zakiatha> -_
-[13:19:00] [Server thread/INFO]: [Not Secure] <Ventoooooooooo> nggawe ak piye
-[13:19:25] [Server thread/WARN]: zakiatha moved wrongly!
-[13:19:36] [Server thread/INFO]: [Not Secure] <zakiatha> pakek terra cota
-[13:19:39] [Server thread/INFO]: [Not Secure] <zakiatha> terracota
-[13:19:42] [Server thread/INFO]: [Not Secure] <Ventoooooooooo> oh
-[13:19:44] [Server thread/INFO]: [Not Secure] <zakiatha> ambil aja di chest ku
-[13:19:57] [Server thread/INFO]: [Not Secure] <zakiatha> tapi lup ku taruk mana
-[13:20:05] [Server thread/INFO]: [Not Secure] <Ventoooooooooo> aman aman
-[13:20:08] [Server thread/INFO]: [Not Secure] <zakiatha> pakek peluru itu
-[13:21:25] [Server thread/INFO]: zakiatha has made the advancement [The Brass Age]
-[13:22:37] [Server thread/WARN]: Ventoooooooooo moved wrongly!
-[13:23:26] [Server thread/INFO]: zakiatha lost connection: Disconnected
-[13:23:26] [Server thread/INFO]: zakiatha left the game
-[13:23:40] [Server thread/INFO]: zakiatha[/202.169.232.157:55180] logged in with entity id 3242 at (-360.784913068017, 70.0, 221.2717019200013)
-[13:23:40] [Server thread/INFO]: zakiatha joined the game
-[13:23:58] [Server thread/WARN]: Ventoooooooooo moved wrongly!
-[13:24:16] [Server thread/WARN]: Ventoooooooooo moved wrongly!
-[13:27:13] [Server thread/WARN]: Ventoooooooooo moved wrongly!
-[13:27:28] [Server thread/WARN]: Ventoooooooooo moved wrongly!
-[13:28:53] [Server thread/WARN]: Ventoooooooooo moved wrongly!
-[13:28:56] [Server thread/WARN]: Ventoooooooooo moved wrongly!
-[13:31:36] [Server thread/WARN]: Ventoooooooooo moved wrongly!
-[13:32:09] [Server thread/INFO]: RakanJugaJuga[/125.160.106.217:52060] logged in with entity id 12104 at (-301.59535339655906, 73.0, 244.87754479089523)
-[13:32:09] [Server thread/INFO]: RakanJugaJuga joined the game
-[13:41:10] [Server thread/INFO]: Ventoooooooooo lost connection: Disconnected
-[13:41:10] [Server thread/INFO]: Ventoooooooooo left the game
-[13:49:33] [Server thread/INFO]: Ventoooooooooo[/36.80.97.202:53326] logged in with entity id 23343 at (-304.78954010005106, 70.76696014404297, 268.7392977369631)
-[13:49:33] [Server thread/INFO]: Ventoooooooooo joined the game
-[13:49:40] [Server thread/WARN]: Ventoooooooooo moved wrongly!
-[13:50:04] [Server thread/INFO]: runs[/104.28.251.245:46564] logged in with entity id 23522 at (-391.22771629277804, 65.0, 210.7748007545505)
-[13:50:04] [Server thread/INFO]: runs joined the game
-[13:50:35] [Server thread/INFO]: [Not Secure] <zakiatha> gak bisa reload kan
-[13:50:52] [Server thread/INFO]: [Not Secure] <Ventoooooooooo> piye carane
-[13:50:54] [Server thread/INFO]: [Not Secure] <runs> ada shortcut nya ga si di setting
-[13:50:57] [Server thread/INFO]: [Not Secure] <zakiatha> keybind
-[13:50:58] [Server thread/INFO]: [Not Secure] <runs> defaultnya R
-[13:51:04] [Server thread/INFO]: [Not Secure] <zakiatha> keybind nya tabrakan
-[13:51:09] [Server thread/INFO]: [Not Secure] <zakiatha> sama mod lain
-[13:51:13] [Server thread/INFO]: [Not Secure] <runs> oh ya itu set sendiri aja
-[13:53:36] [Server thread/INFO]: RakanJugaJuga lost connection: Disconnected
-[13:53:36] [Server thread/INFO]: RakanJugaJuga left the game
-[13:54:57] [Server thread/INFO]: RakanJugaJuga[/125.160.106.217:52130] logged in with entity id 27469 at (-287.6939882511948, 74.0, 245.52811291808737)
-[13:54:57] [Server thread/INFO]: RakanJugaJuga joined the game
-[13:59:36] [Server thread/INFO]: runs lost connection: Disconnected
-[13:59:36] [Server thread/INFO]: runs left the game
-[14:02:30] [Server thread/INFO]: [Not Secure] <Ventoooooooooo> oh meh protek a
-[14:02:34] [Server thread/INFO]: [Not Secure] <Ventoooooooooo> proyek
-[14:02:38] [Server thread/INFO]: [Not Secure] <zakiatha> hoo
-[14:02:48] [Server thread/INFO]: [Not Secure] <zakiatha> nek arep ngo mbok ngo ae
-[14:02:58] [Server thread/INFO]: [Not Secure] <Ventoooooooooo> yo oke
-[14:03:04] [Server thread/INFO]: [Not Secure] <Ventoooooooooo> mok nggo deleh deleh barang sih
-[14:03:24] [Server thread/INFO]: [Not Secure] <zakiatha> okee
-[14:15:44] [Server thread/WARN]: RakanJugaJuga moved wrongly!
-[14:16:59] [Netty Epoll Server IO #3/ERROR]: Exception occurred in netty pipeline
-io.netty.channel.unix.Errors$NativeIoException: recvAddress(..) failed: Connection reset by peer
-[14:16:59] [Server thread/INFO]: Ventoooooooooo lost connection: Disconnected
-[14:16:59] [Server thread/INFO]: Ventoooooooooo left the game
-[14:17:43] [Server thread/WARN]: RakanJugaJuga moved wrongly!
-[14:18:01] [Server thread/INFO]: Ventoooooooooo[/36.80.97.202:54031] logged in with entity id 33554 at (-364.817835694441, 70.0, 230.18106260147286)
-[14:18:01] [Server thread/INFO]: Ventoooooooooo joined the game
-[14:18:18] [Netty Epoll Server IO #1/ERROR]: Exception occurred in netty pipeline
-io.netty.channel.unix.Errors$NativeIoException: recvAddress(..) failed: Connection reset by peer
-[14:18:18] [Server thread/INFO]: Ventoooooooooo lost connection: Disconnected
-[14:18:18] [Server thread/INFO]: Ventoooooooooo left the game
-[14:18:23] [Server thread/INFO]: RakanJugaJuga lost connection: Disconnected
-[14:18:23] [Server thread/INFO]: RakanJugaJuga left the game
-[14:19:17] [Server thread/INFO]: Ventoooooooooo[/36.80.97.202:54113] logged in with entity id 33912 at (-366.50104580240776, 70.0, 229.81633021918444)
-[14:19:17] [Server thread/INFO]: Ventoooooooooo joined the game
-[14:27:03] [Server thread/INFO]: RakanJugaJuga[/125.160.106.217:52859] logged in with entity id 38464 at (-310.9877613136318, 74.0, 258.2905847828214)
-[14:27:03] [Server thread/INFO]: RakanJugaJuga joined the game
-[14:30:24] [Server thread/INFO]: Ventoooooooooo has made the advancement [A Seedy Place]
-[14:35:51] [Server thread/WARN]: Ventoooooooooo moved wrongly!
-[14:36:44] [Server thread/WARN]: Ventoooooooooo moved wrongly!
-[14:38:23] [Server thread/INFO]: [Not Secure] <zakiatha> wthh
-[14:38:32] [Server thread/INFO]: [Not Secure] <Ventoooooooooo> cekrek
-[14:38:38] [Server thread/INFO]: [Not Secure] <zakiatha> wkwkw
-[14:45:12] [Server thread/WARN]: Ventoooooooooo moved wrongly!
-[14:45:36] [Server thread/WARN]: Ventoooooooooo moved wrongly!
-[14:49:49] [Server thread/INFO]: RakanJugaJuga was shot by Ventoooooooooo
-[14:52:00] [Server thread/INFO]: Ventoooooooooo was slain by RakanJugaJuga
-[14:55:10] [Server thread/INFO]: Ventoooooooooo lost connection: Disconnected
-[14:55:10] [Server thread/INFO]: Ventoooooooooo left the game
-[14:55:23] [Server thread/INFO]: Ventoooooooooo[/36.80.97.202:55010] logged in with entity id 49392 at (-378.1875, 66.7664566040039, 285.875)
-[14:55:23] [Server thread/INFO]: Ventoooooooooo joined the game
-[14:55:27] [Server thread/WARN]: Ventoooooooooo moved wrongly!
-[14:55:33] [Server thread/INFO]: [Not Secure] <zakiatha> udah sih kalo kata ku
-[14:55:53] [Server thread/INFO]: [Not Secure] <Ventoooooooooo> wkwk
-[14:56:07] [Server thread/WARN]: Ventoooooooooo moved wrongly!
-[14:56:13] [Server thread/INFO]: [Not Secure] <zakiatha> benak ke
-[14:58:06] [Server thread/WARN]: Ventoooooooooo moved wrongly!
-[14:58:38] [Server thread/INFO]: Ventoooooooooo lost connection: Disconnected
-[14:58:38] [Server thread/INFO]: Ventoooooooooo left the game
-[15:01:47] [Server thread/INFO]: RakanJugaJuga lost connection: Disconnected
-[15:01:47] [Server thread/INFO]: RakanJugaJuga left the game
-[15:05:18] [Server thread/ERROR]: Couldn't save player advancements to ./world/advancements/8ec77d25-f7bd-3727-b6d5-e59fa9220760.json
-java.nio.file.NoSuchFileException: ./world/advancements
-	at sun.nio.fs.UnixException.translateToIOException(UnixException.java:92) ~[?:?]
-	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106) ~[?:?]
-	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111) ~[?:?]
-	at sun.nio.fs.UnixPath.toRealPath(UnixPath.java:834) ~[?:?]
-	at net.minecraft.class_4239.method_47525(class_4239.java:194) ~[server-intermediary.jar:?]
-	at net.minecraft.class_2985.method_12890(class_2985.java:160) ~[server-intermediary.jar:?]
-	at net.minecraft.class_3324.method_14577(class_3324.java:391) ~[server-intermediary.jar:?]
-	at net.minecraft.class_3324.method_14617(class_3324.java:706) ~[server-intermediary.jar:?]
-	at net.minecraft.server.MinecraftServer.method_39218(MinecraftServer.java:559) ~[server-intermediary.jar:?]
-	at net.minecraft.server.MinecraftServer.method_3748(MinecraftServer.java:834) ~[server-intermediary.jar:?]
-	at net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:671) ~[server-intermediary.jar:?]
-	at net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:265) ~[server-intermediary.jar:?]
-	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[15:07:15] [Server thread/INFO]: RakanJugaJuga[/125.160.106.217:53111] logged in with entity id 52978 at (-324.3510830055006, 76.0, 179.69999998807907)
-[15:07:15] [Server thread/INFO]: RakanJugaJuga joined the game
-[15:10:04] [Server thread/INFO]: RakanJugaJuga lost connection: Disconnected
-[15:10:04] [Server thread/INFO]: RakanJugaJuga left the game
-[15:18:00] [Server thread/INFO]: zakiatha has made the advancement [A Pair of Giants]
-[15:54:29] [Server thread/INFO]: Anakhilang06[/180.243.74.90:55345] logged in with entity id 61086 at (-339.4454747640027, 67.0, 275.0813062439766)
-[15:54:29] [Server thread/INFO]: Anakhilang06 joined the game
-[16:01:56] [Server thread/INFO]: Anakhilang06 lost connection: Disconnected
-[16:01:56] [Server thread/INFO]: Anakhilang06 left the game
-[16:07:38] [Server thread/WARN]: zakiatha moved wrongly!
-[16:08:15] [Server thread/INFO]: Tazarima[/104.28.219.244:61689] logged in with entity id 63387 at (-412.62566245896954, 66.0, 284.62006243388475)
-[16:08:15] [Server thread/INFO]: Tazarima joined the game
-[16:08:20] [Server thread/INFO]: [Not Secure] <zakiatha> haloo
-[16:09:00] [Server thread/INFO]: Tazarima lost connection: Disconnected
-[16:09:00] [Server thread/INFO]: Tazarima left the game
-[16:09:00] [Server thread/WARN]: handleDisconnection() called twice
-[16:10:24] [Server thread/INFO]: Tazarima[/104.28.219.244:50667] logged in with entity id 63921 at (-365.4499522286969, 66.25220334025373, 267.33482752842843)
-[16:10:24] [Server thread/INFO]: Tazarima joined the game
-[16:10:30] [Server thread/INFO]: Anakhilang06[/180.243.74.90:55478] logged in with entity id 64013 at (-402.158032063104, 63.875, 205.3827768195545)
-[16:10:30] [Server thread/INFO]: Anakhilang06 joined the game
-[16:14:40] [Server thread/INFO]: [Not Secure] <Anakhilang06> ada terracota gak?
-[16:14:45] [Server thread/INFO]: [Not Secure] <Anakhilang06> buat bikin senjata
-[16:14:47] [Server thread/INFO]: [Not Secure] <zakiatha> chest ku
-[16:14:50] [Server thread/INFO]: [Not Secure] <Anakhilang06> ok
-[16:14:53] [Server thread/INFO]: [Not Secure] <zakiatha> yang deket kincir
-[16:15:03] [Server thread/INFO]: [Not Secure] <Anakhilang06> ok
-[16:15:09] [Server thread/INFO]: Tazarima lost connection: Timed out
-[16:15:09] [Server thread/INFO]: Tazarima left the game
-[16:15:09] [Server thread/WARN]: handleDisconnection() called twice
-[16:15:44] [Server thread/INFO]: Tazarima[/104.28.219.244:43248] logged in with entity id 70708 at (-216.2387435043893, 68.00133597911214, 275.6781628308735)
-[16:15:44] [Server thread/INFO]: Tazarima joined the game
-[16:16:33] [Server thread/WARN]: Anakhilang06 moved wrongly!
-[16:17:59] [Server thread/INFO]: Tazarima lost connection: Timed out
-[16:17:59] [Server thread/INFO]: Tazarima left the game
-[16:19:18] [Netty Epoll Server IO #0/ERROR]: Exception occurred in netty pipeline
-io.netty.channel.unix.Errors$NativeIoException: recvAddress(..) failed: Connection reset by peer
-[16:19:20] [Netty Epoll Server IO #1/ERROR]: Exception occurred in netty pipeline
-io.netty.channel.unix.Errors$NativeIoException: recvAddress(..) failed: Connection reset by peer
-[16:19:20] [Server thread/INFO]: Anakhilang06 lost connection: Disconnected
-[16:19:20] [Server thread/INFO]: Anakhilang06 left the game
-[16:19:22] [Server thread/INFO]: Tazarima[/104.28.251.242:32072] logged in with entity id 73146 at (-325.9913916384641, 65.25220334025373, 387.2147489437178)
-[16:19:22] [Server thread/INFO]: Tazarima joined the game
-[16:20:12] [Server thread/INFO]: Anakhilang06[/180.243.74.90:55580] logged in with entity id 73576 at (-369.59694891452443, 70.0, 229.65463780568828)
-[16:20:12] [Server thread/INFO]: Anakhilang06 joined the game
-[16:20:22] [Netty Epoll Server IO #1/ERROR]: Exception occurred in netty pipeline
-io.netty.handler.timeout.ReadTimeoutException: null
-[16:20:22] [Server thread/INFO]: Tazarima lost connection: Disconnected
-[16:20:22] [Server thread/INFO]: Tazarima left the game
-[16:20:31] [Server thread/INFO]: Tazarima[/104.28.251.242:32120] logged in with entity id 73810 at (-325.5, 65.25220334025373, 387.5)
-[16:20:31] [Server thread/INFO]: Tazarima joined the game
-[16:20:35] [Netty Epoll Server IO #1/ERROR]: Exception occurred in netty pipeline
-io.netty.channel.unix.Errors$NativeIoException: recvAddress(..) failed: Connection reset by peer
-[16:20:35] [Server thread/INFO]: Anakhilang06 lost connection: Disconnected
-[16:20:35] [Server thread/INFO]: Anakhilang06 left the game
-[16:21:01] [Server thread/INFO]: Tazarima lost connection: Timed out
-[16:21:01] [Server thread/INFO]: Tazarima left the game
-[16:21:26] [Server thread/INFO]: Anakhilang06[/180.243.74.90:55675] logged in with entity id 74297 at (-369.1561478446572, 70.0, 229.67202317948212)
-[16:21:26] [Server thread/INFO]: Anakhilang06 joined the game
-[16:21:52] [Server thread/INFO]: Tazarima[/104.28.219.244:50090] logged in with entity id 74762 at (-302.23994529567614, 64.0, 366.0506425588385)
-[16:21:52] [Server thread/INFO]: Tazarima joined the game
-[16:26:23] [Server thread/INFO]: [Not Secure] <Anakhilang06> cara reload senjata gimana?
-[16:26:32] [Server thread/INFO]: [Not Secure] <zakiatha> keybind nya di benerin dulu
-[16:26:38] [Server thread/INFO]: [Not Secure] <zakiatha> nabrak sama mod lain soalnya
-[16:26:43] [Server thread/INFO]: [Not Secure] <Anakhilang06> ohhhh
-[16:34:38] [Server thread/INFO]: Tazarima lost connection: Timed out
-[16:34:38] [Server thread/INFO]: Tazarima left the game
-[16:34:57] [Server thread/INFO]: Tazarima[/104.28.219.244:13767] logged in with entity id 82998 at (-271.02189844898675, 64.0, 423.7520007608545)
-[16:34:57] [Server thread/INFO]: Tazarima joined the game
-[16:36:04] [Server thread/WARN]: Anakhilang06 moved wrongly!
-[16:37:12] [Server thread/WARN]: Anakhilang06 moved wrongly!
-[16:37:17] [Server thread/WARN]: Anakhilang06 moved wrongly!
-[16:37:34] [Server thread/WARN]: Anakhilang06 moved wrongly!
-[16:38:27] [Server thread/INFO]: Ventoooooooooo[/36.80.97.202:56402] logged in with entity id 85311 at (-408.12126990812925, 64.0, 238.5269514838097)
-[16:38:27] [Server thread/INFO]: Ventoooooooooo joined the game
-[16:39:42] [Server thread/INFO]: Tazarima lost connection: Timed out
-[16:39:42] [Server thread/INFO]: Tazarima left the game
-[16:40:13] [Server thread/INFO]: Tazarima[/104.28.219.244:32554] logged in with entity id 85821 at (-352.52987408836725, 70.7531999805212, 246.30000001192093)
-[16:40:13] [Server thread/INFO]: Tazarima joined the game
-[16:41:06] [Server thread/WARN]: Anakhilang06 moved wrongly!
-[16:43:17] [Server thread/WARN]: Ventoooooooooo moved wrongly!
-[16:43:34] [Server thread/INFO]: dddddd[/104.28.251.242:57790] logged in with entity id 86472 at (42.5, 69.0, -38.5)
-[16:43:34] [Server thread/INFO]: dddddd joined the game
-[16:43:42] [Server thread/WARN]: Ventoooooooooo moved wrongly!
-[16:43:58] [Server thread/INFO]: Tazarima lost connection: Timed out
-[16:43:58] [Server thread/INFO]: Tazarima left the game
-[16:44:20] [Server thread/INFO]: Tazarima[/104.28.219.245:62176] logged in with entity id 86878 at (-298.5517670288134, 68.24918707874468, 283.8991811605778)
-[16:44:20] [Server thread/INFO]: Tazarima joined the game
-[16:44:38] [Server thread/INFO]: [Not Secure] <zakiatha> test ilmu kah?
-[16:45:41] [Netty Epoll Server IO #3/ERROR]: Exception occurred in netty pipeline
-io.netty.channel.unix.Errors$NativeIoException: recvAddress(..) failed: Connection reset by peer
-[16:45:41] [Server thread/INFO]: zakiatha lost connection: Disconnected
-[16:45:41] [Server thread/INFO]: zakiatha left the game
-[16:45:57] [Server thread/INFO]: RakanJugaJuga[/125.160.106.217:53393] logged in with entity id 88129 at (-382.0990467671893, 62.0, 311.82375872556946)
-[16:45:57] [Server thread/INFO]: RakanJugaJuga joined the game
-[16:46:22] [Server thread/WARN]: Anakhilang06 moved wrongly!
-[16:46:33] [Server thread/WARN]: Anakhilang06 moved wrongly!
-[16:46:44] [Server thread/INFO]: RakanJugaJuga blew up
-[16:47:04] [Server thread/INFO]: dddddd lost connection: Timed out
-[16:47:04] [Server thread/INFO]: dddddd left the game
-[16:47:04] [Server thread/WARN]: handleDisconnection() called twice
-[16:47:53] [Server thread/INFO]: dddddd[/104.28.251.242:60426] logged in with entity id 89376 at (-195.87372814819918, 66.0, 260.4630462911528)
-[16:47:53] [Server thread/INFO]: dddddd joined the game
-[16:48:09] [Server thread/INFO]: zakiatha[/202.169.232.157:62372] logged in with entity id 89588 at (-365.261925988159, 70.0, 229.13271217269744)
-[16:48:09] [Server thread/INFO]: zakiatha joined the game
-[16:48:23] [Server thread/INFO]: dddddd lost connection: Timed out
-[16:48:23] [Server thread/INFO]: dddddd left the game
-[16:48:50] [Server thread/INFO]: RakanJugaJuga was slain by Ravager
-[16:48:51] [Server thread/INFO]: Tazarima lost connection: Timed out
-[16:48:51] [Server thread/INFO]: Tazarima left the game
-[16:49:08] [Server thread/INFO]: Tazarima[/104.28.219.244:20592] logged in with entity id 90232 at (-357.92751426104485, 64.0, 427.45367515993917)
-[16:49:08] [Server thread/INFO]: Tazarima joined the game
-[16:49:37] [Server thread/INFO]: Anakhilang06 has completed the challenge [Hero of the Village]
-[16:49:51] [Server thread/INFO]: dddddd[/104.28.251.242:24214] logged in with entity id 90632 at (-310.69999998807907, 69.85280000686647, 262.04504824334396)
-[16:49:51] [Server thread/INFO]: dddddd joined the game
-[16:49:58] [Server thread/WARN]: Ventoooooooooo moved wrongly!
-[16:50:21] [Server thread/INFO]: dddddd lost connection: Timed out
-[16:50:21] [Server thread/INFO]: dddddd left the game
-[16:50:24] [Server thread/INFO]: Tazarima lost connection: Timed out
-[16:50:24] [Server thread/INFO]: Tazarima left the game
-[16:50:25] [Server thread/WARN]: Ventoooooooooo moved wrongly!
-[16:50:51] [Server thread/WARN]: Anakhilang06 moved wrongly!
-[16:51:32] [Server thread/INFO]: dddddd[/104.28.251.242:24245] logged in with entity id 91051 at (-317.2619553731239, 72.0, 248.91984438538663)
-[16:51:32] [Server thread/INFO]: dddddd joined the game
-[16:51:50] [Server thread/WARN]: Anakhilang06 moved wrongly!
-[16:51:53] [Server thread/INFO]: Tazarima[/104.28.219.244:18162] logged in with entity id 91103 at (-357.5, 64.0, 427.5)
-[16:51:53] [Server thread/INFO]: Tazarima joined the game
-[16:52:33] [Netty Epoll Server IO #3/ERROR]: Exception occurred in netty pipeline
-io.netty.handler.timeout.ReadTimeoutException: null
-[16:52:33] [Server thread/INFO]: dddddd lost connection: Timed out
-[16:52:33] [Server thread/INFO]: dddddd left the game
-[16:52:38] [Server thread/INFO]: Tazarima lost connection: Timed out
-[16:52:38] [Server thread/INFO]: Tazarima left the game
-[16:53:06] [Server thread/INFO]: Tazarima[/104.28.219.244:39419] logged in with entity id 92331 at (-337.8820847022871, 67.49520087700593, 277.9635008567284)
-[16:53:06] [Server thread/INFO]: Tazarima joined the game
-[16:55:19] [Server thread/WARN]: Anakhilang06 moved wrongly!
-[16:55:58] [Server thread/WARN]: Ventoooooooooo moved wrongly!
-[16:56:20] [Server thread/WARN]: zakiatha moved wrongly!
-[16:56:21] [Server thread/WARN]: Ventoooooooooo moved wrongly!
-[16:56:38] [Server thread/INFO]: [Not Secure] <zakiatha> py carane?
-[16:56:40] [Server thread/INFO]: [Not Secure] <Ventoooooooooo> maju
-[16:57:28] [Server thread/WARN]: Ventoooooooooo moved wrongly!
-[16:57:37] [Server thread/WARN]: Ventoooooooooo moved wrongly!
-[16:57:46] [Server thread/WARN]: Ventoooooooooo moved wrongly!
-[16:58:07] [Server thread/INFO]: Tazarima lost connection: Timed out
-[16:58:07] [Server thread/INFO]: Tazarima left the game
-[16:59:20] [Server thread/WARN]: zakiatha moved wrongly!
-[16:59:24] [Server thread/INFO]: Tazarima[/104.28.219.245:59709] logged in with entity id 96464 at (-332.34795936966316, 69.76693725585938, 268.58484843417665)
-[16:59:24] [Server thread/INFO]: Tazarima joined the game
-[16:59:55] [Server thread/INFO]: Tazarima lost connection: Timed out
-[16:59:55] [Server thread/INFO]: Tazarima left the game
-[16:59:59] [Server thread/WARN]: Ventoooooooooo moved wrongly!
-[17:00:04] [Server thread/WARN]: Ventoooooooooo moved wrongly!
-[17:00:14] [Server thread/INFO]: Tazarima[/114.10.153.222:49625] logged in with entity id 96810 at (-324.50778525012174, 69.0, 268.94199023999056)
-[17:00:14] [Server thread/INFO]: Tazarima joined the game
-[17:00:31] [Server thread/INFO]: [Not Secure] <Tazarima> wifi ugm asu
-[17:00:42] [Server thread/INFO]: [Not Secure] <zakiatha> neng ndi anjir?
-[17:00:45] [Server thread/INFO]: [Not Secure] <Tazarima> ugm
-[17:00:58] [Server thread/INFO]: [Not Secure] <zakiatha> ngapo ?
-[17:01:02] [Server thread/INFO]: [Not Secure] <Tazarima> rapo
-[17:01:43] [Server thread/WARN]: Scarlet Biplane (vehicle of Tazarima) moved too quickly! 2.9888894225805984,2.5018724475122838,9.259249231758645
-[17:01:43] [Server thread/WARN]: Scarlet Biplane (vehicle of Tazarima) moved too quickly! 3.303168625264732,2.5654980115041326,9.741687177346478
-[17:01:43] [Server thread/WARN]: Scarlet Biplane (vehicle of Tazarima) moved too quickly! 3.6287786362557313,2.620230984069181,10.208578574162573
-[17:02:15] [Server thread/INFO]: [Not Secure] <Tazarima> tolong
-[17:02:15] [Server thread/INFO]: [Not Secure] <Ventoooooooooo> ngrepoti
-[17:02:20] [Server thread/WARN]: Ventoooooooooo moved wrongly!
-[17:02:27] [Server thread/INFO]: [Not Secure] <zakiatha> ngopo
-[17:02:31] [Server thread/INFO]: [Not Secure] <Tazarima> bisa ditowing?
-[17:02:34] [Server thread/INFO]: [Not Secure] <zakiatha> haaa
-[17:02:42] [Server thread/INFO]: [Not Secure] <Tazarima> nyungsep
-[17:02:44] [Server thread/WARN]: Ventoooooooooo moved wrongly!
-[17:02:45] [Server thread/INFO]: [Not Secure] <Tazarima> pilot magang
-[17:02:46] [Server thread/WARN]: Ventoooooooooo moved wrongly!
-[17:02:48] [Server thread/INFO]: [Not Secure] <zakiatha> lanang ae
-[17:02:52] [Server thread/WARN]: Ventoooooooooo moved wrongly!
-[17:02:56] [Server thread/INFO]: [Not Secure] <Tazarima> ftmd bos
-[17:03:42] [Server thread/WARN]: Ventoooooooooo moved wrongly!
-[17:04:44] [Server thread/WARN]: Ventoooooooooo moved wrongly!
-[17:06:51] [Server thread/WARN]: Ventoooooooooo moved wrongly!
-[17:12:19] [Server thread/INFO]: RakanJugaJuga has made the advancement [What a Deal!]
-[17:16:32] [Server thread/INFO]: Anakhilang06 has made the advancement [Those Were the Days]
-[17:17:02] [Server thread/INFO]: RakanJugaJuga has reached the goal [Postmortal]
-[17:17:16] [Server thread/INFO]: dddddd[/104.28.251.242:60810] logged in with entity id 105538 at (-317.2619553731239, 72.0, 248.91984438538663)
-[17:17:16] [Server thread/INFO]: dddddd joined the game
-[17:17:46] [Server thread/INFO]: dddddd lost connection: Timed out
-[17:17:46] [Server thread/INFO]: dddddd left the game
-[17:18:33] [Server thread/INFO]: dddddd[/104.28.251.242:60522] logged in with entity id 106138 at (-317.2619553731239, 72.0, 248.91984438538663)
-[17:18:33] [Server thread/INFO]: dddddd joined the game
-[17:19:03] [Server thread/INFO]: dddddd lost connection: Timed out
-[17:19:03] [Server thread/INFO]: dddddd left the game
-[17:21:59] [Server thread/INFO]: Disconnecting com.mojang.authlib.GameProfile@21fe1a5a[id=<null>,name=dddddd,properties={},legacy=false] (/104.28.251.242:35390): Took too long to log in
-[17:21:59] [Server thread/INFO]: com.mojang.authlib.GameProfile@21fe1a5a[id=<null>,name=dddddd,properties={},legacy=false] (/104.28.251.242:35390) lost connection: Took too long to log in
-[17:21:59] [Server thread/WARN]: handleDisconnection() called twice
-[17:22:14] [Server thread/INFO]: dddddd[/104.28.251.242:35819] logged in with entity id 108148 at (-317.2619553731239, 72.0, 248.91984438538663)
-[17:22:14] [Server thread/INFO]: dddddd joined the game
-[17:22:44] [Server thread/INFO]: dddddd lost connection: Timed out
-[17:22:44] [Server thread/INFO]: dddddd left the game
-[17:23:37] [Server thread/INFO]: RakanJugaJuga has made the advancement [Local Brewery]
-[17:25:59] [Server thread/INFO]: [Not Secure] <Tazarima> dari pinggir aja tha
-[17:27:12] [Server thread/INFO]: RakanJugaJuga has reached the goal [Zombie Doctor]
-[17:27:38] [Server thread/INFO]: [Not Secure] <Tazarima> sek
-[17:27:45] [Server thread/INFO]: [Not Secure] <Tazarima> pas tengah2 dikosongi 2 block
-[17:28:28] [Server thread/INFO]: com.mojang.authlib.GameProfile@3221b2d9[id=<null>,name=dddddd,properties={},legacy=false] (/104.28.251.242:59954) lost connection: Disconnected
-[17:28:58] [Server thread/INFO]: dddddd[/104.28.251.242:60325] logged in with entity id 110853 at (-317.2619553731239, 72.0, 248.91984438538663)
-[17:28:58] [Server thread/INFO]: dddddd joined the game
-[17:29:28] [Server thread/INFO]: dddddd lost connection: Timed out
-[17:29:28] [Server thread/INFO]: dddddd left the game
-[17:30:10] [Server thread/INFO]: dddddd[/104.28.251.242:42081] logged in with entity id 111336 at (-317.2619553731239, 72.0, 248.91984438538663)
-[17:30:10] [Server thread/INFO]: dddddd joined the game
-[17:30:40] [Server thread/INFO]: dddddd lost connection: Timed out
-[17:30:40] [Server thread/INFO]: dddddd left the game
-[17:31:15] [Server thread/INFO]: [Not Secure] <zakiatha> nyari apa?
-[17:31:19] [Server thread/INFO]: [Not Secure] <RakanJugaJuga> prot iv
-[17:31:25] [Server thread/INFO]: [Not Secure] <RakanJugaJuga> nek ga unbreak iii
-[17:31:29] [Server thread/INFO]: [Not Secure] <zakiatha> owalahh
-[17:35:18] [Server thread/ERROR]: Couldn't save player advancements to ./world/advancements/25475df8-4598-3c7e-9c32-8acb1ba5f889.json
-java.nio.file.NoSuchFileException: ./world/advancements
-	at sun.nio.fs.UnixException.translateToIOException(UnixException.java:92) ~[?:?]
-	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106) ~[?:?]
-	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111) ~[?:?]
-	at sun.nio.fs.UnixPath.toRealPath(UnixPath.java:834) ~[?:?]
-	at net.minecraft.class_4239.method_47525(class_4239.java:194) ~[server-intermediary.jar:?]
-	at net.minecraft.class_2985.method_12890(class_2985.java:160) ~[server-intermediary.jar:?]
-	at net.minecraft.class_3324.method_14577(class_3324.java:391) ~[server-intermediary.jar:?]
-	at net.minecraft.class_3324.method_14617(class_3324.java:706) ~[server-intermediary.jar:?]
-	at net.minecraft.server.MinecraftServer.method_39218(MinecraftServer.java:559) ~[server-intermediary.jar:?]
-	at net.minecraft.server.MinecraftServer.method_3748(MinecraftServer.java:834) ~[server-intermediary.jar:?]
-	at net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:671) ~[server-intermediary.jar:?]
-	at net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:265) ~[server-intermediary.jar:?]
-	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[17:35:18] [Server thread/ERROR]: Couldn't save player advancements to ./world/advancements/7380003b-3f89-3052-802c-1b2445a5d111.json
-java.nio.file.NoSuchFileException: ./world/advancements
-	at sun.nio.fs.UnixException.translateToIOException(UnixException.java:92) ~[?:?]
-	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106) ~[?:?]
-	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111) ~[?:?]
-	at sun.nio.fs.UnixPath.toRealPath(UnixPath.java:834) ~[?:?]
-	at net.minecraft.class_4239.method_47525(class_4239.java:194) ~[server-intermediary.jar:?]
-	at net.minecraft.class_2985.method_12890(class_2985.java:160) ~[server-intermediary.jar:?]
-	at net.minecraft.class_3324.method_14577(class_3324.java:391) ~[server-intermediary.jar:?]
-	at net.minecraft.class_3324.method_14617(class_3324.java:706) ~[server-intermediary.jar:?]
-	at net.minecraft.server.MinecraftServer.method_39218(MinecraftServer.java:559) ~[server-intermediary.jar:?]
-	at net.minecraft.server.MinecraftServer.method_3748(MinecraftServer.java:834) ~[server-intermediary.jar:?]
-	at net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:671) ~[server-intermediary.jar:?]
-	at net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:265) ~[server-intermediary.jar:?]
-	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[17:35:18] [Server thread/ERROR]: Couldn't save player advancements to ./world/advancements/8ec77d25-f7bd-3727-b6d5-e59fa9220760.json
-java.nio.file.NoSuchFileException: ./world/advancements
-	at sun.nio.fs.UnixException.translateToIOException(UnixException.java:92) ~[?:?]
-	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106) ~[?:?]
-	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111) ~[?:?]
-	at sun.nio.fs.UnixPath.toRealPath(UnixPath.java:834) ~[?:?]
-	at net.minecraft.class_4239.method_47525(class_4239.java:194) ~[server-intermediary.jar:?]
-	at net.minecraft.class_2985.method_12890(class_2985.java:160) ~[server-intermediary.jar:?]
-	at net.minecraft.class_3324.method_14577(class_3324.java:391) ~[server-intermediary.jar:?]
-	at net.minecraft.class_3324.method_14617(class_3324.java:706) ~[server-intermediary.jar:?]
-	at net.minecraft.server.MinecraftServer.method_39218(MinecraftServer.java:559) ~[server-intermediary.jar:?]
-	at net.minecraft.server.MinecraftServer.method_3748(MinecraftServer.java:834) ~[server-intermediary.jar:?]
-	at net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:671) ~[server-intermediary.jar:?]
-	at net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:265) ~[server-intermediary.jar:?]
-	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[17:35:18] [Server thread/ERROR]: Couldn't save player advancements to ./world/advancements/4ff973f9-325f-3929-b5a7-73e9eef14cc6.json
-java.nio.file.NoSuchFileException: ./world/advancements
-	at sun.nio.fs.UnixException.translateToIOException(UnixException.java:92) ~[?:?]
-	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106) ~[?:?]
-	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111) ~[?:?]
-	at sun.nio.fs.UnixPath.toRealPath(UnixPath.java:834) ~[?:?]
-	at net.minecraft.class_4239.method_47525(class_4239.java:194) ~[server-intermediary.jar:?]
-	at net.minecraft.class_2985.method_12890(class_2985.java:160) ~[server-intermediary.jar:?]
-	at net.minecraft.class_3324.method_14577(class_3324.java:391) ~[server-intermediary.jar:?]
-	at net.minecraft.class_3324.method_14617(class_3324.java:706) ~[server-intermediary.jar:?]
-	at net.minecraft.server.MinecraftServer.method_39218(MinecraftServer.java:559) ~[server-intermediary.jar:?]
-	at net.minecraft.server.MinecraftServer.method_3748(MinecraftServer.java:834) ~[server-intermediary.jar:?]
-	at net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:671) ~[server-intermediary.jar:?]
-	at net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:265) ~[server-intermediary.jar:?]
-	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[17:35:18] [Server thread/ERROR]: Couldn't save player advancements to ./world/advancements/6f7d557d-ee7e-30ed-8347-5acf2199a24d.json
-java.nio.file.NoSuchFileException: ./world/advancements
-	at sun.nio.fs.UnixException.translateToIOException(UnixException.java:92) ~[?:?]
-	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106) ~[?:?]
-	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111) ~[?:?]
-	at sun.nio.fs.UnixPath.toRealPath(UnixPath.java:834) ~[?:?]
-	at net.minecraft.class_4239.method_47525(class_4239.java:194) ~[server-intermediary.jar:?]
-	at net.minecraft.class_2985.method_12890(class_2985.java:160) ~[server-intermediary.jar:?]
-	at net.minecraft.class_3324.method_14577(class_3324.java:391) ~[server-intermediary.jar:?]
-	at net.minecraft.class_3324.method_14617(class_3324.java:706) ~[server-intermediary.jar:?]
-	at net.minecraft.server.MinecraftServer.method_39218(MinecraftServer.java:559) ~[server-intermediary.jar:?]
-	at net.minecraft.server.MinecraftServer.method_3748(MinecraftServer.java:834) ~[server-intermediary.jar:?]
-	at net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:671) ~[server-intermediary.jar:?]
-	at net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:265) ~[server-intermediary.jar:?]
-	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[17:37:33] [Server thread/INFO]: [Not Secure] <Tazarima> turu sek
-[17:37:34] [Server thread/INFO]: Tazarima lost connection: Disconnected
-[17:37:34] [Server thread/INFO]: Tazarima left the game
-[17:37:34] [Server thread/ERROR]: Couldn't save player advancements to ./world/advancements/6f7d557d-ee7e-30ed-8347-5acf2199a24d.json
-java.nio.file.NoSuchFileException: ./world/advancements
-	at sun.nio.fs.UnixException.translateToIOException(UnixException.java:92) ~[?:?]
-	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106) ~[?:?]
-	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111) ~[?:?]
-	at sun.nio.fs.UnixPath.toRealPath(UnixPath.java:834) ~[?:?]
-	at net.minecraft.class_4239.method_47525(class_4239.java:194) ~[server-intermediary.jar:?]
-	at net.minecraft.class_2985.method_12890(class_2985.java:160) ~[server-intermediary.jar:?]
-	at net.minecraft.class_3324.method_14577(class_3324.java:391) ~[server-intermediary.jar:?]
-	at net.minecraft.class_3324.method_14611(class_3324.java:403) ~[server-intermediary.jar:?]
-	at net.minecraft.class_3244.method_10839(class_3244.java:1228) ~[server-intermediary.jar:?]
-	at net.minecraft.class_2535.method_10768(class_2535.java:452) ~[server-intermediary.jar:?]
-	at net.minecraft.class_3242.method_14357(class_3242.java:185) ~[server-intermediary.jar:?]
-	at net.minecraft.server.MinecraftServer.method_3813(MinecraftServer.java:908) ~[server-intermediary.jar:?]
-	at net.minecraft.class_3176.method_3813(class_3176.java:283) ~[server-intermediary.jar:?]
-	at net.minecraft.server.MinecraftServer.method_3748(MinecraftServer.java:824) ~[server-intermediary.jar:?]
-	at net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:671) ~[server-intermediary.jar:?]
-	at net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:265) ~[server-intermediary.jar:?]
-	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[17:38:24] [Server thread/WARN]: Ventoooooooooo moved wrongly!
-[17:38:47] [Netty Epoll Server IO #2/ERROR]: Exception occurred in netty pipeline
-io.netty.channel.unix.Errors$NativeIoException: recvAddress(..) failed: Connection reset by peer
-[17:39:30] [Netty Epoll Server IO #1/ERROR]: Exception occurred in netty pipeline
-io.netty.handler.timeout.ReadTimeoutException: null
+[01:20:43] [main/WARN]: Your custom createaddition:charging/exposed_cut_copper_stairs recipe (createaddition:charging/exposed_cut_copper_stairs) specified a duration. Durations have no impact on this type of recipe.
+[01:20:43] [main/WARN]: Your custom createaddition:rolling/electrum_plate recipe (createaddition:rolling/electrum_plate) specified a duration. Durations have no impact on this type of recipe.
+[01:20:43] [main/WARN]: Your custom createaddition:charging/exposed_copper_shingles recipe (createaddition:charging/exposed_copper_shingles) specified a duration. Durations have no impact on this type of recipe.
+[01:20:43] [main/WARN]: Your custom createaddition:charging/weathered_cut_copper recipe (createaddition:charging/weathered_cut_copper) specified a duration. Durations have no impact on this type of recipe.
+[01:20:43] [main/WARN]: Your custom createaddition:charging/cut_copper_stairs recipe (createaddition:charging/cut_copper_stairs) specified a duration. Durations have no impact on this type of recipe.
+[01:20:43] [main/WARN]: Your custom createaddition:charging/copper_shingle_slab recipe (createaddition:charging/copper_shingle_slab) specified a duration. Durations have no impact on this type of recipe.
+[01:20:43] [main/WARN]: Your custom createaddition:charging/weathered_cut_copper_slab recipe (createaddition:charging/weathered_cut_copper_slab) specified a duration. Durations have no impact on this type of recipe.
+[01:20:43] [main/WARN]: Your custom createaddition:rolling/copper_plate recipe (createaddition:rolling/copper_plate) specified a duration. Durations have no impact on this type of recipe.
+[01:20:43] [main/WARN]: Your custom createaddition:rolling/iron_plate recipe (createaddition:rolling/iron_plate) specified a duration. Durations have no impact on this type of recipe.
+[01:20:43] [main/WARN]: Your custom createaddition:charging/weathered_copper_shingle_slab recipe (createaddition:charging/weathered_copper_shingle_slab) specified a duration. Durations have no impact on this type of recipe.
+[01:20:43] [main/WARN]: Your custom createaddition:charging/exposed_copper_shingle_slab recipe (createaddition:charging/exposed_copper_shingle_slab) specified a duration. Durations have no impact on this type of recipe.
+[01:20:43] [main/WARN]: Your custom createaddition:rolling/gold_plate recipe (createaddition:rolling/gold_plate) specified a duration. Durations have no impact on this type of recipe.
+[01:20:43] [main/INFO]: Loaded 34 recipes
+[01:20:43] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_stairs_from_conversion: Missing criteria, expected to find a JsonObject
+[01:20:43] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_step_from_conversion: Missing criteria, expected to find a JsonObject
+[01:20:43] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_slice_from_conversion: Missing criteria, expected to find a JsonObject
+[01:20:43] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_slope_from_conversion: Missing criteria, expected to find a JsonObject
+[01:20:43] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_slab_from_steps: Missing criteria, expected to find a JsonObject
+[01:20:43] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_panel_from_conversion: Missing criteria, expected to find a JsonObject
+[01:20:43] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_layer_from_half_layers: Missing criteria, expected to find a JsonObject
+[01:20:43] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_vertical_stairs_from_conversion: Missing criteria, expected to find a JsonObject
+[01:20:43] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_block_from_slabs: Missing criteria, expected to find a JsonObject
+[01:20:43] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_vertical_slope_from_conversion: Missing criteria, expected to find a JsonObject
+[01:20:43] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_vertical_step_from_conversion: Missing criteria, expected to find a JsonObject
+[01:20:43] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_catwalk: Missing criteria, expected to find a JsonObject
+[01:20:43] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_box: Missing criteria, expected to find a JsonObject
+[01:20:43] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_panel_from_half_panels: Missing criteria, expected to find a JsonObject
+[01:20:43] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_slab_from_beams: Missing criteria, expected to find a JsonObject
+[01:20:43] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_trapdoor_from_conversion: Missing criteria, expected to find a JsonObject
+[01:20:43] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_vertical_slice_from_conversion: Missing criteria, expected to find a JsonObject
+[01:20:43] [main/ERROR]: Parsing error loading custom advancement copycats:recipes/crafting/copycat_slab_from_panels: Missing criteria, expected to find a JsonObject
+[01:20:43] [main/INFO]: Loaded 5206 advancements
+[01:20:43] [Thread-9/INFO]: Loaded 34 translation keys
+[01:20:44] [main/INFO]: Applied 355 biome modifications to 160 of 171 new biomes in 55.18 ms
+[01:20:44] [Server thread/INFO]: Starting minecraft server version 1.20.1
+[01:20:44] [Server thread/INFO]: Loading properties
+[01:20:44] [Server thread/INFO]: Default game type: SURVIVAL
+[01:20:44] [Server thread/INFO]: Generating keypair
+[01:20:44] [Server thread/INFO]: Starting Minecraft server on *:25565
+[01:20:44] [Server thread/INFO]: Using epoll channel type
+[01:20:44] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[01:20:44] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[01:20:44] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[01:20:44] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[01:20:44] [Server thread/INFO]: Preparing level "world"
+[01:20:46] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[01:20:46] [Server thread/WARN]: Method overwrite conflict for removeIf in modernfix-common.mixins.json:bugfix.paper_chunk_patches.SortedArraySetMixin from mod modernfix, previously written by me.jellysquid.mods.lithium.mixin.world.chunk_tickets.SortedArraySetMixin. Skipping method.
+[01:20:48] [Server thread/INFO]: Preparing spawn area: 0%
+[01:20:48] [Server thread/INFO]: Preparing spawn area: 0%
+[01:20:48] [Server thread/INFO]: Preparing spawn area: 0%
+[01:20:48] [Server thread/INFO]: Preparing spawn area: 0%
+[01:20:48] [Server thread/INFO]: Preparing spawn area: 0%
+[01:20:49] [Server thread/INFO]: Preparing spawn area: 0%
+[01:20:49] [Server thread/INFO]: Preparing spawn area: 30%
+[01:20:50] [Server thread/INFO]: Preparing spawn area: 88%
+[01:20:50] [Server thread/INFO]: Time elapsed: 3771 ms
+[01:20:50] [Server thread/INFO]: Done (5.493s)! For help, type "help"
+[01:20:50] [Server thread/WARN]: Dedicated server took 52.147 seconds to load
+[01:20:51] [Server thread/INFO]: Tazarima[/114.10.152.244:26605] logged in with entity id 94 at (-354.6930050427613, 65.0, 426.7728759274419)
+[01:20:51] [Server thread/INFO]: Tazarima joined the game
+[01:20:53] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2029ms or 40 ticks behind
+[01:29:59] [Server thread/INFO]: [Not Secure] [Server] zak jadinya butuh apa kmrn buat bangun
+[01:30:09] [Server thread/INFO]: [Not Secure] <Tazarima> pake stone jadinya
+[01:30:15] [Server thread/INFO]: [Not Secure] <Tazarima> butuh lampu aja kayanya
+[01:30:19] [Server thread/INFO]: [Not Secure] <Tazarima> buat runway light
+[01:30:23] [Server thread/INFO]: [Not Secure] <Tazarima> oiya
+[01:30:26] [Server thread/INFO]: [Not Secure] <Tazarima> sama itu
+[01:30:28] [Server thread/INFO]: [Not Secure] <Tazarima> sekw\
+[01:31:16] [Server thread/INFO]: [Not Secure] <Tazarima> white concrete
+[01:31:32] [Server thread/INFO]: [Not Secure] <Tazarima> buat garis2nya
+[01:34:16] [Server thread/INFO]: [Not Secure] [Server] stone mau brp stack
+[01:34:22] [Server thread/INFO]: [Not Secure] <Tazarima> stone aman harusne
+[01:34:48] [Server thread/INFO]: [Not Secure] <Tazarima> white concrete aja
+[01:34:49] [Server thread/INFO]: [Not Secure] [Server] white concrete?
+[01:34:55] [Server thread/INFO]: [Not Secure] [Server] brp 
+[01:35:00] [Server thread/INFO]: [Not Secure] <Tazarima> sek
+[01:35:01] [Server thread/INFO]: [Not Secure] <Tazarima> wkwkw
+[01:35:11] [Server thread/INFO]: [Not Secure] <Tazarima> 5 stack aman harusmyua
+[01:35:16] [Server thread/INFO]: [Not Secure] <Tazarima> sama lampu ada ga run
+[01:36:37] [Server thread/INFO]: Gave 320 [White Concrete] to Tazarima
+[01:36:43] [Server thread/INFO]: [Not Secure] <Tazarima> lampu run
+[01:36:44] [Server thread/INFO]: [Not Secure] <Tazarima> wkwkw
+[01:36:47] [Server thread/INFO]: [Not Secure] <Tazarima> pake apaya
+[01:36:48] [Server thread/INFO]: [Not Secure] [Server] lampu aktu tahu apa yg bagus
+[01:36:49] [Server thread/INFO]: [Not Secure] <Tazarima> enaknya
+[01:36:52] [Server thread/INFO]: [Not Secure] [Server] wait
+[01:37:56] [Server thread/INFO]: [Not Secure] <Tazarima> kayanya perlu ygb bnyk lampunya
+[01:37:57] [Server thread/INFO]: [Not Secure] [Server] tak login sekalian
+[01:38:01] [Server thread/INFO]: [Not Secure] <Tazarima> woke
+[01:38:16] [Server thread/INFO]: [Not Secure] [Server] coba cek kamu 'e' trus search industrial lamp
+[01:38:23] [Server thread/INFO]: Unknown or incomplete command, see below for error
+[01:38:23] [Server thread/INFO]: namanya apa<--[HERE]
+[01:38:29] [Server thread/INFO]: [Not Secure] [Server] namanya apa
+[01:38:57] [Server thread/INFO]: [Not Secure] <Tazarima> sek
+[01:38:58] [Server thread/INFO]: [Not Secure] <Tazarima> zom,bie
+[01:39:44] [Server thread/INFO]: [Not Secure] <Tazarima> yellow industrial light cage
+[01:39:46] [Server thread/INFO]: [Not Secure] <Tazarima> kayamnya
+[01:39:53] [Server thread/INFO]: [Not Secure] <Tazarima> perlu semua warna biar keren
+[01:39:54] [Server thread/INFO]: [Not Secure] <Tazarima> ewkwkwk
+[01:39:56] [Server thread/INFO]: runs[/114.10.152.33:9991] logged in with entity id 5354 at (-359.7033262715616, 70.0, 248.64292323314953)
+[01:39:56] [Server thread/INFO]: runs joined the game
+[01:40:00] [Server thread/INFO]: [Not Secure] [Server] woo
+[01:40:12] [Server thread/INFO]: [Not Secure] <Tazarima> green buat taxi light
+[01:40:49] [Server thread/INFO]: [Not Secure] <Tazarima> mobil panen mana
+[01:40:57] [Server thread/INFO]: [Not Secure] <runs> sek
+[01:42:47] [Server thread/INFO]: Gave 128 [Yellow Industrial Iron Cage Lamp] to Tazarima
+[01:42:57] [Server thread/INFO]: [Not Secure] [Server] inventori mu cukup ga 
+[01:43:02] [Server thread/INFO]: [Not Secure] <Tazarima> aman
+[01:43:56] [Server thread/INFO]: runs lost connection: Timed out
+[01:43:56] [Server thread/INFO]: runs left the game
+[01:44:06] [Server thread/INFO]: runs[/114.10.152.99:54999] logged in with entity id 6455 at (-409.7735300577215, 66.0, 251.87212039451433)
+[01:44:06] [Server thread/INFO]: runs joined the game
+[01:44:52] [Server thread/WARN]: runs moved wrongly!
+[01:46:27] [Server thread/INFO]: [Not Secure] <Tazarima> lampu yang rata ada ga run
+[01:46:35] [Server thread/INFO]: [Not Secure] <Tazarima> buat ditengah2
+[01:46:37] [Server thread/INFO]: [Not Secure] <runs> maksud rata
+[01:46:53] [Server thread/INFO]: [Not Secure] <Tazarima> yang kya lampu ocean monument
+[01:47:06] [Server thread/INFO]: [Not Secure] <runs> coba kucari
+[01:47:51] [Server thread/INFO]: [Not Secure] <Tazarima> sek
+[01:47:58] [Server thread/INFO]: [Not Secure] <Tazarima> mau gladi hari h pioniur
+[01:48:01] [Server thread/INFO]: [Not Secure] <Tazarima> balik jam 10
+[01:48:03] [Server thread/INFO]: Tazarima lost connection: Disconnected
+[01:48:03] [Server thread/INFO]: Tazarima left the game
+[01:57:47] [Server thread/INFO]: runs lost connection: Disconnected
+[01:57:47] [Server thread/INFO]: runs left the game
+[01:58:08] [Server thread/INFO]: Unknown item 'createdeco:green_indust/stop'
+[01:58:08] [Server thread/INFO]: ... Tazarima createdeco:green_indust/stop<--[HERE]
+[01:58:13] [Server thread/INFO]: Stopping the server
+[01:58:13] [Server thread/INFO]: Stopping server
+[01:58:13] [Server thread/INFO]: Saving players
+[01:58:13] [Server thread/INFO]: Saving worlds
+[01:58:13] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[01:58:14] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[01:58:14] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[01:58:14] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[01:58:14] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[01:58:14] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[01:58:14] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[01:58:14] [Server thread/INFO]: [EasyAuth]: Shutting down EasyAuth.
+[01:58:14] [Server thread/INFO]: [EasyAuth]: Database connection closed successfully
