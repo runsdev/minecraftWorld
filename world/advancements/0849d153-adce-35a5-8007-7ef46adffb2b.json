@@ -5797,77 +5797,305 @@
     },
     "done": true
   },
+  "scarecrowsterritory:recipes/misc/cyan_scarecrow": {
+    "criteria": {
+      "recipe_condition": "2024-07-27 04:33:43 +0000"
+    },
+    "done": true
+  },
+  "scarecrowsterritory:recipes/misc/gray_scarecrow": {
+    "criteria": {
+      "recipe_condition": "2024-07-27 04:33:43 +0000"
+    },
+    "done": true
+  },
+  "scarecrowsterritory:recipes/misc/lime_scarecrow": {
+    "criteria": {
+      "recipe_condition": "2024-07-27 04:33:43 +0000"
+    },
+    "done": true
+  },
+  "scarecrowsterritory:recipes/misc/blue_scarecrow": {
+    "criteria": {
+      "recipe_condition": "2024-07-27 04:33:43 +0000"
+    },
+    "done": true
+  },
+  "scarecrowsterritory:recipes/misc/green_scarecrow": {
+    "criteria": {
+      "recipe_condition": "2024-07-27 04:33:43 +0000"
+    },
+    "done": true
+  },
+  "scarecrowsterritory:recipes/misc/black_scarecrow": {
+    "criteria": {
+      "recipe_condition": "2024-07-27 04:33:43 +0000"
+    },
+    "done": true
+  },
+  "scarecrowsterritory:recipes/misc/white_scarecrow": {
+    "criteria": {
+      "recipe_condition": "2024-07-27 04:33:43 +0000"
+    },
+    "done": true
+  },
+  "scarecrowsterritory:recipes/misc/red_scarecrow": {
+    "criteria": {
+      "recipe_condition": "2024-07-27 04:33:43 +0000"
+    },
+    "done": true
+  },
+  "scarecrowsterritory:recipes/misc/brown_scarecrow": {
+    "criteria": {
+      "recipe_condition": "2024-07-27 04:33:43 +0000"
+    },
+    "done": true
+  },
+  "scarecrowsterritory:recipes/misc/magenta_scarecrow": {
+    "criteria": {
+      "recipe_condition": "2024-07-27 04:33:43 +0000"
+    },
+    "done": true
+  },
+  "scarecrowsterritory:recipes/misc/light_gray_scarecrow": {
+    "criteria": {
+      "recipe_condition": "2024-07-27 04:33:43 +0000"
+    },
+    "done": true
+  },
+  "scarecrowsterritory:recipes/misc/primitive_scarecrow": {
+    "criteria": {
+      "recipe_condition": "2024-07-27 04:33:43 +0000"
+    },
+    "done": true
+  },
+  "scarecrowsterritory:recipes/misc/yellow_scarecrow": {
+    "criteria": {
+      "recipe_condition": "2024-07-27 04:33:43 +0000"
+    },
+    "done": true
+  },
+  "scarecrowsterritory:recipes/misc/light_blue_scarecrow": {
+    "criteria": {
+      "recipe_condition": "2024-07-27 04:33:43 +0000"
+    },
+    "done": true
+  },
+  "scarecrowsterritory:recipes/misc/orange_scarecrow": {
+    "criteria": {
+      "recipe_condition": "2024-07-27 04:33:43 +0000"
+    },
+    "done": true
+  },
+  "scarecrowsterritory:recipes/misc/pink_scarecrow": {
+    "criteria": {
+      "recipe_condition": "2024-07-27 04:33:43 +0000"
+    },
+    "done": true
+  },
+  "design_decor:recipes/decorations/horizontal_tinted_framed_glass_from_tinted_glass_stonecutting": {
+    "criteria": {
+      "has_tinted_glass": "2024-07-27 04:35:15 +0000"
+    },
+    "done": true
+  },
+  "design_decor:recipes/decorations/tinted_framed_glass_from_tinted_glass_stonecutting": {
+    "criteria": {
+      "has_tinted_glass": "2024-07-27 04:35:15 +0000"
+    },
+    "done": true
+  },
+  "design_decor:recipes/decorations/vertical_tinted_framed_glass_from_tinted_glass_stonecutting": {
+    "criteria": {
+      "has_tinted_glass": "2024-07-27 04:35:15 +0000"
+    },
+    "done": true
+  },
+  "chunkloaders:recipes/misc/single_chunk_loader": {
+    "criteria": {
+      "recipe_condition": "2024-07-27 04:37:58 +0000"
+    },
+    "done": true
+  },
+  "chunkloaders:recipes/misc/advanced_chunk_loader": {
+    "criteria": {
+      "recipe_condition": "2024-07-27 04:37:58 +0000"
+    },
+    "done": true
+  },
+  "scarecrowsterritory:recipes/misc/scarecrow": {
+    "criteria": {
+      "recipe_condition": "2024-07-27 04:48:03 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/stick_from_bamboo_item": {
+    "criteria": {
+      "has_bamboo": "2024-07-27 05:41:15 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/bamboo_block": {
+    "criteria": {
+      "has_bamboo": "2024-07-27 05:41:15 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/scaffolding": {
+    "criteria": {
+      "has_bamboo": "2024-07-27 05:41:15 +0000"
+    },
+    "done": true
+  },
   "incendium:technical/sentrys_wrath": {
     "criteria": {
-      "log_spam_fixer": "2024-07-26 17:46:27 +0000"
+      "log_spam_fixer": "2024-07-27 15:28:59 +0000"
     },
     "done": false
   },
   "incendium:technical/on_player_hurt": {
     "criteria": {
-      "log_spam_fixer": "2024-07-26 17:46:27 +0000"
+      "log_spam_fixer": "2024-07-27 15:28:59 +0000"
     },
     "done": false
   },
   "incendium:technical/on_kill": {
     "criteria": {
-      "log_spam_fixer": "2024-07-26 17:46:27 +0000"
+      "log_spam_fixer": "2024-07-27 15:28:59 +0000"
     },
     "done": false
   },
   "incendium:technical/on_inventory_change": {
     "criteria": {
-      "log_spam_fixer": "2024-07-26 17:46:27 +0000"
+      "log_spam_fixer": "2024-07-27 15:28:59 +0000"
     },
     "done": false
   },
   "incendium:technical/holy_wrath": {
     "criteria": {
-      "log_spam_fixer": "2024-07-26 17:46:27 +0000"
+      "log_spam_fixer": "2024-07-27 15:28:59 +0000"
     },
     "done": false
   },
   "incendium:technical/on_block": {
     "criteria": {
-      "log_spam_fixer": "2024-07-26 17:46:27 +0000"
+      "log_spam_fixer": "2024-07-27 15:28:59 +0000"
     },
     "done": false
   },
   "incendium:technical/inventory/sentrys_wrath": {
     "criteria": {
-      "log_spam_fixer": "2024-07-26 17:46:27 +0000"
+      "log_spam_fixer": "2024-07-27 15:28:59 +0000"
     },
     "done": false
   },
   "incendium:technical/feed_ghastling": {
     "criteria": {
-      "log_spam_fixer": "2024-07-26 17:46:27 +0000"
+      "log_spam_fixer": "2024-07-27 15:28:59 +0000"
     },
     "done": false
   },
   "incendium:technical/firestorm": {
     "criteria": {
-      "log_spam_fixer": "2024-07-26 17:46:27 +0000"
+      "log_spam_fixer": "2024-07-27 15:28:59 +0000"
     },
     "done": false
   },
   "incendium:technical/inventory/firestorm": {
     "criteria": {
-      "log_spam_fixer": "2024-07-26 17:46:27 +0000"
+      "log_spam_fixer": "2024-07-27 15:28:59 +0000"
     },
     "done": false
   },
   "incendium:technical/give_ghastling": {
     "criteria": {
-      "log_spam_fixer": "2024-07-26 17:46:27 +0000"
+      "log_spam_fixer": "2024-07-27 15:28:59 +0000"
     },
     "done": false
   },
   "incendium:technical/multiplex_crossbow": {
     "criteria": {
-      "log_spam_fixer": "2024-07-26 17:46:27 +0000"
+      "log_spam_fixer": "2024-07-27 15:28:59 +0000"
     },
     "done": false
+  },
+  "minecraft:recipes/building_blocks/chiseled_nether_bricks_from_nether_bricks_stonecutting": {
+    "criteria": {
+      "has_nether_bricks": "2024-07-27 14:53:21 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/nether_brick_wall_from_nether_bricks_stonecutting": {
+    "criteria": {
+      "has_nether_bricks": "2024-07-27 14:53:21 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/nether_brick_wall": {
+    "criteria": {
+      "has_nether_bricks": "2024-07-27 14:53:21 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/controller_rail": {
+    "criteria": {
+      "has_item": "2024-07-27 15:00:48 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/nether_brick_stairs": {
+    "criteria": {
+      "has_nether_bricks": "2024-07-27 14:53:21 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/nether_brick_slab": {
+    "criteria": {
+      "has_nether_bricks": "2024-07-27 14:53:21 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/nether_brick_stairs_from_nether_bricks_stonecutting": {
+    "criteria": {
+      "has_nether_bricks": "2024-07-27 14:53:21 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/redstone": {
+    "criteria": {
+      "has_redstone_block": "2024-07-27 15:12:47 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/nether_brick_fence": {
+    "criteria": {
+      "has_nether_bricks": "2024-07-27 14:53:21 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cracked_nether_bricks": {
+    "criteria": {
+      "has_nether_bricks": "2024-07-27 14:53:21 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/fermented_spider_eye": {
+    "criteria": {
+      "has_spider_eye": "2024-07-27 15:19:30 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/nether_bricks": {
+    "criteria": {
+      "has_nether_brick": "2024-07-27 14:53:10 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/nether_brick_slab_from_nether_bricks_stonecutting": {
+    "criteria": {
+      "has_nether_bricks": "2024-07-27 14:53:21 +0000"
+    },
+    "done": true
   },
   "DataVersion": 3465
 }

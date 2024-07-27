@@ -43,6 +43,7 @@
       "minecraft:lukewarm_ocean": "2024-07-19 16:15:26 +0000",
       "minecraft:river": "2024-07-19 15:20:00 +0000",
       "minecraft:dripstone_caves": "2024-07-20 16:22:44 +0000",
+      "minecraft:forest": "2024-07-27 16:14:08 +0000",
       "minecraft:lush_caves": "2024-07-20 16:17:01 +0000",
       "minecraft:ocean": "2024-07-19 16:15:16 +0000",
       "minecraft:deep_lukewarm_ocean": "2024-07-19 16:15:27 +0000",
@@ -4029,77 +4030,41 @@
     },
     "done": true
   },
-  "incendium:technical/sentrys_wrath": {
+  "create:recipes/misc/crafting/materials/experience_nugget_from_block": {
     "criteria": {
-      "log_spam_fixer": "2024-07-26 15:20:27 +0000"
+      "has_item": "2024-07-26 15:02:01 +0000"
     },
-    "done": false
+    "done": true
   },
-  "incendium:technical/on_player_hurt": {
+  "create:recipes/misc/crafting/materials/experience_block": {
     "criteria": {
-      "log_spam_fixer": "2024-07-26 15:20:27 +0000"
+      "has_item": "2024-07-26 15:02:01 +0000"
     },
-    "done": false
+    "done": true
   },
-  "incendium:technical/on_kill": {
+  "create_enchantment_industry:recipes/experience_rotor": {
     "criteria": {
-      "log_spam_fixer": "2024-07-26 15:20:27 +0000"
+      "has_item": "2024-07-26 15:02:01 +0000"
     },
-    "done": false
+    "done": true
   },
-  "incendium:technical/on_inventory_change": {
+  "minecraft:recipes/redstone/dispenser": {
     "criteria": {
-      "log_spam_fixer": "2024-07-26 15:20:27 +0000"
+      "has_bow": "2024-07-26 15:02:06 +0000"
     },
-    "done": false
+    "done": true
   },
-  "incendium:technical/holy_wrath": {
+  "copycats:recipes/misc/crafting/copycat_fluid_pipe": {
     "criteria": {
-      "log_spam_fixer": "2024-07-26 15:20:27 +0000"
+      "has_item": "2024-07-26 15:08:45 +0000"
     },
-    "done": false
+    "done": true
   },
-  "incendium:technical/on_block": {
+  "create:mechanical_pump_0": {
     "criteria": {
-      "log_spam_fixer": "2024-07-26 15:20:27 +0000"
+      "0": "2024-07-26 15:09:55 +0000"
     },
-    "done": false
-  },
-  "incendium:technical/inventory/sentrys_wrath": {
-    "criteria": {
-      "log_spam_fixer": "2024-07-26 15:20:27 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/feed_ghastling": {
-    "criteria": {
-      "log_spam_fixer": "2024-07-26 15:20:27 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/firestorm": {
-    "criteria": {
-      "log_spam_fixer": "2024-07-26 15:20:27 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/inventory/firestorm": {
-    "criteria": {
-      "log_spam_fixer": "2024-07-26 15:20:27 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/give_ghastling": {
-    "criteria": {
-      "log_spam_fixer": "2024-07-26 15:20:27 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/multiplex_crossbow": {
-    "criteria": {
-      "log_spam_fixer": "2024-07-26 15:20:27 +0000"
-    },
-    "done": false
+    "done": true
   },
   "create:recipes/building_blocks/cut_deepslate_brick_wall_from_stone_types_deepslate_stonecutting": {
     "criteria": {
@@ -4116,12 +4081,6 @@
   "create:recipes/building_blocks/cut_deepslate_from_stone_types_deepslate_stonecutting": {
     "criteria": {
       "has_stone_types_deepslate": "2024-07-26 15:11:52 +0000"
-    },
-    "done": true
-  },
-  "create:chute": {
-    "criteria": {
-      "0": "2024-07-26 15:20:22 +0000"
     },
     "done": true
   },
@@ -4155,12 +4114,6 @@
     },
     "done": true
   },
-  "create:mechanical_pump_0": {
-    "criteria": {
-      "0": "2024-07-26 15:09:55 +0000"
-    },
-    "done": true
-  },
   "create:recipes/building_blocks/small_deepslate_brick_slab_from_stone_types_deepslate_stonecutting": {
     "criteria": {
       "has_stone_types_deepslate": "2024-07-26 15:11:52 +0000"
@@ -4179,33 +4132,9 @@
     },
     "done": true
   },
-  "create:recipes/misc/crafting/materials/experience_nugget_from_block": {
-    "criteria": {
-      "has_item": "2024-07-26 15:02:01 +0000"
-    },
-    "done": true
-  },
   "design_decor:recipes/building_blocks/deepslate_castel_brick_wall_from_stone_types_deepslate_stonecutting": {
     "criteria": {
       "has_stone_types_deepslate": "2024-07-26 15:11:52 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/dispenser": {
-    "criteria": {
-      "has_bow": "2024-07-26 15:02:06 +0000"
-    },
-    "done": true
-  },
-  "copycats:recipes/misc/crafting/copycat_fluid_pipe": {
-    "criteria": {
-      "has_item": "2024-07-26 15:08:45 +0000"
-    },
-    "done": true
-  },
-  "create:recipes/misc/crafting/materials/experience_block": {
-    "criteria": {
-      "has_item": "2024-07-26 15:02:01 +0000"
     },
     "done": true
   },
@@ -4233,21 +4162,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/composter": {
-    "criteria": {
-      "has_wood_slab": "2024-07-26 15:21:10 +0000"
-    },
-    "done": true
-  },
   "create:recipes/building_blocks/cut_deepslate_wall_from_stone_types_deepslate_stonecutting": {
     "criteria": {
       "has_stone_types_deepslate": "2024-07-26 15:11:52 +0000"
-    },
-    "done": true
-  },
-  "create_enchantment_industry:experimental": {
-    "criteria": {
-      "builtin": "2024-07-26 15:15:48 +0000"
     },
     "done": true
   },
@@ -4269,21 +4186,9 @@
     },
     "done": true
   },
-  "create_enchantment_industry:spirit_taking": {
-    "criteria": {
-      "builtin": "2024-07-26 15:15:38 +0000"
-    },
-    "done": true
-  },
   "create:recipes/building_blocks/cut_deepslate_brick_slab_from_stone_types_deepslate_stonecutting": {
     "criteria": {
       "has_stone_types_deepslate": "2024-07-26 15:11:52 +0000"
-    },
-    "done": true
-  },
-  "create_enchantment_industry:recipes/experience_rotor": {
-    "criteria": {
-      "has_item": "2024-07-26 15:02:01 +0000"
     },
     "done": true
   },
@@ -4320,6 +4225,342 @@
   "create:recipes/building_blocks/layered_deepslate_from_stone_types_deepslate_stonecutting": {
     "criteria": {
       "has_stone_types_deepslate": "2024-07-26 15:11:52 +0000"
+    },
+    "done": true
+  },
+  "create_enchantment_industry:spirit_taking": {
+    "criteria": {
+      "builtin": "2024-07-26 15:15:38 +0000"
+    },
+    "done": true
+  },
+  "create_enchantment_industry:experimental": {
+    "criteria": {
+      "builtin": "2024-07-26 15:15:48 +0000"
+    },
+    "done": true
+  },
+  "create:chute": {
+    "criteria": {
+      "0": "2024-07-26 15:20:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/composter": {
+    "criteria": {
+      "has_wood_slab": "2024-07-26 15:21:10 +0000"
+    },
+    "done": true
+  },
+  "scarecrowsterritory:recipes/misc/cyan_scarecrow": {
+    "criteria": {
+      "recipe_condition": "2024-07-27 05:49:57 +0000"
+    },
+    "done": true
+  },
+  "scarecrowsterritory:recipes/misc/gray_scarecrow": {
+    "criteria": {
+      "recipe_condition": "2024-07-27 05:49:57 +0000"
+    },
+    "done": true
+  },
+  "scarecrowsterritory:recipes/misc/lime_scarecrow": {
+    "criteria": {
+      "recipe_condition": "2024-07-27 05:49:57 +0000"
+    },
+    "done": true
+  },
+  "scarecrowsterritory:recipes/misc/blue_scarecrow": {
+    "criteria": {
+      "recipe_condition": "2024-07-27 05:49:57 +0000"
+    },
+    "done": true
+  },
+  "scarecrowsterritory:recipes/misc/green_scarecrow": {
+    "criteria": {
+      "recipe_condition": "2024-07-27 05:49:57 +0000"
+    },
+    "done": true
+  },
+  "scarecrowsterritory:recipes/misc/black_scarecrow": {
+    "criteria": {
+      "recipe_condition": "2024-07-27 05:49:57 +0000"
+    },
+    "done": true
+  },
+  "scarecrowsterritory:recipes/misc/white_scarecrow": {
+    "criteria": {
+      "recipe_condition": "2024-07-27 05:49:57 +0000"
+    },
+    "done": true
+  },
+  "scarecrowsterritory:recipes/misc/red_scarecrow": {
+    "criteria": {
+      "recipe_condition": "2024-07-27 05:49:57 +0000"
+    },
+    "done": true
+  },
+  "scarecrowsterritory:recipes/misc/brown_scarecrow": {
+    "criteria": {
+      "recipe_condition": "2024-07-27 05:49:57 +0000"
+    },
+    "done": true
+  },
+  "scarecrowsterritory:recipes/misc/magenta_scarecrow": {
+    "criteria": {
+      "recipe_condition": "2024-07-27 05:49:57 +0000"
+    },
+    "done": true
+  },
+  "scarecrowsterritory:recipes/misc/light_gray_scarecrow": {
+    "criteria": {
+      "recipe_condition": "2024-07-27 05:49:57 +0000"
+    },
+    "done": true
+  },
+  "scarecrowsterritory:recipes/misc/primitive_scarecrow": {
+    "criteria": {
+      "recipe_condition": "2024-07-27 05:49:57 +0000"
+    },
+    "done": true
+  },
+  "scarecrowsterritory:recipes/misc/yellow_scarecrow": {
+    "criteria": {
+      "recipe_condition": "2024-07-27 05:49:57 +0000"
+    },
+    "done": true
+  },
+  "scarecrowsterritory:recipes/misc/light_blue_scarecrow": {
+    "criteria": {
+      "recipe_condition": "2024-07-27 05:49:57 +0000"
+    },
+    "done": true
+  },
+  "scarecrowsterritory:recipes/misc/orange_scarecrow": {
+    "criteria": {
+      "recipe_condition": "2024-07-27 05:49:57 +0000"
+    },
+    "done": true
+  },
+  "scarecrowsterritory:recipes/misc/pink_scarecrow": {
+    "criteria": {
+      "recipe_condition": "2024-07-27 05:49:57 +0000"
+    },
+    "done": true
+  },
+  "chunkloaders:recipes/misc/single_chunk_loader": {
+    "criteria": {
+      "recipe_condition": "2024-07-27 05:50:15 +0000"
+    },
+    "done": true
+  },
+  "chunkloaders:recipes/misc/advanced_chunk_loader": {
+    "criteria": {
+      "recipe_condition": "2024-07-27 05:50:15 +0000"
+    },
+    "done": true
+  },
+  "createdeco:recipes/decorations/pink_shipping_container_from_dyeing_vaults": {
+    "criteria": {
+      "has_item": "2024-07-27 05:53:07 +0000"
+    },
+    "done": true
+  },
+  "createdeco:recipes/decorations/red_shipping_container_from_dyeing_vaults": {
+    "criteria": {
+      "has_item": "2024-07-27 05:53:07 +0000"
+    },
+    "done": true
+  },
+  "createdeco:recipes/decorations/magenta_shipping_container_from_dyeing_vaults": {
+    "criteria": {
+      "has_item": "2024-07-27 05:53:07 +0000"
+    },
+    "done": true
+  },
+  "createdeco:recipes/decorations/light_blue_shipping_container_from_dyeing_vaults": {
+    "criteria": {
+      "has_item": "2024-07-27 05:53:07 +0000"
+    },
+    "done": true
+  },
+  "createdeco:recipes/decorations/blue_shipping_container_from_dyeing_vaults": {
+    "criteria": {
+      "has_item": "2024-07-27 05:53:07 +0000"
+    },
+    "done": true
+  },
+  "createdeco:recipes/decorations/yellow_shipping_container_from_dyeing_vaults": {
+    "criteria": {
+      "has_item": "2024-07-27 05:53:07 +0000"
+    },
+    "done": true
+  },
+  "createdeco:recipes/decorations/orange_shipping_container_from_dyeing_vaults": {
+    "criteria": {
+      "has_item": "2024-07-27 05:53:07 +0000"
+    },
+    "done": true
+  },
+  "createdeco:recipes/decorations/purple_shipping_container_from_dyeing_vaults": {
+    "criteria": {
+      "has_item": "2024-07-27 05:53:07 +0000"
+    },
+    "done": true
+  },
+  "createdeco:recipes/decorations/white_shipping_container_from_dyeing_vaults": {
+    "criteria": {
+      "has_item": "2024-07-27 05:53:07 +0000"
+    },
+    "done": true
+  },
+  "createdeco:recipes/decorations/gray_shipping_container_from_dyeing_vaults": {
+    "criteria": {
+      "has_item": "2024-07-27 05:53:07 +0000"
+    },
+    "done": true
+  },
+  "createdeco:recipes/decorations/cyan_shipping_container_from_dyeing_vaults": {
+    "criteria": {
+      "has_item": "2024-07-27 05:53:07 +0000"
+    },
+    "done": true
+  },
+  "createdeco:recipes/decorations/light_gray_shipping_container_from_dyeing_vaults": {
+    "criteria": {
+      "has_item": "2024-07-27 05:53:07 +0000"
+    },
+    "done": true
+  },
+  "createdeco:recipes/decorations/black_shipping_container_from_dyeing_vaults": {
+    "criteria": {
+      "has_item": "2024-07-27 05:53:07 +0000"
+    },
+    "done": true
+  },
+  "createdeco:recipes/decorations/green_shipping_container_from_dyeing_vaults": {
+    "criteria": {
+      "has_item": "2024-07-27 05:53:07 +0000"
+    },
+    "done": true
+  },
+  "createdeco:recipes/decorations/brown_shipping_container_from_dyeing_vaults": {
+    "criteria": {
+      "has_item": "2024-07-27 05:53:07 +0000"
+    },
+    "done": true
+  },
+  "createdeco:recipes/decorations/lime_shipping_container_from_dyeing_vaults": {
+    "criteria": {
+      "has_item": "2024-07-27 05:53:07 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/sleep_in_bed": {
+    "criteria": {
+      "slept_in_bed": "2024-07-27 05:55:04 +0000"
+    },
+    "done": true
+  },
+  "create:track_0": {
+    "criteria": {
+      "0": "2024-07-27 08:13:50 +0000"
+    },
+    "done": true
+  },
+  "incendium:technical/sentrys_wrath": {
+    "criteria": {
+      "log_spam_fixer": "2024-07-27 16:50:08 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/on_player_hurt": {
+    "criteria": {
+      "log_spam_fixer": "2024-07-27 16:50:08 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/on_kill": {
+    "criteria": {
+      "log_spam_fixer": "2024-07-27 16:50:08 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/on_inventory_change": {
+    "criteria": {
+      "log_spam_fixer": "2024-07-27 16:50:08 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/holy_wrath": {
+    "criteria": {
+      "log_spam_fixer": "2024-07-27 16:50:08 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/on_block": {
+    "criteria": {
+      "log_spam_fixer": "2024-07-27 16:50:08 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/inventory/sentrys_wrath": {
+    "criteria": {
+      "log_spam_fixer": "2024-07-27 16:50:08 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/feed_ghastling": {
+    "criteria": {
+      "log_spam_fixer": "2024-07-27 16:50:08 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/firestorm": {
+    "criteria": {
+      "log_spam_fixer": "2024-07-27 16:50:08 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/inventory/firestorm": {
+    "criteria": {
+      "log_spam_fixer": "2024-07-27 16:50:08 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/give_ghastling": {
+    "criteria": {
+      "log_spam_fixer": "2024-07-27 16:50:08 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/multiplex_crossbow": {
+    "criteria": {
+      "log_spam_fixer": "2024-07-27 16:50:08 +0000"
+    },
+    "done": false
+  },
+  "minecraft:story/follow_ender_eye": {
+    "criteria": {
+      "in_stronghold": "2024-07-27 16:16:26 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/enter_the_end": {
+    "criteria": {
+      "entered_end": "2024-07-27 16:28:55 +0000"
+    },
+    "done": true
+  },
+  "minecraft:end/root": {
+    "criteria": {
+      "entered_end": "2024-07-27 16:28:55 +0000"
+    },
+    "done": true
+  },
+  "nullscape:root": {
+    "criteria": {
+      "nullscape:shadowlands": "2024-07-27 16:32:56 +0000"
     },
     "done": true
   },
