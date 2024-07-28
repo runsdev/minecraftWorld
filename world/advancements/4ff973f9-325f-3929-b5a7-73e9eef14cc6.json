@@ -8120,75 +8120,190 @@
   },
   "incendium:technical/sentrys_wrath": {
     "criteria": {
-      "log_spam_fixer": "2024-07-27 18:16:33 +0000"
+      "log_spam_fixer": "2024-07-28 14:31:52 +0000"
     },
     "done": false
   },
   "incendium:technical/on_player_hurt": {
     "criteria": {
-      "log_spam_fixer": "2024-07-27 18:16:33 +0000"
+      "requirement": "2024-07-28 14:32:29 +0000",
+      "log_spam_fixer": "2024-07-28 14:31:52 +0000"
     },
-    "done": false
+    "done": true
   },
   "incendium:technical/on_kill": {
     "criteria": {
-      "log_spam_fixer": "2024-07-27 18:16:33 +0000"
+      "log_spam_fixer": "2024-07-28 14:31:52 +0000"
     },
     "done": false
   },
   "incendium:technical/on_inventory_change": {
     "criteria": {
-      "log_spam_fixer": "2024-07-27 18:16:33 +0000"
+      "log_spam_fixer": "2024-07-28 14:31:52 +0000"
     },
     "done": false
   },
   "incendium:technical/holy_wrath": {
     "criteria": {
-      "log_spam_fixer": "2024-07-27 18:16:33 +0000"
+      "log_spam_fixer": "2024-07-28 14:31:52 +0000"
     },
     "done": false
   },
   "incendium:technical/on_block": {
     "criteria": {
-      "log_spam_fixer": "2024-07-27 18:16:33 +0000"
+      "log_spam_fixer": "2024-07-28 14:31:52 +0000"
     },
     "done": false
   },
   "incendium:technical/inventory/sentrys_wrath": {
     "criteria": {
-      "log_spam_fixer": "2024-07-27 18:16:33 +0000"
+      "log_spam_fixer": "2024-07-28 14:31:52 +0000"
     },
     "done": false
   },
   "incendium:technical/feed_ghastling": {
     "criteria": {
-      "log_spam_fixer": "2024-07-27 18:16:33 +0000"
+      "log_spam_fixer": "2024-07-28 14:31:52 +0000"
     },
     "done": false
   },
   "incendium:technical/firestorm": {
     "criteria": {
-      "log_spam_fixer": "2024-07-27 18:16:33 +0000"
+      "log_spam_fixer": "2024-07-28 14:31:52 +0000"
     },
     "done": false
   },
   "incendium:technical/inventory/firestorm": {
     "criteria": {
-      "log_spam_fixer": "2024-07-27 18:16:33 +0000"
+      "log_spam_fixer": "2024-07-28 14:31:52 +0000"
     },
     "done": false
   },
   "incendium:technical/give_ghastling": {
     "criteria": {
-      "log_spam_fixer": "2024-07-27 18:16:33 +0000"
+      "log_spam_fixer": "2024-07-28 14:31:52 +0000"
     },
     "done": false
   },
   "incendium:technical/multiplex_crossbow": {
     "criteria": {
-      "log_spam_fixer": "2024-07-27 18:16:33 +0000"
+      "log_spam_fixer": "2024-07-28 14:31:52 +0000"
     },
     "done": false
+  },
+  "bclib:recipes/decorations/tag_shulker_box": {
+    "criteria": {
+      "has_shulker_shell": "2024-07-28 14:23:43 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/end_stone_brick_weathered_from_vine": {
+    "criteria": {
+      "has_end_stone_bricks": "2024-07-28 14:23:43 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/end_stone_brick_weathered_from_moss": {
+    "criteria": {
+      "has_end_stone_bricks": "2024-07-28 14:23:43 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/end_stone_brick_cracked_wall": {
+    "criteria": {
+      "has_end_stone_bricks": "2024-07-28 14:23:43 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/ender_perl_to_block": {
+    "criteria": {
+      "has_ender_pearl": "2024-07-28 14:23:43 +0000"
+    },
+    "done": true
+  },
+  "betterend:root": {
+    "criteria": {
+      "welcome": "2024-07-28 14:24:02 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/endstone_flower_pot": {
+    "criteria": {
+      "has_end_stone_bricks": "2024-07-28 14:23:43 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/end_stone_smelter": {
+    "criteria": {
+      "has_end_stone_bricks": "2024-07-28 14:23:43 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/ender_eye_amber": {
+    "criteria": {
+      "has_ender_pearl": "2024-07-28 14:23:43 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/ender_pearl_to_dust": {
+    "criteria": {
+      "has_item.minecraft.ender_pearl": "2024-07-28 14:23:43 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/purpur_pedestal": {
+    "criteria": {
+      "has_purpur_slab": "2024-07-28 14:23:43 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/missing_tile": {
+    "criteria": {
+      "has_purpur_block": "2024-07-28 14:23:43 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/end_stone_brick_cracked_smelting": {
+    "criteria": {
+      "has_block.minecraft.end_stone_bricks": "2024-07-28 14:23:43 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/infusion_pedestal": {
+    "criteria": {
+      "has_ender_eye": "2024-07-28 14:23:43 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/shadow_berry_jelly": {
+    "criteria": {
+      "has_tag_c_water_bottles": "2024-07-28 14:23:43 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/purpur_lantern": {
+    "criteria": {
+      "has_purpur_slab": "2024-07-28 14:23:43 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/sweet_berry_jelly": {
+    "criteria": {
+      "has_tag_c_water_bottles": "2024-07-28 14:23:43 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/end_stone_brick_weathered_wall": {
+    "criteria": {
+      "has_end_stone_bricks": "2024-07-28 14:23:43 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/blossom_berry_jelly": {
+    "criteria": {
+      "has_tag_c_water_bottles": "2024-07-28 14:23:43 +0000"
+    },
+    "done": true
   },
   "DataVersion": 3465
 }

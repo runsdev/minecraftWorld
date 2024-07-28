@@ -10189,76 +10189,1774 @@
     },
     "done": true
   },
+  "betterend:recipes/misc/armored_elytra": {
+    "criteria": {
+      "has_item.minecraft.elytra": "2024-07-28 06:01:25 +0000"
+    },
+    "done": true
+  },
+  "bclib:recipes/decorations/tag_shulker_box": {
+    "criteria": {
+      "has_shulker_shell": "2024-07-28 06:01:25 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/end_stone_furnace": {
+    "criteria": {
+      "has_end_stone": "2024-07-28 06:01:25 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/ender_perl_to_block": {
+    "criteria": {
+      "has_ender_pearl": "2024-07-28 06:01:25 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/ender_eye_amber": {
+    "criteria": {
+      "has_ender_pearl": "2024-07-28 06:01:25 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/ender_pearl_to_dust": {
+    "criteria": {
+      "has_item.minecraft.ender_pearl": "2024-07-28 06:01:25 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/infusion_pedestal": {
+    "criteria": {
+      "has_ender_pearl": "2024-07-28 06:01:25 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/crystalite_elytra": {
+    "criteria": {
+      "has_item.minecraft.elytra": "2024-07-28 06:01:25 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/shadow_berry_jelly": {
+    "criteria": {
+      "has_tag_c_water_bottles": "2024-07-28 06:01:25 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/sweet_berry_jelly": {
+    "criteria": {
+      "has_tag_c_water_bottles": "2024-07-28 06:01:25 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/blossom_berry_jelly": {
+    "criteria": {
+      "has_tag_c_water_bottles": "2024-07-28 06:01:25 +0000"
+    },
+    "done": true
+  },
+  "betterend:all_elytras": {
+    "criteria": {
+      "vanilla": "2024-07-28 06:01:25 +0000"
+    },
+    "done": false
+  },
+  "betterend:root": {
+    "criteria": {
+      "welcome": "2024-07-28 06:01:56 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/flavolite_slab_stonecutting": {
+    "criteria": {
+      "has_block.betterend.flavolite": "2024-07-28 06:02:31 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/flavolite_wall_stonecutting": {
+    "criteria": {
+      "has_block.betterend.flavolite": "2024-07-28 06:02:31 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/flavolite_brick_wall_stonecutting": {
+    "criteria": {
+      "has_block.betterend.flavolite": "2024-07-28 06:02:31 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/flavolite_brick_slab_stonecutting": {
+    "criteria": {
+      "has_block.betterend.flavolite": "2024-07-28 06:02:31 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/flavolite_furnace": {
+    "criteria": {
+      "has_flavolite": "2024-07-28 06:02:31 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/flavolite_brick_stair_stonecutting": {
+    "criteria": {
+      "has_block.betterend.flavolite": "2024-07-28 06:02:31 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/flavolite_wall": {
+    "criteria": {
+      "has_flavolite": "2024-07-28 06:02:31 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/flavolite_tiles_stonecutting": {
+    "criteria": {
+      "has_block.betterend.flavolite": "2024-07-28 06:02:31 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/flavolite_pillar_stonecutting": {
+    "criteria": {
+      "has_block.betterend.flavolite": "2024-07-28 06:02:31 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/flavolite_bricks": {
+    "criteria": {
+      "has_flavolite": "2024-07-28 06:02:31 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/flavolite_polished_stonecutting": {
+    "criteria": {
+      "has_block.betterend.flavolite": "2024-07-28 06:02:31 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/flavolite_stairs_stonecutting": {
+    "criteria": {
+      "has_block.betterend.flavolite": "2024-07-28 06:02:31 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/flavolite_stairs": {
+    "criteria": {
+      "has_flavolite": "2024-07-28 06:02:31 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/flavolite_slab": {
+    "criteria": {
+      "has_flavolite": "2024-07-28 06:02:31 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/flavolite_button": {
+    "criteria": {
+      "has_flavolite": "2024-07-28 06:02:31 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/flavolite_pressure_plate": {
+    "criteria": {
+      "has_flavolite": "2024-07-28 06:02:31 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/flavolite_bricks_stonecutting": {
+    "criteria": {
+      "has_block.betterend.flavolite": "2024-07-28 06:02:31 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/thallasium_ingot_furnace_ore_blasting": {
+    "criteria": {
+      "has_block.betterend.thallasium_ore": "2024-07-28 06:05:19 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/thallasium_ingot_furnace_ore_smelting": {
+    "criteria": {
+      "has_block.betterend.thallasium_ore": "2024-07-28 06:05:19 +0000"
+    },
+    "done": true
+  },
+  "betterend:enter_end": {
+    "criteria": {
+      "entered_end": "2024-07-28 06:11:01 +0000"
+    },
+    "done": true
+  },
+  "minecraft:end/respawn_dragon": {
+    "criteria": {
+      "summoned_dragon": "2024-07-28 06:16:30 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/luck_of_sea_book": {
+    "criteria": {
+      "has_item.minecraft.book": "2024-07-28 06:20:40 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/quick_charge_book": {
+    "criteria": {
+      "has_item.minecraft.book": "2024-07-28 06:20:40 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/piercing_book": {
+    "criteria": {
+      "has_item.minecraft.book": "2024-07-28 06:20:40 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/impaling_book": {
+    "criteria": {
+      "has_item.minecraft.book": "2024-07-28 06:20:40 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/swift_sneak_book": {
+    "criteria": {
+      "has_item.minecraft.book": "2024-07-28 06:20:40 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/guide_book": {
+    "criteria": {
+      "has_book": "2024-07-28 06:20:40 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/protection_book": {
+    "criteria": {
+      "has_item.minecraft.book": "2024-07-28 06:20:40 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/channeling_book": {
+    "criteria": {
+      "has_item.minecraft.book": "2024-07-28 06:20:40 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/riptide_book": {
+    "criteria": {
+      "has_item.minecraft.book": "2024-07-28 06:20:40 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/building_blocks/dragon_tree_bookshelf": {
+    "criteria": {
+      "has_book": "2024-07-28 06:20:40 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/building_blocks/pythadendron_bookshelf": {
+    "criteria": {
+      "has_book": "2024-07-28 06:20:40 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/building_blocks/end_lotus_bookshelf": {
+    "criteria": {
+      "has_book": "2024-07-28 06:20:40 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/frost_walker_book": {
+    "criteria": {
+      "has_item.minecraft.book": "2024-07-28 06:20:40 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/building_blocks/mossy_glowshroom_bookshelf": {
+    "criteria": {
+      "has_book": "2024-07-28 06:20:40 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/knockback_book": {
+    "criteria": {
+      "has_item.minecraft.book": "2024-07-28 06:20:40 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/building_blocks/lacugrove_bookshelf": {
+    "criteria": {
+      "has_book": "2024-07-28 06:20:40 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/sharpness_book": {
+    "criteria": {
+      "has_item.minecraft.book": "2024-07-28 06:20:40 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/fortune_book": {
+    "criteria": {
+      "has_item.minecraft.book": "2024-07-28 06:20:40 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/building_blocks/umbrella_tree_bookshelf": {
+    "criteria": {
+      "has_book": "2024-07-28 06:20:40 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/mending_book": {
+    "criteria": {
+      "has_item.minecraft.book": "2024-07-28 06:20:40 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/punch_book": {
+    "criteria": {
+      "has_item.minecraft.book": "2024-07-28 06:20:40 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/building_blocks/lucernia_bookshelf": {
+    "criteria": {
+      "has_book": "2024-07-28 06:20:40 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/infinity_book": {
+    "criteria": {
+      "has_item.minecraft.book": "2024-07-28 06:20:40 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/feather_falling_book": {
+    "criteria": {
+      "has_item.minecraft.book": "2024-07-28 06:20:40 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/aqua_affinity_book": {
+    "criteria": {
+      "has_item.minecraft.book": "2024-07-28 06:20:40 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/fire_aspect_book": {
+    "criteria": {
+      "has_item.minecraft.book": "2024-07-28 06:20:40 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/building_blocks/tenanea_bookshelf": {
+    "criteria": {
+      "has_book": "2024-07-28 06:20:40 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/efficiency_book": {
+    "criteria": {
+      "has_item.minecraft.book": "2024-07-28 06:20:40 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/projectile_protection_book": {
+    "criteria": {
+      "has_item.minecraft.book": "2024-07-28 06:20:40 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/building_blocks/helix_tree_bookshelf": {
+    "criteria": {
+      "has_book": "2024-07-28 06:20:40 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/fire_protection_book": {
+    "criteria": {
+      "has_item.minecraft.book": "2024-07-28 06:20:40 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/sweeping_book": {
+    "criteria": {
+      "has_item.minecraft.book": "2024-07-28 06:20:40 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/respiration_book": {
+    "criteria": {
+      "has_item.minecraft.book": "2024-07-28 06:20:40 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/soul_speed_book": {
+    "criteria": {
+      "has_item.minecraft.book": "2024-07-28 06:20:40 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/blast_protection_book": {
+    "criteria": {
+      "has_item.minecraft.book": "2024-07-28 06:20:40 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/looting_book": {
+    "criteria": {
+      "has_item.minecraft.book": "2024-07-28 06:20:40 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/depth_strider_book": {
+    "criteria": {
+      "has_item.minecraft.book": "2024-07-28 06:20:40 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/bane_of_arthropods_book": {
+    "criteria": {
+      "has_item.minecraft.book": "2024-07-28 06:20:40 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/unbreaking_book": {
+    "criteria": {
+      "has_item.minecraft.book": "2024-07-28 06:20:40 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/loyalty_book": {
+    "criteria": {
+      "has_item.minecraft.book": "2024-07-28 06:20:40 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/flame_book": {
+    "criteria": {
+      "has_item.minecraft.book": "2024-07-28 06:20:40 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/thorns_book": {
+    "criteria": {
+      "has_item.minecraft.book": "2024-07-28 06:20:40 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/building_blocks/jellyshroom_bookshelf": {
+    "criteria": {
+      "has_book": "2024-07-28 06:20:40 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/lure_book": {
+    "criteria": {
+      "has_item.minecraft.book": "2024-07-28 06:20:40 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/power_book": {
+    "criteria": {
+      "has_item.minecraft.book": "2024-07-28 06:20:40 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/smite_book": {
+    "criteria": {
+      "has_item.minecraft.book": "2024-07-28 06:20:40 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/silk_touch_book": {
+    "criteria": {
+      "has_item.minecraft.book": "2024-07-28 06:20:40 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/multishot_book": {
+    "criteria": {
+      "has_item.minecraft.book": "2024-07-28 06:20:40 +0000"
+    },
+    "done": true
+  },
+  "betterend:all_the_biomes": {
+    "criteria": {
+      "betterend:crystal_mountains": "2024-07-28 07:06:05 +0000",
+      "betterend:dry_shrubland": "2024-07-28 07:06:09 +0000",
+      "betterend:empty_end_cave": "2024-07-28 07:13:42 +0000",
+      "betterend:shadow_forest": "2024-07-28 07:31:39 +0000",
+      "betterend:amber_land": "2024-07-28 07:27:42 +0000",
+      "betterend:sulphur_springs": "2024-07-28 07:06:14 +0000",
+      "betterend:neon_oasis": "2024-07-28 07:30:59 +0000",
+      "betterend:painted_mountains": "2024-07-28 07:30:54 +0000",
+      "betterend:dust_wastelands": "2024-07-28 07:30:53 +0000",
+      "betterend:foggy_mushroomland": "2024-07-28 07:18:49 +0000",
+      "betterend:ice_starfield": "2024-07-28 06:42:47 +0000",
+      "betterend:glowing_grasslands": "2024-07-28 07:19:30 +0000",
+      "betterend:lush_aurora_cave": "2024-07-28 06:59:39 +0000",
+      "betterend:jade_cave": "2024-07-28 06:59:42 +0000",
+      "betterend:megalake_grove": "2024-07-28 07:15:00 +0000",
+      "betterend:umbra_valley": "2024-07-28 07:19:07 +0000",
+      "betterend:chorus_forest": "2024-07-28 07:18:35 +0000",
+      "betterend:lantern_woods": "2024-07-28 07:31:12 +0000",
+      "betterend:umbrella_jungle": "2024-07-28 07:24:43 +0000",
+      "betterend:empty_aurora_cave": "2024-07-28 06:59:31 +0000",
+      "betterend:lush_smaragdant_cave": "2024-07-28 06:37:00 +0000",
+      "betterend:megalake": "2024-07-28 10:21:07 +0000",
+      "betterend:blossoming_spires": "2024-07-28 07:16:59 +0000"
+    },
+    "done": false
+  },
+  "betterend:recipes/misc/smaragdant_crystal": {
+    "criteria": {
+      "has_smaragdant_crystal_shard": "2024-07-28 06:37:03 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/smaragdant_crystal_bricks": {
+    "criteria": {
+      "has_smaragdant_crystal": "2024-07-28 06:37:03 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/smaragdant_crystal_slab": {
+    "criteria": {
+      "has_smaragdant_crystal": "2024-07-28 06:37:03 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/smaragdant_crystal_stairs": {
+    "criteria": {
+      "has_smaragdant_crystal": "2024-07-28 06:37:03 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/tined_glass_from_smaragdant": {
+    "criteria": {
+      "has_smaragdant_crystal_shard": "2024-07-28 06:37:03 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/smaragdant_crystal_wall": {
+    "criteria": {
+      "has_smaragdant_crystal": "2024-07-28 06:37:03 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/dense_emerald_ice": {
+    "criteria": {
+      "has_emerald_ice": "2024-07-28 06:51:59 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/ancient_emerald_ice": {
+    "criteria": {
+      "has_dense_emerald_ice": "2024-07-28 06:52:00 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/respawn_obelisk": {
+    "criteria": {
+      "has_aurora_crystal": "2024-07-28 07:00:05 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/diorite_lantern": {
+    "criteria": {
+      "has_crystal_shards": "2024-07-28 07:00:16 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/end_stone_lantern": {
+    "criteria": {
+      "has_crystal_shards": "2024-07-28 07:00:16 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/sulphuric_rock_lantern": {
+    "criteria": {
+      "has_crystal_shards": "2024-07-28 07:00:16 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/flavolite_lantern": {
+    "criteria": {
+      "has_crystal_shards": "2024-07-28 07:00:16 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/azure_jadestone_lantern": {
+    "criteria": {
+      "has_crystal_shards": "2024-07-28 07:00:16 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/violecite_lantern": {
+    "criteria": {
+      "has_crystal_shards": "2024-07-28 07:00:16 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/aurora_block": {
+    "criteria": {
+      "has_crystal_shards": "2024-07-28 07:00:16 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/granite_lantern": {
+    "criteria": {
+      "has_crystal_shards": "2024-07-28 07:00:16 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/andesite_lantern": {
+    "criteria": {
+      "has_crystal_shards": "2024-07-28 07:00:16 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/quartz_lantern": {
+    "criteria": {
+      "has_crystal_shards": "2024-07-28 07:00:16 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/purpur_lantern": {
+    "criteria": {
+      "has_crystal_shards": "2024-07-28 07:00:16 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/blackstone_lantern": {
+    "criteria": {
+      "has_crystal_shards": "2024-07-28 07:00:16 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/sandy_jadestone_lantern": {
+    "criteria": {
+      "has_crystal_shards": "2024-07-28 07:00:16 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/virid_jadestone_lantern": {
+    "criteria": {
+      "has_crystal_shards": "2024-07-28 07:00:16 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/umbralith_lantern": {
+    "criteria": {
+      "has_crystal_shards": "2024-07-28 07:00:16 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/sandy_jadestone_bricks_stonecutting": {
+    "criteria": {
+      "has_block.betterend.sandy_jadestone": "2024-07-28 07:02:13 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/sandy_jadestone_pressure_plate": {
+    "criteria": {
+      "has_sandy_jadestone": "2024-07-28 07:02:13 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/sandy_jadestone_polished_stonecutting": {
+    "criteria": {
+      "has_block.betterend.sandy_jadestone": "2024-07-28 07:02:13 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/sandy_jadestone_wall_stonecutting": {
+    "criteria": {
+      "has_block.betterend.sandy_jadestone": "2024-07-28 07:02:13 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/sandy_jadestone_stairs_stonecutting": {
+    "criteria": {
+      "has_block.betterend.sandy_jadestone": "2024-07-28 07:02:13 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/sandy_jadestone_brick_stair_stonecutting": {
+    "criteria": {
+      "has_block.betterend.sandy_jadestone": "2024-07-28 07:02:13 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/sandy_jadestone_slab_stonecutting": {
+    "criteria": {
+      "has_block.betterend.sandy_jadestone": "2024-07-28 07:02:13 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/sandy_jadestone_tiles_stonecutting": {
+    "criteria": {
+      "has_block.betterend.sandy_jadestone": "2024-07-28 07:02:13 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/sandy_jadestone_button": {
+    "criteria": {
+      "has_sandy_jadestone": "2024-07-28 07:02:13 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/sandy_jadestone_slab": {
+    "criteria": {
+      "has_sandy_jadestone": "2024-07-28 07:02:13 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/sandy_jadestone_brick_slab_stonecutting": {
+    "criteria": {
+      "has_block.betterend.sandy_jadestone": "2024-07-28 07:02:13 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/sandy_jadestone_brick_wall_stonecutting": {
+    "criteria": {
+      "has_block.betterend.sandy_jadestone": "2024-07-28 07:02:13 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/sandy_jadestone_furnace": {
+    "criteria": {
+      "has_sandy_jadestone": "2024-07-28 07:02:13 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/sandy_jadestone_pillar_stonecutting": {
+    "criteria": {
+      "has_block.betterend.sandy_jadestone": "2024-07-28 07:02:13 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/sandy_jadestone_bricks": {
+    "criteria": {
+      "has_sandy_jadestone": "2024-07-28 07:02:13 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/sandy_jadestone_wall": {
+    "criteria": {
+      "has_sandy_jadestone": "2024-07-28 07:02:13 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/sandy_jadestone_stairs": {
+    "criteria": {
+      "has_sandy_jadestone": "2024-07-28 07:02:13 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/purpur_pedestal": {
+    "criteria": {
+      "has_purpur_pillar": "2024-07-28 07:09:58 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/missing_tile": {
+    "criteria": {
+      "has_purpur_block": "2024-07-28 07:10:37 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/blossom_berry_jelly_potion": {
+    "criteria": {
+      "has_potion": "2024-07-28 07:10:44 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/brew_potion": {
+    "criteria": {
+      "potion": "2024-07-28 07:10:44 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/shadow_berry_jelly_potion": {
+    "criteria": {
+      "has_potion": "2024-07-28 07:10:44 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/sweet_berry_jelly_potion": {
+    "criteria": {
+      "has_potion": "2024-07-28 07:10:44 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/building_blocks/lacugrove_log": {
+    "criteria": {
+      "has_lacugrove_bark": "2024-07-28 07:15:17 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/building_blocks/lacugrove_bark": {
+    "criteria": {
+      "has_lacugrove_log": "2024-07-28 07:15:20 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/building_blocks/tenanea_log": {
+    "criteria": {
+      "has_tenanea_bark": "2024-07-28 07:17:19 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/ender_shard_to_dust": {
+    "criteria": {
+      "has_item.betterend.ender_shard": "2024-07-28 07:21:54 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/decorations/pythadendron_chair": {
+    "criteria": {
+      "has_pythadendron_slab": "2024-07-28 07:32:08 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/decorations/pythadendron_taburet": {
+    "criteria": {
+      "has_pythadendron_slab": "2024-07-28 07:32:08 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/decorations/pythadendron_composter": {
+    "criteria": {
+      "has_pythadendron_slab": "2024-07-28 07:32:08 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/decorations/pythadendron_bar_stool": {
+    "criteria": {
+      "has_pythadendron_slab": "2024-07-28 07:32:08 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/decorations/pythadendron_barrel": {
+    "criteria": {
+      "has_pythadendron_slab": "2024-07-28 07:32:08 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/decorations/dragon_tree_barrel": {
+    "criteria": {
+      "has_dragon_tree_slab": "2024-07-28 07:32:13 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/decorations/dragon_tree_taburet": {
+    "criteria": {
+      "has_dragon_tree_slab": "2024-07-28 07:32:13 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/decorations/dragon_tree_bar_stool": {
+    "criteria": {
+      "has_dragon_tree_slab": "2024-07-28 07:32:13 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/decorations/dragon_tree_composter": {
+    "criteria": {
+      "has_dragon_tree_slab": "2024-07-28 07:32:13 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/decorations/dragon_tree_chair": {
+    "criteria": {
+      "has_dragon_tree_slab": "2024-07-28 07:32:13 +0000"
+    },
+    "done": true
+  },
+  "betterend:all_the_templates": {
+    "criteria": {
+      "got_netherite": "2024-07-28 07:40:45 +0000",
+      "got_plate": "2024-07-28 07:32:17 +0000",
+      "got_terminite": "2024-07-28 07:42:22 +0000",
+      "got_thallasium": "2024-07-28 07:39:17 +0000"
+    },
+    "done": false
+  },
+  "betterend:recipes/misc/copy_plate_upgrade": {
+    "criteria": {
+      "has_plate_upgrade_smithing_template": "2024-07-28 07:32:17 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/aeternium_sword_handle": {
+    "criteria": {
+      "has_item.betterend.leather_wrapped_stick": "2024-07-28 07:32:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/spire_armor_trim_smithing_template": {
+    "criteria": {
+      "has_spire_armor_trim_smithing_template": "2024-07-28 07:39:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/spire_armor_trim_smithing_template_smithing_trim": {
+    "criteria": {
+      "has_smithing_trim_template": "2024-07-28 07:39:13 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/copy_thallasium_upgrade": {
+    "criteria": {
+      "has_thallasium_upgrade_smithing_template": "2024-07-28 07:39:17 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/copy_netherite_upgrade": {
+    "criteria": {
+      "has_netherite_upgrade_smithing_template": "2024-07-28 07:40:45 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/copy_terminite_upgrade": {
+    "criteria": {
+      "has_terminite_upgrade_smithing_template": "2024-07-28 07:42:22 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/end_stone_brick_weathered_from_vine": {
+    "criteria": {
+      "has_end_stone_bricks": "2024-07-28 07:45:05 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/end_stone_brick_weathered_from_moss": {
+    "criteria": {
+      "has_end_stone_bricks": "2024-07-28 07:45:05 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/end_stone_brick_cracked_wall": {
+    "criteria": {
+      "has_end_stone_bricks": "2024-07-28 07:45:05 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/endstone_flower_pot": {
+    "criteria": {
+      "has_end_stone_bricks": "2024-07-28 07:45:05 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/end_stone_smelter": {
+    "criteria": {
+      "has_end_stone_bricks": "2024-07-28 07:45:05 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/end_stone_brick_cracked_smelting": {
+    "criteria": {
+      "has_block.minecraft.end_stone_bricks": "2024-07-28 07:45:05 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/end_stone_brick_weathered_wall": {
+    "criteria": {
+      "has_end_stone_bricks": "2024-07-28 07:45:05 +0000"
+    },
+    "done": true
+  },
+  "minecraft:end/enter_end_gateway": {
+    "criteria": {
+      "entered_end_gateway": "2024-07-28 07:54:58 +0000"
+    },
+    "done": true
+  },
+  "bclib:recipes/redstone/tag_piston": {
+    "criteria": {
+      "has_tag_minecraft_planks": "2024-07-28 07:55:31 +0000"
+    },
+    "done": true
+  },
+  "bclib:recipes/decorations/tag_smith_table": {
+    "criteria": {
+      "has_tag_minecraft_planks": "2024-07-28 07:55:31 +0000"
+    },
+    "done": true
+  },
+  "bclib:recipes/combat/tag_shield": {
+    "criteria": {
+      "has_tag_minecraft_planks": "2024-07-28 07:55:31 +0000"
+    },
+    "done": true
+  },
+  "bclib:recipes/redstone/tag_hopper": {
+    "criteria": {
+      "has_tag_c_chest": "2024-07-28 07:55:34 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/copy_tool_assembly": {
+    "criteria": {
+      "has_iron_block": "2024-07-28 07:56:24 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/golden_hammer": {
+    "criteria": {
+      "has_gold_ingot": "2024-07-28 07:56:46 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/gold_chandelier": {
+    "criteria": {
+      "has_gold_ingot": "2024-07-28 07:56:46 +0000"
+    },
+    "done": true
+  },
+  "bclib:recipes/tools/tag_compass": {
+    "criteria": {
+      "has_redstone": "2024-07-28 07:57:11 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/copy_aeternium_upgrade": {
+    "criteria": {
+      "has_diamond": "2024-07-28 07:57:11 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/copy_handle_attachment": {
+    "criteria": {
+      "has_diamond": "2024-07-28 07:57:11 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/diamond_hammer": {
+    "criteria": {
+      "has_diamond": "2024-07-28 07:57:11 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/copy_leather_handle_attachment": {
+    "criteria": {
+      "has_diamond": "2024-07-28 07:57:11 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/hydralux_petal_block_black": {
+    "criteria": {
+      "has_black_dye": "2024-07-28 08:00:12 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/thallasium_bulb_lantern_black": {
+    "criteria": {
+      "has_black_dye": "2024-07-28 08:00:12 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/terminite_bulb_lantern_black": {
+    "criteria": {
+      "has_black_dye": "2024-07-28 08:00:12 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/iron_bulb_lantern_black": {
+    "criteria": {
+      "has_black_dye": "2024-07-28 08:00:12 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/hydralux_petal_block_gray": {
+    "criteria": {
+      "has_gray_dye": "2024-07-28 08:00:34 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/iron_bulb_lantern_gray": {
+    "criteria": {
+      "has_gray_dye": "2024-07-28 08:00:34 +0000"
+    },
+    "done": true
+  },
+  "createdeco:recipes/decorations/gray_placard_from_dyeing": {
+    "criteria": {
+      "has_dye": "2024-07-28 08:00:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/gray_candle": {
+    "criteria": {
+      "has_gray_dye": "2024-07-28 08:00:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/light_gray_dye_from_gray_white_dye": {
+    "criteria": {
+      "has_gray_dye": "2024-07-28 08:00:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_gray_carpet": {
+    "criteria": {
+      "has_needed_dye": "2024-07-28 08:00:34 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/thallasium_bulb_lantern_gray": {
+    "criteria": {
+      "has_gray_dye": "2024-07-28 08:00:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_gray_wool": {
+    "criteria": {
+      "has_needed_dye": "2024-07-28 08:00:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_gray_bed": {
+    "criteria": {
+      "has_needed_dye": "2024-07-28 08:00:34 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/terminite_bulb_lantern_gray": {
+    "criteria": {
+      "has_gray_dye": "2024-07-28 08:00:34 +0000"
+    },
+    "done": true
+  },
+  "bclib:recipes/transportation/tag_minecart": {
+    "criteria": {
+      "has_tag_c_iron_ingots": "2024-07-28 08:01:41 +0000"
+    },
+    "done": true
+  },
+  "bclib:recipes/misc/tag_bucket": {
+    "criteria": {
+      "has_tag_c_iron_ingots": "2024-07-28 08:01:41 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/iron_chandelier": {
+    "criteria": {
+      "has_iron_ingot": "2024-07-28 08:01:41 +0000"
+    },
+    "done": true
+  },
+  "bclib:recipes/transportation/tag_rail": {
+    "criteria": {
+      "has_tag_c_iron_ingots": "2024-07-28 08:01:41 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/iron_hammer": {
+    "criteria": {
+      "has_iron_ingot": "2024-07-28 08:01:41 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/iron_bulb_lantern": {
+    "criteria": {
+      "has_iron_ingot": "2024-07-28 08:01:41 +0000"
+    },
+    "done": true
+  },
+  "bclib:recipes/brewing/tag_cauldron": {
+    "criteria": {
+      "has_tag_c_iron_ingots": "2024-07-28 08:01:41 +0000"
+    },
+    "done": true
+  },
+  "bclib:recipes/decorations/tag_stonecutter": {
+    "criteria": {
+      "has_tag_c_iron_ingots": "2024-07-28 08:01:41 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/decorations/lacugrove_bar_stool": {
+    "criteria": {
+      "has_stick": "2024-07-28 10:14:24 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/decorations/lucernia_chair": {
+    "criteria": {
+      "has_stick": "2024-07-28 10:14:24 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/decorations/lacugrove_taburet": {
+    "criteria": {
+      "has_stick": "2024-07-28 10:14:24 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/decorations/helix_tree_sign": {
+    "criteria": {
+      "has_stick": "2024-07-28 10:14:24 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/decorations/jellyshroom_chair": {
+    "criteria": {
+      "has_stick": "2024-07-28 10:14:24 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/decorations/lacugrove_ladder": {
+    "criteria": {
+      "has_stick": "2024-07-28 10:14:24 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/decorations/end_lotus_ladder": {
+    "criteria": {
+      "has_stick": "2024-07-28 10:14:24 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/decorations/tenanea_taburet": {
+    "criteria": {
+      "has_stick": "2024-07-28 10:14:24 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/decorations/pythadendron_fence": {
+    "criteria": {
+      "has_stick": "2024-07-28 10:14:24 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/decorations/lacugrove_chair": {
+    "criteria": {
+      "has_stick": "2024-07-28 10:14:24 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/redstone/umbrella_tree_gate": {
+    "criteria": {
+      "has_stick": "2024-07-28 10:14:24 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/decorations/lucernia_fence": {
+    "criteria": {
+      "has_stick": "2024-07-28 10:14:24 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/decorations/umbrella_tree_fence": {
+    "criteria": {
+      "has_stick": "2024-07-28 10:14:24 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/decorations/helix_tree_bar_stool": {
+    "criteria": {
+      "has_stick": "2024-07-28 10:14:24 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/decorations/jellyshroom_sign": {
+    "criteria": {
+      "has_stick": "2024-07-28 10:14:24 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/redstone/tenanea_gate": {
+    "criteria": {
+      "has_stick": "2024-07-28 10:14:24 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/decorations/jellyshroom_fence": {
+    "criteria": {
+      "has_stick": "2024-07-28 10:14:24 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/decorations/lucernia_sign": {
+    "criteria": {
+      "has_stick": "2024-07-28 10:14:24 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/decorations/helix_tree_fence": {
+    "criteria": {
+      "has_stick": "2024-07-28 10:14:24 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/redstone/pythadendron_gate": {
+    "criteria": {
+      "has_stick": "2024-07-28 10:14:24 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/decorations/helix_tree_ladder": {
+    "criteria": {
+      "has_stick": "2024-07-28 10:14:24 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/decorations/lacugrove_sign": {
+    "criteria": {
+      "has_stick": "2024-07-28 10:14:24 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/decorations/umbrella_tree_ladder": {
+    "criteria": {
+      "has_stick": "2024-07-28 10:14:24 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/decorations/pythadendron_ladder": {
+    "criteria": {
+      "has_stick": "2024-07-28 10:14:24 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/decorations/umbrella_tree_chair": {
+    "criteria": {
+      "has_stick": "2024-07-28 10:14:24 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/decorations/end_lotus_taburet": {
+    "criteria": {
+      "has_stick": "2024-07-28 10:14:24 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/decorations/dragon_tree_ladder": {
+    "criteria": {
+      "has_stick": "2024-07-28 10:14:24 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/decorations/umbrella_tree_sign": {
+    "criteria": {
+      "has_stick": "2024-07-28 10:14:24 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/decorations/end_lotus_sign": {
+    "criteria": {
+      "has_stick": "2024-07-28 10:14:24 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/decorations/lucernia_ladder": {
+    "criteria": {
+      "has_stick": "2024-07-28 10:14:24 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/decorations/helix_tree_taburet": {
+    "criteria": {
+      "has_stick": "2024-07-28 10:14:24 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/decorations/tenanea_chair": {
+    "criteria": {
+      "has_stick": "2024-07-28 10:14:24 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/decorations/tenanea_sign": {
+    "criteria": {
+      "has_stick": "2024-07-28 10:14:24 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/redstone/mossy_glowshroom_gate": {
+    "criteria": {
+      "has_stick": "2024-07-28 10:14:24 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/decorations/helix_tree_chair": {
+    "criteria": {
+      "has_stick": "2024-07-28 10:14:24 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/decorations/end_lotus_chair": {
+    "criteria": {
+      "has_stick": "2024-07-28 10:14:24 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/decorations/mossy_glowshroom_bar_stool": {
+    "criteria": {
+      "has_stick": "2024-07-28 10:14:24 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/leather_wrapped_stick": {
+    "criteria": {
+      "has_stick": "2024-07-28 10:14:24 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/decorations/dragon_tree_fence": {
+    "criteria": {
+      "has_stick": "2024-07-28 10:14:24 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/decorations/mossy_glowshroom_sign": {
+    "criteria": {
+      "has_stick": "2024-07-28 10:14:24 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/decorations/tenanea_bar_stool": {
+    "criteria": {
+      "has_stick": "2024-07-28 10:14:24 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/decorations/tenanea_fence": {
+    "criteria": {
+      "has_stick": "2024-07-28 10:14:24 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/decorations/lucernia_bar_stool": {
+    "criteria": {
+      "has_stick": "2024-07-28 10:14:24 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/redstone/helix_tree_gate": {
+    "criteria": {
+      "has_stick": "2024-07-28 10:14:24 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/decorations/pythadendron_sign": {
+    "criteria": {
+      "has_stick": "2024-07-28 10:14:24 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/decorations/mossy_glowshroom_chair": {
+    "criteria": {
+      "has_stick": "2024-07-28 10:14:24 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/decorations/end_lotus_bar_stool": {
+    "criteria": {
+      "has_stick": "2024-07-28 10:14:24 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/redstone/end_lotus_gate": {
+    "criteria": {
+      "has_stick": "2024-07-28 10:14:24 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/redstone/lacugrove_gate": {
+    "criteria": {
+      "has_stick": "2024-07-28 10:14:24 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/terminite_sword_handle": {
+    "criteria": {
+      "has_item.minecraft.stick": "2024-07-28 10:14:24 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/thallasium_sword_handle": {
+    "criteria": {
+      "has_item.minecraft.stick": "2024-07-28 10:14:24 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/decorations/jellyshroom_ladder": {
+    "criteria": {
+      "has_stick": "2024-07-28 10:14:24 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/decorations/end_lotus_fence": {
+    "criteria": {
+      "has_stick": "2024-07-28 10:14:24 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/redstone/jellyshroom_gate": {
+    "criteria": {
+      "has_stick": "2024-07-28 10:14:24 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/decorations/jellyshroom_taburet": {
+    "criteria": {
+      "has_stick": "2024-07-28 10:14:24 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/decorations/jellyshroom_bar_stool": {
+    "criteria": {
+      "has_stick": "2024-07-28 10:14:24 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/redstone/lucernia_gate": {
+    "criteria": {
+      "has_stick": "2024-07-28 10:14:24 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/decorations/lucernia_taburet": {
+    "criteria": {
+      "has_stick": "2024-07-28 10:14:24 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/decorations/lacugrove_fence": {
+    "criteria": {
+      "has_stick": "2024-07-28 10:14:24 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/redstone/dragon_tree_gate": {
+    "criteria": {
+      "has_stick": "2024-07-28 10:14:24 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/decorations/umbrella_tree_bar_stool": {
+    "criteria": {
+      "has_stick": "2024-07-28 10:14:24 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/decorations/umbrella_tree_taburet": {
+    "criteria": {
+      "has_stick": "2024-07-28 10:14:24 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/decorations/tenanea_ladder": {
+    "criteria": {
+      "has_stick": "2024-07-28 10:14:24 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/decorations/mossy_glowshroom_taburet": {
+    "criteria": {
+      "has_stick": "2024-07-28 10:14:24 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/decorations/mossy_glowshroom_fence": {
+    "criteria": {
+      "has_stick": "2024-07-28 10:14:24 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/decorations/mossy_glowshroom_ladder": {
+    "criteria": {
+      "has_stick": "2024-07-28 10:14:24 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/decorations/dragon_tree_sign": {
+    "criteria": {
+      "has_stick": "2024-07-28 10:14:24 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/umbralith_slab": {
+    "criteria": {
+      "has_umbralith": "2024-07-28 10:18:43 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/umbralith_button": {
+    "criteria": {
+      "has_umbralith": "2024-07-28 10:18:43 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/umbralith_slab_stonecutting": {
+    "criteria": {
+      "has_block.betterend.umbralith": "2024-07-28 10:18:43 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/umbralith_wall_stonecutting": {
+    "criteria": {
+      "has_block.betterend.umbralith": "2024-07-28 10:18:43 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/umbralith_stairs": {
+    "criteria": {
+      "has_umbralith": "2024-07-28 10:18:43 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/umbralith_brick_wall_stonecutting": {
+    "criteria": {
+      "has_block.betterend.umbralith": "2024-07-28 10:18:43 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/umbralith_brick_slab_stonecutting": {
+    "criteria": {
+      "has_block.betterend.umbralith": "2024-07-28 10:18:43 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/umbralith_polished_stonecutting": {
+    "criteria": {
+      "has_block.betterend.umbralith": "2024-07-28 10:18:43 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/umbralith_bricks": {
+    "criteria": {
+      "has_umbralith": "2024-07-28 10:18:43 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/umbralith_stairs_stonecutting": {
+    "criteria": {
+      "has_block.betterend.umbralith": "2024-07-28 10:18:43 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/umbralith_bricks_stonecutting": {
+    "criteria": {
+      "has_block.betterend.umbralith": "2024-07-28 10:18:43 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/umbralith_wall": {
+    "criteria": {
+      "has_umbralith": "2024-07-28 10:18:43 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/umbralith_tiles_stonecutting": {
+    "criteria": {
+      "has_block.betterend.umbralith": "2024-07-28 10:18:43 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/umbralith_pillar_stonecutting": {
+    "criteria": {
+      "has_block.betterend.umbralith": "2024-07-28 10:18:43 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/umbralith_furnace": {
+    "criteria": {
+      "has_umbralith": "2024-07-28 10:18:43 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/umbralith_pressure_plate": {
+    "criteria": {
+      "has_umbralith": "2024-07-28 10:18:43 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/umbralith_brick_stair_stonecutting": {
+    "criteria": {
+      "has_block.betterend.umbralith": "2024-07-28 10:18:43 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/end_glass_smelting": {
+    "criteria": {
+      "has_block.betterend.endstone_dust": "2024-07-28 10:31:25 +0000"
+    },
+    "done": true
+  },
   "incendium:technical/sentrys_wrath": {
     "criteria": {
-      "log_spam_fixer": "2024-07-27 18:16:33 +0000"
+      "log_spam_fixer": "2024-07-28 13:05:09 +0000"
     },
     "done": false
   },
   "incendium:technical/on_player_hurt": {
     "criteria": {
-      "requirement": "2024-07-27 18:16:51 +0000",
-      "log_spam_fixer": "2024-07-27 18:16:33 +0000"
+      "log_spam_fixer": "2024-07-28 13:05:09 +0000"
     },
-    "done": true
+    "done": false
   },
   "incendium:technical/on_kill": {
     "criteria": {
-      "log_spam_fixer": "2024-07-27 18:16:33 +0000"
+      "log_spam_fixer": "2024-07-28 13:05:09 +0000"
     },
     "done": false
   },
   "incendium:technical/on_inventory_change": {
     "criteria": {
-      "log_spam_fixer": "2024-07-27 18:16:33 +0000"
+      "log_spam_fixer": "2024-07-28 13:05:09 +0000"
     },
     "done": false
   },
   "incendium:technical/holy_wrath": {
     "criteria": {
-      "log_spam_fixer": "2024-07-27 18:16:33 +0000"
+      "log_spam_fixer": "2024-07-28 13:05:09 +0000"
     },
     "done": false
   },
   "incendium:technical/on_block": {
     "criteria": {
-      "log_spam_fixer": "2024-07-27 18:16:33 +0000"
+      "log_spam_fixer": "2024-07-28 13:05:09 +0000"
     },
     "done": false
   },
   "incendium:technical/inventory/sentrys_wrath": {
     "criteria": {
-      "log_spam_fixer": "2024-07-27 18:16:33 +0000"
+      "log_spam_fixer": "2024-07-28 13:05:09 +0000"
     },
     "done": false
   },
   "incendium:technical/feed_ghastling": {
     "criteria": {
-      "log_spam_fixer": "2024-07-27 18:16:33 +0000"
+      "log_spam_fixer": "2024-07-28 13:05:09 +0000"
     },
     "done": false
   },
   "incendium:technical/firestorm": {
     "criteria": {
-      "log_spam_fixer": "2024-07-27 18:16:33 +0000"
+      "log_spam_fixer": "2024-07-28 13:05:09 +0000"
     },
     "done": false
   },
   "incendium:technical/inventory/firestorm": {
     "criteria": {
-      "log_spam_fixer": "2024-07-27 18:16:33 +0000"
+      "log_spam_fixer": "2024-07-28 13:05:09 +0000"
     },
     "done": false
   },
   "incendium:technical/give_ghastling": {
     "criteria": {
-      "log_spam_fixer": "2024-07-27 18:16:33 +0000"
+      "log_spam_fixer": "2024-07-28 13:05:09 +0000"
     },
     "done": false
   },
   "incendium:technical/multiplex_crossbow": {
     "criteria": {
-      "log_spam_fixer": "2024-07-27 18:16:33 +0000"
+      "log_spam_fixer": "2024-07-28 13:05:09 +0000"
     },
     "done": false
   },
