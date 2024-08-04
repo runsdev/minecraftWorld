@@ -493,7 +493,7 @@
 		#[in Blocks/Second]
 		#The top speed of powered Trains during a turn.
 		#Range: 0.0 ~ 3.4028234663852886E38
-		poweredTrainTurningTopSpeed = 100.0
+		poweredTrainTurningTopSpeed = 40.0
 		#.
 		#[in Blocks/Second]
 		#The top speed of powered Trains.
