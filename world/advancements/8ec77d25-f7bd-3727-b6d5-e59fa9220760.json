@@ -3779,11 +3779,12 @@
       "incendium:infernal_dunes": "2024-08-02 10:00:03 +0000",
       "incendium:weeping_valley": "2024-08-02 10:00:57 +0000",
       "incendium:quartz_flats": "2024-07-22 17:38:53 +0000",
+      "incendium:inverted_forest": "2024-08-05 07:55:34 +0000",
       "incendium:volcanic_deltas": "2024-07-25 14:08:33 +0000",
       "incendium:toxic_heap": "2024-08-02 16:44:55 +0000",
       "incendium:withered_forest": "2024-07-22 13:39:54 +0000"
     },
-    "done": false
+    "done": true
   },
   "incendium:ash_barrens/root": {
     "criteria": {
@@ -3907,6 +3908,7 @@
   },
   "minecraft:husbandry/bred_all_animals": {
     "criteria": {
+      "minecraft:turtle": "2024-08-05 15:35:08 +0000",
       "minecraft:sheep": "2024-07-20 13:01:03 +0000",
       "minecraft:cow": "2024-07-22 11:13:13 +0000"
     },
@@ -12963,93 +12965,9 @@
     },
     "done": true
   },
-  "incendium:technical/sentrys_wrath": {
-    "criteria": {
-      "log_spam_fixer": "2024-08-04 14:30:40 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/on_kill": {
-    "criteria": {
-      "log_spam_fixer": "2024-08-04 14:30:40 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/on_inventory_change": {
-    "criteria": {
-      "log_spam_fixer": "2024-08-04 14:30:40 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/holy_wrath": {
-    "criteria": {
-      "log_spam_fixer": "2024-08-04 14:30:40 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/on_block": {
-    "criteria": {
-      "log_spam_fixer": "2024-08-04 14:30:40 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/feed_ghastling": {
-    "criteria": {
-      "log_spam_fixer": "2024-08-04 14:30:40 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/inventory/firestorm": {
-    "criteria": {
-      "log_spam_fixer": "2024-08-04 14:30:40 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/give_ghastling": {
-    "criteria": {
-      "log_spam_fixer": "2024-08-04 14:30:40 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/multiplex_crossbow": {
-    "criteria": {
-      "log_spam_fixer": "2024-08-04 14:30:40 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/on_player_hurt": {
-    "criteria": {
-      "log_spam_fixer": "2024-08-04 14:30:40 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/inventory/sentrys_wrath": {
-    "criteria": {
-      "log_spam_fixer": "2024-08-04 14:30:40 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/firestorm": {
-    "criteria": {
-      "log_spam_fixer": "2024-08-04 14:30:40 +0000"
-    },
-    "done": false
-  },
   "createdeco:recipes/decorations/industrial_iron_bars_from_stonecutting": {
     "criteria": {
       "has_item": "2024-08-04 14:01:53 +0000"
-    },
-    "done": true
-  },
-  "railways:recipes/misc/crafting/link_and_pin": {
-    "criteria": {
-      "has_item": "2024-08-04 14:11:12 +0000"
-    },
-    "done": true
-  },
-  "createdeco:recipes/decorations/industrial_iron_hull_from_stonecutting": {
-    "criteria": {
-      "has_item": "2024-08-04 14:11:12 +0000"
     },
     "done": true
   },
@@ -13077,39 +12995,15 @@
     },
     "done": true
   },
-  "createdeco:recipes/decorations/industrial_iron_hull": {
-    "criteria": {
-      "has_item": "2024-08-04 14:11:12 +0000"
-    },
-    "done": true
-  },
   "createdeco:recipes/decorations/industrial_iron_trapdoor": {
     "criteria": {
       "has_item": "2024-08-04 14:01:53 +0000"
     },
     "done": true
   },
-  "createdeco:recipes/misc/industrial_iron_ingot_from_industrial_iron_block": {
-    "criteria": {
-      "has_industrial_iron_block": "2024-08-04 14:11:12 +0000"
-    },
-    "done": true
-  },
   "createdeco:recipes/misc/industrial_iron_block": {
     "criteria": {
       "has_industrial_iron_ingot": "2024-08-04 14:01:53 +0000"
-    },
-    "done": true
-  },
-  "railways:recipes/misc/crafting/small_buffer": {
-    "criteria": {
-      "has_item": "2024-08-04 14:11:12 +0000"
-    },
-    "done": true
-  },
-  "railways:recipes/transportation/conductor_vent_from_industrial_iron_block_stonecutting": {
-    "criteria": {
-      "has_industrial_iron_block": "2024-08-04 14:11:12 +0000"
     },
     "done": true
   },
@@ -13158,6 +13052,310 @@
   "createdeco:recipes/decorations/industrial_iron_mesh_fence_from_stonecutting": {
     "criteria": {
       "has_item": "2024-08-04 14:01:53 +0000"
+    },
+    "done": true
+  },
+  "railways:recipes/misc/crafting/link_and_pin": {
+    "criteria": {
+      "has_item": "2024-08-04 14:11:12 +0000"
+    },
+    "done": true
+  },
+  "createdeco:recipes/decorations/industrial_iron_hull_from_stonecutting": {
+    "criteria": {
+      "has_item": "2024-08-04 14:11:12 +0000"
+    },
+    "done": true
+  },
+  "createdeco:recipes/decorations/industrial_iron_hull": {
+    "criteria": {
+      "has_item": "2024-08-04 14:11:12 +0000"
+    },
+    "done": true
+  },
+  "createdeco:recipes/misc/industrial_iron_ingot_from_industrial_iron_block": {
+    "criteria": {
+      "has_industrial_iron_block": "2024-08-04 14:11:12 +0000"
+    },
+    "done": true
+  },
+  "railways:recipes/misc/crafting/small_buffer": {
+    "criteria": {
+      "has_item": "2024-08-04 14:11:12 +0000"
+    },
+    "done": true
+  },
+  "railways:recipes/transportation/conductor_vent_from_industrial_iron_block_stonecutting": {
+    "criteria": {
+      "has_industrial_iron_block": "2024-08-04 14:11:12 +0000"
+    },
+    "done": true
+  },
+  "createbigcannons:recipes/misc/cast_iron_ingot_from_block": {
+    "criteria": {
+      "has_cast_iron_block": "2024-08-05 05:47:35 +0000"
+    },
+    "done": true
+  },
+  "createbigcannons:recipes/building_blocks/cast_iron_nugget": {
+    "criteria": {
+      "has_cast_iron_ingot": "2024-08-05 05:47:41 +0000"
+    },
+    "done": true
+  },
+  "createbigcannons:recipes/building_blocks/cast_iron_block": {
+    "criteria": {
+      "has_cast_iron_ingot": "2024-08-05 05:47:41 +0000"
+    },
+    "done": true
+  },
+  "createbigcannons:recipes/misc/ap_autocannon_round": {
+    "criteria": {
+      "has_cast_iron": "2024-08-05 05:47:41 +0000"
+    },
+    "done": true
+  },
+  "createbigcannons:recipes/misc/cast_iron_sliding_breechblock": {
+    "criteria": {
+      "has_cast_iron_ingot": "2024-08-05 05:47:41 +0000"
+    },
+    "done": true
+  },
+  "createbigcannons:recipes/misc/ap_shot": {
+    "criteria": {
+      "has_cast_iron_ingot": "2024-08-05 05:47:41 +0000"
+    },
+    "done": true
+  },
+  "createdeco:recipes/decorations/industrial_iron_catwalk_stairs": {
+    "criteria": {
+      "has_item": "2024-08-05 07:29:13 +0000"
+    },
+    "done": true
+  },
+  "incendium:infernal_dunes/dune_blaze": {
+    "criteria": {
+      "requirement": "2024-08-05 07:56:40 +0000"
+    },
+    "done": true
+  },
+  "incendium:infernal_dunes/border_of_life": {
+    "criteria": {
+      "requirement": "2024-08-05 07:56:58 +0000"
+    },
+    "done": true
+  },
+  "incendium:misc/loot_piglin_village": {
+    "criteria": {
+      "incendium:low": "2024-08-05 08:06:52 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/warped_planks": {
+    "criteria": {
+      "has_logs": "2024-08-05 08:07:51 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/warped_hyphae": {
+    "criteria": {
+      "has_log": "2024-08-05 08:07:51 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stripped_warped_hyphae": {
+    "criteria": {
+      "has_log": "2024-08-05 08:07:57 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/warped_hanging_sign": {
+    "criteria": {
+      "has_stripped_logs": "2024-08-05 08:07:57 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crimson_hanging_sign": {
+    "criteria": {
+      "has_stripped_logs": "2024-08-05 08:08:46 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stripped_crimson_hyphae": {
+    "criteria": {
+      "has_log": "2024-08-05 08:08:46 +0000"
+    },
+    "done": true
+  },
+  "incendium:toxic_heap/slime_poison": {
+    "criteria": {
+      "poison": "2024-08-05 08:10:20 +0000"
+    },
+    "done": true
+  },
+  "incendium:toxic_heap/mystic_wisdom": {
+    "criteria": {
+      "waste": "2024-08-05 08:14:59 +0000",
+      "office_treasure": "2024-08-05 08:19:34 +0000",
+      "junk": "2024-08-05 08:16:14 +0000",
+      "treasure": "2024-08-05 08:14:15 +0000",
+      "office": "2024-08-05 08:19:55 +0000"
+    },
+    "done": true
+  },
+  "incendium:toxic_heap/nuclear_fusion": {
+    "criteria": {
+      "incendium:treasure": "2024-08-05 08:14:15 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/purple_stained_glass_pane": {
+    "criteria": {
+      "has_glass": "2024-08-05 08:14:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/lime_glazed_terracotta": {
+    "criteria": {
+      "has_lime_terracotta": "2024-08-05 08:15:14 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/lime_stained_glass_pane": {
+    "criteria": {
+      "has_glass": "2024-08-05 08:16:19 +0000"
+    },
+    "done": true
+  },
+  "incendium:quartz_flats/rescue_mission": {
+    "criteria": {
+      "requirement": "2024-08-05 08:20:51 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/framed_glass_door": {
+    "criteria": {
+      "has_item": "2024-08-05 09:39:34 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/smelting/glass_from_framed_glass": {
+    "criteria": {
+      "has_item": "2024-08-05 09:39:34 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/framed_glass_pane": {
+    "criteria": {
+      "has_ingredient": "2024-08-05 09:39:34 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/framed_glass_trapdoor": {
+    "criteria": {
+      "has_item": "2024-08-05 09:39:34 +0000"
+    },
+    "done": true
+  },
+  "incendium:technical/sentrys_wrath": {
+    "criteria": {
+      "log_spam_fixer": "2024-08-05 16:07:46 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/on_kill": {
+    "criteria": {
+      "log_spam_fixer": "2024-08-05 16:07:46 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/on_inventory_change": {
+    "criteria": {
+      "log_spam_fixer": "2024-08-05 16:07:46 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/holy_wrath": {
+    "criteria": {
+      "log_spam_fixer": "2024-08-05 16:07:46 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/on_block": {
+    "criteria": {
+      "log_spam_fixer": "2024-08-05 16:07:46 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/feed_ghastling": {
+    "criteria": {
+      "log_spam_fixer": "2024-08-05 16:07:46 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/inventory/firestorm": {
+    "criteria": {
+      "log_spam_fixer": "2024-08-05 16:07:46 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/give_ghastling": {
+    "criteria": {
+      "log_spam_fixer": "2024-08-05 16:07:46 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/multiplex_crossbow": {
+    "criteria": {
+      "log_spam_fixer": "2024-08-05 16:07:46 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/on_player_hurt": {
+    "criteria": {
+      "log_spam_fixer": "2024-08-05 16:07:46 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/inventory/sentrys_wrath": {
+    "criteria": {
+      "log_spam_fixer": "2024-08-05 16:07:46 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/firestorm": {
+    "criteria": {
+      "log_spam_fixer": "2024-08-05 16:07:46 +0000"
+    },
+    "done": false
+  },
+  "travelersbackpack:recipes/misc/cactus": {
+    "criteria": {
+      "has_cactus": "2024-08-05 15:33:27 +0000"
+    },
+    "done": true
+  },
+  "betterend:infusion_finished": {
+    "criteria": {
+      "finished": "2024-08-05 15:11:19 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/raw_iron": {
+    "criteria": {
+      "has_raw_iron_block": "2024-08-05 15:26:25 +0000"
+    },
+    "done": true
+  },
+  "betterend:recipes/misc/enchanted_membrane": {
+    "criteria": {
+      "has_item.minecraft.phantom_membrane": "2024-08-05 15:07:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/green_dye": {
+    "criteria": {
+      "has_cactus": "2024-08-05 15:33:27 +0000"
     },
     "done": true
   },
