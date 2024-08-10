@@ -1,367 +1,105 @@
-[00:18:13] [Server thread/WARN]: Anakhilang06 moved wrongly!
-[00:25:21] [Server thread/WARN]: Anakhilang06 moved wrongly!
-[00:32:30] [Server thread/WARN]: Anakhilang06 moved wrongly!
-[00:37:21] [Server thread/INFO]: Villager class_1646['Unemployed'/196366, l='ServerLevel[world]', x=-350.51, y=64.00, z=357.36] died, message: 'Unemployed was shot by Anakhilang06'
-[00:38:26] [Server thread/INFO]: Anakhilang06 lost connection: Disconnected
-[00:38:26] [Server thread/INFO]: Anakhilang06 left the game
-[04:02:28] [Server thread/INFO]: Anakhilang06[/180.246.45.32:63327] logged in with entity id 219039 at (-396.30000001192093, 63.0, 207.51445783226703)
-[04:02:28] [Server thread/INFO]: Syncing config to Anakhilang06 (25475df8-4598-3c7e-9c32-8acb1ba5f889)
-[04:02:28] [Server thread/INFO]: Loading config from file...
-[04:02:28] [Server thread/INFO]: Anakhilang06 joined the game
-[04:02:29] [Server thread/INFO]: [bclib] Received Hello from Client. (server=3.0.14, client=3.0.14)
-[04:02:29] [Server thread/INFO]: [bclib] Sending Hello to Client. (server=3.0.14)
-[04:02:29] [Server thread/INFO]: [bclib] 	- Listing Mod bclib v3.0.14 (size: 2.2 MiB, download=true)
-[04:02:29] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_bclib.generator
-[04:02:29] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_bclib.main
-[04:02:29] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_bclib.biomes
-[04:02:29] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_betterend.entities
-[04:02:29] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_betterend.blocks
-[04:02:29] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_betterend.items
-[04:02:29] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_betterend.enchantments
-[04:02:29] [Server thread/INFO]: [bclib] 	- Offering Folder /MinecraftServer/fabricServerGithub/minecraftWorld/bclib-sync (allowDelete=true)
-[04:02:34] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5026ms or 100 ticks behind
-[04:02:58] [Netty Epoll Server IO #0/ERROR]: Exception occurred in netty pipeline
+[02:44:20] [Netty Epoll Server IO #1/ERROR]: Exception occurred in netty pipeline
 io.netty.handler.timeout.ReadTimeoutException: null
-[05:19:55] [Server thread/WARN]: Anakhilang06 moved wrongly!
-[05:32:42] [Server thread/WARN]: Scarlet Biplane (vehicle of Anakhilang06) moved too quickly! 4.649487206627441,-3.00043547408238,10.506476924150036
-[05:32:48] [Server thread/INFO]: [Not Secure] [Server] p
-[05:32:51] [Server thread/INFO]: [Not Secure] <Anakhilang06> p
-[05:33:08] [Server thread/WARN]: Anakhilang06 moved wrongly!
-[05:33:29] [Server thread/WARN]: Anakhilang06 moved wrongly!
-[05:34:06] [Server thread/WARN]: Anakhilang06 moved wrongly!
-[06:28:28] [Server thread/WARN]: Anakhilang06 moved wrongly!
-[07:25:14] [Server thread/WARN]: Anakhilang06 moved wrongly!
-[07:26:51] [Server thread/WARN]: Scarlet Biplane (vehicle of Anakhilang06) moved too quickly! -1.3628282117043113,0.5713463700230221,10.711800246419102
-[07:26:51] [Server thread/WARN]: Scarlet Biplane (vehicle of Anakhilang06) moved too quickly! -1.5992306358346582,0.6418627468166704,12.040811158458624
-[07:26:51] [Server thread/WARN]: Scarlet Biplane (vehicle of Anakhilang06) moved too quickly! -1.8500471269242098,0.7122637804771728,13.367171164345947
-[07:26:51] [Server thread/WARN]: Scarlet Biplane (vehicle of Anakhilang06) moved too quickly! -2.114685114102315,0.7825785736944084,14.690870903900532
-[07:26:52] [Server thread/WARN]: Scarlet Biplane (vehicle of Anakhilang06) moved too quickly! -4.094012042339557,0.048322386177062526,10.097592384978299
-[07:27:20] [Server thread/WARN]: Anakhilang06 moved wrongly!
-[07:38:12] [Server thread/WARN]: Anakhilang06 moved wrongly!
-[07:39:01] [Server thread/WARN]: Anakhilang06 moved wrongly!
-[07:41:34] [Server thread/WARN]: Anakhilang06 moved wrongly!
-[07:42:58] [Server thread/WARN]: Anakhilang06 moved wrongly!
-[07:44:45] [Server thread/WARN]: Anakhilang06 moved wrongly!
-[07:45:44] [Server thread/WARN]: Anakhilang06 moved wrongly!
-[07:46:55] [Server thread/WARN]: Anakhilang06 moved wrongly!
-[07:48:13] [Server thread/WARN]: Anakhilang06 moved wrongly!
-[07:49:15] [Server thread/WARN]: Anakhilang06 moved wrongly!
-[07:50:34] [Server thread/WARN]: Anakhilang06 moved wrongly!
-[07:58:28] [Server thread/INFO]: Anakhilang06 lost connection: Disconnected
-[07:58:28] [Server thread/INFO]: Anakhilang06 left the game
-[07:58:32] [Server thread/INFO]: Anakhilang06[/180.246.45.32:53344] logged in with entity id 291793 at (-802.5340645253929, 77.0, -1404.8514487920581)
-[07:58:32] [Server thread/INFO]: Syncing config to Anakhilang06 (25475df8-4598-3c7e-9c32-8acb1ba5f889)
-[07:58:32] [Server thread/INFO]: Loading config from file...
-[07:58:32] [Server thread/INFO]: Anakhilang06 joined the game
-[07:58:32] [Server thread/INFO]: [bclib] Received Hello from Client. (server=3.0.14, client=3.0.14)
-[07:58:32] [Server thread/INFO]: [bclib] Sending Hello to Client. (server=3.0.14)
-[07:58:32] [Server thread/INFO]: [bclib] 	- Listing Mod bclib v3.0.14 (size: 2.2 MiB, download=true)
-[07:58:32] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_bclib.generator
-[07:58:32] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_bclib.main
-[07:58:32] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_bclib.biomes
-[07:58:32] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_betterend.entities
-[07:58:32] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_betterend.blocks
-[07:58:32] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_betterend.items
-[07:58:32] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_betterend.enchantments
-[07:58:32] [Server thread/INFO]: [bclib] 	- Offering Folder /MinecraftServer/fabricServerGithub/minecraftWorld/bclib-sync (allowDelete=true)
-[07:59:46] [Server thread/WARN]: Anakhilang06 moved wrongly!
-[08:04:18] [Server thread/WARN]: Anakhilang06 moved wrongly!
-[08:13:50] [Server thread/INFO]: Anakhilang06 lost connection: Disconnected
-[08:13:50] [Server thread/INFO]: Anakhilang06 left the game
-[09:00:10] [Server thread/INFO]: Anakhilang06[/180.246.45.32:55199] logged in with entity id 306827 at (-796.4542587927814, 87.0, -1416.6871196539896)
-[09:00:10] [Server thread/INFO]: Syncing config to Anakhilang06 (25475df8-4598-3c7e-9c32-8acb1ba5f889)
-[09:00:10] [Server thread/INFO]: Loading config from file...
-[09:00:10] [Server thread/INFO]: Anakhilang06 joined the game
-[09:00:11] [Server thread/INFO]: [bclib] Received Hello from Client. (server=3.0.14, client=3.0.14)
-[09:00:11] [Server thread/INFO]: [bclib] Sending Hello to Client. (server=3.0.14)
-[09:00:11] [Server thread/INFO]: [bclib] 	- Listing Mod bclib v3.0.14 (size: 2.2 MiB, download=true)
-[09:00:11] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_bclib.generator
-[09:00:11] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_bclib.main
-[09:00:11] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_bclib.biomes
-[09:00:11] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_betterend.entities
-[09:00:11] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_betterend.blocks
-[09:00:11] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_betterend.items
-[09:00:11] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_betterend.enchantments
-[09:00:11] [Server thread/INFO]: [bclib] 	- Offering Folder /MinecraftServer/fabricServerGithub/minecraftWorld/bclib-sync (allowDelete=true)
-[09:02:02] [Server thread/WARN]: Anakhilang06 moved wrongly!
-[09:02:14] [Server thread/INFO]: Villager class_1646['Unemployed'/306855, l='ServerLevel[world]', x=-750.76, y=53.12, z=-1379.50] died, message: 'Unemployed drowned'
-[09:03:22] [Server thread/WARN]: Anakhilang06 moved wrongly!
-[09:03:32] [Server thread/WARN]: Anakhilang06 moved wrongly!
-[09:03:42] [Server thread/WARN]: Anakhilang06 moved wrongly!
-[09:08:43] [Server thread/INFO]: Anakhilang06 lost connection: Disconnected
-[09:08:43] [Server thread/INFO]: Anakhilang06 left the game
-[09:38:56] [Server thread/INFO]: zakiatha[/202.169.232.151:63750] logged in with entity id 313737 at (-64.30000001192093, 245.0, -95.86732117559082)
-[09:38:56] [Server thread/INFO]: Syncing config to zakiatha (8ec77d25-f7bd-3727-b6d5-e59fa9220760)
-[09:38:56] [Server thread/INFO]: Loading config from file...
-[09:38:56] [Server thread/INFO]: zakiatha joined the game
-[09:38:58] [Server thread/INFO]: [bclib] Received Hello from Client. (server=3.0.14, client=3.0.14)
-[09:38:58] [Server thread/INFO]: [bclib] Sending Hello to Client. (server=3.0.14)
-[09:38:58] [Server thread/INFO]: [bclib] 	- Listing Mod bclib v3.0.14 (size: 2.2 MiB, download=true)
-[09:38:58] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_bclib.generator
-[09:38:58] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_bclib.main
-[09:38:58] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_bclib.biomes
-[09:38:58] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_betterend.entities
-[09:38:58] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_betterend.blocks
-[09:38:58] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_betterend.items
-[09:38:58] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_betterend.enchantments
-[09:38:58] [Server thread/INFO]: [bclib] 	- Offering Folder /MinecraftServer/fabricServerGithub/minecraftWorld/bclib-sync (allowDelete=true)
-[09:47:12] [Server thread/INFO]: zakiatha lost connection: Disconnected
-[09:47:12] [Server thread/INFO]: zakiatha left the game
-[09:58:32] [Server thread/INFO]: Anakhilang06[/180.246.45.32:55409] logged in with entity id 319322 at (-260.1374785793595, 64.76640319824219, 510.125)
-[09:58:32] [Server thread/INFO]: Syncing config to Anakhilang06 (25475df8-4598-3c7e-9c32-8acb1ba5f889)
-[09:58:32] [Server thread/INFO]: Loading config from file...
-[09:58:32] [Server thread/INFO]: Anakhilang06 joined the game
-[09:58:32] [Server thread/INFO]: [bclib] Received Hello from Client. (server=3.0.14, client=3.0.14)
-[09:58:32] [Server thread/INFO]: [bclib] Sending Hello to Client. (server=3.0.14)
-[09:58:32] [Server thread/INFO]: [bclib] 	- Listing Mod bclib v3.0.14 (size: 2.2 MiB, download=true)
-[09:58:32] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_bclib.generator
-[09:58:32] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_bclib.main
-[09:58:32] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_bclib.biomes
-[09:58:32] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_betterend.entities
-[09:58:32] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_betterend.blocks
-[09:58:32] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_betterend.items
-[09:58:32] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_betterend.enchantments
-[09:58:32] [Server thread/INFO]: [bclib] 	- Offering Folder /MinecraftServer/fabricServerGithub/minecraftWorld/bclib-sync (allowDelete=true)
-[09:58:57] [Server thread/WARN]: Anakhilang06 moved wrongly!
-[10:01:07] [Server thread/INFO]: zakiatha[/202.169.232.151:65127] logged in with entity id 320741 at (-63.860449498254795, 245.0, -93.9109947697656)
-[10:01:07] [Server thread/INFO]: Syncing config to zakiatha (8ec77d25-f7bd-3727-b6d5-e59fa9220760)
-[10:01:07] [Server thread/INFO]: Loading config from file...
-[10:01:07] [Server thread/INFO]: zakiatha joined the game
-[10:01:08] [Server thread/INFO]: [bclib] Received Hello from Client. (server=3.0.14, client=3.0.14)
-[10:01:08] [Server thread/INFO]: [bclib] Sending Hello to Client. (server=3.0.14)
-[10:01:08] [Server thread/INFO]: [bclib] 	- Listing Mod bclib v3.0.14 (size: 2.2 MiB, download=true)
-[10:01:08] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_bclib.generator
-[10:01:08] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_bclib.main
-[10:01:08] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_bclib.biomes
-[10:01:08] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_betterend.entities
-[10:01:08] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_betterend.blocks
-[10:01:08] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_betterend.items
-[10:01:08] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_betterend.enchantments
-[10:01:08] [Server thread/INFO]: [bclib] 	- Offering Folder /MinecraftServer/fabricServerGithub/minecraftWorld/bclib-sync (allowDelete=true)
-[10:02:21] [Server thread/WARN]: zakiatha moved too quickly! -3.383595174364885,-4.54349690655846,18.105267457339416
-[10:14:01] [Server thread/INFO]: Anakhilang06 lost connection: Disconnected
-[10:14:01] [Server thread/INFO]: Anakhilang06 left the game
-[10:24:40] [Server thread/INFO]: Anakhilang06[/180.246.45.32:55528] logged in with entity id 332788 at (-406.09480884213406, 66.4, 269.3581881750933)
-[10:24:40] [Server thread/INFO]: Syncing config to Anakhilang06 (25475df8-4598-3c7e-9c32-8acb1ba5f889)
-[10:24:40] [Server thread/INFO]: Loading config from file...
-[10:24:40] [Server thread/INFO]: Anakhilang06 joined the game
-[10:24:40] [Server thread/INFO]: [bclib] Received Hello from Client. (server=3.0.14, client=3.0.14)
-[10:24:40] [Server thread/INFO]: [bclib] Sending Hello to Client. (server=3.0.14)
-[10:24:40] [Server thread/INFO]: [bclib] 	- Listing Mod bclib v3.0.14 (size: 2.2 MiB, download=true)
-[10:24:40] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_bclib.generator
-[10:24:40] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_bclib.main
-[10:24:40] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_bclib.biomes
-[10:24:40] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_betterend.entities
-[10:24:40] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_betterend.blocks
-[10:24:40] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_betterend.items
-[10:24:40] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_betterend.enchantments
-[10:24:40] [Server thread/INFO]: [bclib] 	- Offering Folder /MinecraftServer/fabricServerGithub/minecraftWorld/bclib-sync (allowDelete=true)
-[11:08:35] [Server thread/WARN]: zakiatha moved wrongly!
-[11:12:28] [Server thread/WARN]: Anakhilang06 moved wrongly!
-[11:16:18] [Server thread/WARN]: Anakhilang06 moved wrongly!
-[11:21:32] [Server thread/WARN]: Anakhilang06 moved wrongly!
-[11:26:42] [Server thread/INFO]: zakiatha lost connection: Disconnected
-[11:26:42] [Server thread/INFO]: zakiatha left the game
-[11:27:54] [Server thread/WARN]: Anakhilang06 moved wrongly!
-[11:28:14] [Server thread/WARN]: Anakhilang06 moved wrongly!
-[11:31:50] [Server thread/INFO]: Anakhilang06 lost connection: Disconnected
-[11:31:50] [Server thread/INFO]: Anakhilang06 left the game
-[12:05:20] [Server thread/INFO]: youbee[/36.72.213.86:7282] logged in with entity id 378294 at (-339.9825327612801, 67.0, 274.7076227709091)
-[12:05:20] [Server thread/INFO]: Syncing config to youbee (5d55d3a8-578b-30f8-a691-4abf1e0ab5eb)
-[12:05:20] [Server thread/INFO]: Loading config from file...
-[12:05:20] [Server thread/INFO]: youbee joined the game
-[12:05:23] [Server thread/INFO]: [bclib] Received Hello from Client. (server=3.0.14, client=3.0.14)
-[12:05:23] [Server thread/INFO]: [bclib] Sending Hello to Client. (server=3.0.14)
-[12:05:23] [Server thread/INFO]: [bclib] 	- Listing Mod bclib v3.0.14 (size: 2.2 MiB, download=true)
-[12:05:23] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_bclib.generator
-[12:05:23] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_bclib.main
-[12:05:23] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_bclib.biomes
-[12:05:23] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_betterend.entities
-[12:05:23] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_betterend.blocks
-[12:05:23] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_betterend.items
-[12:05:23] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_betterend.enchantments
-[12:05:23] [Server thread/INFO]: [bclib] 	- Offering Folder /MinecraftServer/fabricServerGithub/minecraftWorld/bclib-sync (allowDelete=true)
-[12:07:51] [Server thread/INFO]: youbee lost connection: Disconnected
-[12:07:51] [Server thread/INFO]: youbee left the game
-[12:15:20] [Netty Epoll Server IO #0/ERROR]: Exception occurred in netty pipeline
-io.netty.handler.codec.DecoderException: java.io.IOException: Packet -1/0 (class_2889) was larger than I expected, found 8 bytes extra whilst reading packet 0
-	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:489) ~[netty-codec-4.1.82.Final.jar:?]
-	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:280) ~[netty-codec-4.1.82.Final.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) ~[netty-transport-4.1.82.Final.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) ~[netty-transport-4.1.82.Final.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) ~[netty-transport-4.1.82.Final.jar:?]
-	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:336) ~[netty-codec-4.1.82.Final.jar:?]
-	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:323) ~[netty-codec-4.1.82.Final.jar:?]
-	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:444) ~[netty-codec-4.1.82.Final.jar:?]
-	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:280) ~[netty-codec-4.1.82.Final.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) ~[netty-transport-4.1.82.Final.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) ~[netty-transport-4.1.82.Final.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) ~[netty-transport-4.1.82.Final.jar:?]
-	at net.minecraft.class_3238.channelRead(class_3238.java:95) ~[server-intermediary.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) ~[netty-transport-4.1.82.Final.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) ~[netty-transport-4.1.82.Final.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) ~[netty-transport-4.1.82.Final.jar:?]
-	at io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:286) ~[netty-handler-4.1.82.Final.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) ~[netty-transport-4.1.82.Final.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) ~[netty-transport-4.1.82.Final.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) ~[netty-transport-4.1.82.Final.jar:?]
-	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410) ~[netty-transport-4.1.82.Final.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) ~[netty-transport-4.1.82.Final.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) ~[netty-transport-4.1.82.Final.jar:?]
-	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919) ~[netty-transport-4.1.82.Final.jar:?]
-	at io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.epollInReady(AbstractEpollStreamChannel.java:800) ~[netty-transport-classes-epoll-4.1.82.Final.jar:?]
-	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:499) ~[netty-transport-classes-epoll-4.1.82.Final.jar:?]
-	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:397) ~[netty-transport-classes-epoll-4.1.82.Final.jar:?]
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.82.Final.jar:?]
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.82.Final.jar:?]
-	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
-Caused by: java.io.IOException: Packet -1/0 (class_2889) was larger than I expected, found 8 bytes extra whilst reading packet 0
-	at net.minecraft.class_2543.decode(class_2543.java:47) ~[server-intermediary.jar:?]
-	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:519) ~[netty-codec-4.1.82.Final.jar:?]
-	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:458) ~[netty-codec-4.1.82.Final.jar:?]
-	... 29 more
-[12:15:25] [Netty Epoll Server IO #1/ERROR]: Exception occurred in netty pipeline
-io.netty.handler.codec.DecoderException: java.lang.IndexOutOfBoundsException: Index 69 out of bounds for length 1
-	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:489) ~[netty-codec-4.1.82.Final.jar:?]
-	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:280) ~[netty-codec-4.1.82.Final.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) ~[netty-transport-4.1.82.Final.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) ~[netty-transport-4.1.82.Final.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) ~[netty-transport-4.1.82.Final.jar:?]
-	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:336) ~[netty-codec-4.1.82.Final.jar:?]
-	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:323) ~[netty-codec-4.1.82.Final.jar:?]
-	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:444) ~[netty-codec-4.1.82.Final.jar:?]
-	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:280) ~[netty-codec-4.1.82.Final.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) ~[netty-transport-4.1.82.Final.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) ~[netty-transport-4.1.82.Final.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) ~[netty-transport-4.1.82.Final.jar:?]
-	at net.minecraft.class_3238.channelRead(class_3238.java:95) ~[server-intermediary.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) ~[netty-transport-4.1.82.Final.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) ~[netty-transport-4.1.82.Final.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) ~[netty-transport-4.1.82.Final.jar:?]
-	at io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:286) ~[netty-handler-4.1.82.Final.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) ~[netty-transport-4.1.82.Final.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) ~[netty-transport-4.1.82.Final.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) ~[netty-transport-4.1.82.Final.jar:?]
-	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410) ~[netty-transport-4.1.82.Final.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) ~[netty-transport-4.1.82.Final.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) ~[netty-transport-4.1.82.Final.jar:?]
-	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919) ~[netty-transport-4.1.82.Final.jar:?]
-	at io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.epollInReady(AbstractEpollStreamChannel.java:800) ~[netty-transport-classes-epoll-4.1.82.Final.jar:?]
-	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:499) ~[netty-transport-classes-epoll-4.1.82.Final.jar:?]
-	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:397) ~[netty-transport-classes-epoll-4.1.82.Final.jar:?]
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.82.Final.jar:?]
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.82.Final.jar:?]
-	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
-Caused by: java.lang.IndexOutOfBoundsException: Index 69 out of bounds for length 1
-	at jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:100) ~[?:?]
-	at jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:106) ~[?:?]
-	at jdk.internal.util.Preconditions.checkIndex(Preconditions.java:302) ~[?:?]
-	at java.util.Objects.checkIndex(Objects.java:385) ~[?:?]
-	at java.util.ArrayList.get(ArrayList.java:427) ~[?:?]
-	at net.minecraft.class_2539$class_4532.method_22310(class_2539.java:458) ~[server-intermediary.jar:?]
-	at net.minecraft.class_2539.method_10783(class_2539.java:522) ~[server-intermediary.jar:?]
-	at net.minecraft.class_2543.decode(class_2543.java:32) ~[server-intermediary.jar:?]
-	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:519) ~[netty-codec-4.1.82.Final.jar:?]
-	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:458) ~[netty-codec-4.1.82.Final.jar:?]
-	... 29 more
-[12:15:26] [Netty Epoll Server IO #3/ERROR]: Exception occurred in netty pipeline
-io.netty.handler.codec.DecoderException: java.lang.IndexOutOfBoundsException: Index 3 out of bounds for length 1
-	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:489) ~[netty-codec-4.1.82.Final.jar:?]
-	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:280) ~[netty-codec-4.1.82.Final.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) ~[netty-transport-4.1.82.Final.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) ~[netty-transport-4.1.82.Final.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) ~[netty-transport-4.1.82.Final.jar:?]
-	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:336) ~[netty-codec-4.1.82.Final.jar:?]
-	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:323) ~[netty-codec-4.1.82.Final.jar:?]
-	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:444) ~[netty-codec-4.1.82.Final.jar:?]
-	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:280) ~[netty-codec-4.1.82.Final.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) ~[netty-transport-4.1.82.Final.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) ~[netty-transport-4.1.82.Final.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) ~[netty-transport-4.1.82.Final.jar:?]
-	at net.minecraft.class_3238.channelRead(class_3238.java:95) ~[server-intermediary.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) ~[netty-transport-4.1.82.Final.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) ~[netty-transport-4.1.82.Final.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) ~[netty-transport-4.1.82.Final.jar:?]
-	at io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:286) ~[netty-handler-4.1.82.Final.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) ~[netty-transport-4.1.82.Final.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) ~[netty-transport-4.1.82.Final.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) ~[netty-transport-4.1.82.Final.jar:?]
-	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410) ~[netty-transport-4.1.82.Final.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) ~[netty-transport-4.1.82.Final.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) ~[netty-transport-4.1.82.Final.jar:?]
-	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919) ~[netty-transport-4.1.82.Final.jar:?]
-	at io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.epollInReady(AbstractEpollStreamChannel.java:800) ~[netty-transport-classes-epoll-4.1.82.Final.jar:?]
-	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:499) ~[netty-transport-classes-epoll-4.1.82.Final.jar:?]
-	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:397) ~[netty-transport-classes-epoll-4.1.82.Final.jar:?]
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.82.Final.jar:?]
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.82.Final.jar:?]
-	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
-Caused by: java.lang.IndexOutOfBoundsException: Index 3 out of bounds for length 1
-	at jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:100) ~[?:?]
-	at jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:106) ~[?:?]
-	at jdk.internal.util.Preconditions.checkIndex(Preconditions.java:302) ~[?:?]
-	at java.util.Objects.checkIndex(Objects.java:385) ~[?:?]
-	at java.util.ArrayList.get(ArrayList.java:427) ~[?:?]
-	at net.minecraft.class_2539$class_4532.method_22310(class_2539.java:458) ~[server-intermediary.jar:?]
-	at net.minecraft.class_2539.method_10783(class_2539.java:522) ~[server-intermediary.jar:?]
-	at net.minecraft.class_2543.decode(class_2543.java:32) ~[server-intermediary.jar:?]
-	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:519) ~[netty-codec-4.1.82.Final.jar:?]
-	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:458) ~[netty-codec-4.1.82.Final.jar:?]
-	... 29 more
-[12:15:30] [Netty Epoll Server IO #0/ERROR]: Exception occurred in netty pipeline
-io.netty.handler.codec.DecoderException: java.lang.IndexOutOfBoundsException: Index 3 out of bounds for length 1
-	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:489) ~[netty-codec-4.1.82.Final.jar:?]
-	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:280) ~[netty-codec-4.1.82.Final.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) ~[netty-transport-4.1.82.Final.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) ~[netty-transport-4.1.82.Final.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) ~[netty-transport-4.1.82.Final.jar:?]
-	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:336) ~[netty-codec-4.1.82.Final.jar:?]
-	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:323) ~[netty-codec-4.1.82.Final.jar:?]
-	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:444) ~[netty-codec-4.1.82.Final.jar:?]
-	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:280) ~[netty-codec-4.1.82.Final.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) ~[netty-transport-4.1.82.Final.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) ~[netty-transport-4.1.82.Final.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) ~[netty-transport-4.1.82.Final.jar:?]
-	at net.minecraft.class_3238.channelRead(class_3238.java:95) ~[server-intermediary.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) ~[netty-transport-4.1.82.Final.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) ~[netty-transport-4.1.82.Final.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) ~[netty-transport-4.1.82.Final.jar:?]
-	at io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:286) ~[netty-handler-4.1.82.Final.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) ~[netty-transport-4.1.82.Final.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) ~[netty-transport-4.1.82.Final.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) ~[netty-transport-4.1.82.Final.jar:?]
-	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410) ~[netty-transport-4.1.82.Final.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) ~[netty-transport-4.1.82.Final.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) ~[netty-transport-4.1.82.Final.jar:?]
-	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919) ~[netty-transport-4.1.82.Final.jar:?]
-	at io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.epollInReady(AbstractEpollStreamChannel.java:800) ~[netty-transport-classes-epoll-4.1.82.Final.jar:?]
-	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:499) ~[netty-transport-classes-epoll-4.1.82.Final.jar:?]
-	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:397) ~[netty-transport-classes-epoll-4.1.82.Final.jar:?]
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.82.Final.jar:?]
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.82.Final.jar:?]
-	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
-Caused by: java.lang.IndexOutOfBoundsException: Index 3 out of bounds for length 1
-	at jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:100) ~[?:?]
-	at jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:106) ~[?:?]
-	at jdk.internal.util.Preconditions.checkIndex(Preconditions.java:302) ~[?:?]
-	at java.util.Objects.checkIndex(Objects.java:385) ~[?:?]
-	at java.util.ArrayList.get(ArrayList.java:427) ~[?:?]
-	at net.minecraft.class_2539$class_4532.method_22310(class_2539.java:458) ~[server-intermediary.jar:?]
-	at net.minecraft.class_2539.method_10783(class_2539.java:522) ~[server-intermediary.jar:?]
-	at net.minecraft.class_2543.decode(class_2543.java:32) ~[server-intermediary.jar:?]
-	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:519) ~[netty-codec-4.1.82.Final.jar:?]
-	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:458) ~[netty-codec-4.1.82.Final.jar:?]
-	... 29 more
-[15:45:38] [Server thread/INFO]: Stopping the server
-[15:45:38] [Server thread/INFO]: Stopping server
-[15:45:38] [Server thread/INFO]: Saving players
-[15:45:38] [Server thread/INFO]: Saving worlds
-[15:45:38] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[15:45:38] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[15:45:38] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[15:45:38] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[15:45:38] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[15:45:38] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[15:45:38] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[15:45:38] [Server thread/INFO]: [EasyAuth]: Shutting down EasyAuth.
-[15:45:38] [Server thread/INFO]: [EasyAuth]: Database connection closed successfully
+[03:00:00] [Netty Epoll Server IO #2/ERROR]: Exception occurred in netty pipeline
+io.netty.handler.timeout.ReadTimeoutException: null
+[04:49:45] [Server thread/INFO]: zakiatha[/202.169.232.151:54684] logged in with entity id 141250 at (-358.21491066670376, 60.0, 240.29588175113508)
+[04:49:45] [Server thread/INFO]: Syncing config to zakiatha (8ec77d25-f7bd-3727-b6d5-e59fa9220760)
+[04:49:45] [Server thread/INFO]: Loading config from file...
+[04:49:45] [Server thread/INFO]: zakiatha joined the game
+[04:49:46] [Server thread/INFO]: [bclib] Received Hello from Client. (server=3.0.14, client=3.0.14)
+[04:49:46] [Server thread/INFO]: [bclib] Sending Hello to Client. (server=3.0.14)
+[04:49:46] [Server thread/INFO]: [bclib] 	- Listing Mod bclib v3.0.14 (size: 2.2 MiB, download=true)
+[04:49:46] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_bclib.generator
+[04:49:46] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_bclib.main
+[04:49:46] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_bclib.biomes
+[04:49:46] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_betterend.entities
+[04:49:46] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_betterend.blocks
+[04:49:46] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_betterend.items
+[04:49:46] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_betterend.enchantments
+[04:49:46] [Server thread/INFO]: [bclib] 	- Offering Folder /MinecraftServer/fabricServerGithub/minecraftWorld/bclib-sync (allowDelete=true)
+[05:00:19] [Server thread/INFO]: zakiatha lost connection: Disconnected
+[05:00:19] [Server thread/INFO]: zakiatha left the game
+[05:57:28] [Server thread/INFO]: zakiatha[/202.169.232.151:56451] logged in with entity id 145745 at (-360.43640327654134, 42.0, 248.12245663033886)
+[05:57:28] [Server thread/INFO]: Syncing config to zakiatha (8ec77d25-f7bd-3727-b6d5-e59fa9220760)
+[05:57:28] [Server thread/INFO]: Loading config from file...
+[05:57:28] [Server thread/INFO]: zakiatha joined the game
+[05:57:28] [Server thread/INFO]: [bclib] Received Hello from Client. (server=3.0.14, client=3.0.14)
+[05:57:28] [Server thread/INFO]: [bclib] Sending Hello to Client. (server=3.0.14)
+[05:57:28] [Server thread/INFO]: [bclib] 	- Listing Mod bclib v3.0.14 (size: 2.2 MiB, download=true)
+[05:57:28] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_bclib.generator
+[05:57:28] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_bclib.main
+[05:57:28] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_bclib.biomes
+[05:57:28] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_betterend.entities
+[05:57:28] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_betterend.blocks
+[05:57:28] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_betterend.items
+[05:57:28] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_betterend.enchantments
+[05:57:28] [Server thread/INFO]: [bclib] 	- Offering Folder /MinecraftServer/fabricServerGithub/minecraftWorld/bclib-sync (allowDelete=true)
+[06:05:19] [Server thread/INFO]: zakiatha lost connection: Disconnected
+[06:05:19] [Server thread/INFO]: zakiatha left the game
+[06:12:40] [Server thread/INFO]: pingkendi[/125.163.238.94:9243] logged in with entity id 148926 at (-342.77615951621493, 66.5625, 501.7299029973781)
+[06:12:40] [Server thread/INFO]: Syncing config to pingkendi (826167de-39ca-3445-ab03-3747cd0feb36)
+[06:12:40] [Server thread/INFO]: Loading config from file...
+[06:12:40] [Server thread/INFO]: pingkendi joined the game
+[06:12:42] [Server thread/INFO]: [bclib] Received Hello from Client. (server=3.0.14, client=3.0.14)
+[06:12:42] [Server thread/INFO]: [bclib] Sending Hello to Client. (server=3.0.14)
+[06:12:42] [Server thread/INFO]: [bclib] 	- Listing Mod bclib v3.0.14 (size: 2.2 MiB, download=true)
+[06:12:42] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_bclib.generator
+[06:12:42] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_bclib.main
+[06:12:42] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_bclib.biomes
+[06:12:42] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_betterend.entities
+[06:12:42] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_betterend.blocks
+[06:12:42] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_betterend.items
+[06:12:42] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_betterend.enchantments
+[06:12:42] [Server thread/INFO]: [bclib] 	- Offering Folder /MinecraftServer/fabricServerGithub/minecraftWorld/bclib-sync (allowDelete=true)
+[06:13:37] [Server thread/INFO]: pingkendi lost connection: Disconnected
+[06:13:37] [Server thread/INFO]: pingkendi left the game
+[09:03:32] [Server thread/INFO]: zakiatha[/202.169.232.151:53198] logged in with entity id 150387 at (-360.4490985762341, 42.0, 248.86970286724525)
+[09:03:32] [Server thread/INFO]: Syncing config to zakiatha (8ec77d25-f7bd-3727-b6d5-e59fa9220760)
+[09:03:32] [Server thread/INFO]: Loading config from file...
+[09:03:32] [Server thread/INFO]: zakiatha joined the game
+[09:03:33] [Server thread/INFO]: [bclib] Received Hello from Client. (server=3.0.14, client=3.0.14)
+[09:03:33] [Server thread/INFO]: [bclib] Sending Hello to Client. (server=3.0.14)
+[09:03:33] [Server thread/INFO]: [bclib] 	- Listing Mod bclib v3.0.14 (size: 2.2 MiB, download=true)
+[09:03:33] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_bclib.generator
+[09:03:33] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_bclib.main
+[09:03:33] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_bclib.biomes
+[09:03:33] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_betterend.entities
+[09:03:33] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_betterend.blocks
+[09:03:33] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_betterend.items
+[09:03:33] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_betterend.enchantments
+[09:03:33] [Server thread/INFO]: [bclib] 	- Offering Folder /MinecraftServer/fabricServerGithub/minecraftWorld/bclib-sync (allowDelete=true)
+[10:19:41] [Server thread/WARN]: zakiatha moved too quickly! 0.40445711131496864,-1.31735755275065,-17.35994322184706
+[10:24:52] [Server thread/WARN]: zakiatha moved too quickly! 18.642567335361832,0.7001581209681973,-0.7405658215102449
+[10:37:15] [Server thread/WARN]: zakiatha moved too quickly! 15.86368902538284,0.16560651335575471,-9.101538285556671
+[10:47:06] [Server thread/INFO]: zakiatha lost connection: Disconnected
+[10:47:06] [Server thread/INFO]: zakiatha left the game
+[15:14:14] [Server thread/INFO]: youbee[/36.72.213.87:21891] logged in with entity id 200506 at (-324.12690534460165, 58.9, 285.462063896707)
+[15:14:14] [Server thread/INFO]: Syncing config to youbee (5d55d3a8-578b-30f8-a691-4abf1e0ab5eb)
+[15:14:14] [Server thread/INFO]: Loading config from file...
+[15:14:14] [Server thread/INFO]: youbee joined the game
+[15:14:17] [Server thread/INFO]: [bclib] Received Hello from Client. (server=3.0.14, client=3.0.14)
+[15:14:17] [Server thread/INFO]: [bclib] Sending Hello to Client. (server=3.0.14)
+[15:14:17] [Server thread/INFO]: [bclib] 	- Listing Mod bclib v3.0.14 (size: 2.2 MiB, download=true)
+[15:14:17] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_bclib.generator
+[15:14:17] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_bclib.main
+[15:14:17] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_bclib.biomes
+[15:14:17] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_betterend.entities
+[15:14:17] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_betterend.blocks
+[15:14:17] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_betterend.items
+[15:14:17] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_betterend.enchantments
+[15:14:17] [Server thread/INFO]: [bclib] 	- Offering Folder /MinecraftServer/fabricServerGithub/minecraftWorld/bclib-sync (allowDelete=true)
+[15:19:32] [Server thread/INFO]: youbee lost connection: Disconnected
+[15:19:32] [Server thread/INFO]: youbee left the game
+[15:39:29] [Server thread/INFO]: Stopping the server
+[15:39:29] [Server thread/INFO]: Stopping server
+[15:39:29] [Server thread/INFO]: Saving players
+[15:39:29] [Server thread/INFO]: Saving worlds
+[15:39:29] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[15:39:29] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[15:39:29] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[15:39:29] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[15:39:29] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[15:39:29] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[15:39:29] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[15:39:29] [Server thread/INFO]: [EasyAuth]: Shutting down EasyAuth.
+[15:39:29] [Server thread/INFO]: [EasyAuth]: Database connection closed successfully
