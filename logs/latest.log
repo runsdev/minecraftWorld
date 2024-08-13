@@ -1,105 +1,140 @@
-[02:44:20] [Netty Epoll Server IO #1/ERROR]: Exception occurred in netty pipeline
+[01:02:13] [Netty Epoll Server IO #2/ERROR]: Exception occurred in netty pipeline
 io.netty.handler.timeout.ReadTimeoutException: null
-[03:00:00] [Netty Epoll Server IO #2/ERROR]: Exception occurred in netty pipeline
+[01:34:32] [Netty Epoll Server IO #3/ERROR]: Exception occurred in netty pipeline
 io.netty.handler.timeout.ReadTimeoutException: null
-[04:49:45] [Server thread/INFO]: zakiatha[/202.169.232.151:54684] logged in with entity id 141250 at (-358.21491066670376, 60.0, 240.29588175113508)
-[04:49:45] [Server thread/INFO]: Syncing config to zakiatha (8ec77d25-f7bd-3727-b6d5-e59fa9220760)
-[04:49:45] [Server thread/INFO]: Loading config from file...
-[04:49:45] [Server thread/INFO]: zakiatha joined the game
-[04:49:46] [Server thread/INFO]: [bclib] Received Hello from Client. (server=3.0.14, client=3.0.14)
-[04:49:46] [Server thread/INFO]: [bclib] Sending Hello to Client. (server=3.0.14)
-[04:49:46] [Server thread/INFO]: [bclib] 	- Listing Mod bclib v3.0.14 (size: 2.2 MiB, download=true)
-[04:49:46] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_bclib.generator
-[04:49:46] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_bclib.main
-[04:49:46] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_bclib.biomes
-[04:49:46] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_betterend.entities
-[04:49:46] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_betterend.blocks
-[04:49:46] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_betterend.items
-[04:49:46] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_betterend.enchantments
-[04:49:46] [Server thread/INFO]: [bclib] 	- Offering Folder /MinecraftServer/fabricServerGithub/minecraftWorld/bclib-sync (allowDelete=true)
-[05:00:19] [Server thread/INFO]: zakiatha lost connection: Disconnected
-[05:00:19] [Server thread/INFO]: zakiatha left the game
-[05:57:28] [Server thread/INFO]: zakiatha[/202.169.232.151:56451] logged in with entity id 145745 at (-360.43640327654134, 42.0, 248.12245663033886)
-[05:57:28] [Server thread/INFO]: Syncing config to zakiatha (8ec77d25-f7bd-3727-b6d5-e59fa9220760)
-[05:57:28] [Server thread/INFO]: Loading config from file...
-[05:57:28] [Server thread/INFO]: zakiatha joined the game
-[05:57:28] [Server thread/INFO]: [bclib] Received Hello from Client. (server=3.0.14, client=3.0.14)
-[05:57:28] [Server thread/INFO]: [bclib] Sending Hello to Client. (server=3.0.14)
-[05:57:28] [Server thread/INFO]: [bclib] 	- Listing Mod bclib v3.0.14 (size: 2.2 MiB, download=true)
-[05:57:28] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_bclib.generator
-[05:57:28] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_bclib.main
-[05:57:28] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_bclib.biomes
-[05:57:28] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_betterend.entities
-[05:57:28] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_betterend.blocks
-[05:57:28] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_betterend.items
-[05:57:28] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_betterend.enchantments
-[05:57:28] [Server thread/INFO]: [bclib] 	- Offering Folder /MinecraftServer/fabricServerGithub/minecraftWorld/bclib-sync (allowDelete=true)
-[06:05:19] [Server thread/INFO]: zakiatha lost connection: Disconnected
-[06:05:19] [Server thread/INFO]: zakiatha left the game
-[06:12:40] [Server thread/INFO]: pingkendi[/125.163.238.94:9243] logged in with entity id 148926 at (-342.77615951621493, 66.5625, 501.7299029973781)
-[06:12:40] [Server thread/INFO]: Syncing config to pingkendi (826167de-39ca-3445-ab03-3747cd0feb36)
-[06:12:40] [Server thread/INFO]: Loading config from file...
-[06:12:40] [Server thread/INFO]: pingkendi joined the game
-[06:12:42] [Server thread/INFO]: [bclib] Received Hello from Client. (server=3.0.14, client=3.0.14)
-[06:12:42] [Server thread/INFO]: [bclib] Sending Hello to Client. (server=3.0.14)
-[06:12:42] [Server thread/INFO]: [bclib] 	- Listing Mod bclib v3.0.14 (size: 2.2 MiB, download=true)
-[06:12:42] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_bclib.generator
-[06:12:42] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_bclib.main
-[06:12:42] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_bclib.biomes
-[06:12:42] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_betterend.entities
-[06:12:42] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_betterend.blocks
-[06:12:42] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_betterend.items
-[06:12:42] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_betterend.enchantments
-[06:12:42] [Server thread/INFO]: [bclib] 	- Offering Folder /MinecraftServer/fabricServerGithub/minecraftWorld/bclib-sync (allowDelete=true)
-[06:13:37] [Server thread/INFO]: pingkendi lost connection: Disconnected
-[06:13:37] [Server thread/INFO]: pingkendi left the game
-[09:03:32] [Server thread/INFO]: zakiatha[/202.169.232.151:53198] logged in with entity id 150387 at (-360.4490985762341, 42.0, 248.86970286724525)
-[09:03:32] [Server thread/INFO]: Syncing config to zakiatha (8ec77d25-f7bd-3727-b6d5-e59fa9220760)
-[09:03:32] [Server thread/INFO]: Loading config from file...
-[09:03:32] [Server thread/INFO]: zakiatha joined the game
-[09:03:33] [Server thread/INFO]: [bclib] Received Hello from Client. (server=3.0.14, client=3.0.14)
-[09:03:33] [Server thread/INFO]: [bclib] Sending Hello to Client. (server=3.0.14)
-[09:03:33] [Server thread/INFO]: [bclib] 	- Listing Mod bclib v3.0.14 (size: 2.2 MiB, download=true)
-[09:03:33] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_bclib.generator
-[09:03:33] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_bclib.main
-[09:03:33] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_bclib.biomes
-[09:03:33] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_betterend.entities
-[09:03:33] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_betterend.blocks
-[09:03:33] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_betterend.items
-[09:03:33] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_betterend.enchantments
-[09:03:33] [Server thread/INFO]: [bclib] 	- Offering Folder /MinecraftServer/fabricServerGithub/minecraftWorld/bclib-sync (allowDelete=true)
-[10:19:41] [Server thread/WARN]: zakiatha moved too quickly! 0.40445711131496864,-1.31735755275065,-17.35994322184706
-[10:24:52] [Server thread/WARN]: zakiatha moved too quickly! 18.642567335361832,0.7001581209681973,-0.7405658215102449
-[10:37:15] [Server thread/WARN]: zakiatha moved too quickly! 15.86368902538284,0.16560651335575471,-9.101538285556671
-[10:47:06] [Server thread/INFO]: zakiatha lost connection: Disconnected
-[10:47:06] [Server thread/INFO]: zakiatha left the game
-[15:14:14] [Server thread/INFO]: youbee[/36.72.213.87:21891] logged in with entity id 200506 at (-324.12690534460165, 58.9, 285.462063896707)
-[15:14:14] [Server thread/INFO]: Syncing config to youbee (5d55d3a8-578b-30f8-a691-4abf1e0ab5eb)
-[15:14:14] [Server thread/INFO]: Loading config from file...
-[15:14:14] [Server thread/INFO]: youbee joined the game
-[15:14:17] [Server thread/INFO]: [bclib] Received Hello from Client. (server=3.0.14, client=3.0.14)
-[15:14:17] [Server thread/INFO]: [bclib] Sending Hello to Client. (server=3.0.14)
-[15:14:17] [Server thread/INFO]: [bclib] 	- Listing Mod bclib v3.0.14 (size: 2.2 MiB, download=true)
-[15:14:17] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_bclib.generator
-[15:14:17] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_bclib.main
-[15:14:17] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_bclib.biomes
-[15:14:17] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_betterend.entities
-[15:14:17] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_betterend.blocks
-[15:14:17] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_betterend.items
-[15:14:17] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_betterend.enchantments
-[15:14:17] [Server thread/INFO]: [bclib] 	- Offering Folder /MinecraftServer/fabricServerGithub/minecraftWorld/bclib-sync (allowDelete=true)
-[15:19:32] [Server thread/INFO]: youbee lost connection: Disconnected
-[15:19:32] [Server thread/INFO]: youbee left the game
-[15:39:29] [Server thread/INFO]: Stopping the server
-[15:39:29] [Server thread/INFO]: Stopping server
-[15:39:29] [Server thread/INFO]: Saving players
-[15:39:29] [Server thread/INFO]: Saving worlds
-[15:39:29] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[15:39:29] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[15:39:29] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[15:39:29] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[15:39:29] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[15:39:29] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[15:39:29] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[15:39:29] [Server thread/INFO]: [EasyAuth]: Shutting down EasyAuth.
-[15:39:29] [Server thread/INFO]: [EasyAuth]: Database connection closed successfully
+[02:00:32] [Netty Epoll Server IO #0/ERROR]: Exception occurred in netty pipeline
+io.netty.channel.unix.Errors$NativeIoException: recvAddress(..) failed: Connection reset by peer
+[03:00:15] [Server thread/INFO]: zakiatha[/202.169.232.176:59812] logged in with entity id 170276 at (-64.83259226045291, 239.0, -99.55659130475736)
+[03:00:15] [Server thread/INFO]: Syncing config to zakiatha (8ec77d25-f7bd-3727-b6d5-e59fa9220760)
+[03:00:15] [Server thread/INFO]: Loading config from file...
+[03:00:15] [Server thread/INFO]: zakiatha joined the game
+[03:00:17] [Server thread/INFO]: [bclib] Received Hello from Client. (server=3.0.14, client=3.0.14)
+[03:00:17] [Server thread/INFO]: [bclib] Sending Hello to Client. (server=3.0.14)
+[03:00:17] [Server thread/INFO]: [bclib] 	- Listing Mod bclib v3.0.14 (size: 2.2 MiB, download=true)
+[03:00:17] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_bclib.generator
+[03:00:17] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_bclib.main
+[03:00:17] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_bclib.biomes
+[03:00:17] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_betterend.entities
+[03:00:17] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_betterend.blocks
+[03:00:17] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_betterend.items
+[03:00:17] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_betterend.enchantments
+[03:00:17] [Server thread/INFO]: [bclib] 	- Offering Folder /MinecraftServer/fabricServerGithub/minecraftWorld/bclib-sync (allowDelete=true)
+[03:16:46] [Server thread/INFO]: zakiatha lost connection: Disconnected
+[03:16:46] [Server thread/INFO]: zakiatha left the game
+[03:19:12] [Server thread/INFO]: zakiatha[/202.169.232.176:55815] logged in with entity id 176350 at (-503.94413226969147, 66.0, -229.32307886591508)
+[03:19:12] [Server thread/INFO]: Syncing config to zakiatha (8ec77d25-f7bd-3727-b6d5-e59fa9220760)
+[03:19:12] [Server thread/INFO]: Loading config from file...
+[03:19:12] [Server thread/INFO]: zakiatha joined the game
+[03:19:17] [Server thread/INFO]: [bclib] Received Hello from Client. (server=3.0.14, client=3.0.14)
+[03:19:17] [Server thread/INFO]: [bclib] Sending Hello to Client. (server=3.0.14)
+[03:19:17] [Server thread/INFO]: [bclib] 	- Listing Mod bclib v3.0.14 (size: 2.2 MiB, download=true)
+[03:19:17] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_bclib.generator
+[03:19:17] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_bclib.main
+[03:19:17] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_bclib.biomes
+[03:19:17] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_betterend.entities
+[03:19:17] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_betterend.blocks
+[03:19:17] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_betterend.items
+[03:19:17] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_betterend.enchantments
+[03:19:17] [Server thread/INFO]: [bclib] 	- Offering Folder /MinecraftServer/fabricServerGithub/minecraftWorld/bclib-sync (allowDelete=true)
+[03:30:38] [Server thread/WARN]: zakiatha moved too quickly! -17.998686838793674,-1.0621615679464895,-4.3727391912777875
+[03:31:21] [Server thread/WARN]: zakiatha moved too quickly! -17.778707731616578,1.9436095025258027,-3.1031161074035936
+[03:31:25] [Server thread/WARN]: zakiatha moved too quickly! -17.300905305293327,-2.349719669006106,4.3936578074060435
+[03:31:30] [Server thread/WARN]: zakiatha moved too quickly! -18.18515849959931,0.9145133267549568,1.097323342527261
+[03:31:40] [Server thread/WARN]: zakiatha moved too quickly! -15.811601221382944,-3.9204098276363624,-7.556742925729623
+[03:33:24] [Server thread/INFO]: zakiatha lost connection: Disconnected
+[03:33:24] [Server thread/INFO]: zakiatha left the game
+[03:33:37] [Server thread/INFO]: zakiatha[/202.169.232.176:56224] logged in with entity id 189944 at (-1367.3762774337176, 64.0, -1389.446384257053)
+[03:33:37] [Server thread/INFO]: Syncing config to zakiatha (8ec77d25-f7bd-3727-b6d5-e59fa9220760)
+[03:33:37] [Server thread/INFO]: Loading config from file...
+[03:33:37] [Server thread/INFO]: zakiatha joined the game
+[03:33:43] [Server thread/INFO]: [bclib] Received Hello from Client. (server=3.0.14, client=3.0.14)
+[03:33:43] [Server thread/INFO]: [bclib] Sending Hello to Client. (server=3.0.14)
+[03:33:43] [Server thread/INFO]: [bclib] 	- Listing Mod bclib v3.0.14 (size: 2.2 MiB, download=true)
+[03:33:43] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_bclib.generator
+[03:33:43] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_bclib.main
+[03:33:43] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_bclib.biomes
+[03:33:43] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_betterend.entities
+[03:33:43] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_betterend.blocks
+[03:33:43] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_betterend.items
+[03:33:43] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_betterend.enchantments
+[03:33:43] [Server thread/INFO]: [bclib] 	- Offering Folder /MinecraftServer/fabricServerGithub/minecraftWorld/bclib-sync (allowDelete=true)
+[03:34:50] [Server thread/INFO]: zakiatha lost connection: Disconnected
+[03:34:50] [Server thread/INFO]: zakiatha left the game
+[03:36:34] [Server thread/INFO]: zakiatha[/202.169.232.176:56307] logged in with entity id 190511 at (-1379.5791883258635, 64.0, -1400.0099772698372)
+[03:36:34] [Server thread/INFO]: Syncing config to zakiatha (8ec77d25-f7bd-3727-b6d5-e59fa9220760)
+[03:36:34] [Server thread/INFO]: Loading config from file...
+[03:36:34] [Server thread/INFO]: zakiatha joined the game
+[03:36:36] [Server thread/INFO]: [bclib] Received Hello from Client. (server=3.0.14, client=3.0.14)
+[03:36:36] [Server thread/INFO]: [bclib] Sending Hello to Client. (server=3.0.14)
+[03:36:36] [Server thread/INFO]: [bclib] 	- Listing Mod bclib v3.0.14 (size: 2.2 MiB, download=true)
+[03:36:36] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_bclib.generator
+[03:36:36] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_bclib.main
+[03:36:36] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_bclib.biomes
+[03:36:36] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_betterend.entities
+[03:36:36] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_betterend.blocks
+[03:36:36] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_betterend.items
+[03:36:36] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_betterend.enchantments
+[03:36:36] [Server thread/INFO]: [bclib] 	- Offering Folder /MinecraftServer/fabricServerGithub/minecraftWorld/bclib-sync (allowDelete=true)
+[03:42:07] [Server thread/WARN]: zakiatha moved too quickly! 17.075622886359156,-2.620891240126298,5.543955929483303
+[03:42:08] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2482ms or 49 ticks behind
+[03:42:13] [Server thread/WARN]: zakiatha moved too quickly! 11.550109078523406,13.80550444451498,-1.855830240493333
+[03:42:17] [Server thread/WARN]: zakiatha moved too quickly! 11.787300983354612,-12.751918209160735,-2.181867308048993
+[03:42:25] [Server thread/WARN]: zakiatha moved too quickly! 10.479574580590224,-8.573209961452406,11.067769490721815
+[03:42:26] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2537ms or 50 ticks behind
+[03:42:28] [Server thread/WARN]: zakiatha moved too quickly! 3.7687256951296604,-16.640292416597006,4.5302821665098065
+[03:46:52] [Server thread/WARN]: zakiatha moved too quickly! 14.843872888855003,-6.499531311425329,-7.708200136163441
+[03:49:27] [Server thread/WARN]: zakiatha moved too quickly! -0.7159451992329195,-2.9358046390373005,-18.279808943575063
+[03:49:33] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3385ms or 67 ticks behind
+[03:49:37] [Server thread/WARN]: zakiatha moved too quickly! 2.43040848983901,6.38072513011052,-16.282038594908727
+[03:56:04] [Server thread/INFO]: zakiatha lost connection: Disconnected
+[03:56:04] [Server thread/INFO]: zakiatha left the game
+[07:11:38] [Server thread/INFO]: zakiatha[/202.169.232.176:54369] logged in with entity id 200245 at (-366.5, 71.0, 224.5)
+[07:11:38] [Server thread/INFO]: Syncing config to zakiatha (8ec77d25-f7bd-3727-b6d5-e59fa9220760)
+[07:11:38] [Server thread/INFO]: Loading config from file...
+[07:11:38] [Server thread/INFO]: zakiatha joined the game
+[07:11:40] [Server thread/INFO]: [bclib] Received Hello from Client. (server=3.0.14, client=3.0.14)
+[07:11:40] [Server thread/INFO]: [bclib] Sending Hello to Client. (server=3.0.14)
+[07:11:40] [Server thread/INFO]: [bclib] 	- Listing Mod bclib v3.0.14 (size: 2.2 MiB, download=true)
+[07:11:40] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_bclib.generator
+[07:11:40] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_bclib.main
+[07:11:40] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_bclib.biomes
+[07:11:40] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_betterend.entities
+[07:11:40] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_betterend.blocks
+[07:11:40] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_betterend.items
+[07:11:40] [Server thread/INFO]: [bclib] 	- Offering Config bclib.CONFIG_betterend.enchantments
+[07:11:40] [Server thread/INFO]: [bclib] 	- Offering Folder /MinecraftServer/fabricServerGithub/minecraftWorld/bclib-sync (allowDelete=true)
+[07:11:43] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2005ms or 40 ticks behind
+[07:21:51] [Server thread/INFO]: zakiatha has reached the goal [Postmortal]
+[07:21:58] [Server thread/INFO]: zakiatha was shot by Spy
+[07:21:58] [Server thread/INFO]: Created new backpack backup file for zakiatha with unique ID travelersbackpack.dragon_13.08.2024-07.21.58.dat
+[07:21:58] [Server thread/INFO]: Your backpack has been placed at X: -369 Y: 65 Z: 272
+[07:22:51] [Server thread/INFO]: zakiatha was shot by Spy
+[07:23:31] [Server thread/INFO]: zakiatha was shot by Spy
+[07:23:45] [Server thread/INFO]: zakiatha was shot by Spy
+[07:24:31] [Server thread/INFO]: zakiatha was shot by Spy
+[07:24:48] [Server thread/INFO]: zakiatha was shot by Spy
+[07:37:37] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2040ms or 40 ticks behind
+[08:04:30] [Server thread/INFO]: zakiatha lost connection: Disconnected
+[08:04:30] [Server thread/INFO]: zakiatha left the game
+[09:36:59] [Netty Epoll Server IO #2/ERROR]: Exception occurred in netty pipeline
+io.netty.channel.unix.Errors$NativeIoException: recvAddress(..) failed: Connection reset by peer
+[13:22:14] [Netty Epoll Server IO #1/ERROR]: Exception occurred in netty pipeline
+io.netty.handler.timeout.ReadTimeoutException: null
+[14:19:14] [Netty Epoll Server IO #1/ERROR]: Exception occurred in netty pipeline
+io.netty.handler.timeout.ReadTimeoutException: null
+[15:59:10] [Netty Epoll Server IO #0/ERROR]: Exception occurred in netty pipeline
+io.netty.handler.timeout.ReadTimeoutException: null
+[16:54:08] [Server thread/INFO]: There are 0 of a max of 20 players online: 
+[16:54:11] [Server thread/INFO]: Stopping the server
+[16:54:11] [Server thread/INFO]: Stopping server
+[16:54:11] [Server thread/INFO]: Saving players
+[16:54:11] [Server thread/INFO]: Saving worlds
+[16:54:11] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[16:54:11] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[16:54:11] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[16:54:11] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[16:54:11] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[16:54:11] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[16:54:11] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[16:54:11] [Server thread/INFO]: [EasyAuth]: Shutting down EasyAuth.
+[16:54:11] [Server thread/INFO]: [EasyAuth]: Database connection closed successfully
